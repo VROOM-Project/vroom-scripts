@@ -9,7 +9,7 @@ import json
 def get_coordinates(input):
   return map(lambda x: float(x), input.split(','))
 
-def generate_random_problem(size, sw, ne, file_name, uniform):
+def generate_random_problem(size, sw, ne, file_name, uniform, geojson):
   # Avoid troubles with command-line args.
   size = int(size)
 
@@ -49,10 +49,34 @@ def generate_random_problem(size, sw, ne, file_name, uniform):
 
   # Write output file
   with open(file_name + '.json', 'w') as out:
-    print 'Writing problem to ' + file_name
+    print 'Writing problem to ' + file_name + '.json'
     json.dump({'vehicles': vehicles, 'jobs': jobs},
               out,
               indent = 2)
+
+  if geojson:
+    geo_content = {
+      'type': 'FeatureCollection',
+      'features': []
+    }
+    for i in range(len(lons)):
+      geo_content['features'].append(
+        {
+          'type': 'Feature',
+          'properties': {
+            'id': i,
+            'name': 'Job ' + str(i)
+          },
+          'geometry': {
+            'type': 'Point',
+            'coordinates': [lons[i], lats[i]],
+          }
+        })
+    geo_content['features'][0]['properties']['name'] = 'Vehicle start/end'
+
+    with open(file_name + '.geojson', 'w') as out:
+      print 'Writing geojson file to ' + file_name + '.geojson'
+      json.dump(geo_content, out, indent = 2)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Generate random problem')
@@ -73,6 +97,9 @@ if __name__ == '__main__':
                       default = None)
   parser.add_argument('--uniform', action='store_true',
                       help = 'use an uniform distribution (default is normal)',
+                      default = False)
+  parser.add_argument('--geojson', action='store_true',
+                      help = 'also write a geojson file with all generated points',
                       default = False)
 
   args = parser.parse_args()
@@ -96,4 +123,5 @@ if __name__ == '__main__':
                           sw,
                           ne,
                           file_name,
-                          args.uniform)
+                          args.uniform,
+                          args.geojson)
