@@ -6,13 +6,7 @@ import json
 
 # Generate a random problem to feed vroom for solving.
 
-def get_coordinates(input):
-  return map(lambda x: float(x), input.split(','))
-
 def generate_random_problem(size, sw, ne, file_name, uniform, geojson):
-  # Avoid troubles with command-line args.
-  size = int(size)
-
   vehicles = [
     {
       'id': 0
@@ -82,18 +76,30 @@ if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Generate random problem')
   parser.add_argument('-j', '--jobs', metavar = 'JOBS',
                       help = 'number of jobs to generate',
+                      type = int,
                       default = '50')
   parser.add_argument('-o', '--output', metavar = 'OUTPUT',
                       help = 'output file name',
                       default = None)
-  parser.add_argument('--sw', metavar = 'SW',
-                      help = 'south-west coords for desired bounding box',
-                      default = '1.4,48')
-  parser.add_argument('--ne', metavar = 'SW',
-                      help = 'north-east coords for desired bounding box',
-                      default = '3.5,49.5')
+  parser.add_argument('--top', metavar = 'TOP',
+                      help = 'bounding box max latitude',
+                      type = float,
+                      default = 49.5),
+  parser.add_argument('--bottom', metavar = 'BOTTOM',
+                      help = 'bounding box min latitude',
+                      type = float,
+                      default = 48),
+  parser.add_argument('--left', metavar = 'LEFT',
+                      help = 'bounding box min longitude',
+                      type = float,
+                      default = 1.4),
+  parser.add_argument('--right', metavar = 'RIGHT',
+                      help = 'bounding box max longitude',
+                      type = float,
+                      default = 3.5),
   parser.add_argument('-s', '--seed', metavar = 'SEED',
                       help = 'number used for seeding the random generation',
+                      type = int,
                       default = None)
   parser.add_argument('--uniform', action='store_true',
                       help = 'use an uniform distribution (default is normal)',
@@ -104,15 +110,12 @@ if __name__ == '__main__':
 
   args = parser.parse_args()
 
-  sw = get_coordinates(args.sw)
-  ne = get_coordinates(args.ne)
-
   # Set random seed for generation.
   if not args.seed:
     seed = npr.randint(10000)
   else:
     # Avoid troubles with command-line args.
-    seed = int(args.seed)
+    seed = args.seed
   npr.seed(seed)
 
   file_name = args.output;
@@ -120,8 +123,8 @@ if __name__ == '__main__':
     file_name = 'jobs_' + str(args.jobs) + '_seed_' + str(seed)
 
   generate_random_problem(args.jobs,
-                          sw,
-                          ne,
+                          [args.left, args.bottom],
+                          [args.right, args.top],
                           file_name,
                           args.uniform,
                           args.geojson)
