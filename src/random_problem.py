@@ -3,16 +3,11 @@
 import argparse, sys
 import numpy.random as npr
 import json
+from utils.format_input import write_files
 
 # Generate a random problem to feed vroom for solving.
 
 def generate_random_problem(size, sw, ne, file_name, uniform, geojson):
-  vehicles = [
-    {
-      'id': 0
-    }
-  ]
-
   if uniform:
     # Using uniform distribution with bounding box coordinates.
     lons = map(lambda x: round(x, 5), npr.uniform(sw[0], ne[0], size + 1))
@@ -31,46 +26,7 @@ def generate_random_problem(size, sw, ne, file_name, uniform, geojson):
     lons = map(lambda x: round(x, 5), npr.normal(mu_lon, sigma_lon, size + 1))
     lats = map(lambda x: round(x, 5), npr.normal(mu_lat, sigma_lat, size + 1))
 
-  # Set vehicle start and end.
-  start = [lons[0], lats[0]]
-  vehicles[0]['start'] = start
-  vehicles[0]['end'] = start
-
-  # Set jobs.
-  jobs = []
-  for i in range(1, len(lons)):
-    jobs.append({'id': i, 'location': [lons[i], lats[i]]})
-
-  # Write output file
-  with open(file_name + '.json', 'w') as out:
-    print 'Writing problem to ' + file_name + '.json'
-    json.dump({'vehicles': vehicles, 'jobs': jobs},
-              out,
-              indent = 2)
-
-  if geojson:
-    geo_content = {
-      'type': 'FeatureCollection',
-      'features': []
-    }
-    for i in range(len(lons)):
-      geo_content['features'].append(
-        {
-          'type': 'Feature',
-          'properties': {
-            'id': i,
-            'name': 'Job ' + str(i)
-          },
-          'geometry': {
-            'type': 'Point',
-            'coordinates': [lons[i], lats[i]],
-          }
-        })
-    geo_content['features'][0]['properties']['name'] = 'Vehicle start/end'
-
-    with open(file_name + '.geojson', 'w') as out:
-      print 'Writing geojson file to ' + file_name + '.geojson'
-      json.dump(geo_content, out, indent = 2)
+  write_files(file_name, lons, lats, geojson)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Generate random problem')
