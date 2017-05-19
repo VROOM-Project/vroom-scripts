@@ -7,6 +7,6 @@ def load_json(file):
 
 def solution_indicators(file):
   output = load_json(file)
-  if('solution' in output
-     and 'computing_times' in output['solution']):
-    return output['solution']
+  if('summary' in output
+     and 'computing_times' in output['summary']):
+    return output['summary']

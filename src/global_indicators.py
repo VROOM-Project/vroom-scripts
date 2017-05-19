@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import json, os, sys
 from utils.file import *
@@ -12,11 +13,7 @@ def global_indicators(files):
     'computing_times':{
       'loading': 0,
       'solving': 0,
-      'routing': 0,
-      'solving_details':{
-        'heuristic': 0,
-        'local_search': 0
-      }
+      'routing': 0
     }
   }
 
@@ -25,23 +22,18 @@ def global_indicators(files):
   has_solving_details = True
 
   for file in [f for f in files if f.endswith(".json")]:
-    indicators = solution_indicators(file)
-    if not indicators:
+    summary = solution_indicators(file)
+    if not summary:
       # No a valid solution file.
       continue
 
     for key in ['cost', 'duration', 'distance']:
-      all[key] += indicators[key]
+      all[key] += summary[key]
 
     for key in ['loading', 'solving', 'routing']:
-      if key in indicators['computing_times']:
+      if key in summary['computing_times']:
         # Routing might be absent...
-        all['computing_times'][key] += indicators['computing_times'][key]
-
-    has_solving_details &= ('solving_details' in indicators['computing_times'])
-    if has_solving_details:
-      for key in ['heuristic', 'local_search']:
-        all['computing_times']['solving_details'][key] += indicators['computing_times']['solving_details'][key]
+        all['computing_times'][key] += summary['computing_times'][key]
 
   return all;
 
