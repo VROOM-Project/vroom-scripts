@@ -1,12 +1,13 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import json, os, sys
 from utils.file import load_json
 
 # Parse a json-formatted input instance and produce a csv file with
-# all involved coordinates.
+# all involved coordinates in Lat,Lng order.
 
 def coord_to_csv(array):
-  return str(array[0]) + ',' + str(array[1]) + '\n'
+  return str(array[1]) + ',' + str(array[0]) + '\n'
 
 def write_to_csv(input_file):
   input = load_json(input_file)
