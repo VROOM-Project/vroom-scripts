@@ -1,9 +1,9 @@
 A bunch of scripts to develop, benchmark, debug or help in using VROOM.
 
-- **overpass_to_json** generate a problem from all OSM nodes with
-  given amenity in a bounding box.
-- **random_problem** generates ready-to-solve random problem based on
-  a bounding box.
+- **overpass_to_json** generates a problem from all OSM nodes with a
+  specific `amenity` tag value in a chosen bounding box or area.
+- **random_problem** generates a ready-to-solve random problem based
+  on a bounding box.
 - **global_indicators** collects indicators on all solutions contained
   in a folder.
 - **json_to_csv** dumps all locations coordinates from a json input

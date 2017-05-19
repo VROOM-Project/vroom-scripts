@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import argparse, sys
 from utils.format_input import write_files
-from utils.overpass import amenity_coordinates_bb
+from utils.overpass import amenity_coordinates_bb, amenity_coordinates_area
 
 def name_if_present(n):
   if('name' in n['tags']):
@@ -15,6 +15,9 @@ if __name__ == '__main__':
   parser.add_argument('-a', '--amenity', metavar = 'AMENITY',
                       help = 'tag value to use in overpass query',
                       default = "cafe")
+  parser.add_argument('-z', '--zone', metavar = 'ZONE',
+                      help = 'area to use in overpass query',
+                      default = None)
   parser.add_argument('-o', '--output', metavar = 'OUTPUT',
                       help = 'output file name',
                       default = None)
@@ -44,12 +47,19 @@ if __name__ == '__main__':
   args = parser.parse_args()
 
   file_name = args.output;
-  if not file_name:
-    file_name = args.amenity + '_' + str(args.bottom) + '_' + str(args.left) + '_' + str(args.top) + '_' + str(args.right)
 
-  nodes = amenity_coordinates_bb(args.amenity,
-                                 [[args.left, args.bottom],
-                                  [args.right, args.top]])['elements']
+  if args.zone is not None:
+    if not file_name:
+      file_name = args.amenity + '_' + args.zone
+    nodes = amenity_coordinates_area(args.amenity,
+                                     args.zone)['elements']
+  else:
+    if not file_name:
+      file_name = args.amenity + '_' + str(args.bottom) + '_' + str(args.left) + '_' + str(args.top) + '_' + str(args.right)
+
+    nodes = amenity_coordinates_bb(args.amenity,
+                                   [[args.left, args.bottom],
+                                    [args.right, args.top]])['elements']
 
   if len(nodes) < 2:
     print "Too few nodes to format a problem!"
