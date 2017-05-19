@@ -31,6 +31,9 @@ if __name__ == '__main__':
   parser.add_argument('--geojson', action='store_true',
                       help = 'also write a geojson file with all generated points',
                       default = False)
+  parser.add_argument('--csv', action='store_true',
+                      help = 'also write a csv file with coordinates for all generated points',
+                      default = False)
 
   args = parser.parse_args()
 
@@ -49,4 +52,4 @@ if __name__ == '__main__':
   lons = map(lambda n: n['lon'], nodes)
   lats = map(lambda n: n['lat'], nodes)
 
-  write_files(file_name, lons, lats, args.geojson)
+  write_files(file_name, lons, lats, args.geojson, args.csv)

@@ -7,7 +7,7 @@ from utils.format_input import write_files
 
 # Generate a random problem to feed vroom for solving.
 
-def generate_random_problem(size, sw, ne, file_name, uniform, geojson):
+def generate_random_problem(size, sw, ne, file_name, uniform, geojson, csv):
   if uniform:
     # Using uniform distribution with bounding box coordinates.
     lons = map(lambda x: round(x, 5), npr.uniform(sw[0], ne[0], size + 1))
@@ -26,7 +26,7 @@ def generate_random_problem(size, sw, ne, file_name, uniform, geojson):
     lons = map(lambda x: round(x, 5), npr.normal(mu_lon, sigma_lon, size + 1))
     lats = map(lambda x: round(x, 5), npr.normal(mu_lat, sigma_lat, size + 1))
 
-  write_files(file_name, lons, lats, geojson)
+  write_files(file_name, lons, lats, geojson, csv)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Generate random problem')
@@ -63,6 +63,9 @@ if __name__ == '__main__':
   parser.add_argument('--geojson', action='store_true',
                       help = 'also write a geojson file with all generated points',
                       default = False)
+  parser.add_argument('--csv', action='store_true',
+                      help = 'also write a csv file with coordinates for all generated points',
+                      default = False)
 
   args = parser.parse_args()
 
@@ -83,4 +86,5 @@ if __name__ == '__main__':
                           [args.right, args.top],
                           file_name,
                           args.uniform,
-                          args.geojson)
+                          args.geojson,
+                          args.csv)
