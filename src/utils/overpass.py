@@ -12,7 +12,7 @@ def amenity_coordinates_bb(amenity, bb):
 def amenity_coordinates_area(amenity, area):
   req = 'http://overpass-api.de/api/interpreter'
   query = '[out:json];'
-  query += '( area[name="' + area + '"]; )->.searchArea;'
+  query += '( area[name="' + area + '"][admin_level=8]; )->.searchArea;'
   query += '(node[amenity=' + amenity + ']'
   query += '(area.searchArea);'
   query += ');out;'
