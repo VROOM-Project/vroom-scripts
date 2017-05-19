@@ -4,6 +4,12 @@ import argparse, sys
 from utils.format_input import write_files
 from utils.overpass import amenity_coordinates_bb
 
+def name_if_present(n):
+  if('name' in n['tags']):
+    return n['tags']['name']
+  else:
+    return None
+
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Generate problem from an overpass query')
   parser.add_argument('-a', '--amenity', metavar = 'AMENITY',
@@ -51,5 +57,6 @@ if __name__ == '__main__':
 
   lons = map(lambda n: n['lon'], nodes)
   lats = map(lambda n: n['lat'], nodes)
+  names = map(lambda n: name_if_present(n), nodes)
 
-  write_files(file_name, lons, lats, args.geojson, args.csv)
+  write_files(file_name, lons, lats, names, args.geojson, args.csv)

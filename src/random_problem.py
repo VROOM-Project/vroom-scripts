@@ -26,7 +26,7 @@ def generate_random_problem(size, sw, ne, file_name, uniform, geojson, csv):
     lons = map(lambda x: round(x, 5), npr.normal(mu_lon, sigma_lon, size + 1))
     lats = map(lambda x: round(x, 5), npr.normal(mu_lat, sigma_lat, size + 1))
 
-  write_files(file_name, lons, lats, geojson, csv)
+  write_files(file_name, lons, lats, [None] * len(lons), geojson, csv)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Generate random problem')
