@@ -22,7 +22,7 @@ if __name__ == '__main__':
                       help = 'key value to use in overpass query',
                       default = "amenity")
   parser.add_argument('-v', '--value', metavar = 'VALUE',
-                      help = 'value to use in overpass query',
+                      help = 'comma-separated list of value(s) to use in overpass query',
                       default = "cafe")
   parser.add_argument('--top', metavar = 'TOP',
                       help = 'bounding box max latitude',
@@ -51,18 +51,21 @@ if __name__ == '__main__':
 
   file_name = args.output;
 
+  values = args.value.split(',')
+  values_name = '_'.join(values)
+
   if args.city is not None:
     if not file_name:
-      file_name = args.key + '_' + args.value + '_' + args.city
+      file_name = args.key + '_' + values_name + '_' + args.city
     nodes = node_coordinates_city(args.key,
-                                  args.value,
+                                  values,
                                   args.city)['elements']
   else:
     if not file_name:
-      file_name = args.key + '_' + args.value + '_' + str(args.bottom) + '_' + str(args.left) + '_' + str(args.top) + '_' + str(args.right)
+      file_name = args.key + '_' + values_name + '_' + str(args.bottom) + '_' + str(args.left) + '_' + str(args.top) + '_' + str(args.right)
 
     nodes = node_coordinates_bb(args.key,
-                                args.value,
+                                values,
                                 [[args.left, args.bottom],
                                  [args.right, args.top]])['elements']
 
