@@ -9,3 +9,5 @@ A bunch of scripts to develop, benchmark, debug or help in using VROOM.
 - **json_to_csv** dumps all locations coordinates from a json input
   instance to a csv file.
 - **tsplib_to_json** converts a TSPLIB file to json.
+- **add_osrm_matrix** create a "standalone" version of a json input
+  instance by adding a `matrix` key using OSRM.
