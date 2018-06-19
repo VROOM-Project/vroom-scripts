@@ -1,0 +1,1962 @@
+{
+  "A-n32-k5": {
+    "jobs": 31,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 410,
+    "upper_bound": 784,
+    "optimal": true
+  },
+  "A-n33-k5": {
+    "jobs": 32,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 446,
+    "upper_bound": 661,
+    "optimal": true
+  },
+  "A-n33-k6": {
+    "jobs": 32,
+    "vehicles": 6,
+    "capacity": 100,
+    "total_amount": 541,
+    "upper_bound": 742,
+    "optimal": true
+  },
+  "A-n34-k5": {
+    "jobs": 33,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 460,
+    "upper_bound": 778,
+    "optimal": true
+  },
+  "A-n36-k5": {
+    "jobs": 35,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 442,
+    "upper_bound": 799,
+    "optimal": true
+  },
+  "A-n37-k5": {
+    "jobs": 36,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 407,
+    "upper_bound": 669,
+    "optimal": true
+  },
+  "A-n37-k6": {
+    "jobs": 36,
+    "vehicles": 6,
+    "capacity": 100,
+    "total_amount": 570,
+    "upper_bound": 949,
+    "optimal": true
+  },
+  "A-n38-k5": {
+    "jobs": 37,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 481,
+    "upper_bound": 730,
+    "optimal": true
+  },
+  "A-n39-k5": {
+    "jobs": 38,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 475,
+    "upper_bound": 822,
+    "optimal": true
+  },
+  "A-n39-k6": {
+    "jobs": 38,
+    "vehicles": 6,
+    "capacity": 100,
+    "total_amount": 526,
+    "upper_bound": 831,
+    "optimal": true
+  },
+  "A-n44-k6": {
+    "jobs": 43,
+    "vehicles": 6,
+    "capacity": 100,
+    "total_amount": 570,
+    "upper_bound": 937,
+    "optimal": true
+  },
+  "A-n45-k6": {
+    "jobs": 44,
+    "vehicles": 6,
+    "capacity": 100,
+    "total_amount": 593,
+    "upper_bound": 944,
+    "optimal": true
+  },
+  "A-n45-k7": {
+    "jobs": 44,
+    "vehicles": 7,
+    "capacity": 100,
+    "total_amount": 634,
+    "upper_bound": 1146,
+    "optimal": true
+  },
+  "A-n46-k7": {
+    "jobs": 45,
+    "vehicles": 7,
+    "capacity": 100,
+    "total_amount": 603,
+    "upper_bound": 914,
+    "optimal": true
+  },
+  "A-n48-k7": {
+    "jobs": 47,
+    "vehicles": 7,
+    "capacity": 100,
+    "total_amount": 626,
+    "upper_bound": 1073,
+    "optimal": true
+  },
+  "A-n53-k7": {
+    "jobs": 52,
+    "vehicles": 7,
+    "capacity": 100,
+    "total_amount": 664,
+    "upper_bound": 1010,
+    "optimal": true
+  },
+  "A-n54-k7": {
+    "jobs": 53,
+    "vehicles": 7,
+    "capacity": 100,
+    "total_amount": 669,
+    "upper_bound": 1167,
+    "optimal": true
+  },
+  "A-n55-k9": {
+    "jobs": 54,
+    "vehicles": 9,
+    "capacity": 100,
+    "total_amount": 839,
+    "upper_bound": 1073,
+    "optimal": true
+  },
+  "A-n60-k9": {
+    "jobs": 59,
+    "vehicles": 9,
+    "capacity": 100,
+    "total_amount": 829,
+    "upper_bound": 1354,
+    "optimal": true
+  },
+  "A-n61-k9": {
+    "jobs": 60,
+    "vehicles": 9,
+    "capacity": 100,
+    "total_amount": 885,
+    "upper_bound": 1034,
+    "optimal": true
+  },
+  "A-n62-k8": {
+    "jobs": 61,
+    "vehicles": 8,
+    "capacity": 100,
+    "total_amount": 733,
+    "upper_bound": 1288,
+    "optimal": true
+  },
+  "A-n63-k9": {
+    "jobs": 62,
+    "vehicles": 9,
+    "capacity": 100,
+    "total_amount": 873,
+    "upper_bound": 1616,
+    "optimal": true
+  },
+  "A-n63-k10": {
+    "jobs": 62,
+    "vehicles": 10,
+    "capacity": 100,
+    "total_amount": 932,
+    "upper_bound": 1314,
+    "optimal": true
+  },
+  "A-n64-k9": {
+    "jobs": 63,
+    "vehicles": 9,
+    "capacity": 100,
+    "total_amount": 848,
+    "upper_bound": 1401,
+    "optimal": true
+  },
+  "A-n65-k9": {
+    "jobs": 64,
+    "vehicles": 9,
+    "capacity": 100,
+    "total_amount": 877,
+    "upper_bound": 1174,
+    "optimal": true
+  },
+  "A-n69-k9": {
+    "jobs": 68,
+    "vehicles": 9,
+    "capacity": 100,
+    "total_amount": 845,
+    "upper_bound": 1159,
+    "optimal": true
+  },
+  "A-n80-k10": {
+    "jobs": 79,
+    "vehicles": 10,
+    "capacity": 100,
+    "total_amount": 942,
+    "upper_bound": 1763,
+    "optimal": true
+  },
+  "B-n31-k5": {
+    "jobs": 30,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 412,
+    "upper_bound": 672,
+    "optimal": true
+  },
+  "B-n34-k5": {
+    "jobs": 33,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 457,
+    "upper_bound": 788,
+    "optimal": true
+  },
+  "B-n35-k5": {
+    "jobs": 34,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 437,
+    "upper_bound": 955,
+    "optimal": true
+  },
+  "B-n38-k6": {
+    "jobs": 37,
+    "vehicles": 6,
+    "capacity": 100,
+    "total_amount": 512,
+    "upper_bound": 805,
+    "optimal": true
+  },
+  "B-n39-k5": {
+    "jobs": 38,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 440,
+    "upper_bound": 549,
+    "optimal": true
+  },
+  "B-n41-k6": {
+    "jobs": 40,
+    "vehicles": 6,
+    "capacity": 100,
+    "total_amount": 567,
+    "upper_bound": 829,
+    "optimal": true
+  },
+  "B-n43-k6": {
+    "jobs": 42,
+    "vehicles": 6,
+    "capacity": 100,
+    "total_amount": 521,
+    "upper_bound": 742,
+    "optimal": true
+  },
+  "B-n44-k7": {
+    "jobs": 43,
+    "vehicles": 7,
+    "capacity": 100,
+    "total_amount": 641,
+    "upper_bound": 909,
+    "optimal": true
+  },
+  "B-n45-k5": {
+    "jobs": 44,
+    "vehicles": 5,
+    "capacity": 100,
+    "total_amount": 486,
+    "upper_bound": 751,
+    "optimal": true
+  },
+  "B-n45-k6": {
+    "jobs": 44,
+    "vehicles": 6,
+    "capacity": 100,
+    "total_amount": 592,
+    "upper_bound": 678,
+    "optimal": true
+  },
+  "B-n50-k7": {
+    "jobs": 49,
+    "vehicles": 7,
+    "capacity": 100,
+    "total_amount": 609,
+    "upper_bound": 741,
+    "optimal": true
+  },
+  "B-n50-k8": {
+    "jobs": 49,
+    "vehicles": 8,
+    "capacity": 100,
+    "total_amount": 735,
+    "upper_bound": 1312,
+    "optimal": true
+  },
+  "B-n51-k7": {
+    "jobs": 50,
+    "vehicles": 7,
+    "capacity": 100,
+    "total_amount": 684,
+    "upper_bound": 1032,
+    "optimal": true
+  },
+  "B-n52-k7": {
+    "jobs": 51,
+    "vehicles": 7,
+    "capacity": 100,
+    "total_amount": 606,
+    "upper_bound": 747,
+    "optimal": true
+  },
+  "B-n56-k7": {
+    "jobs": 55,
+    "vehicles": 7,
+    "capacity": 100,
+    "total_amount": 616,
+    "upper_bound": 707,
+    "optimal": true
+  },
+  "B-n57-k7": {
+    "jobs": 56,
+    "vehicles": 7,
+    "capacity": 100,
+    "total_amount": 697,
+    "upper_bound": 1153,
+    "optimal": true
+  },
+  "B-n57-k9": {
+    "jobs": 56,
+    "vehicles": 9,
+    "capacity": 100,
+    "total_amount": 803,
+    "upper_bound": 1598,
+    "optimal": true
+  },
+  "B-n63-k10": {
+    "jobs": 62,
+    "vehicles": 10,
+    "capacity": 100,
+    "total_amount": 922,
+    "upper_bound": 1496,
+    "optimal": true
+  },
+  "B-n64-k9": {
+    "jobs": 63,
+    "vehicles": 9,
+    "capacity": 100,
+    "total_amount": 878,
+    "upper_bound": 861,
+    "optimal": true
+  },
+  "B-n66-k9": {
+    "jobs": 65,
+    "vehicles": 9,
+    "capacity": 100,
+    "total_amount": 861,
+    "upper_bound": 1316,
+    "optimal": true
+  },
+  "B-n67-k10": {
+    "jobs": 66,
+    "vehicles": 10,
+    "capacity": 100,
+    "total_amount": 907,
+    "upper_bound": 1032,
+    "optimal": true
+  },
+  "B-n68-k9": {
+    "jobs": 67,
+    "vehicles": 9,
+    "capacity": 100,
+    "total_amount": 837,
+    "upper_bound": 1272,
+    "optimal": true
+  },
+  "B-n78-k10": {
+    "jobs": 77,
+    "vehicles": 10,
+    "capacity": 100,
+    "total_amount": 937,
+    "upper_bound": 1221,
+    "optimal": true
+  },
+  "E-n13-k4": {
+    "jobs": 12,
+    "vehicles": 4,
+    "capacity": 6000,
+    "upper_bound": 247,
+    "optimal": true
+  },
+  "E-n22-k4": {
+    "jobs": 21,
+    "vehicles": 4,
+    "capacity": 6000,
+    "total_amount": 22500,
+    "upper_bound": 375,
+    "optimal": true
+  },
+  "E-n23-k3": {
+    "jobs": 22,
+    "vehicles": 3,
+    "capacity": 4500,
+    "total_amount": 10189,
+    "upper_bound": 569,
+    "optimal": true
+  },
+  "E-n30-k3": {
+    "jobs": 29,
+    "vehicles": 3,
+    "capacity": 4500,
+    "total_amount": 12750,
+    "upper_bound": 534,
+    "optimal": true
+  },
+  "E-n31-k7": {
+    "jobs": 30,
+    "vehicles": 7,
+    "capacity": 140,
+    "upper_bound": 379,
+    "optimal": true
+  },
+  "E-n33-k4": {
+    "jobs": 32,
+    "vehicles": 4,
+    "capacity": 8000,
+    "total_amount": 29370,
+    "upper_bound": 835,
+    "optimal": true
+  },
+  "E-n51-k5": {
+    "jobs": 50,
+    "vehicles": 5,
+    "capacity": 160,
+    "total_amount": 777,
+    "upper_bound": 521,
+    "optimal": true
+  },
+  "E-n76-k7": {
+    "jobs": 75,
+    "vehicles": 7,
+    "capacity": 220,
+    "total_amount": 1364,
+    "upper_bound": 682,
+    "optimal": true
+  },
+  "E-n76-k8": {
+    "jobs": 75,
+    "vehicles": 8,
+    "capacity": 180,
+    "total_amount": 1364,
+    "upper_bound": 735,
+    "optimal": true
+  },
+  "E-n76-k10": {
+    "jobs": 75,
+    "vehicles": 10,
+    "capacity": 140,
+    "total_amount": 1364,
+    "upper_bound": 830,
+    "optimal": true
+  },
+  "E-n76-k14": {
+    "jobs": 75,
+    "vehicles": 14,
+    "capacity": 100,
+    "total_amount": 1364,
+    "upper_bound": 1021,
+    "optimal": true
+  },
+  "E-n101-k8": {
+    "jobs": 100,
+    "vehicles": 8,
+    "capacity": 200,
+    "total_amount": 1458,
+    "upper_bound": 815,
+    "optimal": true
+  },
+  "E-n101-k14": {
+    "jobs": 100,
+    "vehicles": 14,
+    "capacity": 112,
+    "total_amount": 1458,
+    "upper_bound": 1067,
+    "optimal": true
+  },
+  "F-n45-k4": {
+    "jobs": 44,
+    "vehicles": 4,
+    "capacity": 2010,
+    "total_amount": 7220,
+    "upper_bound": 724,
+    "optimal": true
+  },
+  "F-n72-k4": {
+    "jobs": 71,
+    "vehicles": 4,
+    "capacity": 30000,
+    "total_amount": 114840,
+    "upper_bound": 237,
+    "optimal": true
+  },
+  "F-n135-k7": {
+    "jobs": 134,
+    "vehicles": 7,
+    "capacity": 2210,
+    "total_amount": 14620,
+    "upper_bound": 1162,
+    "optimal": true
+  },
+  "M-n101-k10": {
+    "jobs": 100,
+    "vehicles": 10,
+    "capacity": 200,
+    "total_amount": 1810,
+    "upper_bound": 820,
+    "optimal": true
+  },
+  "M-n121-k7": {
+    "jobs": 120,
+    "vehicles": 7,
+    "capacity": 200,
+    "total_amount": 1375,
+    "upper_bound": 1034,
+    "optimal": true
+  },
+  "M-n151-k12": {
+    "jobs": 150,
+    "vehicles": 12,
+    "capacity": 200,
+    "total_amount": 2235,
+    "upper_bound": 1015,
+    "optimal": true
+  },
+  "M-n200-k16": {
+    "jobs": 199,
+    "vehicles": 16,
+    "capacity": 200,
+    "total_amount": 3186,
+    "upper_bound": 1274,
+    "optimal": true
+  },
+  "M-n200-k17": {
+    "jobs": 199,
+    "vehicles": 17,
+    "capacity": 200,
+    "total_amount": 3186,
+    "upper_bound": 1275,
+    "optimal": true
+  },
+  "P-n16-k8": {
+    "jobs": 15,
+    "vehicles": 8,
+    "capacity": 35,
+    "total_amount": 246,
+    "upper_bound": 450,
+    "optimal": true
+  },
+  "P-n19-k2": {
+    "jobs": 18,
+    "vehicles": 2,
+    "capacity": 160,
+    "total_amount": 310,
+    "upper_bound": 212,
+    "optimal": true
+  },
+  "P-n20-k2": {
+    "jobs": 19,
+    "vehicles": 2,
+    "capacity": 160,
+    "total_amount": 310,
+    "upper_bound": 216,
+    "optimal": true
+  },
+  "P-n21-k2": {
+    "jobs": 20,
+    "vehicles": 2,
+    "capacity": 160,
+    "total_amount": 298,
+    "upper_bound": 211,
+    "optimal": true
+  },
+  "P-n22-k2": {
+    "jobs": 21,
+    "vehicles": 2,
+    "capacity": 160,
+    "total_amount": 308,
+    "upper_bound": 216,
+    "optimal": true
+  },
+  "P-n22-k8": {
+    "jobs": 21,
+    "vehicles": 8,
+    "capacity": 3000,
+    "total_amount": 22500,
+    "upper_bound": 603,
+    "optimal": true
+  },
+  "P-n23-k8": {
+    "jobs": 22,
+    "vehicles": 8,
+    "capacity": 40,
+    "total_amount": 313,
+    "upper_bound": 529,
+    "optimal": true
+  },
+  "P-n40-k5": {
+    "jobs": 39,
+    "vehicles": 5,
+    "capacity": 140,
+    "total_amount": 618,
+    "upper_bound": 458,
+    "optimal": true
+  },
+  "P-n45-k5": {
+    "jobs": 44,
+    "vehicles": 5,
+    "capacity": 150,
+    "total_amount": 692,
+    "upper_bound": 510,
+    "optimal": true
+  },
+  "P-n50-k7": {
+    "jobs": 49,
+    "vehicles": 7,
+    "capacity": 150,
+    "total_amount": 951,
+    "upper_bound": 554,
+    "optimal": true
+  },
+  "P-n50-k8": {
+    "jobs": 49,
+    "vehicles": 8,
+    "capacity": 120,
+    "total_amount": 951,
+    "upper_bound": 631,
+    "optimal": true
+  },
+  "P-n50-k10": {
+    "jobs": 49,
+    "vehicles": 10,
+    "capacity": 100,
+    "total_amount": 951,
+    "upper_bound": 696,
+    "optimal": true
+  },
+  "P-n51-k10": {
+    "jobs": 50,
+    "vehicles": 10,
+    "capacity": 80,
+    "total_amount": 777,
+    "upper_bound": 741,
+    "optimal": true
+  },
+  "P-n55-k7": {
+    "jobs": 54,
+    "vehicles": 7,
+    "capacity": 170,
+    "total_amount": 1042,
+    "upper_bound": 568,
+    "optimal": true
+  },
+  "P-n55-k10": {
+    "jobs": 54,
+    "vehicles": 10,
+    "capacity": 115,
+    "total_amount": 1042,
+    "upper_bound": 694,
+    "optimal": true
+  },
+  "P-n55-k15": {
+    "jobs": 54,
+    "vehicles": 15,
+    "capacity": 70,
+    "total_amount": 1042,
+    "upper_bound": 989,
+    "optimal": true
+  },
+  "P-n60-k10": {
+    "jobs": 59,
+    "vehicles": 10,
+    "capacity": 120,
+    "total_amount": 1134,
+    "upper_bound": 744,
+    "optimal": true
+  },
+  "P-n60-k15": {
+    "jobs": 59,
+    "vehicles": 15,
+    "capacity": 80,
+    "total_amount": 1134,
+    "upper_bound": 968,
+    "optimal": true
+  },
+  "P-n65-k10": {
+    "jobs": 64,
+    "vehicles": 10,
+    "capacity": 130,
+    "total_amount": 1219,
+    "upper_bound": 792,
+    "optimal": true
+  },
+  "P-n70-k10": {
+    "jobs": 69,
+    "vehicles": 10,
+    "capacity": 135,
+    "total_amount": 1313,
+    "upper_bound": 827,
+    "optimal": true
+  },
+  "P-n76-k4": {
+    "jobs": 75,
+    "vehicles": 4,
+    "capacity": 350,
+    "total_amount": 1364,
+    "upper_bound": 593,
+    "optimal": true
+  },
+  "P-n76-k5": {
+    "jobs": 75,
+    "vehicles": 5,
+    "capacity": 280,
+    "total_amount": 1364,
+    "upper_bound": 627,
+    "optimal": true
+  },
+  "P-n101-k4": {
+    "jobs": 100,
+    "vehicles": 4,
+    "capacity": 400,
+    "total_amount": 1458,
+    "upper_bound": 681,
+    "optimal": true
+  },
+  "CMT1": {
+    "jobs": 50,
+    "vehicles": 5,
+    "capacity": 160,
+    "upper_bound": 524.61,
+    "optimal": true
+  },
+  "CMT2": {
+    "jobs": 75,
+    "vehicles": 10,
+    "capacity": 140,
+    "upper_bound": 835.26,
+    "optimal": true
+  },
+  "CMT3": {
+    "jobs": 100,
+    "vehicles": 8,
+    "capacity": 200,
+    "upper_bound": 826.14,
+    "optimal": true
+  },
+  "CMT4": {
+    "jobs": 150,
+    "vehicles": 12,
+    "capacity": 200,
+    "upper_bound": 1028.42,
+    "optimal": true
+  },
+  "CMT5": {
+    "jobs": 199,
+    "vehicles": 17,
+    "capacity": 200,
+    "upper_bound": 1291.29,
+    "optimal": true
+  },
+  "CMT6": {
+    "jobs": 50,
+    "vehicles": 6,
+    "capacity": 160,
+    "upper_bound": 555.43,
+    "optimal": false
+  },
+  "CMT7": {
+    "jobs": 75,
+    "vehicles": 11,
+    "capacity": 140,
+    "upper_bound": 909.68,
+    "optimal": false
+  },
+  "CMT8": {
+    "jobs": 100,
+    "vehicles": 9,
+    "capacity": 200,
+    "upper_bound": 865.95,
+    "optimal": false
+  },
+  "CMT9": {
+    "jobs": 150,
+    "vehicles": 14,
+    "capacity": 200,
+    "upper_bound": 1162.55,
+    "optimal": false
+  },
+  "CMT10": {
+    "jobs": 199,
+    "vehicles": 18,
+    "capacity": 200,
+    "upper_bound": 1395.85,
+    "optimal": false
+  },
+  "CMT11": {
+    "jobs": 120,
+    "vehicles": 7,
+    "capacity": 200,
+    "upper_bound": 1042.12,
+    "optimal": true
+  },
+  "CMT12": {
+    "jobs": 100,
+    "vehicles": 10,
+    "capacity": 200,
+    "upper_bound": 819.56,
+    "optimal": true
+  },
+  "CMT13": {
+    "jobs": 120,
+    "vehicles": 11,
+    "capacity": 200,
+    "upper_bound": 1541.14,
+    "optimal": false
+  },
+  "CMT14": {
+    "jobs": 100,
+    "vehicles": 11,
+    "capacity": 200,
+    "upper_bound": 866.37,
+    "optimal": false
+  },
+  "tai75a": {
+    "jobs": 75,
+    "vehicles": 10,
+    "capacity": 1445,
+    "upper_bound": 1618.36,
+    "optimal": true
+  },
+  "tai75b": {
+    "jobs": 75,
+    "vehicles": 9,
+    "capacity": 1679,
+    "upper_bound": 1344.62,
+    "optimal": true
+  },
+  "tai75c": {
+    "jobs": 75,
+    "vehicles": 9,
+    "capacity": 1122,
+    "upper_bound": 1291.01,
+    "optimal": true
+  },
+  "tai75d": {
+    "jobs": 75,
+    "vehicles": 9,
+    "capacity": 1699,
+    "upper_bound": 1365.42,
+    "optimal": true
+  },
+  "tai100a": {
+    "jobs": 100,
+    "vehicles": 11,
+    "capacity": 1409,
+    "upper_bound": 2041.34,
+    "optimal": true
+  },
+  "tai100b": {
+    "jobs": 100,
+    "vehicles": 11,
+    "capacity": 1842,
+    "upper_bound": 1939.9,
+    "optimal": true
+  },
+  "tai100c": {
+    "jobs": 100,
+    "vehicles": 11,
+    "capacity": 2043,
+    "upper_bound": 1406.2,
+    "optimal": true
+  },
+  "tai100d": {
+    "jobs": 100,
+    "vehicles": 11,
+    "capacity": 1297,
+    "upper_bound": 1580.46,
+    "optimal": true
+  },
+  "tai150a": {
+    "jobs": 150,
+    "vehicles": 15,
+    "capacity": 1544,
+    "upper_bound": 3055.23,
+    "optimal": true
+  },
+  "tai150b": {
+    "jobs": 150,
+    "vehicles": 14,
+    "capacity": 1918,
+    "upper_bound": 2727.03,
+    "optimal": true
+  },
+  "tai150c": {
+    "jobs": 150,
+    "vehicles": 14,
+    "capacity": 2021,
+    "upper_bound": 2358.66,
+    "optimal": true
+  },
+  "tai150d": {
+    "jobs": 150,
+    "vehicles": 14,
+    "capacity": 1874,
+    "upper_bound": 2645.39,
+    "optimal": true
+  },
+  "tai385": {
+    "jobs": 385,
+    "vehicles": 46,
+    "capacity": 65,
+    "upper_bound": 24366.41,
+    "optimal": false
+  },
+  "Golden_1": {
+    "jobs": 240,
+    "vehicles": 9,
+    "capacity": 550,
+    "upper_bound": 5623.47,
+    "optimal": false
+  },
+  "Golden_2": {
+    "jobs": 320,
+    "vehicles": 10,
+    "capacity": 700,
+    "upper_bound": 8404.61,
+    "optimal": false
+  },
+  "Golden_3": {
+    "jobs": 400,
+    "vehicles": 9,
+    "capacity": 900,
+    "upper_bound": 11036.2,
+    "optimal": false
+  },
+  "Golden_4": {
+    "jobs": 480,
+    "vehicles": 10,
+    "capacity": 1000,
+    "upper_bound": 13590,
+    "optimal": false
+  },
+  "Golden_5": {
+    "jobs": 200,
+    "vehicles": 5,
+    "capacity": 900,
+    "upper_bound": 6460.98,
+    "optimal": false
+  },
+  "Golden_6": {
+    "jobs": 280,
+    "vehicles": 7,
+    "capacity": 900,
+    "upper_bound": 8412.9,
+    "optimal": false
+  },
+  "Golden_7": {
+    "jobs": 360,
+    "vehicles": 8,
+    "capacity": 900,
+    "upper_bound": 10102.7,
+    "optimal": false
+  },
+  "Golden_8": {
+    "jobs": 440,
+    "vehicles": 10,
+    "capacity": 900,
+    "upper_bound": 11635.3,
+    "optimal": false
+  },
+  "Golden_9": {
+    "jobs": 255,
+    "vehicles": 14,
+    "capacity": 1000,
+    "upper_bound": 579.71,
+    "optimal": false
+  },
+  "Golden_10": {
+    "jobs": 323,
+    "vehicles": 16,
+    "capacity": 1000,
+    "upper_bound": 735.66,
+    "optimal": false
+  },
+  "Golden_11": {
+    "jobs": 399,
+    "vehicles": 17,
+    "capacity": 1000,
+    "upper_bound": 912.03,
+    "optimal": false
+  },
+  "Golden_12": {
+    "jobs": 483,
+    "vehicles": 19,
+    "capacity": 1000,
+    "upper_bound": 1101.5,
+    "optimal": false
+  },
+  "Golden_13": {
+    "jobs": 252,
+    "vehicles": 26,
+    "capacity": 1000,
+    "upper_bound": 857.19,
+    "optimal": true
+  },
+  "Golden_14": {
+    "jobs": 320,
+    "vehicles": 29,
+    "capacity": 1000,
+    "upper_bound": 1080.55,
+    "optimal": true
+  },
+  "Golden_15": {
+    "jobs": 396,
+    "vehicles": 33,
+    "capacity": 1000,
+    "upper_bound": 1337.87,
+    "optimal": false
+  },
+  "Golden_16": {
+    "jobs": 480,
+    "vehicles": 36,
+    "capacity": 1000,
+    "upper_bound": 1611.56,
+    "optimal": false
+  },
+  "Golden_17": {
+    "jobs": 240,
+    "vehicles": 22,
+    "capacity": 200,
+    "upper_bound": 707.76,
+    "optimal": true
+  },
+  "Golden_18": {
+    "jobs": 300,
+    "vehicles": 27,
+    "capacity": 200,
+    "upper_bound": 995.13,
+    "optimal": true
+  },
+  "Golden_19": {
+    "jobs": 360,
+    "vehicles": 33,
+    "capacity": 200,
+    "upper_bound": 1365.6,
+    "optimal": true
+  },
+  "Golden_20": {
+    "jobs": 420,
+    "vehicles": 38,
+    "capacity": 200,
+    "upper_bound": 1817.59,
+    "optimal": true
+  },
+  "Li_21": {
+    "jobs": 560,
+    "vehicles": 10,
+    "capacity": 1200,
+    "upper_bound": 16212.83,
+    "optimal": false
+  },
+  "Li_22": {
+    "jobs": 600,
+    "vehicles": 15,
+    "capacity": 900,
+    "upper_bound": 14499.04,
+    "optimal": false
+  },
+  "Li_23": {
+    "jobs": 640,
+    "vehicles": 10,
+    "capacity": 1400,
+    "upper_bound": 18801.13,
+    "optimal": false
+  },
+  "Li_24": {
+    "jobs": 720,
+    "vehicles": 10,
+    "capacity": 1500,
+    "upper_bound": 21389.43,
+    "optimal": false
+  },
+  "Li_25": {
+    "jobs": 760,
+    "vehicles": 19,
+    "capacity": 900,
+    "upper_bound": 16668.51,
+    "optimal": false
+  },
+  "Li_26": {
+    "jobs": 800,
+    "vehicles": 10,
+    "capacity": 1700,
+    "upper_bound": 23977.73,
+    "optimal": false
+  },
+  "Li_27": {
+    "jobs": 840,
+    "vehicles": 20,
+    "capacity": 900,
+    "upper_bound": 17372.64,
+    "optimal": false
+  },
+  "Li_28": {
+    "jobs": 880,
+    "vehicles": 10,
+    "capacity": 1800,
+    "upper_bound": 26566.03,
+    "optimal": false
+  },
+  "Li_29": {
+    "jobs": 960,
+    "vehicles": 10,
+    "capacity": 2000,
+    "upper_bound": 29154.34,
+    "optimal": false
+  },
+  "Li_30": {
+    "jobs": 1040,
+    "vehicles": 10,
+    "capacity": 2100,
+    "upper_bound": 31742.64,
+    "optimal": false
+  },
+  "Li_31": {
+    "jobs": 1120,
+    "vehicles": 10,
+    "capacity": 2300,
+    "upper_bound": 34330.94,
+    "optimal": false
+  },
+  "Li_32": {
+    "jobs": 1200,
+    "vehicles": 11,
+    "capacity": 2500,
+    "upper_bound": 37159.41,
+    "optimal": false
+  },
+  "X-n101-k25": {
+    "jobs": 100,
+    "vehicles": 25,
+    "capacity": 206,
+    "total_amount": 5147,
+    "upper_bound": 27591,
+    "optimal": true
+  },
+  "X-n106-k14": {
+    "jobs": 105,
+    "vehicles": 14,
+    "capacity": 600,
+    "total_amount": 7864,
+    "upper_bound": 26362,
+    "optimal": true
+  },
+  "X-n110-k13": {
+    "jobs": 109,
+    "vehicles": 13,
+    "capacity": 66,
+    "total_amount": 816,
+    "upper_bound": 14971,
+    "optimal": true
+  },
+  "X-n115-k10": {
+    "jobs": 114,
+    "vehicles": 10,
+    "capacity": 169,
+    "total_amount": 1535,
+    "upper_bound": 12747,
+    "optimal": true
+  },
+  "X-n120-k6": {
+    "jobs": 119,
+    "vehicles": 6,
+    "capacity": 21,
+    "total_amount": 119,
+    "upper_bound": 13332,
+    "optimal": true
+  },
+  "X-n125-k30": {
+    "jobs": 124,
+    "vehicles": 30,
+    "capacity": 188,
+    "total_amount": 5536,
+    "upper_bound": 55539,
+    "optimal": true
+  },
+  "X-n129-k18": {
+    "jobs": 128,
+    "vehicles": 18,
+    "capacity": 39,
+    "total_amount": 665,
+    "upper_bound": 28940,
+    "optimal": true
+  },
+  "X-n134-k13": {
+    "jobs": 133,
+    "vehicles": 13,
+    "capacity": 643,
+    "total_amount": 8220,
+    "upper_bound": 10916,
+    "optimal": true
+  },
+  "X-n139-k10": {
+    "jobs": 138,
+    "vehicles": 10,
+    "capacity": 106,
+    "total_amount": 1039,
+    "upper_bound": 13590,
+    "optimal": true
+  },
+  "X-n143-k7": {
+    "jobs": 142,
+    "vehicles": 7,
+    "capacity": 1190,
+    "total_amount": 7475,
+    "upper_bound": 15700,
+    "optimal": true
+  },
+  "X-n148-k46": {
+    "jobs": 147,
+    "vehicles": 46,
+    "capacity": 18,
+    "total_amount": 817,
+    "upper_bound": 43448,
+    "optimal": true
+  },
+  "X-n153-k22": {
+    "jobs": 152,
+    "vehicles": 22,
+    "capacity": 144,
+    "total_amount": 3068,
+    "upper_bound": 21220,
+    "optimal": true
+  },
+  "X-n157-k13": {
+    "jobs": 156,
+    "vehicles": 13,
+    "capacity": 12,
+    "total_amount": 156,
+    "upper_bound": 16876,
+    "optimal": true
+  },
+  "X-n162-k11": {
+    "jobs": 161,
+    "vehicles": 11,
+    "capacity": 1174,
+    "total_amount": 12194,
+    "upper_bound": 14138,
+    "optimal": true
+  },
+  "X-n167-k10": {
+    "jobs": 166,
+    "vehicles": 10,
+    "capacity": 133,
+    "total_amount": 1236,
+    "upper_bound": 20557,
+    "optimal": true
+  },
+  "X-n172-k51": {
+    "jobs": 171,
+    "vehicles": 51,
+    "capacity": 161,
+    "total_amount": 8092,
+    "upper_bound": 45607,
+    "optimal": true
+  },
+  "X-n176-k26": {
+    "jobs": 175,
+    "vehicles": 26,
+    "capacity": 142,
+    "total_amount": 3632,
+    "upper_bound": 47812,
+    "optimal": true
+  },
+  "X-n181-k23": {
+    "jobs": 180,
+    "vehicles": 23,
+    "capacity": 8,
+    "total_amount": 180,
+    "upper_bound": 25569,
+    "optimal": true
+  },
+  "X-n186-k15": {
+    "jobs": 185,
+    "vehicles": 15,
+    "capacity": 974,
+    "total_amount": 13853,
+    "upper_bound": 24145,
+    "optimal": true
+  },
+  "X-n190-k8": {
+    "jobs": 189,
+    "vehicles": 8,
+    "capacity": 138,
+    "total_amount": 1043,
+    "upper_bound": 16980,
+    "optimal": true
+  },
+  "X-n195-k51": {
+    "jobs": 194,
+    "vehicles": 51,
+    "capacity": 181,
+    "total_amount": 9208,
+    "upper_bound": 44225,
+    "optimal": true
+  },
+  "X-n200-k36": {
+    "jobs": 199,
+    "vehicles": 36,
+    "capacity": 402,
+    "total_amount": 14263,
+    "upper_bound": 58578,
+    "optimal": true
+  },
+  "X-n204-k19": {
+    "jobs": 203,
+    "vehicles": 19,
+    "capacity": 836,
+    "total_amount": 15135,
+    "upper_bound": 19565,
+    "optimal": true
+  },
+  "X-n209-k16": {
+    "jobs": 208,
+    "vehicles": 16,
+    "capacity": 101,
+    "total_amount": 1547,
+    "upper_bound": 30656,
+    "optimal": true
+  },
+  "X-n214-k11": {
+    "jobs": 213,
+    "vehicles": 11,
+    "capacity": 944,
+    "total_amount": 10356,
+    "upper_bound": 10856,
+    "optimal": true
+  },
+  "X-n219-k73": {
+    "jobs": 218,
+    "vehicles": 73,
+    "capacity": 3,
+    "total_amount": 218,
+    "upper_bound": 117595,
+    "optimal": true
+  },
+  "X-n223-k34": {
+    "jobs": 222,
+    "vehicles": 34,
+    "capacity": 37,
+    "total_amount": 1234,
+    "upper_bound": 40437,
+    "optimal": true
+  },
+  "X-n228-k23": {
+    "jobs": 227,
+    "vehicles": 23,
+    "capacity": 154,
+    "total_amount": 3478,
+    "upper_bound": 25742,
+    "optimal": true
+  },
+  "X-n233-k16": {
+    "jobs": 232,
+    "vehicles": 16,
+    "capacity": 631,
+    "total_amount": 10093,
+    "upper_bound": 19230,
+    "optimal": true
+  },
+  "X-n237-k14": {
+    "jobs": 236,
+    "vehicles": 14,
+    "capacity": 18,
+    "total_amount": 236,
+    "upper_bound": 27042,
+    "optimal": true
+  },
+  "X-n242-k48": {
+    "jobs": 241,
+    "vehicles": 48,
+    "capacity": 28,
+    "total_amount": 1324,
+    "upper_bound": 82751,
+    "optimal": true
+  },
+  "X-n247-k50": {
+    "jobs": 246,
+    "vehicles": 47,
+    "capacity": 134,
+    "upper_bound": 37274,
+    "optimal": true
+  },
+  "X-n251-k28": {
+    "jobs": 250,
+    "vehicles": 28,
+    "capacity": 69,
+    "total_amount": 1867,
+    "upper_bound": 38684,
+    "optimal": true
+  },
+  "X-n256-k16": {
+    "jobs": 255,
+    "vehicles": 16,
+    "capacity": 1225,
+    "total_amount": 19514,
+    "upper_bound": 18839,
+    "optimal": false
+  },
+  "X-n261-k13": {
+    "jobs": 260,
+    "vehicles": 13,
+    "capacity": 1081,
+    "total_amount": 13381,
+    "upper_bound": 26558,
+    "optimal": false
+  },
+  "X-n266-k58": {
+    "jobs": 265,
+    "vehicles": 58,
+    "capacity": 35,
+    "total_amount": 2015,
+    "upper_bound": 75478,
+    "optimal": true
+  },
+  "X-n270-k35": {
+    "jobs": 269,
+    "vehicles": 35,
+    "capacity": 585,
+    "total_amount": 20419,
+    "upper_bound": 35291,
+    "optimal": true
+  },
+  "X-n275-k28": {
+    "jobs": 274,
+    "vehicles": 28,
+    "capacity": 10,
+    "total_amount": 274,
+    "upper_bound": 21245,
+    "optimal": true
+  },
+  "X-n280-k17": {
+    "jobs": 279,
+    "vehicles": 17,
+    "capacity": 192,
+    "total_amount": 3233,
+    "upper_bound": 33503,
+    "optimal": false
+  },
+  "X-n284-k15": {
+    "jobs": 283,
+    "vehicles": 15,
+    "capacity": 109,
+    "total_amount": 1527,
+    "upper_bound": 20226,
+    "optimal": false
+  },
+  "X-n289-k60": {
+    "jobs": 288,
+    "vehicles": 60,
+    "capacity": 267,
+    "total_amount": 15974,
+    "upper_bound": 95151,
+    "optimal": true
+  },
+  "X-n294-k50": {
+    "jobs": 293,
+    "vehicles": 50,
+    "capacity": 285,
+    "total_amount": 14135,
+    "upper_bound": 47161,
+    "optimal": false
+  },
+  "X-n298-k31": {
+    "jobs": 297,
+    "vehicles": 31,
+    "capacity": 55,
+    "total_amount": 1689,
+    "upper_bound": 34231,
+    "optimal": true
+  },
+  "X-n303-k21": {
+    "jobs": 302,
+    "vehicles": 21,
+    "capacity": 794,
+    "total_amount": 15967,
+    "upper_bound": 21744,
+    "optimal": false
+  },
+  "X-n308-k13": {
+    "jobs": 307,
+    "vehicles": 13,
+    "capacity": 246,
+    "total_amount": 3118,
+    "upper_bound": 25859,
+    "optimal": false
+  },
+  "X-n313-k71": {
+    "jobs": 312,
+    "vehicles": 71,
+    "capacity": 248,
+    "total_amount": 17545,
+    "upper_bound": 94044,
+    "optimal": false
+  },
+  "X-n317-k53": {
+    "jobs": 316,
+    "vehicles": 53,
+    "capacity": 6,
+    "total_amount": 316,
+    "upper_bound": 78355,
+    "optimal": true
+  },
+  "X-n322-k28": {
+    "jobs": 321,
+    "vehicles": 28,
+    "capacity": 868,
+    "total_amount": 24003,
+    "upper_bound": 29834,
+    "optimal": false
+  },
+  "X-n327-k20": {
+    "jobs": 326,
+    "vehicles": 20,
+    "capacity": 128,
+    "total_amount": 2452,
+    "upper_bound": 27532,
+    "optimal": false
+  },
+  "X-n331-k15": {
+    "jobs": 330,
+    "vehicles": 15,
+    "capacity": 23,
+    "total_amount": 330,
+    "upper_bound": 31102,
+    "optimal": true
+  },
+  "X-n336-k84": {
+    "jobs": 335,
+    "vehicles": 84,
+    "capacity": 203,
+    "total_amount": 16921,
+    "upper_bound": 139135,
+    "optimal": false
+  },
+  "X-n344-k43": {
+    "jobs": 343,
+    "vehicles": 43,
+    "capacity": 61,
+    "total_amount": 2602,
+    "upper_bound": 42056,
+    "optimal": false
+  },
+  "X-n351-k40": {
+    "jobs": 350,
+    "vehicles": 40,
+    "capacity": 436,
+    "total_amount": 17317,
+    "upper_bound": 25928,
+    "optimal": false
+  },
+  "X-n359-k29": {
+    "jobs": 358,
+    "vehicles": 29,
+    "capacity": 68,
+    "total_amount": 1946,
+    "upper_bound": 51505,
+    "optimal": false
+  },
+  "X-n367-k17": {
+    "jobs": 366,
+    "vehicles": 17,
+    "capacity": 218,
+    "total_amount": 3647,
+    "upper_bound": 22814,
+    "optimal": false
+  },
+  "X-n376-k94": {
+    "jobs": 375,
+    "vehicles": 94,
+    "capacity": 4,
+    "total_amount": 375,
+    "upper_bound": 147713,
+    "optimal": true
+  },
+  "X-n384-k52": {
+    "jobs": 383,
+    "vehicles": 52,
+    "capacity": 564,
+    "total_amount": 29157,
+    "upper_bound": 65943,
+    "optimal": false
+  },
+  "X-n393-k38": {
+    "jobs": 392,
+    "vehicles": 38,
+    "capacity": 78,
+    "total_amount": 2919,
+    "upper_bound": 38260,
+    "optimal": false
+  },
+  "X-n401-k29": {
+    "jobs": 400,
+    "vehicles": 29,
+    "capacity": 745,
+    "total_amount": 21275,
+    "upper_bound": 66187,
+    "optimal": false
+  },
+  "X-n411-k19": {
+    "jobs": 410,
+    "vehicles": 19,
+    "capacity": 216,
+    "total_amount": 3901,
+    "upper_bound": 19718,
+    "optimal": false
+  },
+  "X-n420-k130": {
+    "jobs": 419,
+    "vehicles": 130,
+    "capacity": 18,
+    "total_amount": 2325,
+    "upper_bound": 107798,
+    "optimal": true
+  },
+  "X-n429-k61": {
+    "jobs": 428,
+    "vehicles": 61,
+    "capacity": 536,
+    "total_amount": 32261,
+    "upper_bound": 65483,
+    "optimal": false
+  },
+  "X-n439-k37": {
+    "jobs": 438,
+    "vehicles": 37,
+    "capacity": 12,
+    "total_amount": 438,
+    "upper_bound": 36391,
+    "optimal": true
+  },
+  "X-n449-k29": {
+    "jobs": 448,
+    "vehicles": 29,
+    "capacity": 777,
+    "total_amount": 22439,
+    "upper_bound": 55269,
+    "optimal": false
+  },
+  "X-n459-k26": {
+    "jobs": 458,
+    "vehicles": 26,
+    "capacity": 1106,
+    "total_amount": 28435,
+    "upper_bound": 24145,
+    "optimal": false
+  },
+  "X-n469-k138": {
+    "jobs": 468,
+    "vehicles": 138,
+    "capacity": 256,
+    "total_amount": 35171,
+    "upper_bound": 221909,
+    "optimal": false
+  },
+  "X-n480-k70": {
+    "jobs": 479,
+    "vehicles": 70,
+    "capacity": 52,
+    "total_amount": 3598,
+    "upper_bound": 89458,
+    "optimal": false
+  },
+  "X-n491-k59": {
+    "jobs": 490,
+    "vehicles": 59,
+    "capacity": 428,
+    "total_amount": 24957,
+    "upper_bound": 66510,
+    "optimal": false
+  },
+  "X-n502-k39": {
+    "jobs": 501,
+    "vehicles": 39,
+    "capacity": 13,
+    "total_amount": 501,
+    "upper_bound": 69230,
+    "optimal": false
+  },
+  "X-n513-k21": {
+    "jobs": 512,
+    "vehicles": 21,
+    "capacity": 142,
+    "total_amount": 2905,
+    "upper_bound": 24201,
+    "optimal": false
+  },
+  "X-n524-k153": {
+    "jobs": 523,
+    "vehicles": 137,
+    "capacity": 125,
+    "upper_bound": 154594,
+    "optimal": true
+  },
+  "X-n536-k96": {
+    "jobs": 535,
+    "vehicles": 96,
+    "capacity": 371,
+    "total_amount": 35423,
+    "upper_bound": 94988,
+    "optimal": false
+  },
+  "X-n548-k50": {
+    "jobs": 547,
+    "vehicles": 50,
+    "capacity": 11,
+    "total_amount": 547,
+    "upper_bound": 86701,
+    "optimal": false
+  },
+  "X-n561-k42": {
+    "jobs": 560,
+    "vehicles": 42,
+    "capacity": 74,
+    "total_amount": 3055,
+    "upper_bound": 42722,
+    "optimal": false
+  },
+  "X-n573-k30": {
+    "jobs": 572,
+    "vehicles": 30,
+    "capacity": 210,
+    "total_amount": 6172,
+    "upper_bound": 50719,
+    "optimal": false
+  },
+  "X-n586-k159": {
+    "jobs": 585,
+    "vehicles": 159,
+    "capacity": 28,
+    "total_amount": 4430,
+    "upper_bound": 190423,
+    "optimal": false
+  },
+  "X-n599-k92": {
+    "jobs": 598,
+    "vehicles": 92,
+    "capacity": 487,
+    "total_amount": 44741,
+    "upper_bound": 108490,
+    "optimal": false
+  },
+  "X-n613-k62": {
+    "jobs": 612,
+    "vehicles": 62,
+    "capacity": 523,
+    "total_amount": 32002,
+    "upper_bound": 59556,
+    "optimal": false
+  },
+  "X-n627-k43": {
+    "jobs": 626,
+    "vehicles": 43,
+    "capacity": 110,
+    "total_amount": 4713,
+    "upper_bound": 62210,
+    "optimal": false
+  },
+  "X-n641-k35": {
+    "jobs": 640,
+    "vehicles": 35,
+    "capacity": 1381,
+    "total_amount": 47511,
+    "upper_bound": 63737,
+    "optimal": false
+  },
+  "X-n655-k131": {
+    "jobs": 654,
+    "vehicles": 131,
+    "capacity": 5,
+    "total_amount": 654,
+    "upper_bound": 106780,
+    "optimal": true
+  },
+  "X-n670-k130": {
+    "jobs": 669,
+    "vehicles": 126,
+    "capacity": 129,
+    "upper_bound": 146477,
+    "optimal": false
+  },
+  "X-n685-k75": {
+    "jobs": 684,
+    "vehicles": 75,
+    "capacity": 408,
+    "total_amount": 30299,
+    "upper_bound": 68261,
+    "optimal": false
+  },
+  "X-n701-k44": {
+    "jobs": 700,
+    "vehicles": 44,
+    "capacity": 87,
+    "total_amount": 3797,
+    "upper_bound": 81934,
+    "optimal": false
+  },
+  "X-n716-k35": {
+    "jobs": 715,
+    "vehicles": 35,
+    "capacity": 1007,
+    "total_amount": 34266,
+    "upper_bound": 43414,
+    "optimal": false
+  },
+  "X-n733-k159": {
+    "jobs": 732,
+    "vehicles": 159,
+    "capacity": 25,
+    "total_amount": 3969,
+    "upper_bound": 136250,
+    "optimal": false
+  },
+  "X-n749-k98": {
+    "jobs": 748,
+    "vehicles": 98,
+    "capacity": 396,
+    "total_amount": 38414,
+    "upper_bound": 77365,
+    "optimal": false
+  },
+  "X-n766-k71": {
+    "jobs": 765,
+    "vehicles": 71,
+    "capacity": 166,
+    "total_amount": 11695,
+    "upper_bound": 114525,
+    "optimal": false
+  },
+  "X-n783-k48": {
+    "jobs": 782,
+    "vehicles": 48,
+    "capacity": 832,
+    "total_amount": 39413,
+    "upper_bound": 72445,
+    "optimal": false
+  },
+  "X-n801-k40": {
+    "jobs": 800,
+    "vehicles": 40,
+    "capacity": 20,
+    "total_amount": 800,
+    "upper_bound": 73331,
+    "optimal": false
+  },
+  "X-n819-k171": {
+    "jobs": 818,
+    "vehicles": 171,
+    "capacity": 358,
+    "total_amount": 60914,
+    "upper_bound": 158267,
+    "optimal": false
+  },
+  "X-n837-k142": {
+    "jobs": 836,
+    "vehicles": 142,
+    "capacity": 44,
+    "total_amount": 6211,
+    "upper_bound": 193813,
+    "optimal": false
+  },
+  "X-n856-k95": {
+    "jobs": 855,
+    "vehicles": 95,
+    "capacity": 9,
+    "total_amount": 855,
+    "upper_bound": 89007,
+    "optimal": false
+  },
+  "X-n876-k59": {
+    "jobs": 875,
+    "vehicles": 59,
+    "capacity": 764,
+    "total_amount": 44534,
+    "upper_bound": 99331,
+    "optimal": false
+  },
+  "X-n895-k37": {
+    "jobs": 894,
+    "vehicles": 37,
+    "capacity": 1816,
+    "total_amount": 67057,
+    "upper_bound": 53946,
+    "optimal": false
+  },
+  "X-n916-k207": {
+    "jobs": 915,
+    "vehicles": 207,
+    "capacity": 33,
+    "total_amount": 6816,
+    "upper_bound": 329247,
+    "optimal": false
+  },
+  "X-n936-k151": {
+    "jobs": 935,
+    "vehicles": 151,
+    "capacity": 138,
+    "total_amount": 20743,
+    "upper_bound": 132926,
+    "optimal": false
+  },
+  "X-n957-k87": {
+    "jobs": 956,
+    "vehicles": 87,
+    "capacity": 11,
+    "total_amount": 956,
+    "upper_bound": 85482,
+    "optimal": false
+  },
+  "X-n979-k58": {
+    "jobs": 978,
+    "vehicles": 58,
+    "capacity": 998,
+    "total_amount": 57369,
+    "upper_bound": 119008,
+    "optimal": false
+  },
+  "X-n1001-k43": {
+    "jobs": 1000,
+    "vehicles": 43,
+    "capacity": 131,
+    "total_amount": 5557,
+    "upper_bound": 72404,
+    "optimal": false
+  }
+}
