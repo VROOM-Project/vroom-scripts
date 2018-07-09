@@ -9,7 +9,7 @@ def s_round(v, d):
   return str(round(v, d))
 
 def log_comparisons(BKS, files):
-  print ','.join(["Instance", "Jobs", "Vehicles", "Optimal cost", "Solution cost", "Gap (%)", "Computing time (ms)"])
+  print ','.join(["Instance", "Jobs", "Vehicles", "Best known cost", "Solution cost", "Gap (%)", "Computing time (ms)"])
 
   jobs = []
   gaps = []
@@ -25,7 +25,7 @@ def log_comparisons(BKS, files):
       continue
     indicators = BKS[instance]
 
-    BK_cost = indicators['upper_bound']
+    BK_cost = indicators['best_known_cost']
     nb_job = indicators['jobs']
     jobs.append(nb_job)
 
