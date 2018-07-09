@@ -33,13 +33,13 @@ def parse_node_coords(s):
 
 # Compute matrix based on ordered list of coordinates.
 def get_matrix(coords):
-  matrix = []
+  N = len(coords)
+  matrix = [[0 for i in range(N)] for j in range(N)]
 
-  for i in range(len(coords)):
-    line = []
-    for j in range(len(coords)):
-      # Should take symmetry into account to halve operations.
-      line.append(euc_2D(coords[i], coords[j]))
-    matrix.append(line)
+  for i in range(N):
+    for j in range(i + 1, N):
+      value = euc_2D(coords[i], coords[j])
+      matrix[i][j] = value
+      matrix[j][i] = value
 
   return matrix
