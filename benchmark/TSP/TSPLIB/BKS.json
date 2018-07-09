@@ -1,0 +1,440 @@
+{
+  "a280": {
+    "jobs": 279,
+    "vehicles": 1,
+    "upper_bound": 2579,
+    "proven_optimal": true
+  },
+  "berlin52": {
+    "jobs": 51,
+    "vehicles": 1,
+    "upper_bound": 7542,
+    "proven_optimal": true
+  },
+  "bier127": {
+    "jobs": 126,
+    "vehicles": 1,
+    "upper_bound": 118282,
+    "proven_optimal": true
+  },
+  "ch130": {
+    "jobs": 129,
+    "vehicles": 1,
+    "upper_bound": 6110,
+    "proven_optimal": true
+  },
+  "ch150": {
+    "jobs": 149,
+    "vehicles": 1,
+    "upper_bound": 6528,
+    "proven_optimal": true
+  },
+  "d1291": {
+    "jobs": 1290,
+    "vehicles": 1,
+    "upper_bound": 50801,
+    "proven_optimal": true
+  },
+  "d1655": {
+    "jobs": 1654,
+    "vehicles": 1,
+    "upper_bound": 62128,
+    "proven_optimal": true
+  },
+  "d198": {
+    "jobs": 197,
+    "vehicles": 1,
+    "upper_bound": 15780,
+    "proven_optimal": true
+  },
+  "d2103": {
+    "jobs": 2102,
+    "vehicles": 1,
+    "upper_bound": 80450,
+    "proven_optimal": true
+  },
+  "d493": {
+    "jobs": 492,
+    "vehicles": 1,
+    "upper_bound": 35002,
+    "proven_optimal": true
+  },
+  "d657": {
+    "jobs": 656,
+    "vehicles": 1,
+    "upper_bound": 48912,
+    "proven_optimal": true
+  },
+  "eil101": {
+    "jobs": 100,
+    "vehicles": 1,
+    "upper_bound": 629,
+    "proven_optimal": true
+  },
+  "eil51": {
+    "jobs": 50,
+    "vehicles": 1,
+    "upper_bound": 426,
+    "proven_optimal": true
+  },
+  "eil76": {
+    "jobs": 75,
+    "vehicles": 1,
+    "upper_bound": 538,
+    "proven_optimal": true
+  },
+  "fl1400": {
+    "jobs": 1399,
+    "vehicles": 1,
+    "upper_bound": 20127,
+    "proven_optimal": true
+  },
+  "fl1577": {
+    "jobs": 1576,
+    "vehicles": 1,
+    "upper_bound": 22249,
+    "proven_optimal": true
+  },
+  "fl3795": {
+    "jobs": 3794,
+    "vehicles": 1,
+    "upper_bound": 28772,
+    "proven_optimal": true
+  },
+  "fl417": {
+    "jobs": 416,
+    "vehicles": 1,
+    "upper_bound": 11861,
+    "proven_optimal": true
+  },
+  "fnl4461": {
+    "jobs": 4460,
+    "vehicles": 1,
+    "upper_bound": 182566,
+    "proven_optimal": true
+  },
+  "gil262": {
+    "jobs": 261,
+    "vehicles": 1,
+    "upper_bound": 2378,
+    "proven_optimal": true
+  },
+  "kroA100": {
+    "jobs": 99,
+    "vehicles": 1,
+    "upper_bound": 21282,
+    "proven_optimal": true
+  },
+  "kroA150": {
+    "jobs": 149,
+    "vehicles": 1,
+    "upper_bound": 26524,
+    "proven_optimal": true
+  },
+  "kroA200": {
+    "jobs": 199,
+    "vehicles": 1,
+    "upper_bound": 29368,
+    "proven_optimal": true
+  },
+  "kroB100": {
+    "jobs": 99,
+    "vehicles": 1,
+    "upper_bound": 22141,
+    "proven_optimal": true
+  },
+  "kroB150": {
+    "jobs": 149,
+    "vehicles": 1,
+    "upper_bound": 26130,
+    "proven_optimal": true
+  },
+  "kroB200": {
+    "jobs": 199,
+    "vehicles": 1,
+    "upper_bound": 29437,
+    "proven_optimal": true
+  },
+  "kroC100": {
+    "jobs": 99,
+    "vehicles": 1,
+    "upper_bound": 20749,
+    "proven_optimal": true
+  },
+  "kroD100": {
+    "jobs": 99,
+    "vehicles": 1,
+    "upper_bound": 21294,
+    "proven_optimal": true
+  },
+  "kroE100": {
+    "jobs": 99,
+    "vehicles": 1,
+    "upper_bound": 22068,
+    "proven_optimal": true
+  },
+  "lin105": {
+    "jobs": 104,
+    "vehicles": 1,
+    "upper_bound": 14379,
+    "proven_optimal": true
+  },
+  "lin318": {
+    "jobs": 317,
+    "vehicles": 1,
+    "upper_bound": 42029,
+    "proven_optimal": true
+  },
+  "linhp318": {
+    "jobs": 317,
+    "vehicles": 1,
+    "upper_bound": 41345,
+    "proven_optimal": true
+  },
+  "nrw1379": {
+    "jobs": 1378,
+    "vehicles": 1,
+    "upper_bound": 56638,
+    "proven_optimal": true
+  },
+  "p654": {
+    "jobs": 653,
+    "vehicles": 1,
+    "upper_bound": 34643,
+    "proven_optimal": true
+  },
+  "pcb1173": {
+    "jobs": 1172,
+    "vehicles": 1,
+    "upper_bound": 56892,
+    "proven_optimal": true
+  },
+  "pcb3038": {
+    "jobs": 3037,
+    "vehicles": 1,
+    "upper_bound": 137694,
+    "proven_optimal": true
+  },
+  "pcb442": {
+    "jobs": 441,
+    "vehicles": 1,
+    "upper_bound": 50778,
+    "proven_optimal": true
+  },
+  "pr1002": {
+    "jobs": 1001,
+    "vehicles": 1,
+    "upper_bound": 259045,
+    "proven_optimal": true
+  },
+  "pr107": {
+    "jobs": 106,
+    "vehicles": 1,
+    "upper_bound": 44303,
+    "proven_optimal": true
+  },
+  "pr124": {
+    "jobs": 123,
+    "vehicles": 1,
+    "upper_bound": 59030,
+    "proven_optimal": true
+  },
+  "pr136": {
+    "jobs": 135,
+    "vehicles": 1,
+    "upper_bound": 96772,
+    "proven_optimal": true
+  },
+  "pr144": {
+    "jobs": 143,
+    "vehicles": 1,
+    "upper_bound": 58537,
+    "proven_optimal": true
+  },
+  "pr152": {
+    "jobs": 151,
+    "vehicles": 1,
+    "upper_bound": 73682,
+    "proven_optimal": true
+  },
+  "pr226": {
+    "jobs": 225,
+    "vehicles": 1,
+    "upper_bound": 80369,
+    "proven_optimal": true
+  },
+  "pr2392": {
+    "jobs": 2391,
+    "vehicles": 1,
+    "upper_bound": 378032,
+    "proven_optimal": true
+  },
+  "pr264": {
+    "jobs": 263,
+    "vehicles": 1,
+    "upper_bound": 49135,
+    "proven_optimal": true
+  },
+  "pr299": {
+    "jobs": 298,
+    "vehicles": 1,
+    "upper_bound": 48191,
+    "proven_optimal": true
+  },
+  "pr439": {
+    "jobs": 438,
+    "vehicles": 1,
+    "upper_bound": 107217,
+    "proven_optimal": true
+  },
+  "pr76": {
+    "jobs": 75,
+    "vehicles": 1,
+    "upper_bound": 108159,
+    "proven_optimal": true
+  },
+  "rat195": {
+    "jobs": 194,
+    "vehicles": 1,
+    "upper_bound": 2323,
+    "proven_optimal": true
+  },
+  "rat575": {
+    "jobs": 574,
+    "vehicles": 1,
+    "upper_bound": 6773,
+    "proven_optimal": true
+  },
+  "rat783": {
+    "jobs": 782,
+    "vehicles": 1,
+    "upper_bound": 8806,
+    "proven_optimal": true
+  },
+  "rat99": {
+    "jobs": 98,
+    "vehicles": 1,
+    "upper_bound": 1211,
+    "proven_optimal": true
+  },
+  "rd100": {
+    "jobs": 99,
+    "vehicles": 1,
+    "upper_bound": 7910,
+    "proven_optimal": true
+  },
+  "rd400": {
+    "jobs": 399,
+    "vehicles": 1,
+    "upper_bound": 15281,
+    "proven_optimal": true
+  },
+  "rl1304": {
+    "jobs": 1303,
+    "vehicles": 1,
+    "upper_bound": 252948,
+    "proven_optimal": true
+  },
+  "rl1323": {
+    "jobs": 1322,
+    "vehicles": 1,
+    "upper_bound": 270199,
+    "proven_optimal": true
+  },
+  "rl1889": {
+    "jobs": 1888,
+    "vehicles": 1,
+    "upper_bound": 316536,
+    "proven_optimal": true
+  },
+  "rl5915": {
+    "jobs": 5914,
+    "vehicles": 1,
+    "upper_bound": 565530,
+    "proven_optimal": true
+  },
+  "rl5934": {
+    "jobs": 5933,
+    "vehicles": 1,
+    "upper_bound": 556045,
+    "proven_optimal": true
+  },
+  "st70": {
+    "jobs": 69,
+    "vehicles": 1,
+    "upper_bound": 675,
+    "proven_optimal": true
+  },
+  "ts225": {
+    "jobs": 224,
+    "vehicles": 1,
+    "upper_bound": 126643,
+    "proven_optimal": true
+  },
+  "tsp225": {
+    "jobs": 224,
+    "vehicles": 1,
+    "upper_bound": 3916,
+    "proven_optimal": true
+  },
+  "u1060": {
+    "jobs": 1060,
+    "vehicles": 1,
+    "upper_bound": 224094,
+    "proven_optimal": true
+  },
+  "u1432": {
+    "jobs": 1431,
+    "vehicles": 1,
+    "upper_bound": 152970,
+    "proven_optimal": true
+  },
+  "u159": {
+    "jobs": 158,
+    "vehicles": 1,
+    "upper_bound": 42080,
+    "proven_optimal": true
+  },
+  "u1817": {
+    "jobs": 1816,
+    "vehicles": 1,
+    "upper_bound": 57201,
+    "proven_optimal": true
+  },
+  "u2152": {
+    "jobs": 2151,
+    "vehicles": 1,
+    "upper_bound": 64253,
+    "proven_optimal": true
+  },
+  "u2319": {
+    "jobs": 2318,
+    "vehicles": 1,
+    "upper_bound": 234256,
+    "proven_optimal": true
+  },
+  "u574": {
+    "jobs": 573,
+    "vehicles": 1,
+    "upper_bound": 36905,
+    "proven_optimal": true
+  },
+  "u724": {
+    "jobs": 723,
+    "vehicles": 1,
+    "upper_bound": 41910,
+    "proven_optimal": true
+  },
+  "vm1084": {
+    "jobs": 1083,
+    "vehicles": 1,
+    "upper_bound": 239297,
+    "proven_optimal": true
+  },
+  "vm1748": {
+    "jobs": 1747,
+    "vehicles": 1,
+    "upper_bound": 336556,
+    "proven_optimal": true
+  }
+}
