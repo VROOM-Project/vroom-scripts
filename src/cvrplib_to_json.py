@@ -125,9 +125,9 @@ if __name__ == "__main__":
   input_file = sys.argv[1]
   output_name = input_file[:input_file.rfind('.vrp')] + '.json'
 
-  pbl_instance = parse_cvrp(input_file)
+  print '- Writing problem ' + input_file + ' to ' + output_name
+  json_input = parse_cvrp(input_file)
 
   with open(output_name, 'w') as out:
-    print 'Writing problem ' + input_file + ' to ' + output_name
-    json.dump(pbl_instance, out, indent = 2)
+    json.dump(json_input, out)
 

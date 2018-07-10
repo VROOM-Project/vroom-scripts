@@ -18,7 +18,6 @@ do
         [ -f ${json_file} ] || python ../../../src/tsplib_to_json.py ${file}
     done
 
-
     echo "* Solving with ${t} threads, output written to ${class}/${sol_folder}"
     mkdir ${sol_folder}
 
