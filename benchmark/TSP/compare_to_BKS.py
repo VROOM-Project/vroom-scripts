@@ -14,15 +14,14 @@ def log_comparisons(BKS, files):
   jobs = []
   gaps = []
   computing_times = []
-  total_files = len(files)
 
   for f in files:
     instance = f[0:f.rfind("_sol.json")]
     instance = instance[instance.rfind('/') + 1:]
 
     if instance not in BKS:
-      total_files -= 1
       continue
+
     indicators = BKS[instance]
 
     BK_cost = indicators['best_known_cost']
@@ -38,6 +37,9 @@ def log_comparisons(BKS, files):
 
     with open(f, 'r') as sol_file:
       solution = json.load(sol_file)
+
+    if solution['code'] != 0:
+      continue
 
     cost = solution['summary']['cost']
     line.append(cost)

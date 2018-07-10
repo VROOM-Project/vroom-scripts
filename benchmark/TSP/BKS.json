@@ -20,6 +20,13 @@
     "best_known_cost": 118282,
     "proven_optimal": true
   },
+  "brd14051": {
+    "class": "TSPLIB",
+    "jobs": 14050,
+    "vehicles": 1,
+    "best_known_cost": 469385,
+    "proven_optimal": true
+  },
   "ch130": {
     "class": "TSPLIB",
     "jobs": 129,
@@ -41,11 +48,25 @@
     "best_known_cost": 50801,
     "proven_optimal": true
   },
+  "d15112": {
+    "class": "TSPLIB",
+    "jobs": 15111,
+    "vehicles": 1,
+    "best_known_cost": 1573084,
+    "proven_optimal": true
+  },
   "d1655": {
     "class": "TSPLIB",
     "jobs": 1654,
     "vehicles": 1,
     "best_known_cost": 62128,
+    "proven_optimal": true
+  },
+  "d18512": {
+    "class": "TSPLIB",
+    "jobs": 18511,
+    "vehicles": 1,
+    "best_known_cost": 645238,
     "proven_optimal": true
   },
   "d198": {
@@ -384,6 +405,13 @@
     "best_known_cost": 15281,
     "proven_optimal": true
   },
+  "rl11849": {
+    "class": "TSPLIB",
+    "jobs": 11848,
+    "vehicles": 1,
+    "best_known_cost": 923288,
+    "proven_optimal": true
+  },
   "rl1304": {
     "class": "TSPLIB",
     "jobs": 1303,
@@ -494,6 +522,13 @@
     "jobs": 723,
     "vehicles": 1,
     "best_known_cost": 41910,
+    "proven_optimal": true
+  },
+  "usa13509": {
+    "class": "TSPLIB",
+    "jobs": 13508,
+    "vehicles": 1,
+    "best_known_cost": 19982859,
     "proven_optimal": true
   },
   "vm1084": {
