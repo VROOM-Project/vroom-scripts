@@ -1,4 +1,7 @@
-A bunch of scripts to develop, benchmark, debug or help in using VROOM.
+# Scripts
+
+The `src` folder contains a bunch of scripts to develop, benchmark,
+debug or help in using `VROOM`.
 
 - **overpass_to_json** generates a problem from all OSM nodes with a
   specific `key=value` tag in a chosen bounding box or city.
@@ -12,3 +15,12 @@ A bunch of scripts to develop, benchmark, debug or help in using VROOM.
 - **cvrplib_to_json** converts a CVRPLIB file to json.
 - **add_osrm_matrix** create a "standalone" version of a json input
   instance by adding a `matrix` key using OSRM.
+
+# Benchmarks
+
+The `benchmark` folder contains everything required to reproduce
+results on literature benchmarks with a single command. Detailed
+instructions for:
+
+- [TSP](benchmark/TSP)
+- [CVRP](benchmark/CVRP)
