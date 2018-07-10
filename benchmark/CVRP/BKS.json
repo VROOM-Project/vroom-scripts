@@ -449,14 +449,6 @@
     "best_known_cost": 1221,
     "proven_optimal": true
   },
-  "E-n13-k4": {
-    "class": "E",
-    "jobs": 12,
-    "vehicles": 4,
-    "capacity": 6000,
-    "best_known_cost": 247,
-    "proven_optimal": true
-  },
   "E-n22-k4": {
     "class": "E",
     "jobs": 21,
@@ -482,14 +474,6 @@
     "capacity": 4500,
     "total_amount": 12750,
     "best_known_cost": 534,
-    "proven_optimal": true
-  },
-  "E-n31-k7": {
-    "class": "E",
-    "jobs": 30,
-    "vehicles": 7,
-    "capacity": 140,
-    "best_known_cost": 379,
     "proven_optimal": true
   },
   "E-n33-k4": {
