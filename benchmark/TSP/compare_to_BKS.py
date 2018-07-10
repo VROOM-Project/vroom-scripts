@@ -6,7 +6,10 @@ import numpy as np
 # same problems.
 
 def s_round(v, d):
-  return str(round(v, d))
+  if d == 0:
+    return str(int(v))
+  else:
+    return str(round(v, d))
 
 def log_comparisons(BKS, files):
   print ','.join(["Instance", "Jobs", "Vehicles", "Best known cost", "Solution cost", "Gap (%)", "Computing time (ms)"])
@@ -63,7 +66,7 @@ def log_comparisons(BKS, files):
   gaps_percentiles = np.percentile(gaps, [0, 10, 25, 50, 75, 90, 100])
   ct_percentiles = np.percentile(computing_times, [0, 10, 25, 50, 75, 90, 100])
   print ',Gaps,Computing times'
-  titles = ['min', 'lower whisker', 'lower quartile', 'median', 'upper quartile', 'upper whisker', 'max']
+  titles = ['Min', 'First decile', 'Lower quartile', 'Median', 'Upper quartile', 'Ninth decile', 'Max']
   for i in range(len(titles)):
     print titles[i] + ',' + s_round(gaps_percentiles[i], 2) + ',' + s_round(ct_percentiles[i], 0)
 
@@ -74,5 +77,3 @@ if __name__ == "__main__":
 
   # Remaining arguments are computed solution files to use.
   log_comparisons(bks, sys.argv[2:])
-
-
