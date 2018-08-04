@@ -52,7 +52,7 @@ def parse_jobs(lines, jobs, coords):
         'location': [float(x[1]), float(x[2])],
         'location_index': location_index,
         'amount': [int(float(x[3]))],
-        'time_window': [[int(float(x[4])), int(float(x[5]))]],
+        'time_windows': [[int(float(x[4])), int(float(x[5]))]],
         'service': int(float(x[6]))
       })
       location_index += 1
@@ -91,7 +91,7 @@ def parse_cvrptw(input_file):
   time_max = 0
   for n in range(len(jobs)):
     total_demand += jobs[n]['amount'][0]
-    for t in jobs[n]['time_window']:
+    for t in jobs[n]['time_windows']:
       if t[0] - matrix[0][n] < time_min:
         time_min = t[0] - matrix[0][n]
       if t[1] + matrix[n][0] > time_max:
@@ -106,7 +106,8 @@ def parse_cvrptw(input_file):
 
   n_vehicles = meta['VEHICLES']
   capacity = meta['CAPACITY']
-  tw = j['time_window']
+  # use TW for vehicle (first points entry) when explicitely defined
+  tw = j['time_windows']
   if [tw[0][1] != 0]:
     time_min = tw[0][0]
     time_max = tw[0][1]
@@ -120,10 +121,9 @@ def parse_cvrptw(input_file):
       'start_index': 0,
       'end': coords[0],
       'end_index': 0,
-      'capacity': [capacity]
+      'capacity': [capacity],
+      'time_window': [time_min, time_max]
     })
-    if tw[0][1] != 0:
-      vehicles[n]['time_window'] = [time_min, time_max]
 
   return {'meta': meta, 'vehicles': vehicles, 'jobs': jobs, 'matrix': matrix}
 
