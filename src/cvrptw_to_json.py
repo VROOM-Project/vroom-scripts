@@ -36,7 +36,7 @@ def parse_jobs(lines, jobs, coords):
     line_no += 1
     if len(l) == 0:
       continue
-    elif 'CUST NO.' in l:
+    elif 'CUST ' in l:
       continue
     else:
       x = l.split()
@@ -68,7 +68,11 @@ def parse_cvrptw(input_file):
     l = lines.pop(0).strip();
     line_no += 1
     if len(l) > 0:
-      meta['NAME'] = l
+      if '#NUM' in l:
+        lines.insert(0, l)
+        meta['NAME'] = input_file
+      else:
+        meta['NAME'] = l
       break
 
   coords = []
@@ -79,7 +83,7 @@ def parse_cvrptw(input_file):
     line_no += 1
     if 'VEHICLE' in l:
       parse_meta(lines, meta)
-    elif 'CUSTOMER' in l or 'CUST NO.' in l:
+    elif 'CUSTOMER' in l or 'CUST ' in l or '#NUM' in l:
       parse_jobs(lines, jobs, coords)
 
   matrix = get_matrix(coords)
