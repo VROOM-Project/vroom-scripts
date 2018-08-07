@@ -133,7 +133,7 @@ def parse_cvrptw(input_file):
 
 if __name__ == "__main__":
   input_file = sys.argv[1]
-  output_name = os.path.basename(input_file) + '.json'
+  output_name = input_file[:input_file.rfind('.txt')] + '.json'
 
   print '- Writing problem ' + input_file + ' to ' + output_name
   json_input = parse_cvrptw(input_file)
