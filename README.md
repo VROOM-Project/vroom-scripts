@@ -19,9 +19,10 @@ debug or help in using `VROOM`.
 
 # Benchmarks
 
-The `benchmark` folder contains everything required to reproduce
+The `benchmarks` folder contains everything required to reproduce
 results on literature benchmarks with a single command. Detailed
 instructions for:
 
 - [TSP](benchmarks/TSP)
 - [CVRP](benchmarks/CVRP)
+- [CVRPTW](benchmarks/CVRPTW)
