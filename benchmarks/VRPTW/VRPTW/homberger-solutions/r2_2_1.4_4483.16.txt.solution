@@ -1,0 +1,9 @@
+Instance name: r2_2_1
+Authors: Piotr Sielski (psielski@emapa.pl), Piotr Cybula, Marek Rogalski, Piotr Beling, Andrzej Jaszkiewicz.  Emapa S.A. (http://www.emapa.pl), research funded by The National Centre for Research and Development.  "New methods of VRP problem optimization", project number: POIR.01.01.01.-00-0222/16.
+Date: 08.05.2018
+Reference: "New methods of VRP problem optimization", unpublished result.
+Solution
+Route 1 : 164 183 181 45 8 26 79 73 91 161 151 150 78 57 90 11 141 142 66 133 166 124 13 122 145 69 138 107 159 187 7 173 5 22 55 96 156 114 24 136 50 10 46 85 126 87 163
+Route 2 : 23 41 116 56 199 47 65 139 118 31 71 167 184 88 103 19 92 43 15 195 132 51 120 172 59 81 144 158 180 176 17 84 64 98 189 113 93 83 121 20 30 12 109 110 54 190 25 153 169 148 53 154 86 99 80 171
+Route 3 : 18 168 67 60 61 77 152 143 119 48 197 95 194 21 6 40 32 128 44 200 191 178 146 193 27 68 38 102 75 196 147 29 9 125 49 37 129 160 186 101 185 42 112 127 155 175 1 140 72
+Route 4 : 131 62 74 34 4 100 36 192 179 33 137 117 35 177 162 94 134 63 135 170 165 3 104 14 105 123 198 130 157 58 89 16 174 70 149 106 76 28 111 82 2 182 108 188 97 52 39 115
