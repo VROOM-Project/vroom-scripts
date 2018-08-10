@@ -13,7 +13,7 @@ echo "* Writing json input files"
 for file in `find "$@" . -name '*.txt'`
 do
     json_file=${file%.txt}.json
-    [ -f ${json_file} ] || python $TOP/../../src/cvrptw_to_json.py ${file}
+    [ -f ${json_file} ] || python $TOP/../../src/vrptw_to_json.py ${file}
 done
 
 echo "* Solving with ${t} threads and exploration level ${x}, output written to ${class}/${sol_folder}"
