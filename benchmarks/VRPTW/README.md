@@ -1,6 +1,6 @@
-# CVRPTW benchmark classes
+# VRPTW benchmark classes
 
-## CVRPLIB
+## VRPLIB
 
 The benchmark instances represented here are described in:
 - [VRPTW](https://www.sintef.no/projectweb/top/vrptw)

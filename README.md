@@ -25,4 +25,4 @@ instructions for:
 
 - [TSP](benchmarks/TSP)
 - [CVRP](benchmarks/CVRP)
-- [CVRPTW](benchmarks/CVRPTW)
+- [VRPTW](benchmarks/VRPTW)
