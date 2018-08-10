@@ -1,1 +1,4 @@
 *.pyc
+benchmarks/*/*/*.json
+benchmarks/*/*/*/*.json
+solutions_*.csv
