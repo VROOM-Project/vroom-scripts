@@ -20,16 +20,6 @@
     "vehicles": 25,
     "best_known_cost": 1513.7
   },
-  "R108.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 4,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R108.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 397.3
-  },
   "c1_2_5": {
     "comment": "Detailed solution by SAM::OPT",
     "solved_with_vehicles": 20,
@@ -74,16 +64,6 @@
     "best_known_cost": 20373.79,
     "solution_file": "VRPTW/homberger-solutions/r2_8_10.15_20373.79.txt.solution"
   },
-  "R104.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 6,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R104.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 625.4
-  },
   "rc1_10_7": {
     "comment": "11-sep-17",
     "solved_with_vehicles": 90,
@@ -94,16 +74,6 @@
     "vehicles": 250,
     "best_known_cost": 44604.34,
     "solution_file": "VRPTW/homberger-solutions/rc1_10_7.90_44604.34.txt.solution"
-  },
-  "C204.25": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C204.25.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 213.1
   },
   "c2_10_6": {
     "comment": "05-apr-12",
@@ -116,16 +86,6 @@
     "best_known_cost": 16920.33,
     "solution_file": "VRPTW/homberger-solutions/c2_10_6---16920.33.txt.solution"
   },
-  "C105.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C105.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 191.3
-  },
   "r2_4_6": {
     "comment": "",
     "solved_with_vehicles": 8,
@@ -136,16 +96,6 @@
     "vehicles": 100,
     "best_known_cost": 6122.6,
     "solution_file": "VRPTW/homberger-solutions/r2_4_6---6122.60.txt.solution"
-  },
-  "R208.25": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 1,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R208.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 328.2
   },
   "rc1_2_7": {
     "comment": "Detailed solution by SCR",
@@ -169,26 +119,6 @@
     "best_known_cost": 50876.21,
     "solution_file": "VRPTW/homberger-solutions/r1_10_5.91_50876.21.txt.solution"
   },
-  "C101.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C101.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 191.3
-  },
-  "C208.50": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 2,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C208.50.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 350.5
-  },
   "R107.100": {
     "comment": "CR+KLM",
     "solved_with_vehicles": 11,
@@ -198,26 +128,6 @@
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1064.6
-  },
-  "C207.50": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C207.50.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 359.6
-  },
-  "R211.25": {
-    "comment": "KLM",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R211.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 350.9
   },
   "r1_6_10": {
     "comment": "",
@@ -230,16 +140,6 @@
     "best_known_cost": 17731.06,
     "solution_file": "VRPTW/homberger-solutions/r1_6_10.54_17731.06.txt.solution"
   },
-  "R102.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 11,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R102.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 909.0
-  },
   "c1_8_5": {
     "comment": "25-feb-05",
     "solved_with_vehicles": 80,
@@ -250,16 +150,6 @@
     "vehicles": 200,
     "best_known_cost": 25166.28,
     "solution_file": "VRPTW/homberger-solutions/c1_8_5.25166.28.sintef.txt.solution"
-  },
-  "R202.50": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R202.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 698.5
   },
   "rc2_8_4": {
     "comment": "31-jul-12",
@@ -272,16 +162,6 @@
     "best_known_cost": 11006.56,
     "solution_file": "VRPTW/homberger-solutions/rc2_8_4.txt.solution"
   },
-  "R209.25": {
-    "comment": "KLM",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R209.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 370.7
-  },
   "rc1_2_5": {
     "comment": "",
     "solved_with_vehicles": 18,
@@ -292,36 +172,6 @@
     "vehicles": 50,
     "best_known_cost": 3371.0,
     "solution_file": "VRPTW/homberger-solutions/rc1_2_5---3371.00.txt.solution"
-  },
-  "R111.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R111.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 428.8
-  },
-  "C208.25": {
-    "comment": "CR+L",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C208.25.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 214.5
-  },
-  "RC105.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 8,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC105.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 855.3
   },
   "C108.100": {
     "comment": "KDMSS",
@@ -440,26 +290,6 @@
     "best_known_cost": 3000.3,
     "solution_file": "VRPTW/homberger-solutions/rc1_2_10.txt.solution"
   },
-  "C104.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C104.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 186.9
-  },
-  "C102.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C102.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 361.4
-  },
   "r2_10_4": {
     "comment": "2009",
     "solved_with_vehicles": 19,
@@ -470,36 +300,6 @@
     "vehicles": 250,
     "best_known_cost": 17880.11,
     "solution_file": "VRPTW/homberger-solutions/r2_10_2.19_33449.22.txt.solution"
-  },
-  "R201.25": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 4,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R201.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 463.3
-  },
-  "RC107.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 6,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC107.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 642.7
-  },
-  "R109.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R109.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 441.3
   },
   "RC201": {
     "comment": "M",
@@ -571,26 +371,6 @@
     "vehicles": 25,
     "best_known_cost": 828.14
   },
-  "C106.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C106.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 191.3
-  },
-  "RC201.25": {
-    "comment": "CR+L",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC201.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 360.2
-  },
   "RC102.100": {
     "comment": "CR+KLM",
     "solved_with_vehicles": 14,
@@ -610,16 +390,6 @@
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1048.7
-  },
-  "C206.25": {
-    "comment": "CR+L",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C206.25.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 214.7
   },
   "r2_8_1": {
     "comment": "01-mar-18",
@@ -697,36 +467,6 @@
     "best_known_cost": 23708.75,
     "solution_file": "VRPTW/homberger-solutions/rc2_10_8_solution.txt.solution"
   },
-  "R210.50": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 4,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R210.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 645.6
-  },
-  "RC101.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 8,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC101.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 944.0
-  },
-  "RC104.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC104.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 306.6
-  },
   "RC107.100": {
     "comment": "IV",
     "solved_with_vehicles": 12,
@@ -736,16 +476,6 @@
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1207.8
-  },
-  "C103.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C103.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 361.4
   },
   "r1_8_3": {
     "comment": "13-mar-18",
@@ -757,16 +487,6 @@
     "vehicles": 200,
     "best_known_cost": 29361.59,
     "solution_file": "VRPTW/homberger-solutions/r1_8_3.72_29361.59.txt.solution"
-  },
-  "C107.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C107.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 362.4
   },
   "r1_8_4": {
     "comment": "16-sep-03",
@@ -801,16 +521,6 @@
     "best_known_cost": 32358.44,
     "solution_file": "VRPTW/homberger-solutions/r1_8_9.72_32358.44.txt.solution"
   },
-  "C101.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C101.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 362.4
-  },
   "r1_6_3": {
     "comment": "",
     "solved_with_vehicles": 54,
@@ -833,26 +543,6 @@
     "best_known_cost": 18705.0,
     "solution_file": "VRPTW/homberger-solutions/r1_6_2.54_18705.00.txt.solution"
   },
-  "RC103.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 6,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC103.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 710.9
-  },
-  "R201.50": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 6,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R201.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 791.9
-  },
   "r1_6_6": {
     "comment": "",
     "solved_with_vehicles": 54,
@@ -863,16 +553,6 @@
     "vehicles": 150,
     "best_known_cost": 17864.59,
     "solution_file": "VRPTW/homberger-solutions/r1_6_6.54_17864.59.txt.solution"
-  },
-  "R110.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 4,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R110.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 444.1
   },
   "c2_8_10": {
     "comment": "08-jul-16",
@@ -906,16 +586,6 @@
     "vehicles": 150,
     "best_known_cost": 15622.78,
     "solution_file": "VRPTW/homberger-solutions/r1_6_8.54_15622.78.txt.solution"
-  },
-  "C205.25": {
-    "comment": "CR+L",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C205.25.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 214.7
   },
   "r1_4_4": {
     "comment": "",
@@ -1005,36 +675,6 @@
     "best_known_cost": 7257.28,
     "solution_file": "VRPTW/homberger-solutions/r1_4_8.7257.28.sintef.txt.solution"
   },
-  "C103.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C103.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 190.3
-  },
-  "R211.50": {
-    "comment": "IV+DLP",
-    "solved_with_vehicles": 3,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R211.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 535.5
-  },
-  "RC204.25": {
-    "comment": "C",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC204.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 299.7
-  },
   "r2_6_3": {
     "comment": "",
     "solved_with_vehicles": 11,
@@ -1067,16 +707,6 @@
     "vehicles": 150,
     "best_known_cost": 9580.87,
     "solution_file": "VRPTW/homberger-solutions/rc2_6_6---11933.88.txt.solution"
-  },
-  "RC208.25": {
-    "comment": "C",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC208.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 269.1
   },
   "r1_10_4": {
     "comment": "17-apr-18",
@@ -1177,16 +807,6 @@
     "best_known_cost": 3760.58,
     "solution_file": "VRPTW/homberger-solutions/r1_2_9.18_3760.58.txt.solution"
   },
-  "RC203.25": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC203.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 326.9
-  },
   "RC202.100": {
     "comment": "IV+C",
     "solved_with_vehicles": 8,
@@ -1206,46 +826,6 @@
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 589.1
-  },
-  "C102.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C102.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 190.3
-  },
-  "R108.50": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 6,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R108.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 617.7
-  },
-  "C202.25": {
-    "comment": "CR+L",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C202.25.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 214.7
-  },
-  "C204.50": {
-    "comment": "KLM",
-    "solved_with_vehicles": 2,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C204.50.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 350.1
   },
   "rc1_8_6": {
     "comment": "24-jul-17",
@@ -1268,56 +848,6 @@
     "vehicles": 100,
     "best_known_cost": 5779.03,
     "solution_file": "VRPTW/homberger-solutions/r2_4_10.8_5779.03.txt.solution"
-  },
-  "RC108.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC108.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 294.5
-  },
-  "R112.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 4,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R112.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 393.0
-  },
-  "R203.25": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R203.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 391.4
-  },
-  "RC207.50": {
-    "comment": "C",
-    "solved_with_vehicles": 4,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC207.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 558.6
-  },
-  "R206.50": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 4,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R206.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 632.4
   },
   "c2_6_5": {
     "comment": "Detailed solution by\u00a0SCR",
@@ -1363,26 +893,6 @@
     "best_known_cost": 7774.1,
     "solution_file": "VRPTW/homberger-solutions/c2_6_1.txt.solution"
   },
-  "RC206.25": {
-    "comment": "KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC206.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 324.0
-  },
-  "C207.25": {
-    "comment": "CR+L",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C207.25.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 214.5
-  },
   "c2_6_8": {
     "comment": "",
     "solved_with_vehicles": 17,
@@ -1403,26 +913,6 @@
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 585.8
-  },
-  "R207.25": {
-    "comment": "KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R207.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 361.6
-  },
-  "RC203.50": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 4,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC203.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 555.3
   },
   "c2_4_9": {
     "comment": "There are questions whether 3864.68 is valid, several authors report \u00a03865.65",
@@ -1633,16 +1123,6 @@
     "best_known_cost": 11288.01,
     "solution_file": "VRPTW/homberger-solutions/c2_8_8-11288-01-sintef.txt.solution"
   },
-  "C201.50": {
-    "comment": "CR+L",
-    "solved_with_vehicles": 3,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C201.50.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 360.2
-  },
   "rc2_6_3": {
     "comment": "",
     "solved_with_vehicles": 11,
@@ -1653,26 +1133,6 @@
     "vehicles": 150,
     "best_known_cost": 9444.99,
     "solution_file": "VRPTW/homberger-solutions/rc2_6_3.txt.solution"
-  },
-  "RC201.50": {
-    "comment": "L+KLM",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC201.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 684.8
-  },
-  "RC206.50": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC206.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 610.0
   },
   "c2_2_5": {
     "comment": "Detailed solution by SCR",
@@ -1771,16 +1231,6 @@
     "vehicles": 25,
     "best_known_cost": 1619.8
   },
-  "R204.50": {
-    "comment": "IV",
-    "solved_with_vehicles": 2,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R204.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 506.4
-  },
   "r1_8_10": {
     "comment": "16-jan-18",
     "solved_with_vehicles": 72,
@@ -1791,16 +1241,6 @@
     "vehicles": 200,
     "best_known_cost": 31031.27,
     "solution_file": "VRPTW/homberger-solutions/r1_8_10.72_31031.27.txt.solution"
-  },
-  "RC205.25": {
-    "comment": "L+KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC205.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 338.0
   },
   "C201.100": {
     "comment": "CR+KLM",
@@ -1845,16 +1285,6 @@
     "best_known_cost": 16544.69,
     "solution_file": "VRPTW/homberger-solutions/r1_6_7.54_16544.69.txt.solution"
   },
-  "C203.50": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C203.50.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 359.8
-  },
   "R101.100": {
     "comment": "KDMSS",
     "solved_with_vehicles": 20,
@@ -1864,16 +1294,6 @@
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1637.7
-  },
-  "RC204.50": {
-    "comment": "DLP",
-    "solved_with_vehicles": 3,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC204.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 444.2
   },
   "C105.100": {
     "comment": "KDMSS",
@@ -1984,16 +1404,6 @@
     "best_known_cost": 3621.2,
     "solution_file": "VRPTW/homberger-solutions/r2_2_2.4_3621.20.txt.solution"
   },
-  "RC205.50": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC205.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 630.2
-  },
   "r2_4_8": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 8,
@@ -2071,16 +1481,6 @@
     "best_known_cost": 9210.15,
     "solution_file": "VRPTW/homberger-solutions/r2_4_1---9210.15.txt.solution"
   },
-  "C105.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C105.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 362.4
-  },
   "RC201.100": {
     "comment": "KLM",
     "solved_with_vehicles": 9,
@@ -2102,16 +1502,6 @@
     "best_known_cost": 9223.0,
     "solution_file": "VRPTW/homberger-solutions/r1_4_5.36_9223.00.txt.solution"
   },
-  "C203.25": {
-    "comment": "CR+L",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C203.25.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 214.7
-  },
   "rc1_4_10": {
     "comment": "",
     "solved_with_vehicles": 36,
@@ -2122,26 +1512,6 @@
     "vehicles": 100,
     "best_known_cost": 7596.04,
     "solution_file": "VRPTW/homberger-solutions/rc1_4_10.txt.solution"
-  },
-  "R205.25": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R205.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 393.0
-  },
-  "C202.50": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C202.50.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 360.2
   },
   "r1_4_6": {
     "comment": "",
@@ -2175,16 +1545,6 @@
     "vehicles": 150,
     "best_known_cost": 7512.07,
     "solution_file": "VRPTW/homberger-solutions/c2_6_7---7512.07.txt.solution"
-  },
-  "C109.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C109.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 191.3
   },
   "c2_10_2": {
     "comment": "2009",
@@ -2285,16 +1645,6 @@
     "best_known_cost": 12551.09,
     "solution_file": "VRPTW/homberger-solutions/c2_8_6-12551-09-sintef.txt.solution"
   },
-  "R101.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 12,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R101.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 1044.0
-  },
   "c2_8_3": {
     "comment": "31-jul-12",
     "solved_with_vehicles": 23,
@@ -2328,16 +1678,6 @@
     "best_known_cost": 39857.01,
     "solution_file": "VRPTW/homberger-solutions/c1_10_10.39857.01.sintef.txt.solution"
   },
-  "R202.25": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 4,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R202.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 410.5
-  },
   "RC106": {
     "comment": "BBB",
     "solved_with_vehicles": 11,
@@ -2358,16 +1698,6 @@
     "vehicles": 150,
     "best_known_cost": 15770.5,
     "solution_file": "VRPTW/homberger-solutions/r1_6_4.54_15770.50.txt.solution"
-  },
-  "R111.50": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 7,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R111.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 707.2
   },
   "c2_4_10": {
     "comment": "",
@@ -2478,16 +1808,6 @@
     "vehicles": 250,
     "best_known_cost": 41507.27,
     "solution_file": "VRPTW/homberger-solutions/rc1_10_4.90_41507.27.txt.solution"
-  },
-  "RC207.25": {
-    "comment": "KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC207.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 298.3
   },
   "r2_8_2": {
     "comment": "2009",
@@ -2608,16 +1928,6 @@
     "vehicles": 250,
     "best_known_cost": 44171.72,
     "solution_file": "VRPTW/homberger-solutions/r1_10_7.91_44171.72.txt.solution"
-  },
-  "R103.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 9,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R103.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 772.9
   },
   "rc1_8_1": {
     "comment": "07-jun-18",
@@ -2751,16 +2061,6 @@
     "best_known_cost": 43679.61,
     "solution_file": "VRPTW/homberger-solutions/rc1_10_10.90_43679.61.txt.solution"
   },
-  "C201.25": {
-    "comment": "CR+L",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C201.25.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 214.7
-  },
   "rc1_6_6": {
     "comment": "",
     "solved_with_vehicles": 55,
@@ -2792,16 +2092,6 @@
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 827.3
-  },
-  "C108.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C108.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 362.4
   },
   "r2_2_3": {
     "comment": "Detailed solution by SCR",
@@ -2856,16 +2146,6 @@
     "vehicles": 100,
     "best_known_cost": 7733.81,
     "solution_file": "VRPTW/homberger-solutions/rc1_4_9.7733.81.sintef.txt.solution"
-  },
-  "C206.50": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C206.50.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 359.8
   },
   "rc2_2_5": {
     "comment": "Detailed solution by SCR",
@@ -3031,16 +2311,6 @@
     "vehicles": 25,
     "best_known_cost": 1096.72
   },
-  "R204.25": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 2,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R204.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 355.0
-  },
   "rc1_2_4": {
     "comment": "Detailed solution by VCGP",
     "solved_with_vehicles": 18,
@@ -3096,16 +2366,6 @@
     "best_known_cost": 13558.54,
     "solution_file": "VRPTW/homberger-solutions/c1_6_4.13558.54.sintef.txt.solution"
   },
-  "R205.50": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 4,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R205.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 690.1
-  },
   "c1_6_6": {
     "comment": "",
     "solved_with_vehicles": 59,
@@ -3127,16 +2387,6 @@
     "vehicles": 150,
     "best_known_cost": 15752.95,
     "solution_file": "VRPTW/homberger-solutions/c1_6_7.57_15752.95.sintef.txt.solution"
-  },
-  "RC202.25": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC202.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 338.0
   },
   "c1_6_1": {
     "comment": "Detailed solution by Q",
@@ -3192,16 +2442,6 @@
     "vehicles": 150,
     "best_known_cost": 13693.42,
     "solution_file": "VRPTW/homberger-solutions/c1_6_9.txt.solution"
-  },
-  "C109.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C109.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 362.4
   },
   "c1_4_4": {
     "comment": "",
@@ -3650,26 +2890,6 @@
     "best_known_cost": 4792.69,
     "solution_file": "VRPTW/homberger-solutions/rc2_4_8.4792.69.sintef.txt.solution"
   },
-  "R102.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 7,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R102.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 547.1
-  },
-  "C108.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C108.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 191.3
-  },
   "rc2_2_10": {
     "comment": "There are questions whether 2015.60 is correct. Several authors report 2015.61",
     "solved_with_vehicles": 4,
@@ -3747,16 +2967,6 @@
     "best_known_cost": 18181.14,
     "solution_file": "VRPTW/homberger-solutions/rc2_8_1---20981.14.txt.solution"
   },
-  "C205.50": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C205.50.txt",
-    "capacity": 700,
-    "vehicles": 25,
-    "best_known_cost": 359.8
-  },
   "rc2_8_1": {
     "comment": "05-apr-12",
     "solved_with_vehicles": 18,
@@ -3801,26 +3011,6 @@
     "best_known_cost": 19119.97,
     "solution_file": "VRPTW/homberger-solutions/rc2_8_5.15_19119.97.txt.solution"
   },
-  "R106.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R106.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 465.4
-  },
-  "RC102.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 7,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC102.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 822.5
-  },
   "RC205.100": {
     "comment": "IV+C",
     "solved_with_vehicles": 7,
@@ -3831,16 +3021,6 @@
     "vehicles": 25,
     "best_known_cost": 1154.0
   },
-  "C106.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C106.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 362.4
-  },
   "R103.100": {
     "comment": "CR+L",
     "solved_with_vehicles": 14,
@@ -3850,16 +3030,6 @@
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1208.7
-  },
-  "R105.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 9,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R105.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 899.3
   },
   "rc2_6_8": {
     "comment": "",
@@ -3949,26 +3119,6 @@
     "best_known_cost": 10724.85,
     "solution_file": "VRPTW/homberger-solutions/rc2_6_6---11933.88.txt.solution"
   },
-  "R203.50": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R203.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 605.3
-  },
-  "R110.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 7,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R110.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 697.0
-  },
   "c1_2_10": {
     "comment": "There are questions whether 2643.51 is valid, several authors report 2643.55",
     "solved_with_vehicles": 18,
@@ -4031,16 +3181,6 @@
     "vehicles": 50,
     "best_known_cost": 2525.83,
     "solution_file": "VRPTW/homberger-solutions/rc2_2_7.4_2525.83.txt.solution"
-  },
-  "R109.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 8,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R109.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 786.8
   },
   "rc2_2_1": {
     "comment": "Detailed solution by SCR",
@@ -4184,16 +3324,6 @@
     "best_known_cost": 8094.1,
     "solution_file": "VRPTW/homberger-solutions/r1_4_10.8094.1.sintef.txt.solution"
   },
-  "R107.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 7,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R107.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 711.1
-  },
   "rc2_10_3": {
     "comment": "21-nov-17",
     "solved_with_vehicles": 18,
@@ -4293,16 +3423,6 @@
     "best_known_cost": 47623.04,
     "solution_file": "VRPTW/homberger-solutions/r1_10_10.91_47623.04.txt.solution"
   },
-  "R104.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 4,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R104.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 416.9
-  },
   "c1_10_7": {
     "comment": "19-mar-18",
     "solved_with_vehicles": 97,
@@ -4356,16 +3476,6 @@
     "vehicles": 250,
     "best_known_cost": 40101.36,
     "solution_file": "VRPTW/homberger-solutions/c1_10_3.40101.36.sintef.txt.solution"
-  },
-  "R103.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R103.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 454.6
   },
   "c1_10_1": {
     "comment": "2001",
@@ -4421,26 +3531,6 @@
     "vehicles": 250,
     "best_known_cost": 40353.52,
     "solution_file": "VRPTW/homberger-solutions/c1_10_9.90_40353.52.txt.solution"
-  },
-  "R107.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 4,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R107.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 424.3
-  },
-  "RC103.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC103.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 332.8
   },
   "c2_8_4": {
     "comment": "31-jul-12",
@@ -4711,16 +3801,6 @@
     "best_known_cost": 36232.18,
     "solution_file": "VRPTW/homberger-solutions/r2_10_5_solution.txt.solution"
   },
-  "RC107.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC107.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 298.3
-  },
   "r2_10_9": {
     "comment": "09-sep-14",
     "solved_with_vehicles": 19,
@@ -4731,16 +3811,6 @@
     "vehicles": 250,
     "best_known_cost": 33002.36,
     "solution_file": "VRPTW/homberger-solutions/r2_10_9_solution.txt.solution"
-  },
-  "R209.50": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 4,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R209.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 600.6
   },
   "R201.100": {
     "comment": "KLM",
@@ -4782,16 +3852,6 @@
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 824.78
-  },
-  "R106.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R106.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 793.0
   },
   "C106": {
     "comment": "RT",
@@ -4842,36 +3902,6 @@
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 828.06
-  },
-  "R105.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 6,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R105.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 530.5
-  },
-  "RC104.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC104.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 545.8
-  },
-  "R112.50": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 6,
-    "jobs": 50,
-    "total_amount": 721,
-    "problem_file": "VRPTW/solomon/R112.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 630.2
   },
   "R102.100": {
     "comment": "KDMSS",
@@ -4973,16 +4003,6 @@
     "vehicles": 25,
     "best_known_cost": 1007.24
   },
-  "RC202.50": {
-    "comment": "IV+C",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC202.50.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 613.6
-  },
   "R105.100": {
     "comment": "KDMSS",
     "solved_with_vehicles": 15,
@@ -5083,26 +4103,6 @@
     "vehicles": 25,
     "best_known_cost": 588.32
   },
-  "C104.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 5,
-    "jobs": 50,
-    "total_amount": 860,
-    "problem_file": "VRPTW/solomon/C104.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 358.0
-  },
-  "RC108.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 6,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC108.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 598.1
-  },
   "R109.100": {
     "comment": "CR+KLM",
     "solved_with_vehicles": 13,
@@ -5112,36 +4112,6 @@
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1146.9
-  },
-  "R101.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 8,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R101.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 617.1
-  },
-  "R210.25": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R210.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 404.6
-  },
-  "RC101.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 4,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC101.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 461.1
   },
   "R110.100": {
     "comment": "CR+KLM",
@@ -5164,16 +4134,6 @@
     "best_known_cost": 14777.67,
     "solution_file": "VRPTW/homberger-solutions/rc1_6_4.14777.67.sintef.txt.solution"
   },
-  "R206.25": {
-    "comment": "CR+KLM",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 332,
-    "problem_file": "VRPTW/solomon/R206.25.txt",
-    "capacity": 1000,
-    "vehicles": 25,
-    "best_known_cost": 374.4
-  },
   "c2_10_9": {
     "comment": "09-sep-14",
     "solved_with_vehicles": 29,
@@ -5185,16 +4145,6 @@
     "best_known_cost": 16370.44,
     "solution_file": "VRPTW/homberger-solutions/c2_10_9_solution.txt.solution"
   },
-  "C107.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 460,
-    "problem_file": "VRPTW/solomon/C107.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 191.3
-  },
   "C205.100": {
     "comment": "CR+KLM",
     "solved_with_vehicles": 3,
@@ -5204,16 +4154,6 @@
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 586.4
-  },
-  "RC106.50": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 6,
-    "jobs": 50,
-    "total_amount": 970,
-    "problem_file": "VRPTW/solomon/RC106.50.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 723.2
   },
   "c2_10_8": {
     "comment": "31-jul-12",
@@ -5247,16 +4187,6 @@
     "best_known_cost": 43830.21,
     "solution_file": "VRPTW/homberger-solutions/c1_10_6-43830-21-sintef.txt.solution"
   },
-  "RC105.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 4,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC105.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 411.3
-  },
   "c1_10_2": {
     "comment": "23-nov-15",
     "solved_with_vehicles": 90,
@@ -5267,16 +4197,6 @@
     "vehicles": 250,
     "best_known_cost": 42247.05,
     "solution_file": "VRPTW/homberger-solutions/c1_10_2.42247.05.sintef.txt.solution"
-  },
-  "RC102.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC102.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 351.8
   },
   "rc2_8_10": {
     "comment": "2009",
@@ -5309,14 +4229,4 @@
     "vehicles": 25,
     "best_known_cost": 798.41
   },
-  "RC106.25": {
-    "comment": "KDMSS",
-    "solved_with_vehicles": 3,
-    "jobs": 25,
-    "total_amount": 540,
-    "problem_file": "VRPTW/solomon/RC106.25.txt",
-    "capacity": 200,
-    "vehicles": 25,
-    "best_known_cost": 345.5
-  }
 }
