@@ -1,5 +1,6 @@
 {
   "C101": {
+    "class": "solomon",
     "best_known_cost": 828.94,
     "capacity": 200,
     "comment": "RT",
@@ -9,6 +10,7 @@
     "vehicles": 25
   },
   "C101.100": {
+    "class": "solomon",
     "best_known_cost": 827.3,
     "capacity": 200,
     "comment": "KDMSS",
@@ -18,6 +20,7 @@
     "vehicles": 25
   },
   "C102": {
+    "class": "solomon",
     "best_known_cost": 828.94,
     "capacity": 200,
     "comment": "RT",
@@ -27,6 +30,7 @@
     "vehicles": 25
   },
   "C102.100": {
+    "class": "solomon",
     "best_known_cost": 827.3,
     "capacity": 200,
     "comment": "KDMSS",
@@ -36,6 +40,7 @@
     "vehicles": 25
   },
   "C103": {
+    "class": "solomon",
     "best_known_cost": 828.06,
     "capacity": 200,
     "comment": "RT",
@@ -45,6 +50,7 @@
     "vehicles": 25
   },
   "C103.100": {
+    "class": "solomon",
     "best_known_cost": 826.3,
     "capacity": 200,
     "comment": "KDMSS",
@@ -54,6 +60,7 @@
     "vehicles": 25
   },
   "C104": {
+    "class": "solomon",
     "best_known_cost": 824.78,
     "capacity": 200,
     "comment": "RT",
@@ -63,6 +70,7 @@
     "vehicles": 25
   },
   "C104.100": {
+    "class": "solomon",
     "best_known_cost": 822.9,
     "capacity": 200,
     "comment": "KDMSS",
@@ -72,6 +80,7 @@
     "vehicles": 25
   },
   "C105": {
+    "class": "solomon",
     "best_known_cost": 828.94,
     "capacity": 200,
     "comment": "RT",
@@ -81,6 +90,7 @@
     "vehicles": 25
   },
   "C105.100": {
+    "class": "solomon",
     "best_known_cost": 827.3,
     "capacity": 200,
     "comment": "KDMSS",
@@ -90,6 +100,7 @@
     "vehicles": 25
   },
   "C106": {
+    "class": "solomon",
     "best_known_cost": 828.94,
     "capacity": 200,
     "comment": "RT",
@@ -99,6 +110,7 @@
     "vehicles": 25
   },
   "C106.100": {
+    "class": "solomon",
     "best_known_cost": 827.3,
     "capacity": 200,
     "comment": "KDMSS",
@@ -108,6 +120,7 @@
     "vehicles": 25
   },
   "C107": {
+    "class": "solomon",
     "best_known_cost": 828.94,
     "capacity": 200,
     "comment": "RT",
@@ -117,6 +130,7 @@
     "vehicles": 25
   },
   "C107.100": {
+    "class": "solomon",
     "best_known_cost": 827.3,
     "capacity": 200,
     "comment": "KDMSS",
@@ -126,6 +140,7 @@
     "vehicles": 25
   },
   "C108": {
+    "class": "solomon",
     "best_known_cost": 828.94,
     "capacity": 200,
     "comment": "RT",
@@ -135,6 +150,7 @@
     "vehicles": 25
   },
   "C108.100": {
+    "class": "solomon",
     "best_known_cost": 827.3,
     "capacity": 200,
     "comment": "KDMSS",
@@ -144,6 +160,7 @@
     "vehicles": 25
   },
   "C109": {
+    "class": "solomon",
     "best_known_cost": 828.94,
     "capacity": 200,
     "comment": "RT",
@@ -153,6 +170,7 @@
     "vehicles": 25
   },
   "C109.100": {
+    "class": "solomon",
     "best_known_cost": 827.3,
     "capacity": 200,
     "comment": "KDMSS",
@@ -162,6 +180,7 @@
     "vehicles": 25
   },
   "C201": {
+    "class": "solomon",
     "best_known_cost": 591.56,
     "capacity": 700,
     "comment": "RT",
@@ -171,6 +190,7 @@
     "vehicles": 25
   },
   "C201.100": {
+    "class": "solomon",
     "best_known_cost": 589.1,
     "capacity": 700,
     "comment": "CR+KLM",
@@ -180,6 +200,7 @@
     "vehicles": 25
   },
   "C202": {
+    "class": "solomon",
     "best_known_cost": 591.56,
     "capacity": 700,
     "comment": "RT",
@@ -189,6 +210,7 @@
     "vehicles": 25
   },
   "C202.100": {
+    "class": "solomon",
     "best_known_cost": 589.1,
     "capacity": 700,
     "comment": "CR+KLM",
@@ -198,6 +220,7 @@
     "vehicles": 25
   },
   "C203": {
+    "class": "solomon",
     "best_known_cost": 591.17,
     "capacity": 700,
     "comment": "RT",
@@ -207,6 +230,7 @@
     "vehicles": 25
   },
   "C203.100": {
+    "class": "solomon",
     "best_known_cost": 588.7,
     "capacity": 700,
     "comment": "KLM",
@@ -216,6 +240,7 @@
     "vehicles": 25
   },
   "C204": {
+    "class": "solomon",
     "best_known_cost": 590.6,
     "capacity": 700,
     "comment": "RT",
@@ -225,6 +250,7 @@
     "vehicles": 25
   },
   "C204.100": {
+    "class": "solomon",
     "best_known_cost": 588.1,
     "capacity": 700,
     "comment": "IV",
@@ -234,6 +260,7 @@
     "vehicles": 25
   },
   "C205": {
+    "class": "solomon",
     "best_known_cost": 588.88,
     "capacity": 700,
     "comment": "RT",
@@ -243,6 +270,7 @@
     "vehicles": 25
   },
   "C205.100": {
+    "class": "solomon",
     "best_known_cost": 586.4,
     "capacity": 700,
     "comment": "CR+KLM",
@@ -252,6 +280,7 @@
     "vehicles": 25
   },
   "C206": {
+    "class": "solomon",
     "best_known_cost": 588.49,
     "capacity": 700,
     "comment": "RT",
@@ -261,6 +290,7 @@
     "vehicles": 25
   },
   "C206.100": {
+    "class": "solomon",
     "best_known_cost": 586,
     "capacity": 700,
     "comment": "CR+KLM",
@@ -270,6 +300,7 @@
     "vehicles": 25
   },
   "C207": {
+    "class": "solomon",
     "best_known_cost": 588.29,
     "capacity": 700,
     "comment": "RT",
@@ -279,6 +310,7 @@
     "vehicles": 25
   },
   "C207.100": {
+    "class": "solomon",
     "best_known_cost": 585.8,
     "capacity": 700,
     "comment": "CR+KLM",
@@ -288,6 +320,7 @@
     "vehicles": 25
   },
   "C208": {
+    "class": "solomon",
     "best_known_cost": 588.32,
     "capacity": 700,
     "comment": "RT",
@@ -297,6 +330,7 @@
     "vehicles": 25
   },
   "C208.100": {
+    "class": "solomon",
     "best_known_cost": 585.8,
     "capacity": 700,
     "comment": "KLM",
@@ -306,6 +340,7 @@
     "vehicles": 25
   },
   "R101": {
+    "class": "solomon",
     "best_known_cost": 1645.79,
     "capacity": 200,
     "comment": "H",
@@ -315,6 +350,7 @@
     "vehicles": 25
   },
   "R101.100": {
+    "class": "solomon",
     "best_known_cost": 1637.7,
     "capacity": 200,
     "comment": "KDMSS",
@@ -324,6 +360,7 @@
     "vehicles": 25
   },
   "R102": {
+    "class": "solomon",
     "best_known_cost": 1486.12,
     "capacity": 200,
     "comment": "RT",
@@ -333,6 +370,7 @@
     "vehicles": 25
   },
   "R102.100": {
+    "class": "solomon",
     "best_known_cost": 1466.6,
     "capacity": 200,
     "comment": "KDMSS",
@@ -342,6 +380,7 @@
     "vehicles": 25
   },
   "R103": {
+    "class": "solomon",
     "best_known_cost": 1292.68,
     "capacity": 200,
     "comment": "LLH",
@@ -351,6 +390,7 @@
     "vehicles": 25
   },
   "R103.100": {
+    "class": "solomon",
     "best_known_cost": 1208.7,
     "capacity": 200,
     "comment": "CR+L",
@@ -360,6 +400,7 @@
     "vehicles": 25
   },
   "R104": {
+    "class": "solomon",
     "best_known_cost": 1007.24,
     "capacity": 200,
     "comment": "M",
@@ -369,6 +410,7 @@
     "vehicles": 25
   },
   "R104.100": {
+    "class": "solomon",
     "best_known_cost": 971.5,
     "capacity": 200,
     "comment": "IV",
@@ -378,6 +420,7 @@
     "vehicles": 25
   },
   "R105": {
+    "class": "solomon",
     "best_known_cost": 1377.11,
     "capacity": 200,
     "comment": "RT",
@@ -387,6 +430,7 @@
     "vehicles": 25
   },
   "R105.100": {
+    "class": "solomon",
     "best_known_cost": 1355.3,
     "capacity": 200,
     "comment": "KDMSS",
@@ -396,6 +440,7 @@
     "vehicles": 25
   },
   "R106": {
+    "class": "solomon",
     "best_known_cost": 1251.98,
     "capacity": 200,
     "comment": "M",
@@ -405,6 +450,7 @@
     "vehicles": 25
   },
   "R106.100": {
+    "class": "solomon",
     "best_known_cost": 1234.6,
     "capacity": 200,
     "comment": "CR+KLM",
@@ -414,6 +460,7 @@
     "vehicles": 25
   },
   "R107": {
+    "class": "solomon",
     "best_known_cost": 1104.66,
     "capacity": 200,
     "comment": "S97",
@@ -423,6 +470,7 @@
     "vehicles": 25
   },
   "R107.100": {
+    "class": "solomon",
     "best_known_cost": 1064.6,
     "capacity": 200,
     "comment": "CR+KLM",
@@ -432,6 +480,7 @@
     "vehicles": 25
   },
   "R108": {
+    "class": "solomon",
     "best_known_cost": 960.88,
     "capacity": 200,
     "comment": "BBB",
@@ -441,6 +490,7 @@
     "vehicles": 25
   },
   "R109": {
+    "class": "solomon",
     "best_known_cost": 1194.73,
     "capacity": 200,
     "comment": "HG",
@@ -450,6 +500,7 @@
     "vehicles": 25
   },
   "R109.100": {
+    "class": "solomon",
     "best_known_cost": 1146.9,
     "capacity": 200,
     "comment": "CR+KLM",
@@ -459,6 +510,7 @@
     "vehicles": 25
   },
   "R110": {
+    "class": "solomon",
     "best_known_cost": 1118.59,
     "capacity": 200,
     "comment": "M",
@@ -468,6 +520,7 @@
     "vehicles": 25
   },
   "R110.100": {
+    "class": "solomon",
     "best_known_cost": 1068,
     "capacity": 200,
     "comment": "CR+KLM",
@@ -477,6 +530,7 @@
     "vehicles": 25
   },
   "R111": {
+    "class": "solomon",
     "best_known_cost": 1096.72,
     "capacity": 200,
     "comment": "RGP",
@@ -486,6 +540,7 @@
     "vehicles": 25
   },
   "R111.100": {
+    "class": "solomon",
     "best_known_cost": 1048.7,
     "capacity": 200,
     "comment": "CR+KLM",
@@ -495,6 +550,7 @@
     "vehicles": 25
   },
   "R112": {
+    "class": "solomon",
     "best_known_cost": 982.14,
     "capacity": 200,
     "comment": "GTA",
@@ -504,6 +560,7 @@
     "vehicles": 25
   },
   "R201": {
+    "class": "solomon",
     "best_known_cost": 1252.37,
     "capacity": 1000,
     "comment": "HG",
@@ -513,6 +570,7 @@
     "vehicles": 25
   },
   "R201.100": {
+    "class": "solomon",
     "best_known_cost": 1143.2,
     "capacity": 1000,
     "comment": "KLM",
@@ -522,6 +580,7 @@
     "vehicles": 25
   },
   "R202": {
+    "class": "solomon",
     "best_known_cost": 1191.7,
     "capacity": 1000,
     "comment": "RGP",
@@ -531,6 +590,7 @@
     "vehicles": 25
   },
   "R203": {
+    "class": "solomon",
     "best_known_cost": 939.54,
     "capacity": 1000,
     "comment": "M",
@@ -540,6 +600,7 @@
     "vehicles": 25
   },
   "R204": {
+    "class": "solomon",
     "best_known_cost": 825.52,
     "capacity": 1000,
     "comment": "BVH",
@@ -549,6 +610,7 @@
     "vehicles": 25
   },
   "R205": {
+    "class": "solomon",
     "best_known_cost": 994.42,
     "capacity": 1000,
     "comment": "RGP",
@@ -558,6 +620,7 @@
     "vehicles": 25
   },
   "R206": {
+    "class": "solomon",
     "best_known_cost": 906.14,
     "capacity": 1000,
     "comment": "SSSD",
@@ -567,6 +630,7 @@
     "vehicles": 25
   },
   "R207": {
+    "class": "solomon",
     "best_known_cost": 893.33,
     "capacity": 1000,
     "comment": "BVH",
@@ -576,6 +640,7 @@
     "vehicles": 25
   },
   "R208": {
+    "class": "solomon",
     "best_known_cost": 726.75,
     "capacity": 1000,
     "comment": "M",
@@ -585,6 +650,7 @@
     "vehicles": 25
   },
   "R209": {
+    "class": "solomon",
     "best_known_cost": 909.16,
     "capacity": 1000,
     "comment": "H",
@@ -594,6 +660,7 @@
     "vehicles": 25
   },
   "R210": {
+    "class": "solomon",
     "best_known_cost": 939.34,
     "capacity": 1000,
     "comment": "M",
@@ -603,6 +670,7 @@
     "vehicles": 25
   },
   "R211": {
+    "class": "solomon",
     "best_known_cost": 892.71,
     "capacity": 1000,
     "comment": "BVH",
@@ -612,6 +680,7 @@
     "vehicles": 25
   },
   "RC101": {
+    "class": "solomon",
     "best_known_cost": 1696.94,
     "capacity": 200,
     "comment": "TBGGP",
@@ -621,6 +690,7 @@
     "vehicles": 25
   },
   "RC101.100": {
+    "class": "solomon",
     "best_known_cost": 1619.8,
     "capacity": 200,
     "comment": "KDMSS",
@@ -630,6 +700,7 @@
     "vehicles": 25
   },
   "RC102": {
+    "class": "solomon",
     "best_known_cost": 1554.75,
     "capacity": 200,
     "comment": "TBGGP",
@@ -639,6 +710,7 @@
     "vehicles": 25
   },
   "RC102.100": {
+    "class": "solomon",
     "best_known_cost": 1457.4,
     "capacity": 200,
     "comment": "CR+KLM",
@@ -648,6 +720,7 @@
     "vehicles": 25
   },
   "RC103": {
+    "class": "solomon",
     "best_known_cost": 1261.67,
     "capacity": 200,
     "comment": "S98",
@@ -657,6 +730,7 @@
     "vehicles": 25
   },
   "RC103.100": {
+    "class": "solomon",
     "best_known_cost": 1258,
     "capacity": 200,
     "comment": "CR+KLM",
@@ -666,6 +740,7 @@
     "vehicles": 25
   },
   "RC104": {
+    "class": "solomon",
     "best_known_cost": 1135.48,
     "capacity": 200,
     "comment": "CLM",
@@ -675,6 +750,7 @@
     "vehicles": 25
   },
   "RC105": {
+    "class": "solomon",
     "best_known_cost": 1629.44,
     "capacity": 200,
     "comment": "BBB",
@@ -684,6 +760,7 @@
     "vehicles": 25
   },
   "RC105.100": {
+    "class": "solomon",
     "best_known_cost": 1513.7,
     "capacity": 200,
     "comment": "KDMSS",
@@ -693,6 +770,7 @@
     "vehicles": 25
   },
   "RC106": {
+    "class": "solomon",
     "best_known_cost": 1424.73,
     "capacity": 200,
     "comment": "BBB",
@@ -702,6 +780,7 @@
     "vehicles": 25
   },
   "RC107": {
+    "class": "solomon",
     "best_known_cost": 1230.48,
     "capacity": 200,
     "comment": "S97",
@@ -711,6 +790,7 @@
     "vehicles": 25
   },
   "RC107.100": {
+    "class": "solomon",
     "best_known_cost": 1207.8,
     "capacity": 200,
     "comment": "IV",
@@ -720,6 +800,7 @@
     "vehicles": 25
   },
   "RC108": {
+    "class": "solomon",
     "best_known_cost": 1139.82,
     "capacity": 200,
     "comment": "TBGGP",
@@ -729,6 +810,7 @@
     "vehicles": 25
   },
   "RC108.100": {
+    "class": "solomon",
     "best_known_cost": 1114.2,
     "capacity": 200,
     "comment": "IV",
@@ -738,6 +820,7 @@
     "vehicles": 25
   },
   "RC201": {
+    "class": "solomon",
     "best_known_cost": 1406.91,
     "capacity": 1000,
     "comment": "M",
@@ -747,6 +830,7 @@
     "vehicles": 25
   },
   "RC201.100": {
+    "class": "solomon",
     "best_known_cost": 1261.8,
     "capacity": 1000,
     "comment": "KLM",
@@ -756,6 +840,7 @@
     "vehicles": 25
   },
   "RC202": {
+    "class": "solomon",
     "best_known_cost": 1367.09,
     "capacity": 1000,
     "comment": "CC",
@@ -765,6 +850,7 @@
     "vehicles": 25
   },
   "RC202.100": {
+    "class": "solomon",
     "best_known_cost": 1092.3,
     "capacity": 1000,
     "comment": "IV+C",
@@ -774,6 +860,7 @@
     "vehicles": 25
   },
   "RC203": {
+    "class": "solomon",
     "best_known_cost": 1049.62,
     "capacity": 1000,
     "comment": "CC",
@@ -783,6 +870,7 @@
     "vehicles": 25
   },
   "RC204": {
+    "class": "solomon",
     "best_known_cost": 798.41,
     "capacity": 1000,
     "comment": "M",
@@ -792,6 +880,7 @@
     "vehicles": 25
   },
   "RC205": {
+    "class": "solomon",
     "best_known_cost": 1297.19,
     "capacity": 1000,
     "comment": "M",
@@ -801,6 +890,7 @@
     "vehicles": 25
   },
   "RC205.100": {
+    "class": "solomon",
     "best_known_cost": 1154,
     "capacity": 1000,
     "comment": "IV+C",
@@ -810,6 +900,7 @@
     "vehicles": 25
   },
   "RC206": {
+    "class": "solomon",
     "best_known_cost": 1146.32,
     "capacity": 1000,
     "comment": "H",
@@ -819,6 +910,7 @@
     "vehicles": 25
   },
   "RC207": {
+    "class": "solomon",
     "best_known_cost": 1061.14,
     "capacity": 1000,
     "comment": "BVH",
@@ -828,6 +920,7 @@
     "vehicles": 25
   },
   "RC208": {
+    "class": "solomon",
     "best_known_cost": 828.14,
     "capacity": 1000,
     "comment": "IKMUY",
@@ -837,6 +930,7 @@
     "vehicles": 25
   },
   "c1_10_1": {
+    "class": "homberger_1000",
     "best_known_cost": 42478.95,
     "capacity": 200,
     "comment": "2001",
@@ -846,6 +940,7 @@
     "vehicles": 250
   },
   "c1_10_10": {
+    "class": "homberger_1000",
     "best_known_cost": 39857.01,
     "capacity": 200,
     "comment": "19-mar-18",
@@ -855,6 +950,7 @@
     "vehicles": 250
   },
   "c1_10_2": {
+    "class": "homberger_1000",
     "best_known_cost": 42247.05,
     "capacity": 200,
     "comment": "23-nov-15",
@@ -864,6 +960,7 @@
     "vehicles": 250
   },
   "c1_10_3": {
+    "class": "homberger_1000",
     "best_known_cost": 40101.36,
     "capacity": 200,
     "comment": "17-sep-15",
@@ -873,6 +970,7 @@
     "vehicles": 250
   },
   "c1_10_4": {
+    "class": "homberger_1000",
     "best_known_cost": 39468.6,
     "capacity": 200,
     "comment": "17-apr-13",
@@ -882,6 +980,7 @@
     "vehicles": 250
   },
   "c1_10_5": {
+    "class": "homberger_1000",
     "best_known_cost": 42469.18,
     "capacity": 200,
     "comment": "25-feb-05",
@@ -891,6 +990,7 @@
     "vehicles": 250
   },
   "c1_10_6": {
+    "class": "homberger_1000",
     "best_known_cost": 43830.21,
     "capacity": 200,
     "comment": "05-sep-14",
@@ -900,6 +1000,7 @@
     "vehicles": 250
   },
   "c1_10_7": {
+    "class": "homberger_1000",
     "best_known_cost": 43395.88,
     "capacity": 200,
     "comment": "19-mar-18",
@@ -909,6 +1010,7 @@
     "vehicles": 250
   },
   "c1_10_8": {
+    "class": "homberger_1000",
     "best_known_cost": 43029.97,
     "capacity": 200,
     "comment": "05-sep-16",
@@ -918,6 +1020,7 @@
     "vehicles": 250
   },
   "c1_10_9": {
+    "class": "homberger_1000",
     "best_known_cost": 40353.52,
     "capacity": 200,
     "comment": "23-jan-18",
@@ -927,6 +1030,7 @@
     "vehicles": 250
   },
   "c1_2_1": {
+    "class": "homberger_200",
     "best_known_cost": 2704.57,
     "capacity": 200,
     "comment": "Detailed solution by SAM::OPT",
@@ -936,6 +1040,7 @@
     "vehicles": 50
   },
   "c1_2_10": {
+    "class": "homberger_200",
     "best_known_cost": 2643.51,
     "capacity": 200,
     "comment": "There are questions whether 2643.51 is valid, several authors report 2643.55",
@@ -945,6 +1050,7 @@
     "vehicles": 50
   },
   "c1_2_2": {
+    "class": "homberger_200",
     "best_known_cost": 2917.89,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -954,6 +1060,7 @@
     "vehicles": 50
   },
   "c1_2_3": {
+    "class": "homberger_200",
     "best_known_cost": 2707.35,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -963,6 +1070,7 @@
     "vehicles": 50
   },
   "c1_2_4": {
+    "class": "homberger_200",
     "best_known_cost": 2643.31,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -972,6 +1080,7 @@
     "vehicles": 50
   },
   "c1_2_5": {
+    "class": "homberger_200",
     "best_known_cost": 2702.05,
     "capacity": 200,
     "comment": "Detailed solution by SAM::OPT",
@@ -981,6 +1090,7 @@
     "vehicles": 50
   },
   "c1_2_6": {
+    "class": "homberger_200",
     "best_known_cost": 2701.04,
     "capacity": 200,
     "comment": "Detailed solution by SAM::OPT",
@@ -990,6 +1100,7 @@
     "vehicles": 50
   },
   "c1_2_7": {
+    "class": "homberger_200",
     "best_known_cost": 2701.04,
     "capacity": 200,
     "comment": "Detailed solution by SAM::OPT",
@@ -999,6 +1110,7 @@
     "vehicles": 50
   },
   "c1_2_8": {
+    "class": "homberger_200",
     "best_known_cost": 2775.48,
     "capacity": 200,
     "comment": "",
@@ -1008,6 +1120,7 @@
     "vehicles": 50
   },
   "c1_2_9": {
+    "class": "homberger_200",
     "best_known_cost": 2687.83,
     "capacity": 200,
     "comment": "",
@@ -1017,6 +1130,7 @@
     "vehicles": 50
   },
   "c1_4_1": {
+    "class": "homberger_400",
     "best_known_cost": 7152.02,
     "capacity": 200,
     "comment": "There are questions whether 7152.02 is valid, Several authors report 7152.06",
@@ -1026,6 +1140,7 @@
     "vehicles": 100
   },
   "c1_4_10": {
+    "class": "homberger_400",
     "best_known_cost": 6860.63,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -1035,6 +1150,7 @@
     "vehicles": 100
   },
   "c1_4_2": {
+    "class": "homberger_400",
     "best_known_cost": 7686.38,
     "capacity": 200,
     "comment": "",
@@ -1044,6 +1160,7 @@
     "vehicles": 100
   },
   "c1_4_3": {
+    "class": "homberger_400",
     "best_known_cost": 7060.67,
     "capacity": 200,
     "comment": "",
@@ -1053,6 +1170,7 @@
     "vehicles": 100
   },
   "c1_4_4": {
+    "class": "homberger_400",
     "best_known_cost": 6803.24,
     "capacity": 200,
     "comment": "",
@@ -1062,6 +1180,7 @@
     "vehicles": 100
   },
   "c1_4_5": {
+    "class": "homberger_400",
     "best_known_cost": 7152.02,
     "capacity": 200,
     "comment": "There are questions whether 7152.02 is valid, several authors report 7152.06",
@@ -1071,6 +1190,7 @@
     "vehicles": 100
   },
   "c1_4_6": {
+    "class": "homberger_400",
     "best_known_cost": 7153.41,
     "capacity": 200,
     "comment": "There are questions whether 7153.41 is valid, several authors report 7153.45",
@@ -1080,6 +1200,7 @@
     "vehicles": 100
   },
   "c1_4_7": {
+    "class": "homberger_400",
     "best_known_cost": 7417.92,
     "capacity": 200,
     "comment": "",
@@ -1089,6 +1210,7 @@
     "vehicles": 100
   },
   "c1_4_8": {
+    "class": "homberger_400",
     "best_known_cost": 7347.23,
     "capacity": 200,
     "comment": "",
@@ -1098,6 +1220,7 @@
     "vehicles": 100
   },
   "c1_4_9": {
+    "class": "homberger_400",
     "best_known_cost": 7042.53,
     "capacity": 200,
     "comment": "",
@@ -1107,6 +1230,7 @@
     "vehicles": 100
   },
   "c1_6_1": {
+    "class": "homberger_600",
     "best_known_cost": 14095.64,
     "capacity": 200,
     "comment": "Detailed solution by Q",
@@ -1116,6 +1240,7 @@
     "vehicles": 150
   },
   "c1_6_10": {
+    "class": "homberger_600",
     "best_known_cost": 13637.34,
     "capacity": 200,
     "comment": "Detailed solution by VCGP",
@@ -1125,6 +1250,7 @@
     "vehicles": 150
   },
   "c1_6_2": {
+    "class": "homberger_600",
     "best_known_cost": 14163.31,
     "capacity": 200,
     "comment": "Detailed solution by Q",
@@ -1134,6 +1260,7 @@
     "vehicles": 150
   },
   "c1_6_3": {
+    "class": "homberger_600",
     "best_known_cost": 13777.81,
     "capacity": 200,
     "comment": "",
@@ -1143,6 +1270,7 @@
     "vehicles": 150
   },
   "c1_6_4": {
+    "class": "homberger_600",
     "best_known_cost": 13558.54,
     "capacity": 200,
     "comment": "",
@@ -1152,6 +1280,7 @@
     "vehicles": 150
   },
   "c1_6_5": {
+    "class": "homberger_600",
     "best_known_cost": 14085.72,
     "capacity": 200,
     "comment": "",
@@ -1161,6 +1290,7 @@
     "vehicles": 150
   },
   "c1_6_6": {
+    "class": "homberger_600",
     "best_known_cost": 15847.61,
     "capacity": 200,
     "comment": "",
@@ -1170,6 +1300,7 @@
     "vehicles": 150
   },
   "c1_6_7": {
+    "class": "homberger_600",
     "best_known_cost": 15752.95,
     "capacity": 200,
     "comment": "",
@@ -1179,6 +1310,7 @@
     "vehicles": 150
   },
   "c1_6_8": {
+    "class": "homberger_600",
     "best_known_cost": 14389.82,
     "capacity": 200,
     "comment": "",
@@ -1188,6 +1320,7 @@
     "vehicles": 150
   },
   "c1_6_9": {
+    "class": "homberger_600",
     "best_known_cost": 13693.42,
     "capacity": 200,
     "comment": "",
@@ -1197,6 +1330,7 @@
     "vehicles": 150
   },
   "c1_8_1": {
+    "class": "homberger_800",
     "best_known_cost": 25030.36,
     "capacity": 200,
     "comment": "2002. There are questions whether the solution is valid, several authors report 80/25184.38",
@@ -1206,6 +1340,7 @@
     "vehicles": 200
   },
   "c1_8_10": {
+    "class": "homberger_800",
     "best_known_cost": 24070.17,
     "capacity": 200,
     "comment": "04-sep-15",
@@ -1215,6 +1350,7 @@
     "vehicles": 200
   },
   "c1_8_2": {
+    "class": "homberger_800",
     "best_known_cost": 26591.87,
     "capacity": 200,
     "comment": "29-jun-17",
@@ -1224,6 +1360,7 @@
     "vehicles": 200
   },
   "c1_8_3": {
+    "class": "homberger_800",
     "best_known_cost": 24249.35,
     "capacity": 200,
     "comment": "29-jun-17",
@@ -1233,6 +1370,7 @@
     "vehicles": 200
   },
   "c1_8_4": {
+    "class": "homberger_800",
     "best_known_cost": 23824.17,
     "capacity": 200,
     "comment": "28-oct-14",
@@ -1242,6 +1380,7 @@
     "vehicles": 200
   },
   "c1_8_5": {
+    "class": "homberger_800",
     "best_known_cost": 25166.28,
     "capacity": 200,
     "comment": "25-feb-05",
@@ -1251,6 +1390,7 @@
     "vehicles": 200
   },
   "c1_8_6": {
+    "class": "homberger_800",
     "best_known_cost": 27202.7,
     "capacity": 200,
     "comment": "15-sep-14",
@@ -1260,6 +1400,7 @@
     "vehicles": 200
   },
   "c1_8_7": {
+    "class": "homberger_800",
     "best_known_cost": 26486.14,
     "capacity": 200,
     "comment": "25-nov-15",
@@ -1269,6 +1410,7 @@
     "vehicles": 200
   },
   "c1_8_8": {
+    "class": "homberger_800",
     "best_known_cost": 26684.02,
     "capacity": 200,
     "comment": "09-oct-14",
@@ -1278,6 +1420,7 @@
     "vehicles": 200
   },
   "c1_8_9": {
+    "class": "homberger_800",
     "best_known_cost": 24300.21,
     "capacity": 200,
     "comment": "14-aug-17",
@@ -1287,6 +1430,7 @@
     "vehicles": 200
   },
   "c2_10_1": {
+    "class": "homberger_1000",
     "best_known_cost": 16879.24,
     "capacity": 700,
     "comment": "2001",
@@ -1296,6 +1440,7 @@
     "vehicles": 250
   },
   "c2_10_10": {
+    "class": "homberger_1000",
     "best_known_cost": 15943.34,
     "capacity": 700,
     "comment": "08-jul-16",
@@ -1305,6 +1450,7 @@
     "vehicles": 250
   },
   "c2_10_2": {
+    "class": "homberger_1000",
     "best_known_cost": 17126.39,
     "capacity": 700,
     "comment": "2009",
@@ -1314,6 +1460,7 @@
     "vehicles": 250
   },
   "c2_10_3": {
+    "class": "homberger_1000",
     "best_known_cost": 16884.08,
     "capacity": 700,
     "comment": "05-apr-12",
@@ -1323,6 +1470,7 @@
     "vehicles": 250
   },
   "c2_10_4": {
+    "class": "homberger_1000",
     "best_known_cost": 15656.75,
     "capacity": 700,
     "comment": "31-jul-12",
@@ -1332,6 +1480,7 @@
     "vehicles": 250
   },
   "c2_10_5": {
+    "class": "homberger_1000",
     "best_known_cost": 16561.29,
     "capacity": 700,
     "comment": "31-jul-12",
@@ -1341,6 +1490,7 @@
     "vehicles": 250
   },
   "c2_10_6": {
+    "class": "homberger_1000",
     "best_known_cost": 16920.33,
     "capacity": 700,
     "comment": "05-apr-12",
@@ -1350,6 +1500,7 @@
     "vehicles": 250
   },
   "c2_10_7": {
+    "class": "homberger_1000",
     "best_known_cost": 17882.42,
     "capacity": 700,
     "comment": "05-apr-12",
@@ -1359,6 +1510,7 @@
     "vehicles": 250
   },
   "c2_10_8": {
+    "class": "homberger_1000",
     "best_known_cost": 16577.32,
     "capacity": 700,
     "comment": "31-jul-12",
@@ -1368,6 +1520,7 @@
     "vehicles": 250
   },
   "c2_10_9": {
+    "class": "homberger_1000",
     "best_known_cost": 16370.44,
     "capacity": 700,
     "comment": "09-sep-14",
@@ -1377,6 +1530,7 @@
     "vehicles": 250
   },
   "c2_2_1": {
+    "class": "homberger_200",
     "best_known_cost": 1931.44,
     "capacity": 700,
     "comment": "Detailed solution by SAM::OPT",
@@ -1386,6 +1540,7 @@
     "vehicles": 50
   },
   "c2_2_10": {
+    "class": "homberger_200",
     "best_known_cost": 1806.58,
     "capacity": 700,
     "comment": "Detailed solution by BC4",
@@ -1395,6 +1550,7 @@
     "vehicles": 50
   },
   "c2_2_2": {
+    "class": "homberger_200",
     "best_known_cost": 1863.16,
     "capacity": 700,
     "comment": "Detailed solution by SAM::OPT",
@@ -1404,6 +1560,7 @@
     "vehicles": 50
   },
   "c2_2_3": {
+    "class": "homberger_200",
     "best_known_cost": 1775.08,
     "capacity": 700,
     "comment": "Detailed solution by BC4",
@@ -1413,6 +1570,7 @@
     "vehicles": 50
   },
   "c2_2_4": {
+    "class": "homberger_200",
     "best_known_cost": 1703.43,
     "capacity": 700,
     "comment": "Detailed solution by SCR",
@@ -1422,6 +1580,7 @@
     "vehicles": 50
   },
   "c2_2_5": {
+    "class": "homberger_200",
     "best_known_cost": 1878.85,
     "capacity": 700,
     "comment": "Detailed solution by SCR",
@@ -1431,6 +1590,7 @@
     "vehicles": 50
   },
   "c2_2_6": {
+    "class": "homberger_200",
     "best_known_cost": 1857.35,
     "capacity": 700,
     "comment": "Detailed solution by SAM::OPT",
@@ -1440,6 +1600,7 @@
     "vehicles": 50
   },
   "c2_2_7": {
+    "class": "homberger_200",
     "best_known_cost": 1849.46,
     "capacity": 700,
     "comment": "Detailed solution by SAM::OPT",
@@ -1449,6 +1610,7 @@
     "vehicles": 50
   },
   "c2_2_8": {
+    "class": "homberger_200",
     "best_known_cost": 1820.53,
     "capacity": 700,
     "comment": "Detailed solution by SCR",
@@ -1458,6 +1620,7 @@
     "vehicles": 50
   },
   "c2_2_9": {
+    "class": "homberger_200",
     "best_known_cost": 1830.05,
     "capacity": 700,
     "comment": "Detailed solution by SCR",
@@ -1467,6 +1630,7 @@
     "vehicles": 50
   },
   "c2_4_1": {
+    "class": "homberger_400",
     "best_known_cost": 4116.05,
     "capacity": 700,
     "comment": "There are questions whether 4116.05 is valid, several authors report 4116.14",
@@ -1476,6 +1640,7 @@
     "vehicles": 100
   },
   "c2_4_10": {
+    "class": "homberger_400",
     "best_known_cost": 3827.15,
     "capacity": 700,
     "comment": "",
@@ -1485,6 +1650,7 @@
     "vehicles": 100
   },
   "c2_4_2": {
+    "class": "homberger_400",
     "best_known_cost": 3929.89,
     "capacity": 700,
     "comment": "There are questions whether 3929.89 is valid, several authors report 3930.05",
@@ -1494,6 +1660,7 @@
     "vehicles": 100
   },
   "c2_4_3": {
+    "class": "homberger_400",
     "best_known_cost": 4018.02,
     "capacity": 700,
     "comment": "",
@@ -1503,6 +1670,7 @@
     "vehicles": 100
   },
   "c2_4_4": {
+    "class": "homberger_400",
     "best_known_cost": 3702.49,
     "capacity": 700,
     "comment": "",
@@ -1512,6 +1680,7 @@
     "vehicles": 100
   },
   "c2_4_5": {
+    "class": "homberger_400",
     "best_known_cost": 3938.69,
     "capacity": 700,
     "comment": "Detailed solution by SCR",
@@ -1521,6 +1690,7 @@
     "vehicles": 100
   },
   "c2_4_6": {
+    "class": "homberger_400",
     "best_known_cost": 3875.94,
     "capacity": 700,
     "comment": "Detailed solution by SCR",
@@ -1530,6 +1700,7 @@
     "vehicles": 100
   },
   "c2_4_7": {
+    "class": "homberger_400",
     "best_known_cost": 3894.13,
     "capacity": 700,
     "comment": "There are questions whether 3894.13 is valid, several authors report 3894.16",
@@ -1539,6 +1710,7 @@
     "vehicles": 100
   },
   "c2_4_8": {
+    "class": "homberger_400",
     "best_known_cost": 4251.1,
     "capacity": 700,
     "comment": "",
@@ -1548,6 +1720,7 @@
     "vehicles": 100
   },
   "c2_4_9": {
+    "class": "homberger_400",
     "best_known_cost": 3864.68,
     "capacity": 700,
     "comment": "There are questions whether 3864.68 is valid, several authors report  3865.65",
@@ -1557,6 +1730,7 @@
     "vehicles": 100
   },
   "c2_6_1": {
+    "class": "homberger_600",
     "best_known_cost": 7774.1,
     "capacity": 700,
     "comment": "There are questions whether 7774.10 is valid, several authors report 7774.16",
@@ -1566,6 +1740,7 @@
     "vehicles": 150
   },
   "c2_6_10": {
+    "class": "homberger_600",
     "best_known_cost": 7255.69,
     "capacity": 700,
     "comment": "",
@@ -1575,6 +1750,7 @@
     "vehicles": 150
   },
   "c2_6_2": {
+    "class": "homberger_600",
     "best_known_cost": 8264.91,
     "capacity": 700,
     "comment": "",
@@ -1584,6 +1760,7 @@
     "vehicles": 150
   },
   "c2_6_3": {
+    "class": "homberger_600",
     "best_known_cost": 7520.66,
     "capacity": 700,
     "comment": "",
@@ -1593,6 +1770,7 @@
     "vehicles": 150
   },
   "c2_6_4": {
+    "class": "homberger_600",
     "best_known_cost": 6909.58,
     "capacity": 700,
     "comment": "",
@@ -1602,6 +1780,7 @@
     "vehicles": 150
   },
   "c2_6_5": {
+    "class": "homberger_600",
     "best_known_cost": 7575.2,
     "capacity": 700,
     "comment": "Detailed solution by SCR",
@@ -1611,6 +1790,7 @@
     "vehicles": 150
   },
   "c2_6_6": {
+    "class": "homberger_600",
     "best_known_cost": 7470.36,
     "capacity": 700,
     "comment": "There are questions whether 7470.36 is valid, several authors report 7471.17",
@@ -1620,6 +1800,7 @@
     "vehicles": 150
   },
   "c2_6_7": {
+    "class": "homberger_600",
     "best_known_cost": 7512.07,
     "capacity": 700,
     "comment": "",
@@ -1629,6 +1810,7 @@
     "vehicles": 150
   },
   "c2_6_8": {
+    "class": "homberger_600",
     "best_known_cost": 7539.73,
     "capacity": 700,
     "comment": "",
@@ -1638,6 +1820,7 @@
     "vehicles": 150
   },
   "c2_6_9": {
+    "class": "homberger_600",
     "best_known_cost": 7921.18,
     "capacity": 700,
     "comment": "",
@@ -1647,6 +1830,7 @@
     "vehicles": 150
   },
   "c2_8_1": {
+    "class": "homberger_800",
     "best_known_cost": 11654.81,
     "capacity": 700,
     "comment": "2005",
@@ -1656,6 +1840,7 @@
     "vehicles": 200
   },
   "c2_8_10": {
+    "class": "homberger_800",
     "best_known_cost": 10977.36,
     "capacity": 700,
     "comment": "08-jul-16",
@@ -1665,6 +1850,7 @@
     "vehicles": 200
   },
   "c2_8_2": {
+    "class": "homberger_800",
     "best_known_cost": 12285.31,
     "capacity": 700,
     "comment": "19-mar-18",
@@ -1674,6 +1860,7 @@
     "vehicles": 200
   },
   "c2_8_3": {
+    "class": "homberger_800",
     "best_known_cost": 11410.69,
     "capacity": 700,
     "comment": "31-jul-12",
@@ -1683,6 +1870,7 @@
     "vehicles": 200
   },
   "c2_8_4": {
+    "class": "homberger_800",
     "best_known_cost": 11154.4,
     "capacity": 700,
     "comment": "31-jul-12",
@@ -1692,6 +1880,7 @@
     "vehicles": 200
   },
   "c2_8_5": {
+    "class": "homberger_800",
     "best_known_cost": 11425.23,
     "capacity": 700,
     "comment": "2009",
@@ -1701,6 +1890,7 @@
     "vehicles": 200
   },
   "c2_8_6": {
+    "class": "homberger_800",
     "best_known_cost": 12551.09,
     "capacity": 700,
     "comment": "09-mar-15",
@@ -1710,6 +1900,7 @@
     "vehicles": 200
   },
   "c2_8_7": {
+    "class": "homberger_800",
     "best_known_cost": 11370.84,
     "capacity": 700,
     "comment": "05-apr-12",
@@ -1719,6 +1910,7 @@
     "vehicles": 200
   },
   "c2_8_8": {
+    "class": "homberger_800",
     "best_known_cost": 11288.01,
     "capacity": 700,
     "comment": "18-mar-15",
@@ -1728,6 +1920,7 @@
     "vehicles": 200
   },
   "c2_8_9": {
+    "class": "homberger_800",
     "best_known_cost": 11592.52,
     "capacity": 700,
     "comment": "08-jan-18",
@@ -1737,6 +1930,7 @@
     "vehicles": 200
   },
   "r1_10_1": {
+    "class": "homberger_1000",
     "best_known_cost": 53435.98,
     "capacity": 200,
     "comment": "22-mar-18",
@@ -1746,6 +1940,7 @@
     "vehicles": 250
   },
   "r1_10_10": {
+    "class": "homberger_1000",
     "best_known_cost": 47623.04,
     "capacity": 200,
     "comment": "04-may-18",
@@ -1755,6 +1950,7 @@
     "vehicles": 250
   },
   "r1_10_2": {
+    "class": "homberger_1000",
     "best_known_cost": 48596.99,
     "capacity": 200,
     "comment": "29-mar-18",
@@ -1764,6 +1960,7 @@
     "vehicles": 250
   },
   "r1_10_3": {
+    "class": "homberger_1000",
     "best_known_cost": 44935.8,
     "capacity": 200,
     "comment": "23-mar-18",
@@ -1773,6 +1970,7 @@
     "vehicles": 250
   },
   "r1_10_4": {
+    "class": "homberger_1000",
     "best_known_cost": 42603.79,
     "capacity": 200,
     "comment": "17-apr-18",
@@ -1782,6 +1980,7 @@
     "vehicles": 250
   },
   "r1_10_5": {
+    "class": "homberger_1000",
     "best_known_cost": 50876.21,
     "capacity": 200,
     "comment": "13-sep-17",
@@ -1791,6 +1990,7 @@
     "vehicles": 250
   },
   "r1_10_6": {
+    "class": "homberger_1000",
     "best_known_cost": 47182.79,
     "capacity": 200,
     "comment": "29-mar-18",
@@ -1800,6 +2000,7 @@
     "vehicles": 250
   },
   "r1_10_7": {
+    "class": "homberger_1000",
     "best_known_cost": 44171.72,
     "capacity": 200,
     "comment": "19-apr-18",
@@ -1809,6 +2010,7 @@
     "vehicles": 250
   },
   "r1_10_8": {
+    "class": "homberger_1000",
     "best_known_cost": 42452.51,
     "capacity": 200,
     "comment": "18-sep-17",
@@ -1818,6 +2020,7 @@
     "vehicles": 250
   },
   "r1_10_9": {
+    "class": "homberger_1000",
     "best_known_cost": 49496.36,
     "capacity": 200,
     "comment": "17-apr-18",
@@ -1827,6 +2030,7 @@
     "vehicles": 250
   },
   "r1_2_1": {
+    "class": "homberger_200",
     "best_known_cost": 4784.11,
     "capacity": 200,
     "comment": "Detailed solution by BC4",
@@ -1836,6 +2040,7 @@
     "vehicles": 50
   },
   "r1_2_10": {
+    "class": "homberger_200",
     "best_known_cost": 3301.18,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -1845,6 +2050,7 @@
     "vehicles": 50
   },
   "r1_2_2": {
+    "class": "homberger_200",
     "best_known_cost": 4039.86,
     "capacity": 200,
     "comment": "There are questions whether 4039.86 is valid",
@@ -1854,6 +2060,7 @@
     "vehicles": 50
   },
   "r1_2_3": {
+    "class": "homberger_200",
     "best_known_cost": 3381.96,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -1863,6 +2070,7 @@
     "vehicles": 50
   },
   "r1_2_4": {
+    "class": "homberger_200",
     "best_known_cost": 3057.81,
     "capacity": 200,
     "comment": "Detailed solution by VCGP",
@@ -1872,6 +2080,7 @@
     "vehicles": 50
   },
   "r1_2_5": {
+    "class": "homberger_200",
     "best_known_cost": 4107.86,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -1881,6 +2090,7 @@
     "vehicles": 50
   },
   "r1_2_6": {
+    "class": "homberger_200",
     "best_known_cost": 3583.14,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -1890,6 +2100,7 @@
     "vehicles": 50
   },
   "r1_2_7": {
+    "class": "homberger_200",
     "best_known_cost": 3150.11,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -1899,6 +2110,7 @@
     "vehicles": 50
   },
   "r1_2_8": {
+    "class": "homberger_200",
     "best_known_cost": 2951.99,
     "capacity": 200,
     "comment": "Detailed solution by VCGP",
@@ -1908,6 +2120,7 @@
     "vehicles": 50
   },
   "r1_2_9": {
+    "class": "homberger_200",
     "best_known_cost": 3760.58,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -1917,6 +2130,7 @@
     "vehicles": 50
   },
   "r1_4_1": {
+    "class": "homberger_400",
     "best_known_cost": 10372.31,
     "capacity": 200,
     "comment": "Detailed solution by BC4",
@@ -1926,6 +2140,7 @@
     "vehicles": 100
   },
   "r1_4_10": {
+    "class": "homberger_400",
     "best_known_cost": 8094.1,
     "capacity": 200,
     "comment": "",
@@ -1935,6 +2150,7 @@
     "vehicles": 100
   },
   "r1_4_2": {
+    "class": "homberger_400",
     "best_known_cost": 8907.14,
     "capacity": 200,
     "comment": "",
@@ -1944,6 +2160,7 @@
     "vehicles": 100
   },
   "r1_4_3": {
+    "class": "homberger_400",
     "best_known_cost": 7808.34,
     "capacity": 200,
     "comment": "",
@@ -1953,6 +2170,7 @@
     "vehicles": 100
   },
   "r1_4_4": {
+    "class": "homberger_400",
     "best_known_cost": 7282.78,
     "capacity": 200,
     "comment": "",
@@ -1962,6 +2180,7 @@
     "vehicles": 100
   },
   "r1_4_5": {
+    "class": "homberger_400",
     "best_known_cost": 9223,
     "capacity": 200,
     "comment": "",
@@ -1971,6 +2190,7 @@
     "vehicles": 100
   },
   "r1_4_6": {
+    "class": "homberger_400",
     "best_known_cost": 8358.69,
     "capacity": 200,
     "comment": "",
@@ -1980,6 +2200,7 @@
     "vehicles": 100
   },
   "r1_4_7": {
+    "class": "homberger_400",
     "best_known_cost": 7616.15,
     "capacity": 200,
     "comment": "",
@@ -1989,6 +2210,7 @@
     "vehicles": 100
   },
   "r1_4_8": {
+    "class": "homberger_400",
     "best_known_cost": 7257.28,
     "capacity": 200,
     "comment": "",
@@ -1998,6 +2220,7 @@
     "vehicles": 100
   },
   "r1_4_9": {
+    "class": "homberger_400",
     "best_known_cost": 8696.88,
     "capacity": 200,
     "comment": "",
@@ -2007,6 +2230,7 @@
     "vehicles": 100
   },
   "r1_6_1": {
+    "class": "homberger_600",
     "best_known_cost": 21131.09,
     "capacity": 200,
     "comment": "",
@@ -2016,6 +2240,7 @@
     "vehicles": 150
   },
   "r1_6_10": {
+    "class": "homberger_600",
     "best_known_cost": 17731.06,
     "capacity": 200,
     "comment": "",
@@ -2025,6 +2250,7 @@
     "vehicles": 150
   },
   "r1_6_2": {
+    "class": "homberger_600",
     "best_known_cost": 18705,
     "capacity": 200,
     "comment": "",
@@ -2034,6 +2260,7 @@
     "vehicles": 150
   },
   "r1_6_3": {
+    "class": "homberger_600",
     "best_known_cost": 16956.43,
     "capacity": 200,
     "comment": "",
@@ -2043,6 +2270,7 @@
     "vehicles": 150
   },
   "r1_6_4": {
+    "class": "homberger_600",
     "best_known_cost": 15770.5,
     "capacity": 200,
     "comment": "",
@@ -2052,6 +2280,7 @@
     "vehicles": 150
   },
   "r1_6_5": {
+    "class": "homberger_600",
     "best_known_cost": 19443.56,
     "capacity": 200,
     "comment": "",
@@ -2061,6 +2290,7 @@
     "vehicles": 150
   },
   "r1_6_6": {
+    "class": "homberger_600",
     "best_known_cost": 17864.59,
     "capacity": 200,
     "comment": "",
@@ -2070,6 +2300,7 @@
     "vehicles": 150
   },
   "r1_6_7": {
+    "class": "homberger_600",
     "best_known_cost": 16544.69,
     "capacity": 200,
     "comment": "",
@@ -2079,6 +2310,7 @@
     "vehicles": 150
   },
   "r1_6_8": {
+    "class": "homberger_600",
     "best_known_cost": 15622.78,
     "capacity": 200,
     "comment": "",
@@ -2088,6 +2320,7 @@
     "vehicles": 150
   },
   "r1_6_9": {
+    "class": "homberger_600",
     "best_known_cost": 18637.24,
     "capacity": 200,
     "comment": "",
@@ -2097,6 +2330,7 @@
     "vehicles": 150
   },
   "r1_8_1": {
+    "class": "homberger_800",
     "best_known_cost": 36822.16,
     "capacity": 200,
     "comment": "01-mar-18",
@@ -2106,6 +2340,7 @@
     "vehicles": 200
   },
   "r1_8_10": {
+    "class": "homberger_800",
     "best_known_cost": 31031.27,
     "capacity": 200,
     "comment": "16-jan-18",
@@ -2115,6 +2350,7 @@
     "vehicles": 200
   },
   "r1_8_2": {
+    "class": "homberger_800",
     "best_known_cost": 32485.81,
     "capacity": 200,
     "comment": "04-may-18",
@@ -2124,6 +2360,7 @@
     "vehicles": 200
   },
   "r1_8_3": {
+    "class": "homberger_800",
     "best_known_cost": 29361.59,
     "capacity": 200,
     "comment": "13-mar-18",
@@ -2133,6 +2370,7 @@
     "vehicles": 200
   },
   "r1_8_4": {
+    "class": "homberger_800",
     "best_known_cost": 26838.04,
     "capacity": 200,
     "comment": "16-sep-03",
@@ -2142,6 +2380,7 @@
     "vehicles": 200
   },
   "r1_8_5": {
+    "class": "homberger_800",
     "best_known_cost": 33663.61,
     "capacity": 200,
     "comment": "10-may-18",
@@ -2151,6 +2390,7 @@
     "vehicles": 200
   },
   "r1_8_6": {
+    "class": "homberger_800",
     "best_known_cost": 30967.86,
     "capacity": 200,
     "comment": "29-may-18",
@@ -2160,6 +2400,7 @@
     "vehicles": 200
   },
   "r1_8_7": {
+    "class": "homberger_800",
     "best_known_cost": 28898.89,
     "capacity": 200,
     "comment": "23-feb-18",
@@ -2169,6 +2410,7 @@
     "vehicles": 200
   },
   "r1_8_8": {
+    "class": "homberger_800",
     "best_known_cost": 27687.83,
     "capacity": 200,
     "comment": "23-feb-18",
@@ -2178,6 +2420,7 @@
     "vehicles": 200
   },
   "r1_8_9": {
+    "class": "homberger_800",
     "best_known_cost": 32358.44,
     "capacity": 200,
     "comment": "03-jan-18",
@@ -2187,6 +2430,7 @@
     "vehicles": 200
   },
   "r2_10_1": {
+    "class": "homberger_1000",
     "best_known_cost": 42188.86,
     "capacity": 1000,
     "comment": "09-sep-14",
@@ -2196,6 +2440,7 @@
     "vehicles": 250
   },
   "r2_10_10": {
+    "class": "homberger_1000",
     "best_known_cost": 30215.24,
     "capacity": 1000,
     "comment": "09-sep-14",
@@ -2205,6 +2450,7 @@
     "vehicles": 250
   },
   "r2_10_2": {
+    "class": "homberger_1000",
     "best_known_cost": 33449.22,
     "capacity": 1000,
     "comment": "19-apr-18",
@@ -2214,6 +2460,7 @@
     "vehicles": 250
   },
   "r2_10_3": {
+    "class": "homberger_1000",
     "best_known_cost": 24938.95,
     "capacity": 1000,
     "comment": "2009",
@@ -2223,6 +2470,7 @@
     "vehicles": 250
   },
   "r2_10_4": {
+    "class": "homberger_1000",
     "best_known_cost": 17880.11,
     "capacity": 1000,
     "comment": "2009",
@@ -2232,6 +2480,7 @@
     "vehicles": 250
   },
   "r2_10_5": {
+    "class": "homberger_1000",
     "best_known_cost": 36232.18,
     "capacity": 1000,
     "comment": "09-sep-14",
@@ -2241,6 +2490,7 @@
     "vehicles": 250
   },
   "r2_10_6": {
+    "class": "homberger_1000",
     "best_known_cost": 30070.09,
     "capacity": 1000,
     "comment": "05-jan-18",
@@ -2250,6 +2500,7 @@
     "vehicles": 250
   },
   "r2_10_7": {
+    "class": "homberger_1000",
     "best_known_cost": 23253.89,
     "capacity": 1000,
     "comment": "2009",
@@ -2259,6 +2510,7 @@
     "vehicles": 250
   },
   "r2_10_8": {
+    "class": "homberger_1000",
     "best_known_cost": 17495.51,
     "capacity": 1000,
     "comment": "09-sep-14",
@@ -2268,6 +2520,7 @@
     "vehicles": 250
   },
   "r2_10_9": {
+    "class": "homberger_1000",
     "best_known_cost": 33002.36,
     "capacity": 1000,
     "comment": "09-sep-14",
@@ -2277,6 +2530,7 @@
     "vehicles": 250
   },
   "r2_2_1": {
+    "class": "homberger_200",
     "best_known_cost": 4483.16,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -2286,6 +2540,7 @@
     "vehicles": 50
   },
   "r2_2_10": {
+    "class": "homberger_200",
     "best_known_cost": 2654.97,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -2295,6 +2550,7 @@
     "vehicles": 50
   },
   "r2_2_2": {
+    "class": "homberger_200",
     "best_known_cost": 3621.2,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -2304,6 +2560,7 @@
     "vehicles": 50
   },
   "r2_2_3": {
+    "class": "homberger_200",
     "best_known_cost": 2880.62,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -2313,6 +2570,7 @@
     "vehicles": 50
   },
   "r2_2_4": {
+    "class": "homberger_200",
     "best_known_cost": 1981.29,
     "capacity": 1000,
     "comment": "There are questions whether 1981.29 is correct, several authors report 1981.30",
@@ -2322,6 +2580,7 @@
     "vehicles": 50
   },
   "r2_2_5": {
+    "class": "homberger_200",
     "best_known_cost": 3366.79,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -2331,6 +2590,7 @@
     "vehicles": 50
   },
   "r2_2_6": {
+    "class": "homberger_200",
     "best_known_cost": 2913.03,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -2340,6 +2600,7 @@
     "vehicles": 50
   },
   "r2_2_7": {
+    "class": "homberger_200",
     "best_known_cost": 2451.14,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -2349,6 +2610,7 @@
     "vehicles": 50
   },
   "r2_2_8": {
+    "class": "homberger_200",
     "best_known_cost": 1849.87,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -2358,6 +2620,7 @@
     "vehicles": 50
   },
   "r2_2_9": {
+    "class": "homberger_200",
     "best_known_cost": 3092.04,
     "capacity": 1000,
     "comment": "Detailed solution by BC4",
@@ -2367,6 +2630,7 @@
     "vehicles": 50
   },
   "r2_4_1": {
+    "class": "homberger_400",
     "best_known_cost": 9210.15,
     "capacity": 1000,
     "comment": "Detailed solution by BC4",
@@ -2376,6 +2640,7 @@
     "vehicles": 100
   },
   "r2_4_10": {
+    "class": "homberger_400",
     "best_known_cost": 5779.03,
     "capacity": 1000,
     "comment": "",
@@ -2385,6 +2650,7 @@
     "vehicles": 100
   },
   "r2_4_2": {
+    "class": "homberger_400",
     "best_known_cost": 7606.75,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -2394,6 +2660,7 @@
     "vehicles": 100
   },
   "r2_4_3": {
+    "class": "homberger_400",
     "best_known_cost": 5911.07,
     "capacity": 1000,
     "comment": "",
@@ -2403,6 +2670,7 @@
     "vehicles": 100
   },
   "r2_4_4": {
+    "class": "homberger_400",
     "best_known_cost": 4241.47,
     "capacity": 1000,
     "comment": "Detailed solution provided by BC4",
@@ -2412,6 +2680,7 @@
     "vehicles": 100
   },
   "r2_4_5": {
+    "class": "homberger_400",
     "best_known_cost": 7128.93,
     "capacity": 1000,
     "comment": "",
@@ -2421,6 +2690,7 @@
     "vehicles": 100
   },
   "r2_4_6": {
+    "class": "homberger_400",
     "best_known_cost": 6122.6,
     "capacity": 1000,
     "comment": "",
@@ -2430,6 +2700,7 @@
     "vehicles": 100
   },
   "r2_4_7": {
+    "class": "homberger_400",
     "best_known_cost": 5018.53,
     "capacity": 1000,
     "comment": "",
@@ -2439,6 +2710,7 @@
     "vehicles": 100
   },
   "r2_4_8": {
+    "class": "homberger_400",
     "best_known_cost": 4015.6,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -2448,6 +2720,7 @@
     "vehicles": 100
   },
   "r2_4_9": {
+    "class": "homberger_400",
     "best_known_cost": 6400.1,
     "capacity": 1000,
     "comment": "",
@@ -2457,6 +2730,7 @@
     "vehicles": 100
   },
   "r2_6_1": {
+    "class": "homberger_600",
     "best_known_cost": 18206.8,
     "capacity": 1000,
     "comment": "",
@@ -2466,6 +2740,7 @@
     "vehicles": 150
   },
   "r2_6_10": {
+    "class": "homberger_600",
     "best_known_cost": 12253.47,
     "capacity": 1000,
     "comment": "",
@@ -2475,6 +2750,7 @@
     "vehicles": 150
   },
   "r2_6_2": {
+    "class": "homberger_600",
     "best_known_cost": 14779.26,
     "capacity": 1000,
     "comment": "",
@@ -2484,6 +2760,7 @@
     "vehicles": 150
   },
   "r2_6_3": {
+    "class": "homberger_600",
     "best_known_cost": 11191.01,
     "capacity": 1000,
     "comment": "",
@@ -2493,6 +2770,7 @@
     "vehicles": 150
   },
   "r2_6_4": {
+    "class": "homberger_600",
     "best_known_cost": 8018.59,
     "capacity": 1000,
     "comment": "",
@@ -2502,6 +2780,7 @@
     "vehicles": 150
   },
   "r2_6_5": {
+    "class": "homberger_600",
     "best_known_cost": 15096.2,
     "capacity": 1000,
     "comment": "",
@@ -2511,6 +2790,7 @@
     "vehicles": 150
   },
   "r2_6_6": {
+    "class": "homberger_600",
     "best_known_cost": 12503.26,
     "capacity": 1000,
     "comment": "",
@@ -2520,6 +2800,7 @@
     "vehicles": 150
   },
   "r2_6_7": {
+    "class": "homberger_600",
     "best_known_cost": 10066.34,
     "capacity": 1000,
     "comment": "",
@@ -2529,6 +2810,7 @@
     "vehicles": 150
   },
   "r2_6_8": {
+    "class": "homberger_600",
     "best_known_cost": 7572.76,
     "capacity": 1000,
     "comment": "",
@@ -2538,6 +2820,7 @@
     "vehicles": 150
   },
   "r2_6_9": {
+    "class": "homberger_600",
     "best_known_cost": 13377.56,
     "capacity": 1000,
     "comment": "Detailed solution by BC4",
@@ -2547,6 +2830,7 @@
     "vehicles": 150
   },
   "r2_8_1": {
+    "class": "homberger_800",
     "best_known_cost": 28112.36,
     "capacity": 1000,
     "comment": "01-mar-18",
@@ -2556,6 +2840,7 @@
     "vehicles": 200
   },
   "r2_8_10": {
+    "class": "homberger_800",
     "best_known_cost": 20373.79,
     "capacity": 1000,
     "comment": "08-06-18",
@@ -2565,6 +2850,7 @@
     "vehicles": 200
   },
   "r2_8_2": {
+    "class": "homberger_800",
     "best_known_cost": 22795.79,
     "capacity": 1000,
     "comment": "2009",
@@ -2574,6 +2860,7 @@
     "vehicles": 200
   },
   "r2_8_3": {
+    "class": "homberger_800",
     "best_known_cost": 17714.05,
     "capacity": 1000,
     "comment": "2009",
@@ -2583,6 +2870,7 @@
     "vehicles": 200
   },
   "r2_8_4": {
+    "class": "homberger_800",
     "best_known_cost": 13206.1,
     "capacity": 1000,
     "comment": "2009",
@@ -2592,6 +2880,7 @@
     "vehicles": 200
   },
   "r2_8_5": {
+    "class": "homberger_800",
     "best_known_cost": 24276.37,
     "capacity": 1000,
     "comment": "13-mar-18",
@@ -2601,6 +2890,7 @@
     "vehicles": 200
   },
   "r2_8_6": {
+    "class": "homberger_800",
     "best_known_cost": 20479.46,
     "capacity": 1000,
     "comment": "2009",
@@ -2610,6 +2900,7 @@
     "vehicles": 200
   },
   "r2_8_7": {
+    "class": "homberger_800",
     "best_known_cost": 16631.77,
     "capacity": 1000,
     "comment": "22-jun-18",
@@ -2619,6 +2910,7 @@
     "vehicles": 200
   },
   "r2_8_8": {
+    "class": "homberger_800",
     "best_known_cost": 12645.63,
     "capacity": 1000,
     "comment": "2009",
@@ -2628,6 +2920,7 @@
     "vehicles": 200
   },
   "r2_8_9": {
+    "class": "homberger_800",
     "best_known_cost": 22326.21,
     "capacity": 1000,
     "comment": "18-jun-18",
@@ -2637,6 +2930,7 @@
     "vehicles": 200
   },
   "rc1_10_1": {
+    "class": "homberger_1000",
     "best_known_cost": 46075.69,
     "capacity": 200,
     "comment": "03-apr-18",
@@ -2646,6 +2940,7 @@
     "vehicles": 250
   },
   "rc1_10_10": {
+    "class": "homberger_1000",
     "best_known_cost": 43679.61,
     "capacity": 200,
     "comment": "11-sep-17",
@@ -2655,6 +2950,7 @@
     "vehicles": 250
   },
   "rc1_10_2": {
+    "class": "homberger_1000",
     "best_known_cost": 43971.13,
     "capacity": 200,
     "comment": "04-sep-17",
@@ -2664,6 +2960,7 @@
     "vehicles": 250
   },
   "rc1_10_3": {
+    "class": "homberger_1000",
     "best_known_cost": 42347.83,
     "capacity": 200,
     "comment": "04-sep-17",
@@ -2673,6 +2970,7 @@
     "vehicles": 250
   },
   "rc1_10_4": {
+    "class": "homberger_1000",
     "best_known_cost": 41507.27,
     "capacity": 200,
     "comment": "04-sep-17",
@@ -2682,6 +2980,7 @@
     "vehicles": 250
   },
   "rc1_10_5": {
+    "class": "homberger_1000",
     "best_known_cost": 45313.38,
     "capacity": 200,
     "comment": "11-sep-17",
@@ -2691,6 +2990,7 @@
     "vehicles": 250
   },
   "rc1_10_6": {
+    "class": "homberger_1000",
     "best_known_cost": 45073.27,
     "capacity": 200,
     "comment": "08-may-18",
@@ -2700,6 +3000,7 @@
     "vehicles": 250
   },
   "rc1_10_7": {
+    "class": "homberger_1000",
     "best_known_cost": 44604.34,
     "capacity": 200,
     "comment": "11-sep-17",
@@ -2709,6 +3010,7 @@
     "vehicles": 250
   },
   "rc1_10_8": {
+    "class": "homberger_1000",
     "best_known_cost": 44031.75,
     "capacity": 200,
     "comment": "08-may-18",
@@ -2718,6 +3020,7 @@
     "vehicles": 250
   },
   "rc1_10_9": {
+    "class": "homberger_1000",
     "best_known_cost": 44066.16,
     "capacity": 200,
     "comment": "19-apr-18",
@@ -2727,6 +3030,7 @@
     "vehicles": 250
   },
   "rc1_2_1": {
+    "class": "homberger_200",
     "best_known_cost": 3602.8,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -2736,6 +3040,7 @@
     "vehicles": 50
   },
   "rc1_2_10": {
+    "class": "homberger_200",
     "best_known_cost": 3000.3,
     "capacity": 200,
     "comment": "",
@@ -2745,6 +3050,7 @@
     "vehicles": 50
   },
   "rc1_2_2": {
+    "class": "homberger_200",
     "best_known_cost": 3249.05,
     "capacity": 200,
     "comment": "",
@@ -2754,6 +3060,7 @@
     "vehicles": 50
   },
   "rc1_2_3": {
+    "class": "homberger_200",
     "best_known_cost": 3008.33,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -2763,6 +3070,7 @@
     "vehicles": 50
   },
   "rc1_2_4": {
+    "class": "homberger_200",
     "best_known_cost": 2851.68,
     "capacity": 200,
     "comment": "Detailed solution by VCGP",
@@ -2772,6 +3080,7 @@
     "vehicles": 50
   },
   "rc1_2_5": {
+    "class": "homberger_200",
     "best_known_cost": 3371,
     "capacity": 200,
     "comment": "",
@@ -2781,6 +3090,7 @@
     "vehicles": 50
   },
   "rc1_2_6": {
+    "class": "homberger_200",
     "best_known_cost": 3324.8,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -2790,6 +3100,7 @@
     "vehicles": 50
   },
   "rc1_2_7": {
+    "class": "homberger_200",
     "best_known_cost": 3189.32,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -2799,6 +3110,7 @@
     "vehicles": 50
   },
   "rc1_2_8": {
+    "class": "homberger_200",
     "best_known_cost": 3083.93,
     "capacity": 200,
     "comment": "Detailed solution by SCR",
@@ -2808,6 +3120,7 @@
     "vehicles": 50
   },
   "rc1_2_9": {
+    "class": "homberger_200",
     "best_known_cost": 3081.13,
     "capacity": 200,
     "comment": "Detailed solution by VCGP",
@@ -2817,6 +3130,7 @@
     "vehicles": 50
   },
   "rc1_4_1": {
+    "class": "homberger_400",
     "best_known_cost": 8573.96,
     "capacity": 200,
     "comment": "",
@@ -2826,6 +3140,7 @@
     "vehicles": 100
   },
   "rc1_4_10": {
+    "class": "homberger_400",
     "best_known_cost": 7596.04,
     "capacity": 200,
     "comment": "",
@@ -2835,6 +3150,7 @@
     "vehicles": 100
   },
   "rc1_4_2": {
+    "class": "homberger_400",
     "best_known_cost": 7892.52,
     "capacity": 200,
     "comment": "",
@@ -2844,6 +3160,7 @@
     "vehicles": 100
   },
   "rc1_4_3": {
+    "class": "homberger_400",
     "best_known_cost": 7533.05,
     "capacity": 200,
     "comment": "",
@@ -2853,6 +3170,7 @@
     "vehicles": 100
   },
   "rc1_4_4": {
+    "class": "homberger_400",
     "best_known_cost": 7308.55,
     "capacity": 200,
     "comment": "",
@@ -2862,6 +3180,7 @@
     "vehicles": 100
   },
   "rc1_4_5": {
+    "class": "homberger_400",
     "best_known_cost": 8172.64,
     "capacity": 200,
     "comment": "",
@@ -2871,6 +3190,7 @@
     "vehicles": 100
   },
   "rc1_4_6": {
+    "class": "homberger_400",
     "best_known_cost": 8164.98,
     "capacity": 200,
     "comment": "",
@@ -2880,6 +3200,7 @@
     "vehicles": 100
   },
   "rc1_4_7": {
+    "class": "homberger_400",
     "best_known_cost": 7948.51,
     "capacity": 200,
     "comment": "",
@@ -2889,6 +3210,7 @@
     "vehicles": 100
   },
   "rc1_4_8": {
+    "class": "homberger_400",
     "best_known_cost": 7760.23,
     "capacity": 200,
     "comment": "There are questions whether 7760.23 is valid. Q reports 7773.11",
@@ -2898,6 +3220,7 @@
     "vehicles": 100
   },
   "rc1_4_9": {
+    "class": "homberger_400",
     "best_known_cost": 7733.81,
     "capacity": 200,
     "comment": "",
@@ -2907,6 +3230,7 @@
     "vehicles": 100
   },
   "rc1_6_1": {
+    "class": "homberger_600",
     "best_known_cost": 17014.17,
     "capacity": 200,
     "comment": "",
@@ -2916,6 +3240,7 @@
     "vehicles": 150
   },
   "rc1_6_10": {
+    "class": "homberger_600",
     "best_known_cost": 15675.99,
     "capacity": 200,
     "comment": "",
@@ -2925,6 +3250,7 @@
     "vehicles": 150
   },
   "rc1_6_2": {
+    "class": "homberger_600",
     "best_known_cost": 15920.75,
     "capacity": 200,
     "comment": "",
@@ -2934,6 +3260,7 @@
     "vehicles": 150
   },
   "rc1_6_3": {
+    "class": "homberger_600",
     "best_known_cost": 15204.64,
     "capacity": 200,
     "comment": "",
@@ -2943,6 +3270,7 @@
     "vehicles": 150
   },
   "rc1_6_4": {
+    "class": "homberger_600",
     "best_known_cost": 14777.67,
     "capacity": 200,
     "comment": "",
@@ -2952,6 +3280,7 @@
     "vehicles": 150
   },
   "rc1_6_5": {
+    "class": "homberger_600",
     "best_known_cost": 16566.24,
     "capacity": 200,
     "comment": "",
@@ -2961,6 +3290,7 @@
     "vehicles": 150
   },
   "rc1_6_6": {
+    "class": "homberger_600",
     "best_known_cost": 16504.25,
     "capacity": 200,
     "comment": "",
@@ -2970,6 +3300,7 @@
     "vehicles": 150
   },
   "rc1_6_7": {
+    "class": "homberger_600",
     "best_known_cost": 16077.12,
     "capacity": 200,
     "comment": "",
@@ -2979,6 +3310,7 @@
     "vehicles": 150
   },
   "rc1_6_8": {
+    "class": "homberger_600",
     "best_known_cost": 15914.91,
     "capacity": 200,
     "comment": "",
@@ -2988,6 +3320,7 @@
     "vehicles": 150
   },
   "rc1_6_9": {
+    "class": "homberger_600",
     "best_known_cost": 15826.24,
     "capacity": 200,
     "comment": "",
@@ -2997,6 +3330,7 @@
     "vehicles": 150
   },
   "rc1_8_1": {
+    "class": "homberger_800",
     "best_known_cost": 30907.27,
     "capacity": 200,
     "comment": "07-jun-18",
@@ -3006,6 +3340,7 @@
     "vehicles": 200
   },
   "rc1_8_10": {
+    "class": "homberger_800",
     "best_known_cost": 28474.35,
     "capacity": 200,
     "comment": "16-oct-17",
@@ -3015,6 +3350,7 @@
     "vehicles": 200
   },
   "rc1_8_2": {
+    "class": "homberger_800",
     "best_known_cost": 28716.34,
     "capacity": 200,
     "comment": "19-apr-18",
@@ -3024,6 +3360,7 @@
     "vehicles": 200
   },
   "rc1_8_3": {
+    "class": "homberger_800",
     "best_known_cost": 27677.1,
     "capacity": 200,
     "comment": "12-jun-18",
@@ -3033,6 +3370,7 @@
     "vehicles": 200
   },
   "rc1_8_4": {
+    "class": "homberger_800",
     "best_known_cost": 26774.93,
     "capacity": 200,
     "comment": "17-jul-17",
@@ -3042,6 +3380,7 @@
     "vehicles": 200
   },
   "rc1_8_5": {
+    "class": "homberger_800",
     "best_known_cost": 29796.67,
     "capacity": 200,
     "comment": "21-nov-17",
@@ -3051,6 +3390,7 @@
     "vehicles": 200
   },
   "rc1_8_6": {
+    "class": "homberger_800",
     "best_known_cost": 29850.79,
     "capacity": 200,
     "comment": "24-jul-17",
@@ -3060,6 +3400,7 @@
     "vehicles": 200
   },
   "rc1_8_7": {
+    "class": "homberger_800",
     "best_known_cost": 29276.53,
     "capacity": 200,
     "comment": "24-jul-17",
@@ -3069,6 +3410,7 @@
     "vehicles": 200
   },
   "rc1_8_8": {
+    "class": "homberger_800",
     "best_known_cost": 28797.39,
     "capacity": 200,
     "comment": "11-jul-17",
@@ -3078,6 +3420,7 @@
     "vehicles": 200
   },
   "rc1_8_9": {
+    "class": "homberger_800",
     "best_known_cost": 28740.44,
     "capacity": 200,
     "comment": "24-jul-17",
@@ -3087,6 +3430,7 @@
     "vehicles": 200
   },
   "rc2_10_1": {
+    "class": "homberger_1000",
     "best_known_cost": 30278.5,
     "capacity": 1000,
     "comment": "05-apr-12",
@@ -3096,6 +3440,7 @@
     "vehicles": 250
   },
   "rc2_10_10": {
+    "class": "homberger_1000",
     "best_known_cost": 21886.46,
     "capacity": 1000,
     "comment": "07-jun-18",
@@ -3105,6 +3450,7 @@
     "vehicles": 250
   },
   "rc2_10_2": {
+    "class": "homberger_1000",
     "best_known_cost": 26188.48,
     "capacity": 1000,
     "comment": "12-apr-18",
@@ -3114,6 +3460,7 @@
     "vehicles": 250
   },
   "rc2_10_3": {
+    "class": "homberger_1000",
     "best_known_cost": 19996.17,
     "capacity": 1000,
     "comment": "21-nov-17",
@@ -3123,6 +3470,7 @@
     "vehicles": 250
   },
   "rc2_10_4": {
+    "class": "homberger_1000",
     "best_known_cost": 15733.25,
     "capacity": 1000,
     "comment": "24-jan-2018",
@@ -3132,6 +3480,7 @@
     "vehicles": 250
   },
   "rc2_10_5": {
+    "class": "homberger_1000",
     "best_known_cost": 27104.8,
     "capacity": 1000,
     "comment": "04-may-2018",
@@ -3141,6 +3490,7 @@
     "vehicles": 250
   },
   "rc2_10_6": {
+    "class": "homberger_1000",
     "best_known_cost": 26748.84,
     "capacity": 1000,
     "comment": "08-may-18",
@@ -3150,6 +3500,7 @@
     "vehicles": 250
   },
   "rc2_10_7": {
+    "class": "homberger_1000",
     "best_known_cost": 25059.87,
     "capacity": 1000,
     "comment": "15-may-18",
@@ -3159,6 +3510,7 @@
     "vehicles": 250
   },
   "rc2_10_8": {
+    "class": "homberger_1000",
     "best_known_cost": 23708.75,
     "capacity": 1000,
     "comment": "15-may-18",
@@ -3168,6 +3520,7 @@
     "vehicles": 250
   },
   "rc2_10_9": {
+    "class": "homberger_1000",
     "best_known_cost": 23028.1,
     "capacity": 1000,
     "comment": "09-sep-14",
@@ -3177,6 +3530,7 @@
     "vehicles": 250
   },
   "rc2_2_1": {
+    "class": "homberger_200",
     "best_known_cost": 3099.53,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -3186,6 +3540,7 @@
     "vehicles": 50
   },
   "rc2_2_10": {
+    "class": "homberger_200",
     "best_known_cost": 2015.6,
     "capacity": 1000,
     "comment": "There are questions whether 2015.60 is correct. Several authors report 2015.61",
@@ -3195,6 +3550,7 @@
     "vehicles": 50
   },
   "rc2_2_2": {
+    "class": "homberger_200",
     "best_known_cost": 2825.24,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -3204,6 +3560,7 @@
     "vehicles": 50
   },
   "rc2_2_3": {
+    "class": "homberger_200",
     "best_known_cost": 2601.87,
     "capacity": 1000,
     "comment": "Detailed solution by BC4",
@@ -3213,6 +3570,7 @@
     "vehicles": 50
   },
   "rc2_2_4": {
+    "class": "homberger_200",
     "best_known_cost": 2038.56,
     "capacity": 1000,
     "comment": "",
@@ -3222,6 +3580,7 @@
     "vehicles": 50
   },
   "rc2_2_5": {
+    "class": "homberger_200",
     "best_known_cost": 2911.46,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -3231,6 +3590,7 @@
     "vehicles": 50
   },
   "rc2_2_6": {
+    "class": "homberger_200",
     "best_known_cost": 2873.12,
     "capacity": 1000,
     "comment": "Detailed solution by BC4",
@@ -3240,6 +3600,7 @@
     "vehicles": 50
   },
   "rc2_2_7": {
+    "class": "homberger_200",
     "best_known_cost": 2525.83,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -3249,6 +3610,7 @@
     "vehicles": 50
   },
   "rc2_2_8": {
+    "class": "homberger_200",
     "best_known_cost": 2292.53,
     "capacity": 1000,
     "comment": "",
@@ -3258,6 +3620,7 @@
     "vehicles": 50
   },
   "rc2_2_9": {
+    "class": "homberger_200",
     "best_known_cost": 2175.04,
     "capacity": 1000,
     "comment": "Detailed solution by SCR",
@@ -3267,6 +3630,7 @@
     "vehicles": 50
   },
   "rc2_4_1": {
+    "class": "homberger_400",
     "best_known_cost": 6682.37,
     "capacity": 1000,
     "comment": "Detailed solution by BC4",
@@ -3276,6 +3640,7 @@
     "vehicles": 100
   },
   "rc2_4_10": {
+    "class": "homberger_400",
     "best_known_cost": 4278.61,
     "capacity": 1000,
     "comment": "",
@@ -3285,6 +3650,7 @@
     "vehicles": 100
   },
   "rc2_4_2": {
+    "class": "homberger_400",
     "best_known_cost": 6180.62,
     "capacity": 1000,
     "comment": "",
@@ -3294,6 +3660,7 @@
     "vehicles": 100
   },
   "rc2_4_3": {
+    "class": "homberger_400",
     "best_known_cost": 4930.84,
     "capacity": 1000,
     "comment": "Detailed solution by BC4",
@@ -3303,6 +3670,7 @@
     "vehicles": 100
   },
   "rc2_4_4": {
+    "class": "homberger_400",
     "best_known_cost": 3631.01,
     "capacity": 1000,
     "comment": "Detailed solution by VCGP",
@@ -3312,6 +3680,7 @@
     "vehicles": 100
   },
   "rc2_4_5": {
+    "class": "homberger_400",
     "best_known_cost": 6710.12,
     "capacity": 1000,
     "comment": "",
@@ -3321,6 +3690,7 @@
     "vehicles": 100
   },
   "rc2_4_6": {
+    "class": "homberger_400",
     "best_known_cost": 5766.61,
     "capacity": 1000,
     "comment": "Detailed solution by BC4",
@@ -3330,6 +3700,7 @@
     "vehicles": 100
   },
   "rc2_4_7": {
+    "class": "homberger_400",
     "best_known_cost": 5334.72,
     "capacity": 1000,
     "comment": "",
@@ -3339,6 +3710,7 @@
     "vehicles": 100
   },
   "rc2_4_8": {
+    "class": "homberger_400",
     "best_known_cost": 4792.69,
     "capacity": 1000,
     "comment": "",
@@ -3348,6 +3720,7 @@
     "vehicles": 100
   },
   "rc2_4_9": {
+    "class": "homberger_400",
     "best_known_cost": 4551.11,
     "capacity": 1000,
     "comment": "",
@@ -3357,6 +3730,7 @@
     "vehicles": 100
   },
   "rc2_6_1": {
+    "class": "homberger_600",
     "best_known_cost": 13324.93,
     "capacity": 1000,
     "comment": "",
@@ -3366,6 +3740,7 @@
     "vehicles": 150
   },
   "rc2_6_10": {
+    "class": "homberger_600",
     "best_known_cost": 9069.41,
     "capacity": 1000,
     "comment": "",
@@ -3375,6 +3750,7 @@
     "vehicles": 150
   },
   "rc2_6_2": {
+    "class": "homberger_600",
     "best_known_cost": 11555.51,
     "capacity": 1000,
     "comment": "",
@@ -3384,6 +3760,7 @@
     "vehicles": 150
   },
   "rc2_6_3": {
+    "class": "homberger_600",
     "best_known_cost": 9444.99,
     "capacity": 1000,
     "comment": "",
@@ -3393,6 +3770,7 @@
     "vehicles": 150
   },
   "rc2_6_4": {
+    "class": "homberger_600",
     "best_known_cost": 7065.72,
     "capacity": 1000,
     "comment": "",
@@ -3402,6 +3780,7 @@
     "vehicles": 150
   },
   "rc2_6_5": {
+    "class": "homberger_600",
     "best_known_cost": 13000.84,
     "capacity": 1000,
     "comment": "",
@@ -3411,6 +3790,7 @@
     "vehicles": 150
   },
   "rc2_6_6": {
+    "class": "homberger_600",
     "best_known_cost": 11933.88,
     "capacity": 1000,
     "comment": "",
@@ -3420,6 +3800,7 @@
     "vehicles": 150
   },
   "rc2_6_7": {
+    "class": "homberger_600",
     "best_known_cost": 10724.85,
     "capacity": 1000,
     "comment": "",
@@ -3429,6 +3810,7 @@
     "vehicles": 150
   },
   "rc2_6_8": {
+    "class": "homberger_600",
     "best_known_cost": 10007.82,
     "capacity": 1000,
     "comment": "",
@@ -3438,6 +3820,7 @@
     "vehicles": 150
   },
   "rc2_6_9": {
+    "class": "homberger_600",
     "best_known_cost": 9580.87,
     "capacity": 1000,
     "comment": "",
@@ -3447,6 +3830,7 @@
     "vehicles": 150
   },
   "rc2_8_1": {
+    "class": "homberger_800",
     "best_known_cost": 20981.14,
     "capacity": 1000,
     "comment": "05-apr-12",
@@ -3456,6 +3840,7 @@
     "vehicles": 200
   },
   "rc2_8_10": {
+    "class": "homberger_800",
     "best_known_cost": 14439.14,
     "capacity": 1000,
     "comment": "2009",
@@ -3465,6 +3850,7 @@
     "vehicles": 200
   },
   "rc2_8_2": {
+    "class": "homberger_800",
     "best_known_cost": 18181.14,
     "capacity": 1000,
     "comment": "2009",
@@ -3474,6 +3860,7 @@
     "vehicles": 200
   },
   "rc2_8_3": {
+    "class": "homberger_800",
     "best_known_cost": 14431.11,
     "capacity": 1000,
     "comment": "17-may-18",
@@ -3483,6 +3870,7 @@
     "vehicles": 200
   },
   "rc2_8_4": {
+    "class": "homberger_800",
     "best_known_cost": 11006.56,
     "capacity": 1000,
     "comment": "31-jul-12",
@@ -3492,6 +3880,7 @@
     "vehicles": 200
   },
   "rc2_8_5": {
+    "class": "homberger_800",
     "best_known_cost": 19119.97,
     "capacity": 1000,
     "comment": "23-may-18",
@@ -3501,6 +3890,7 @@
     "vehicles": 200
   },
   "rc2_8_6": {
+    "class": "homberger_800",
     "best_known_cost": 18146.03,
     "capacity": 1000,
     "comment": "2009",
@@ -3510,6 +3900,7 @@
     "vehicles": 200
   },
   "rc2_8_7": {
+    "class": "homberger_800",
     "best_known_cost": 16841.12,
     "capacity": 1000,
     "comment": "13-jun-18",
@@ -3519,6 +3910,7 @@
     "vehicles": 200
   },
   "rc2_8_8": {
+    "class": "homberger_800",
     "best_known_cost": 15790.21,
     "capacity": 1000,
     "comment": "18-jun-18",
@@ -3528,6 +3920,7 @@
     "vehicles": 200
   },
   "rc2_8_9": {
+    "class": "homberger_800",
     "best_known_cost": 15352.82,
     "capacity": 1000,
     "comment": "22-jun-18",
