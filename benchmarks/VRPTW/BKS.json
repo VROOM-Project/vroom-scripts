@@ -4,18 +4,15 @@
     "solved_with_vehicles": 20,
     "jobs": 200,
     "total_amount": 3530,
-    "problem_file": "VRPTW/homberger/c1_2_1.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2704.57,
-    "solution_file": "VRPTW/homberger-solutions/c1_2_1.txt.solution"
+    "best_known_cost": 2704.57
   },
   "RC105.100": {
     "comment": "KDMSS",
     "solved_with_vehicles": 15,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC105.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1513.7
@@ -25,106 +22,87 @@
     "solved_with_vehicles": 20,
     "jobs": 200,
     "total_amount": 3530,
-    "problem_file": "VRPTW/homberger/c1_2_5.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2702.05,
-    "solution_file": "VRPTW/homberger-solutions/c1_2_5.txt.solution"
+    "best_known_cost": 2702.05
   },
   "r1_8_1": {
     "comment": "01-mar-18",
     "solved_with_vehicles": 80,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r1_8_1.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 36822.16,
-    "solution_file": "VRPTW/homberger-solutions/r1_8_1.80_36822.16.txt.solution"
+    "best_known_cost": 36822.16
   },
   "c1_6_10": {
     "comment": "Detailed solution by VCGP",
     "solved_with_vehicles": 56,
     "jobs": 600,
     "total_amount": 11020,
-    "problem_file": "VRPTW/homberger/c1_6_10.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 13637.34,
-    "solution_file": "VRPTW/homberger-solutions/c1_6_10.txt.solution"
+    "best_known_cost": 13637.34
   },
   "r2_8_10": {
     "comment": "08-06-18",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r2_8_10.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 20373.79,
-    "solution_file": "VRPTW/homberger-solutions/r2_8_10.15_20373.79.txt.solution"
+    "best_known_cost": 20373.79
   },
   "rc1_10_7": {
     "comment": "11-sep-17",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc1_10_7.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 44604.34,
-    "solution_file": "VRPTW/homberger-solutions/rc1_10_7.90_44604.34.txt.solution"
+    "best_known_cost": 44604.34
   },
   "c2_10_6": {
     "comment": "05-apr-12",
     "solved_with_vehicles": 29,
     "jobs": 1000,
     "total_amount": 19150,
-    "problem_file": "VRPTW/homberger/c2_10_6.txt",
     "capacity": 700,
     "vehicles": 250,
-    "best_known_cost": 16920.33,
-    "solution_file": "VRPTW/homberger-solutions/c2_10_6---16920.33.txt.solution"
+    "best_known_cost": 16920.33
   },
   "r2_4_6": {
     "comment": "",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r2_4_6.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 6122.6,
-    "solution_file": "VRPTW/homberger-solutions/r2_4_6---6122.60.txt.solution"
+    "best_known_cost": 6122.6
   },
   "rc1_2_7": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc1_2_7.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3189.32,
-    "solution_file": "VRPTW/homberger-solutions/rc1_2_7.18_3189.32.txt.solution"
+    "best_known_cost": 3189.32
   },
   "r1_10_5": {
     "comment": "13-sep-17",
     "solved_with_vehicles": 91,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r1_10_5.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 50876.21,
-    "solution_file": "VRPTW/homberger-solutions/r1_10_5.91_50876.21.txt.solution"
+    "best_known_cost": 50876.21
   },
   "R107.100": {
     "comment": "CR+KLM",
     "solved_with_vehicles": 11,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R107.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1064.6
@@ -134,51 +112,42 @@
     "solved_with_vehicles": 54,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r1_6_10.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 17731.06,
-    "solution_file": "VRPTW/homberger-solutions/r1_6_10.54_17731.06.txt.solution"
+    "best_known_cost": 17731.06
   },
   "c1_8_5": {
     "comment": "25-feb-05",
     "solved_with_vehicles": 80,
     "jobs": 800,
     "total_amount": 14380,
-    "problem_file": "VRPTW/homberger/c1_8_5.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 25166.28,
-    "solution_file": "VRPTW/homberger-solutions/c1_8_5.25166.28.sintef.txt.solution"
+    "best_known_cost": 25166.28
   },
   "rc2_8_4": {
     "comment": "31-jul-12",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc2_8_4.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 11006.56,
-    "solution_file": "VRPTW/homberger-solutions/rc2_8_4.txt.solution"
+    "best_known_cost": 11006.56
   },
   "rc1_2_5": {
     "comment": "",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc1_2_5.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3371.0,
-    "solution_file": "VRPTW/homberger-solutions/rc1_2_5---3371.00.txt.solution"
+    "best_known_cost": 3371.0
   },
   "C108.100": {
     "comment": "KDMSS",
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C108.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 827.3
@@ -188,51 +157,42 @@
     "solved_with_vehicles": 24,
     "jobs": 800,
     "total_amount": 15210,
-    "problem_file": "VRPTW/homberger/c2_8_1.txt",
     "capacity": 700,
     "vehicles": 200,
-    "best_known_cost": 11654.81,
-    "solution_file": "VRPTW/homberger-solutions/c1_8_10.24070.17.sintef.txt.solution"
+    "best_known_cost": 11654.81
   },
   "c2_6_6": {
     "comment": "There are questions whether 7470.36 is valid, several authors report 7471.17",
     "solved_with_vehicles": 18,
     "jobs": 600,
     "total_amount": 11540,
-    "problem_file": "VRPTW/homberger/c2_6_6.txt",
     "capacity": 700,
     "vehicles": 150,
-    "best_known_cost": 7470.36,
-    "solution_file": "VRPTW/homberger-solutions/c2_6_6.txt.solution"
+    "best_known_cost": 7470.36
   },
   "r2_10_8": {
     "comment": "09-sep-14",
     "solved_with_vehicles": 19,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r2_10_8.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 17495.51,
-    "solution_file": "VRPTW/homberger-solutions/r2_10_8_solution.txt.solution"
+    "best_known_cost": 17495.51
   },
   "rc2_10_10": {
     "comment": "07-jun-18",
     "solved_with_vehicles": 18,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc2_10_10.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 21886.46,
-    "solution_file": "VRPTW/homberger-solutions/rc2_10_10.18_21886.46.txt.solution"
+    "best_known_cost": 21886.46
   },
   "RC108": {
     "comment": "TBGGP",
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC108.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1139.82
@@ -242,29 +202,24 @@
     "solved_with_vehicles": 17,
     "jobs": 600,
     "total_amount": 11540,
-    "problem_file": "VRPTW/homberger/c2_6_3.txt",
     "capacity": 700,
     "vehicles": 150,
-    "best_known_cost": 7520.66,
-    "solution_file": "VRPTW/homberger-solutions/c2_6_3.7520.66.sintef.txt.solution"
+    "best_known_cost": 7520.66
   },
   "c1_6_3": {
     "comment": "",
     "solved_with_vehicles": 56,
     "jobs": 600,
     "total_amount": 11020,
-    "problem_file": "VRPTW/homberger/c1_6_3.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 13777.81,
-    "solution_file": "VRPTW/homberger-solutions/c1_6_3---13777.81.txt.solution"
+    "best_known_cost": 13777.81
   },
   "R211": {
     "comment": "BVH",
     "solved_with_vehicles": 2,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R211.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 892.71
@@ -274,7 +229,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R210.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 939.34
@@ -284,29 +238,24 @@
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc1_2_10.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3000.3,
-    "solution_file": "VRPTW/homberger-solutions/rc1_2_10.txt.solution"
+    "best_known_cost": 3000.3
   },
   "r2_10_4": {
     "comment": "2009",
     "solved_with_vehicles": 19,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r2_10_4.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 17880.11,
-    "solution_file": "VRPTW/homberger-solutions/r2_10_2.19_33449.22.txt.solution"
+    "best_known_cost": 17880.11
   },
   "RC201": {
     "comment": "M",
     "solved_with_vehicles": 4,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC201.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1406.91
@@ -316,7 +265,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC202.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1367.09
@@ -326,7 +274,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC203.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1049.62
@@ -336,7 +283,6 @@
     "solved_with_vehicles": 4,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC205.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1297.19
@@ -346,7 +292,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC206.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1146.32
@@ -356,7 +301,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC207.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1061.14
@@ -366,7 +310,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC208.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 828.14
@@ -376,7 +319,6 @@
     "solved_with_vehicles": 14,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC102.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1457.4
@@ -386,7 +328,6 @@
     "solved_with_vehicles": 12,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R111.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1048.7
@@ -396,62 +337,51 @@
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r2_8_1.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 28112.36,
-    "solution_file": "VRPTW/homberger-solutions/r2_8_1.15_28112.36.txt.solution"
+    "best_known_cost": 28112.36
   },
   "rc2_8_3": {
     "comment": "17-may-18",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc2_8_3.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 14431.11,
-    "solution_file": "VRPTW/homberger-solutions/rc2_8_3.15_14431.11.txt.solution"
+    "best_known_cost": 14431.11
   },
   "r2_8_6": {
     "comment": "2009",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r2_8_6.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 20479.46,
-    "solution_file": "VRPTW/homberger-solutions/r2_8_5.15_24276.37.txt.solution"
+    "best_known_cost": 20479.46
   },
   "c2_4_8": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 400,
     "total_amount": 7560,
-    "problem_file": "VRPTW/homberger/c2_4_8.txt",
     "capacity": 700,
     "vehicles": 100,
-    "best_known_cost": 4251.1,
-    "solution_file": "VRPTW/homberger-solutions/c2_4_8.11_4251.10.txt.solution"
+    "best_known_cost": 4251.1
   },
   "r2_8_5": {
     "comment": "13-mar-18",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r2_8_5.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 24276.37,
-    "solution_file": "VRPTW/homberger-solutions/r2_8_5.15_24276.37.txt.solution"
+    "best_known_cost": 24276.37
   },
   "C108": {
     "comment": "RT",
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C108.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 828.94
@@ -461,18 +391,15 @@
     "solved_with_vehicles": 18,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc2_10_8.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 23708.75,
-    "solution_file": "VRPTW/homberger-solutions/rc2_10_8_solution.txt.solution"
+    "best_known_cost": 23708.75
   },
   "RC107.100": {
     "comment": "IV",
     "solved_with_vehicles": 12,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC107.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1207.8
@@ -482,337 +409,276 @@
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r1_8_3.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 29361.59,
-    "solution_file": "VRPTW/homberger-solutions/r1_8_3.72_29361.59.txt.solution"
+    "best_known_cost": 29361.59
   },
   "r1_8_4": {
     "comment": "16-sep-03",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r1_8_4.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 26838.04,
-    "solution_file": "VRPTW/homberger-solutions/r1_8_3.72_29361.59.txt.solution"
+    "best_known_cost": 26838.04
   },
   "r1_8_7": {
     "comment": "23-feb-18",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r1_8_7.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 28898.89,
-    "solution_file": "VRPTW/homberger-solutions/r1_8_7.72_28898.89.txt.solution"
+    "best_known_cost": 28898.89
   },
   "r1_8_9": {
     "comment": "03-jan-18",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r1_8_9.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 32358.44,
-    "solution_file": "VRPTW/homberger-solutions/r1_8_9.72_32358.44.txt.solution"
+    "best_known_cost": 32358.44
   },
   "r1_6_3": {
     "comment": "",
     "solved_with_vehicles": 54,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r1_6_3.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 16956.43,
-    "solution_file": "VRPTW/homberger-solutions/r1_6_3.txt.solution"
+    "best_known_cost": 16956.43
   },
   "r1_6_2": {
     "comment": "",
     "solved_with_vehicles": 54,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r1_6_2.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 18705.0,
-    "solution_file": "VRPTW/homberger-solutions/r1_6_2.54_18705.00.txt.solution"
+    "best_known_cost": 18705.0
   },
   "r1_6_6": {
     "comment": "",
     "solved_with_vehicles": 54,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r1_6_6.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 17864.59,
-    "solution_file": "VRPTW/homberger-solutions/r1_6_6.54_17864.59.txt.solution"
+    "best_known_cost": 17864.59
   },
   "c2_8_10": {
     "comment": "08-jul-16",
     "solved_with_vehicles": 23,
     "jobs": 800,
     "total_amount": 15210,
-    "problem_file": "VRPTW/homberger/c2_8_10.txt",
     "capacity": 700,
     "vehicles": 200,
-    "best_known_cost": 10977.36,
-    "solution_file": "VRPTW/homberger-solutions/c2_8_10.10977.36.sintef.txt.solution"
+    "best_known_cost": 10977.36
   },
   "r1_6_9": {
     "comment": "",
     "solved_with_vehicles": 54,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r1_6_9.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 18637.24,
-    "solution_file": "VRPTW/homberger-solutions/r1_6_9.54_18637.24.txt.solution"
+    "best_known_cost": 18637.24
   },
   "r1_6_8": {
     "comment": "",
     "solved_with_vehicles": 54,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r1_6_8.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 15622.78,
-    "solution_file": "VRPTW/homberger-solutions/r1_6_8.54_15622.78.txt.solution"
+    "best_known_cost": 15622.78
   },
   "r1_4_4": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r1_4_4.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7282.78,
-    "solution_file": "VRPTW/homberger-solutions/r1_4_4.txt.solution"
+    "best_known_cost": 7282.78
   },
   "r1_4_7": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r1_4_7.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7616.15,
-    "solution_file": "VRPTW/homberger-solutions/r1_4_7.7616.15.sintef.txt.solution"
+    "best_known_cost": 7616.15
   },
   "r2_2_10": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r2_2_10.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2654.97,
-    "solution_file": "VRPTW/homberger-solutions/r2_2_10.4_2654.97.txt.solution"
+    "best_known_cost": 2654.97
   },
   "r1_4_1": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 40,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r1_4_1.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 10372.31,
-    "solution_file": "VRPTW/homberger-solutions/r1_4_1---10372.11.txt.solution"
+    "best_known_cost": 10372.31
   },
   "r1_4_2": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r1_4_2.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 8907.14,
-    "solution_file": "VRPTW/homberger-solutions/r1_4_2.36_8907.14.txt.solution"
+    "best_known_cost": 8907.14
   },
   "c2_4_6": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 12,
     "jobs": 400,
     "total_amount": 7560,
-    "problem_file": "VRPTW/homberger/c2_4_6.txt",
     "capacity": 700,
     "vehicles": 100,
-    "best_known_cost": 3875.94,
-    "solution_file": "VRPTW/homberger-solutions/c2_4_6.12_3875.94.txt.solution"
+    "best_known_cost": 3875.94
   },
   "r1_4_9": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r1_4_9.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 8696.88,
-    "solution_file": "VRPTW/homberger-solutions/r1_4_9.8696.88.sintef.txt.solution"
+    "best_known_cost": 8696.88
   },
   "r1_4_8": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r1_4_8.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7257.28,
-    "solution_file": "VRPTW/homberger-solutions/r1_4_8.7257.28.sintef.txt.solution"
+    "best_known_cost": 7257.28
   },
   "r2_6_3": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r2_6_3.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 11191.01,
-    "solution_file": "VRPTW/homberger-solutions/r2_6_1.txt.solution"
+    "best_known_cost": 11191.01
   },
   "r2_6_5": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r2_6_5.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 15096.2,
-    "solution_file": "VRPTW/homberger-solutions/r2_6_5---15096.20.txt.solution"
+    "best_known_cost": 15096.2
   },
   "rc2_6_9": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc2_6_9.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 9580.87,
-    "solution_file": "VRPTW/homberger-solutions/rc2_6_6---11933.88.txt.solution"
+    "best_known_cost": 9580.87
   },
   "r1_10_4": {
     "comment": "17-apr-18",
     "solved_with_vehicles": 91,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r1_10_4.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 42603.79,
-    "solution_file": "VRPTW/homberger-solutions/r1_10_4.91_42603.79.txt.solution"
+    "best_known_cost": 42603.79
   },
   "r1_2_7": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r1_2_7.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3150.11,
-    "solution_file": "VRPTW/homberger-solutions/r1_2_7.18_3150.11.txt.solution"
+    "best_known_cost": 3150.11
   },
   "r1_2_6": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r1_2_6.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3583.14,
-    "solution_file": "VRPTW/homberger-solutions/r1_2_6.18_3583.14.txt.solution"
+    "best_known_cost": 3583.14
   },
   "r1_2_4": {
     "comment": "Detailed solution by VCGP",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r1_2_4.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3057.81,
-    "solution_file": "VRPTW/homberger-solutions/r1_2_4.txt.solution"
+    "best_known_cost": 3057.81
   },
   "r1_2_3": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r1_2_3.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3381.96,
-    "solution_file": "VRPTW/homberger-solutions/r1_2_3.18_3381.96.txt.solution"
+    "best_known_cost": 3381.96
   },
   "r1_2_2": {
     "comment": "There are questions whether 4039.86 is valid",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r1_2_2.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 4039.86,
-    "solution_file": "VRPTW/homberger-solutions/r1_2_1---4784-11.txt.solution"
+    "best_known_cost": 4039.86
   },
   "r1_2_1": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 20,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r1_2_1.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 4784.11,
-    "solution_file": "VRPTW/homberger-solutions/r1_2_1---4784-11.txt.solution"
+    "best_known_cost": 4784.11
   },
   "rc2_2_3": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc2_2_3.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2601.87,
-    "solution_file": "VRPTW/homberger-solutions/rc2_2_3---2601.87.txt.solution"
+    "best_known_cost": 2601.87
   },
   "r1_2_9": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r1_2_9.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3760.58,
-    "solution_file": "VRPTW/homberger-solutions/r1_2_9.18_3760.58.txt.solution"
+    "best_known_cost": 3760.58
   },
   "RC202.100": {
     "comment": "IV+C",
     "solved_with_vehicles": 8,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC202.100.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1092.3
@@ -822,7 +688,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C202.100.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 589.1
@@ -832,84 +697,69 @@
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc1_8_6.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 29850.79,
-    "solution_file": "VRPTW/homberger-solutions/rc1_8_6.txt.solution"
+    "best_known_cost": 29850.79
   },
   "r2_4_10": {
     "comment": "",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r2_4_10.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 5779.03,
-    "solution_file": "VRPTW/homberger-solutions/r2_4_10.8_5779.03.txt.solution"
+    "best_known_cost": 5779.03
   },
   "c2_6_5": {
     "comment": "Detailed solution by\u00a0SCR",
     "solved_with_vehicles": 18,
     "jobs": 600,
     "total_amount": 11540,
-    "problem_file": "VRPTW/homberger/c2_6_5.txt",
     "capacity": 700,
     "vehicles": 150,
-    "best_known_cost": 7575.2,
-    "solution_file": "VRPTW/homberger-solutions/c2_6_5.18_7575.20.txt.solution"
+    "best_known_cost": 7575.2
   },
   "c2_6_4": {
     "comment": "",
     "solved_with_vehicles": 17,
     "jobs": 600,
     "total_amount": 11540,
-    "problem_file": "VRPTW/homberger/c2_6_4.txt",
     "capacity": 700,
     "vehicles": 150,
-    "best_known_cost": 6909.58,
-    "solution_file": "VRPTW/homberger-solutions/c2_6_4-6909-58-sintef.txt.solution"
+    "best_known_cost": 6909.58
   },
   "c2_6_2": {
     "comment": "",
     "solved_with_vehicles": 17,
     "jobs": 600,
     "total_amount": 11540,
-    "problem_file": "VRPTW/homberger/c2_6_2.txt",
     "capacity": 700,
     "vehicles": 150,
-    "best_known_cost": 8264.91,
-    "solution_file": "VRPTW/homberger-solutions/c2_6_2---8264.91.txt.solution"
+    "best_known_cost": 8264.91
   },
   "c2_6_1": {
     "comment": "There are questions whether 7774.10 is valid, several authors report 7774.16",
     "solved_with_vehicles": 18,
     "jobs": 600,
     "total_amount": 11540,
-    "problem_file": "VRPTW/homberger/c2_6_1.txt",
     "capacity": 700,
     "vehicles": 150,
-    "best_known_cost": 7774.1,
-    "solution_file": "VRPTW/homberger-solutions/c2_6_1.txt.solution"
+    "best_known_cost": 7774.1
   },
   "c2_6_8": {
     "comment": "",
     "solved_with_vehicles": 17,
     "jobs": 600,
     "total_amount": 11540,
-    "problem_file": "VRPTW/homberger/c2_6_8.txt",
     "capacity": 700,
     "vehicles": 150,
-    "best_known_cost": 7539.73,
-    "solution_file": "VRPTW/homberger-solutions/c2_6_8.7539.73.sintef.txt.solution"
+    "best_known_cost": 7539.73
   },
   "C208.100": {
     "comment": "KLM",
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C208.100.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 585.8
@@ -919,271 +769,222 @@
     "solved_with_vehicles": 12,
     "jobs": 400,
     "total_amount": 7560,
-    "problem_file": "VRPTW/homberger/c2_4_9.txt",
     "capacity": 700,
     "vehicles": 100,
-    "best_known_cost": 3864.68,
-    "solution_file": "VRPTW/homberger-solutions/c2_4_9.txt.solution"
+    "best_known_cost": 3864.68
   },
   "r1_8_2": {
     "comment": "04-may-18",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r1_8_2.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 32485.81,
-    "solution_file": "VRPTW/homberger-solutions/r1_8_2.72_32485.81.txt.solution"
+    "best_known_cost": 32485.81
   },
   "c2_4_1": {
     "comment": "There are questions whether 4116.05 is valid, several authors report 4116.14",
     "solved_with_vehicles": 12,
     "jobs": 400,
     "total_amount": 7560,
-    "problem_file": "VRPTW/homberger/c2_4_1.txt",
     "capacity": 700,
     "vehicles": 100,
-    "best_known_cost": 4116.05,
-    "solution_file": "VRPTW/homberger-solutions/c2_4_1.txt.solution"
+    "best_known_cost": 4116.05
   },
   "r1_8_5": {
     "comment": "10-may-18",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r1_8_5.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 33663.61,
-    "solution_file": "VRPTW/homberger-solutions/r1_8_5.72_33663.61.txt.solution"
+    "best_known_cost": 33663.61
   },
   "c2_4_3": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 400,
     "total_amount": 7560,
-    "problem_file": "VRPTW/homberger/c2_4_3.txt",
     "capacity": 700,
     "vehicles": 100,
-    "best_known_cost": 4018.02,
-    "solution_file": "VRPTW/homberger-solutions/c2_4_3.txt.solution"
+    "best_known_cost": 4018.02
   },
   "c2_4_2": {
     "comment": "There are questions whether 3929.89 is valid, several authors report 3930.05",
     "solved_with_vehicles": 12,
     "jobs": 400,
     "total_amount": 7560,
-    "problem_file": "VRPTW/homberger/c2_4_2.txt",
     "capacity": 700,
     "vehicles": 100,
-    "best_known_cost": 3929.89,
-    "solution_file": "VRPTW/homberger-solutions/c2_4_2.txt.solution"
+    "best_known_cost": 3929.89
   },
   "c2_4_5": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 12,
     "jobs": 400,
     "total_amount": 7560,
-    "problem_file": "VRPTW/homberger/c2_4_5.txt",
     "capacity": 700,
     "vehicles": 100,
-    "best_known_cost": 3938.69,
-    "solution_file": "VRPTW/homberger-solutions/c2_4_5.12_3938.69.txt.solution"
+    "best_known_cost": 3938.69
   },
   "c2_4_4": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 400,
     "total_amount": 7560,
-    "problem_file": "VRPTW/homberger/c2_4_4.txt",
     "capacity": 700,
     "vehicles": 100,
-    "best_known_cost": 3702.49,
-    "solution_file": "VRPTW/homberger-solutions/c2_4_4.txt.solution"
+    "best_known_cost": 3702.49
   },
   "c2_4_7": {
     "comment": "There are questions whether 3894.13 is valid, several authors report 3894.16",
     "solved_with_vehicles": 12,
     "jobs": 400,
     "total_amount": 7560,
-    "problem_file": "VRPTW/homberger/c2_4_7.txt",
     "capacity": 700,
     "vehicles": 100,
-    "best_known_cost": 3894.13,
-    "solution_file": "VRPTW/homberger-solutions/c2_4_7.txt.solution"
+    "best_known_cost": 3894.13
   },
   "r2_6_1": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r2_6_1.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 18206.8,
-    "solution_file": "VRPTW/homberger-solutions/r2_6_1.txt.solution"
+    "best_known_cost": 18206.8
   },
   "r2_6_2": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r2_6_2.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 14779.26,
-    "solution_file": "VRPTW/homberger-solutions/r2_6_1.txt.solution"
+    "best_known_cost": 14779.26
   },
   "r2_6_4": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r2_6_4.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 8018.59,
-    "solution_file": "VRPTW/homberger-solutions/r2_6_4.8018.59.sintef.txt.solution"
+    "best_known_cost": 8018.59
   },
   "r2_6_6": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r2_6_6.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 12503.26,
-    "solution_file": "VRPTW/homberger-solutions/r2_6_5---15096.20.txt.solution"
+    "best_known_cost": 12503.26
   },
   "r2_6_7": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r2_6_7.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 10066.34,
-    "solution_file": "VRPTW/homberger-solutions/r2_6_7.txt.solution"
+    "best_known_cost": 10066.34
   },
   "r2_6_8": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r2_6_8.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 7572.76,
-    "solution_file": "VRPTW/homberger-solutions/r2_6_8.7572.76.sintef.txt.solution"
+    "best_known_cost": 7572.76
   },
   "r2_6_9": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r2_6_9.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 13377.56,
-    "solution_file": "VRPTW/homberger-solutions/r2_6_9---13377.56.txt.solution"
+    "best_known_cost": 13377.56
   },
   "r1_8_6": {
     "comment": "29-may-18",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r1_8_6.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 30967.86,
-    "solution_file": "VRPTW/homberger-solutions/r1_8_6.72_30967.86.txt.solution"
+    "best_known_cost": 30967.86
   },
   "r1_8_8": {
     "comment": "23-feb-18",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r1_8_8.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 27687.83,
-    "solution_file": "VRPTW/homberger-solutions/r1_8_8.72_27687.83.txt.solution"
+    "best_known_cost": 27687.83
   },
   "c2_8_8": {
     "comment": "18-mar-15",
     "solved_with_vehicles": 23,
     "jobs": 800,
     "total_amount": 15210,
-    "problem_file": "VRPTW/homberger/c2_8_8.txt",
     "capacity": 700,
     "vehicles": 200,
-    "best_known_cost": 11288.01,
-    "solution_file": "VRPTW/homberger-solutions/c2_8_8-11288-01-sintef.txt.solution"
+    "best_known_cost": 11288.01
   },
   "rc2_6_3": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc2_6_3.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 9444.99,
-    "solution_file": "VRPTW/homberger-solutions/rc2_6_3.txt.solution"
+    "best_known_cost": 9444.99
   },
   "c2_2_5": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 6,
     "jobs": 200,
     "total_amount": 3770,
-    "problem_file": "VRPTW/homberger/c2_2_5.txt",
     "capacity": 700,
     "vehicles": 50,
-    "best_known_cost": 1878.85,
-    "solution_file": "VRPTW/homberger-solutions/c2_2_5.6_1878.85.txt.solution"
+    "best_known_cost": 1878.85
   },
   "c2_2_3": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 6,
     "jobs": 200,
     "total_amount": 3770,
-    "problem_file": "VRPTW/homberger/c2_2_3.txt",
     "capacity": 700,
     "vehicles": 50,
-    "best_known_cost": 1775.08,
-    "solution_file": "VRPTW/homberger-solutions/c2_2_3---1775.08-clean.txt.solution"
+    "best_known_cost": 1775.08
   },
   "c2_2_2": {
     "comment": "Detailed solution by SAM::OPT",
     "solved_with_vehicles": 6,
     "jobs": 200,
     "total_amount": 3770,
-    "problem_file": "VRPTW/homberger/c2_2_2.txt",
     "capacity": 700,
     "vehicles": 50,
-    "best_known_cost": 1863.16,
-    "solution_file": "VRPTW/homberger-solutions/c2_2_2.txt.solution"
+    "best_known_cost": 1863.16
   },
   "c2_2_1": {
     "comment": "Detailed solution by SAM::OPT",
     "solved_with_vehicles": 6,
     "jobs": 200,
     "total_amount": 3770,
-    "problem_file": "VRPTW/homberger/c2_2_1.txt",
     "capacity": 700,
     "vehicles": 50,
-    "best_known_cost": 1931.44,
-    "solution_file": "VRPTW/homberger-solutions/c2_2_1.txt.solution"
+    "best_known_cost": 1931.44
   },
   "RC108.100": {
     "comment": "IV",
     "solved_with_vehicles": 11,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC108.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1114.2
@@ -1193,40 +994,33 @@
     "solved_with_vehicles": 6,
     "jobs": 200,
     "total_amount": 3770,
-    "problem_file": "VRPTW/homberger/c2_2_6.txt",
     "capacity": 700,
     "vehicles": 50,
-    "best_known_cost": 1857.35,
-    "solution_file": "VRPTW/homberger-solutions/c2_2_6.txt.solution"
+    "best_known_cost": 1857.35
   },
   "c2_2_7": {
     "comment": "Detailed solution by SAM::OPT",
     "solved_with_vehicles": 6,
     "jobs": 200,
     "total_amount": 3770,
-    "problem_file": "VRPTW/homberger/c2_2_7.txt",
     "capacity": 700,
     "vehicles": 50,
-    "best_known_cost": 1849.46,
-    "solution_file": "VRPTW/homberger-solutions/c2_2_7.txt.solution"
+    "best_known_cost": 1849.46
   },
   "c2_2_9": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 6,
     "jobs": 200,
     "total_amount": 3770,
-    "problem_file": "VRPTW/homberger/c2_2_9.txt",
     "capacity": 700,
     "vehicles": 50,
-    "best_known_cost": 1830.05,
-    "solution_file": "VRPTW/homberger-solutions/c2_2_9.6_1830.05.txt.solution"
+    "best_known_cost": 1830.05
   },
   "RC101.100": {
     "comment": "KDMSS",
     "solved_with_vehicles": 15,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC101.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1619.8
@@ -1236,18 +1030,15 @@
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r1_8_10.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 31031.27,
-    "solution_file": "VRPTW/homberger-solutions/r1_8_10.72_31031.27.txt.solution"
+    "best_known_cost": 31031.27
   },
   "C201.100": {
     "comment": "CR+KLM",
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C201.100.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 589.1
@@ -1257,40 +1048,33 @@
     "solved_with_vehicles": 6,
     "jobs": 200,
     "total_amount": 3770,
-    "problem_file": "VRPTW/homberger/c2_2_4.txt",
     "capacity": 700,
     "vehicles": 50,
-    "best_known_cost": 1703.43,
-    "solution_file": "VRPTW/homberger-solutions/c2_2_4.6_1703.43.txt.solution"
+    "best_known_cost": 1703.43
   },
   "r1_6_1": {
     "comment": "",
     "solved_with_vehicles": 59,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r1_6_1.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 21131.09,
-    "solution_file": "VRPTW/homberger-solutions/c2_6_10.txt.solution"
+    "best_known_cost": 21131.09
   },
   "r1_6_7": {
     "comment": "",
     "solved_with_vehicles": 54,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r1_6_7.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 16544.69,
-    "solution_file": "VRPTW/homberger-solutions/r1_6_7.54_16544.69.txt.solution"
+    "best_known_cost": 16544.69
   },
   "R101.100": {
     "comment": "KDMSS",
     "solved_with_vehicles": 20,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R101.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1637.7
@@ -1300,7 +1084,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C105.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 827.3
@@ -1310,183 +1093,150 @@
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r2_2_8.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 1849.87,
-    "solution_file": "VRPTW/homberger-solutions/r2_2_8.4_1849.87.txt.solution"
+    "best_known_cost": 1849.87
   },
   "r2_2_9": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r2_2_9.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 3092.04,
-    "solution_file": "VRPTW/homberger-solutions/r2_2_9---3092.04.txt.solution"
+    "best_known_cost": 3092.04
   },
   "r2_2_4": {
     "comment": "There are questions whether 1981.29 is correct, several authors report 1981.30",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r2_2_4.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 1981.29,
-    "solution_file": "VRPTW/homberger-solutions/r2_2_4.txt.solution"
+    "best_known_cost": 1981.29
   },
   "r2_2_5": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r2_2_5.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 3366.79,
-    "solution_file": "VRPTW/homberger-solutions/r2_2_5.4_3366.79.txt.solution"
+    "best_known_cost": 3366.79
   },
   "r2_2_6": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r2_2_6.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2913.03,
-    "solution_file": "VRPTW/homberger-solutions/r2_2_6.4_2913.03.txt.solution"
+    "best_known_cost": 2913.03
   },
   "r2_2_7": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r2_2_7.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2451.14,
-    "solution_file": "VRPTW/homberger-solutions/r2_2_7.4_2451.14.txt.solution"
+    "best_known_cost": 2451.14
   },
   "c1_8_10": {
     "comment": "04-sep-15",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14380,
-    "problem_file": "VRPTW/homberger/c1_8_10.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 24070.17,
-    "solution_file": "VRPTW/homberger-solutions/c1_8_10.24070.17.sintef.txt.solution"
+    "best_known_cost": 24070.17
   },
   "r2_2_1": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r2_2_1.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 4483.16,
-    "solution_file": "VRPTW/homberger-solutions/r2_2_1.4_4483.16.txt.solution"
+    "best_known_cost": 4483.16
   },
   "r2_2_2": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r2_2_2.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 3621.2,
-    "solution_file": "VRPTW/homberger-solutions/r2_2_2.4_3621.20.txt.solution"
+    "best_known_cost": 3621.2
   },
   "r2_4_8": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r2_4_8.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 4015.6,
-    "solution_file": "VRPTW/homberger-solutions/r2_4_8.8_4015.60.txt.solution"
+    "best_known_cost": 4015.6
   },
   "r2_4_9": {
     "comment": "",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r2_4_9.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 6400.1,
-    "solution_file": "VRPTW/homberger-solutions/r2_4_9---6400.10.txt.solution"
+    "best_known_cost": 6400.1
   },
   "r2_4_7": {
     "comment": "",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r2_4_7.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 5018.53,
-    "solution_file": "VRPTW/homberger-solutions/r2_4_7---5018.53.txt.solution"
+    "best_known_cost": 5018.53
   },
   "r2_4_4": {
     "comment": "Detailed solution provided by BC4",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r2_4_4.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 4241.47,
-    "solution_file": "VRPTW/homberger-solutions/r2_4_4---4241.47.txt.solution"
+    "best_known_cost": 4241.47
   },
   "r2_4_5": {
     "comment": "",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r2_4_5.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 7128.93,
-    "solution_file": "VRPTW/homberger-solutions/r2_4_5.txt.solution"
+    "best_known_cost": 7128.93
   },
   "r2_4_3": {
     "comment": "",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r2_4_3.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 5911.07,
-    "solution_file": "VRPTW/homberger-solutions/r2_4_3.txt.solution"
+    "best_known_cost": 5911.07
   },
   "r2_4_1": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r2_4_1.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 9210.15,
-    "solution_file": "VRPTW/homberger-solutions/r2_4_1---9210.15.txt.solution"
+    "best_known_cost": 9210.15
   },
   "RC201.100": {
     "comment": "KLM",
     "solved_with_vehicles": 9,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC201.100.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1261.8
@@ -1496,194 +1246,159 @@
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r1_4_5.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 9223.0,
-    "solution_file": "VRPTW/homberger-solutions/r1_4_5.36_9223.00.txt.solution"
+    "best_known_cost": 9223.0
   },
   "rc1_4_10": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc1_4_10.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7596.04,
-    "solution_file": "VRPTW/homberger-solutions/rc1_4_10.txt.solution"
+    "best_known_cost": 7596.04
   },
   "r1_4_6": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r1_4_6.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 8358.69,
-    "solution_file": "VRPTW/homberger-solutions/r1_4_6.8358.69.sintef.txt.solution"
+    "best_known_cost": 8358.69
   },
   "rc1_6_7": {
     "comment": "",
     "solved_with_vehicles": 55,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc1_6_7.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 16077.12,
-    "solution_file": "VRPTW/homberger-solutions/rc1_6_7.16077.12.sintef.txt.solution"
+    "best_known_cost": 16077.12
   },
   "c2_6_7": {
     "comment": "",
     "solved_with_vehicles": 18,
     "jobs": 600,
     "total_amount": 11540,
-    "problem_file": "VRPTW/homberger/c2_6_7.txt",
     "capacity": 700,
     "vehicles": 150,
-    "best_known_cost": 7512.07,
-    "solution_file": "VRPTW/homberger-solutions/c2_6_7---7512.07.txt.solution"
+    "best_known_cost": 7512.07
   },
   "c2_10_2": {
     "comment": "2009",
     "solved_with_vehicles": 29,
     "jobs": 1000,
     "total_amount": 19150,
-    "problem_file": "VRPTW/homberger/c2_10_2.txt",
     "capacity": 700,
     "vehicles": 250,
-    "best_known_cost": 17126.39,
-    "solution_file": "VRPTW/homberger-solutions/c2_10_2---17126.39.txt.solution"
+    "best_known_cost": 17126.39
   },
   "c2_10_1": {
     "comment": "2001",
     "solved_with_vehicles": 30,
     "jobs": 1000,
     "total_amount": 19150,
-    "problem_file": "VRPTW/homberger/c2_10_1.txt",
     "capacity": 700,
     "vehicles": 250,
-    "best_known_cost": 16879.24,
-    "solution_file": "VRPTW/homberger-solutions/c1_10_10.39857.01.sintef.txt.solution"
+    "best_known_cost": 16879.24
   },
   "c2_8_9": {
     "comment": "08-jan-18",
     "solved_with_vehicles": 23,
     "jobs": 800,
     "total_amount": 15210,
-    "problem_file": "VRPTW/homberger/c2_8_9.txt",
     "capacity": 700,
     "vehicles": 200,
-    "best_known_cost": 11592.52,
-    "solution_file": "VRPTW/homberger-solutions/c2_8_9.11592.52.sintef.txt.solution"
+    "best_known_cost": 11592.52
   },
   "r1_4_3": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r1_4_3.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7808.34,
-    "solution_file": "VRPTW/homberger-solutions/r1_4_3.7808.34.sintef.txt.solution"
+    "best_known_cost": 7808.34
   },
   "c2_10_5": {
     "comment": "31-jul-12",
     "solved_with_vehicles": 30,
     "jobs": 1000,
     "total_amount": 19150,
-    "problem_file": "VRPTW/homberger/c2_10_5.txt",
     "capacity": 700,
     "vehicles": 250,
-    "best_known_cost": 16561.29,
-    "solution_file": "VRPTW/homberger-solutions/c2_10_5.txt.solution"
+    "best_known_cost": 16561.29
   },
   "c2_10_4": {
     "comment": "31-jul-12",
     "solved_with_vehicles": 28,
     "jobs": 1000,
     "total_amount": 19150,
-    "problem_file": "VRPTW/homberger/c2_10_4.txt",
     "capacity": 700,
     "vehicles": 250,
-    "best_known_cost": 15656.75,
-    "solution_file": "VRPTW/homberger-solutions/c2_10_4.txt.solution"
+    "best_known_cost": 15656.75
   },
   "c2_8_5": {
     "comment": "2009",
     "solved_with_vehicles": 24,
     "jobs": 800,
     "total_amount": 15210,
-    "problem_file": "VRPTW/homberger/c2_8_5.txt",
     "capacity": 700,
     "vehicles": 200,
-    "best_known_cost": 11425.23,
-    "solution_file": "VRPTW/homberger-solutions/c2_8_5---11425.23.txt.solution"
+    "best_known_cost": 11425.23
   },
   "r1_6_5": {
     "comment": "",
     "solved_with_vehicles": 54,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r1_6_5.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 19443.56,
-    "solution_file": "VRPTW/homberger-solutions/r1_6_5.54_19443.56.txt.solution"
+    "best_known_cost": 19443.56
   },
   "c2_8_6": {
     "comment": "09-mar-15",
     "solved_with_vehicles": 23,
     "jobs": 800,
     "total_amount": 15210,
-    "problem_file": "VRPTW/homberger/c2_8_6.txt",
     "capacity": 700,
     "vehicles": 200,
-    "best_known_cost": 12551.09,
-    "solution_file": "VRPTW/homberger-solutions/c2_8_6-12551-09-sintef.txt.solution"
+    "best_known_cost": 12551.09
   },
   "c2_8_3": {
     "comment": "31-jul-12",
     "solved_with_vehicles": 23,
     "jobs": 800,
     "total_amount": 15210,
-    "problem_file": "VRPTW/homberger/c2_8_3.txt",
     "capacity": 700,
     "vehicles": 200,
-    "best_known_cost": 11410.69,
-    "solution_file": "VRPTW/homberger-solutions/c2_8_3.txt.solution"
+    "best_known_cost": 11410.69
   },
   "c2_8_2": {
     "comment": "19-mar-18",
     "solved_with_vehicles": 23,
     "jobs": 800,
     "total_amount": 15210,
-    "problem_file": "VRPTW/homberger/c2_8_2.txt",
     "capacity": 700,
     "vehicles": 200,
-    "best_known_cost": 12285.31,
-    "solution_file": "VRPTW/homberger-solutions/c2_8_2.12285.31.sintef.txt.solution"
+    "best_known_cost": 12285.31
   },
   "c1_10_10": {
     "comment": "19-mar-18",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17940,
-    "problem_file": "VRPTW/homberger/c1_10_10.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 39857.01,
-    "solution_file": "VRPTW/homberger-solutions/c1_10_10.39857.01.sintef.txt.solution"
+    "best_known_cost": 39857.01
   },
   "RC106": {
     "comment": "BBB",
     "solved_with_vehicles": 11,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC106.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1424.73
@@ -1693,150 +1408,123 @@
     "solved_with_vehicles": 54,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r1_6_4.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 15770.5,
-    "solution_file": "VRPTW/homberger-solutions/r1_6_4.54_15770.50.txt.solution"
+    "best_known_cost": 15770.5
   },
   "c2_4_10": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 400,
     "total_amount": 7560,
-    "problem_file": "VRPTW/homberger/c2_4_10.txt",
     "capacity": 700,
     "vehicles": 100,
-    "best_known_cost": 3827.15,
-    "solution_file": "VRPTW/homberger-solutions/c2_4_10.txt.solution"
+    "best_known_cost": 3827.15
   },
   "c2_10_10": {
     "comment": "08-jul-16",
     "solved_with_vehicles": 28,
     "jobs": 1000,
     "total_amount": 19150,
-    "problem_file": "VRPTW/homberger/c2_10_10.txt",
     "capacity": 700,
     "vehicles": 250,
-    "best_known_cost": 15943.34,
-    "solution_file": "VRPTW/homberger-solutions/c2_10_10.15943.34.sintef.txt.solution"
+    "best_known_cost": 15943.34
   },
   "rc1_10_9": {
     "comment": "19-apr-18",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc1_10_9.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 44066.16,
-    "solution_file": "VRPTW/homberger-solutions/rc1_10_9.90_44066.16.txt.solution"
+    "best_known_cost": 44066.16
   },
   "rc1_10_8": {
     "comment": "08-may-18",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc1_10_8.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 44031.75,
-    "solution_file": "VRPTW/homberger-solutions/rc1_10_8.90_44031.75.txt.solution"
+    "best_known_cost": 44031.75
   },
   "rc1_10_3": {
     "comment": "04-sep-17",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc1_10_3.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 42347.83,
-    "solution_file": "VRPTW/homberger-solutions/rc1_10_3.90_42347.83.txt.solution"
+    "best_known_cost": 42347.83
   },
   "rc1_10_2": {
     "comment": "04-sep-17",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc1_10_2.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 43971.13,
-    "solution_file": "VRPTW/homberger-solutions/rc1_10_2.90_43971.13.txt.solution"
+    "best_known_cost": 43971.13
   },
   "rc1_10_1": {
     "comment": "03-apr-18",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc1_10_1.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 46075.69,
-    "solution_file": "VRPTW/homberger-solutions/rc1_10_1.90_46075.69.txt.solution"
+    "best_known_cost": 46075.69
   },
   "rc1_10_6": {
     "comment": "08-may-18",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc1_10_6.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 45073.27,
-    "solution_file": "VRPTW/homberger-solutions/rc1_10_6.90_45073.27.txt.solution"
+    "best_known_cost": 45073.27
   },
   "rc1_10_5": {
     "comment": "11-sep-17",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc1_10_5.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 45313.38,
-    "solution_file": "VRPTW/homberger-solutions/rc1_10_5.90_45313.38.txt.solution"
+    "best_known_cost": 45313.38
   },
   "rc1_10_4": {
     "comment": "04-sep-17",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc1_10_4.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 41507.27,
-    "solution_file": "VRPTW/homberger-solutions/rc1_10_4.90_41507.27.txt.solution"
+    "best_known_cost": 41507.27
   },
   "r2_8_2": {
     "comment": "2009",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r2_8_2.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 22795.79,
-    "solution_file": "VRPTW/homberger-solutions/r2_8_2.15_22795.79.txt.solution"
+    "best_known_cost": 22795.79
   },
   "r2_8_3": {
     "comment": "2009",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r2_8_3.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 17714.05,
-    "solution_file": "VRPTW/homberger-solutions/r2_8_2.15_22795.79.txt.solution"
+    "best_known_cost": 17714.05
   },
   "R104.100": {
     "comment": "IV",
     "solved_with_vehicles": 11,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R104.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 971.5
@@ -1846,249 +1534,204 @@
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r2_8_7.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 16631.77,
-    "solution_file": "VRPTW/homberger-solutions/r2_8_7.15_16631.77.txt.solution"
+    "best_known_cost": 16631.77
   },
   "r2_8_4": {
     "comment": "2009",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r2_8_4.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 13206.1,
-    "solution_file": "VRPTW/homberger-solutions/r2_8_2.15_22795.79.txt.solution"
+    "best_known_cost": 13206.1
   },
   "c2_6_10": {
     "comment": "",
     "solved_with_vehicles": 17,
     "jobs": 600,
     "total_amount": 11540,
-    "problem_file": "VRPTW/homberger/c2_6_10.txt",
     "capacity": 700,
     "vehicles": 150,
-    "best_known_cost": 7255.69,
-    "solution_file": "VRPTW/homberger-solutions/c2_6_10.txt.solution"
+    "best_known_cost": 7255.69
   },
   "r2_8_8": {
     "comment": "2009",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r2_8_8.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 12645.63,
-    "solution_file": "VRPTW/homberger-solutions/r2_8_7.15_16631.77.txt.solution"
+    "best_known_cost": 12645.63
   },
   "r2_8_9": {
     "comment": "18-jun-18",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14230,
-    "problem_file": "VRPTW/homberger/r2_8_9.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 22326.21,
-    "solution_file": "VRPTW/homberger-solutions/r2_8_9.15_22326.21.txt.solution"
+    "best_known_cost": 22326.21
   },
   "rc1_8_9": {
     "comment": "24-jul-17",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc1_8_9.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 28740.44,
-    "solution_file": "VRPTW/homberger-solutions/rc1_8_9.txt.solution"
+    "best_known_cost": 28740.44
   },
   "rc1_8_8": {
     "comment": "11-jul-17",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc1_8_8.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 28797.39,
-    "solution_file": "VRPTW/homberger-solutions/rc1_8_8.txt.solution"
+    "best_known_cost": 28797.39
   },
   "r1_10_7": {
     "comment": "19-apr-18",
     "solved_with_vehicles": 91,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r1_10_7.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 44171.72,
-    "solution_file": "VRPTW/homberger-solutions/r1_10_7.91_44171.72.txt.solution"
+    "best_known_cost": 44171.72
   },
   "rc1_8_1": {
     "comment": "07-jun-18",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc1_8_1.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 30907.27,
-    "solution_file": "VRPTW/homberger-solutions/rc1_8_1.72_30907.27.txt.solution"
+    "best_known_cost": 30907.27
   },
   "rc1_8_3": {
     "comment": "12-jun-18",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc1_8_3.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 27677.1,
-    "solution_file": "VRPTW/homberger-solutions/rc1_8_3.72_27677.10.txt.solution"
+    "best_known_cost": 27677.1
   },
   "rc1_8_2": {
     "comment": "19-apr-18",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc1_8_2.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 28716.34,
-    "solution_file": "VRPTW/homberger-solutions/rc1_8_2.72_28716.34.txt.solution"
+    "best_known_cost": 28716.34
   },
   "rc1_8_5": {
     "comment": "21-nov-17",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc1_8_5.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 29796.67,
-    "solution_file": "VRPTW/homberger-solutions/rc1_8_5.72_29796.67.txt.solution"
+    "best_known_cost": 29796.67
   },
   "rc1_8_4": {
     "comment": "17-jul-17",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc1_8_4.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 26774.93,
-    "solution_file": "VRPTW/homberger-solutions/rc1_8_4.txt.solution"
+    "best_known_cost": 26774.93
   },
   "rc1_8_7": {
     "comment": "24-jul-17",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc1_8_7.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 29276.53,
-    "solution_file": "VRPTW/homberger-solutions/rc1_8_7.txt.solution"
+    "best_known_cost": 29276.53
   },
   "rc1_6_9": {
     "comment": "",
     "solved_with_vehicles": 55,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc1_6_9.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 15826.24,
-    "solution_file": "VRPTW/homberger-solutions/rc1_6_9.15826.24.sintef.txt.solution"
+    "best_known_cost": 15826.24
   },
   "rc1_6_8": {
     "comment": "",
     "solved_with_vehicles": 55,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc1_6_8.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 15914.91,
-    "solution_file": "VRPTW/homberger-solutions/rc1_6_8.15914.91.sintef.txt.solution"
+    "best_known_cost": 15914.91
   },
   "rc1_6_3": {
     "comment": "",
     "solved_with_vehicles": 55,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc1_6_3.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 15204.64,
-    "solution_file": "VRPTW/homberger-solutions/rc1_6_3.15204.64.sintef.txt.solution"
+    "best_known_cost": 15204.64
   },
   "rc1_6_2": {
     "comment": "",
     "solved_with_vehicles": 55,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc1_6_2.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 15920.75,
-    "solution_file": "VRPTW/homberger-solutions/rc1_6_2.15920.75.sintef.txt.solution"
+    "best_known_cost": 15920.75
   },
   "rc1_6_1": {
     "comment": "",
     "solved_with_vehicles": 55,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc1_6_1.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 17014.17,
-    "solution_file": "VRPTW/homberger-solutions/rc1_6_1.55_17014.17.txt.solution"
+    "best_known_cost": 17014.17
   },
   "rc1_10_10": {
     "comment": "11-sep-17",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc1_10_10.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 43679.61,
-    "solution_file": "VRPTW/homberger-solutions/rc1_10_10.90_43679.61.txt.solution"
+    "best_known_cost": 43679.61
   },
   "rc1_6_6": {
     "comment": "",
     "solved_with_vehicles": 55,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc1_6_6.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 16504.25,
-    "solution_file": "VRPTW/homberger-solutions/rc1_6_6.16504.25.sintef.txt.solution"
+    "best_known_cost": 16504.25
   },
   "rc1_6_5": {
     "comment": "",
     "solved_with_vehicles": 55,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc1_6_5.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 16566.24,
-    "solution_file": "VRPTW/homberger-solutions/rc1_6_5.16566.24.sintef.txt.solution"
+    "best_known_cost": 16566.24
   },
   "C107.100": {
     "comment": "KDMSS",
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C107.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 827.3
@@ -2098,29 +1741,24 @@
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r2_2_3.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2880.62,
-    "solution_file": "VRPTW/homberger-solutions/r2_2_3.4_2880.62.txt.solution"
+    "best_known_cost": 2880.62
   },
   "rc1_4_8": {
     "comment": "There are questions whether 7760.23 is valid. Q reports 7773.11",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc1_4_8.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7760.23,
-    "solution_file": "VRPTW/homberger-solutions/rc1_4_8.7773.11.sintef.txt.solution"
+    "best_known_cost": 7760.23
   },
   "C204.100": {
     "comment": "IV",
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C204.100.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 588.1
@@ -2130,183 +1768,150 @@
     "solved_with_vehicles": 40,
     "jobs": 400,
     "total_amount": 7190,
-    "problem_file": "VRPTW/homberger/c1_4_5.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7152.02,
-    "solution_file": "VRPTW/homberger-solutions/c1_4_5.txt.solution"
+    "best_known_cost": 7152.02
   },
   "rc1_4_9": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc1_4_9.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7733.81,
-    "solution_file": "VRPTW/homberger-solutions/rc1_4_9.7733.81.sintef.txt.solution"
+    "best_known_cost": 7733.81
   },
   "rc2_2_5": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc2_2_5.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2911.46,
-    "solution_file": "VRPTW/homberger-solutions/rc2_2_5.4_2911.46.txt.solution"
+    "best_known_cost": 2911.46
   },
   "rc1_4_5": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc1_4_5.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 8172.64,
-    "solution_file": "VRPTW/homberger-solutions/rc1_4_5.8172.64.sintef.txt.solution"
+    "best_known_cost": 8172.64
   },
   "rc1_4_4": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc1_4_4.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7308.55,
-    "solution_file": "VRPTW/homberger-solutions/rc1_4_4.7308.55.sintef.txt.solution"
+    "best_known_cost": 7308.55
   },
   "rc1_4_7": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc1_4_7.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7948.51,
-    "solution_file": "VRPTW/homberger-solutions/rc1_4_7.txt.solution"
+    "best_known_cost": 7948.51
   },
   "rc1_4_6": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc1_4_6.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 8164.98,
-    "solution_file": "VRPTW/homberger-solutions/rc1_4_6.txt.solution"
+    "best_known_cost": 8164.98
   },
   "rc1_4_1": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc1_4_1.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 8573.96,
-    "solution_file": "VRPTW/homberger-solutions/rc1_4_1.8573.96.sintef.txt.solution"
+    "best_known_cost": 8573.96
   },
   "rc2_2_6": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc2_2_6.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2873.12,
-    "solution_file": "VRPTW/homberger-solutions/rc2_2_6---2873.12.txt.solution"
+    "best_known_cost": 2873.12
   },
   "rc1_4_3": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc1_4_3.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7533.05,
-    "solution_file": "VRPTW/homberger-solutions/rc1_4_3.7533.05.sintef.txt.solution"
+    "best_known_cost": 7533.05
   },
   "c1_4_2": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7190,
-    "problem_file": "VRPTW/homberger/c1_4_2.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7686.38,
-    "solution_file": "VRPTW/homberger-solutions/c1_4_2.txt.solution"
+    "best_known_cost": 7686.38
   },
   "c1_4_1": {
     "comment": "There are questions whether 7152.02 is valid, Several authors report 7152.06",
     "solved_with_vehicles": 40,
     "jobs": 400,
     "total_amount": 7190,
-    "problem_file": "VRPTW/homberger/c1_4_1.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7152.02,
-    "solution_file": "VRPTW/homberger-solutions/c1_4_1.txt.solution"
+    "best_known_cost": 7152.02
   },
   "c1_4_6": {
     "comment": "There are questions whether 7153.41 is valid, several authors report 7153.45",
     "solved_with_vehicles": 40,
     "jobs": 400,
     "total_amount": 7190,
-    "problem_file": "VRPTW/homberger/c1_4_6.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7153.41,
-    "solution_file": "VRPTW/homberger-solutions/c1_4_6.txt.solution"
+    "best_known_cost": 7153.41
   },
   "c1_4_7": {
     "comment": "",
     "solved_with_vehicles": 39,
     "jobs": 400,
     "total_amount": 7190,
-    "problem_file": "VRPTW/homberger/c1_4_7.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7417.92,
-    "solution_file": "VRPTW/homberger-solutions/c1_4_6.txt.solution"
+    "best_known_cost": 7417.92
   },
   "rc1_2_9": {
     "comment": "Detailed solution by VCGP",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc1_2_9.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3081.13,
-    "solution_file": "VRPTW/homberger-solutions/rc1_2_9.txt.solution"
+    "best_known_cost": 3081.13
   },
   "rc1_2_8": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc1_2_8.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3083.93,
-    "solution_file": "VRPTW/homberger-solutions/rc1_2_8.18_3083.93.txt.solution"
+    "best_known_cost": 3083.93
   },
   "R111": {
     "comment": "RGP",
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R111.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1096.72
@@ -2316,194 +1921,159 @@
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc1_2_4.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2851.68,
-    "solution_file": "VRPTW/homberger-solutions/rc1_2_4.txt.solution"
+    "best_known_cost": 2851.68
   },
   "rc1_2_3": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc1_2_3.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3008.33,
-    "solution_file": "VRPTW/homberger-solutions/rc1_2_3.18_3008.33.txt.solution"
+    "best_known_cost": 3008.33
   },
   "rc1_2_2": {
     "comment": "",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc1_2_2.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3249.05,
-    "solution_file": "VRPTW/homberger-solutions/rc1_2_2---3249.05.txt.solution"
+    "best_known_cost": 3249.05
   },
   "rc1_2_1": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc1_2_1.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3602.8,
-    "solution_file": "VRPTW/homberger-solutions/rc1_2_1.18_3602.80.txt.solution"
+    "best_known_cost": 3602.8
   },
   "c1_6_4": {
     "comment": "",
     "solved_with_vehicles": 56,
     "jobs": 600,
     "total_amount": 11020,
-    "problem_file": "VRPTW/homberger/c1_6_4.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 13558.54,
-    "solution_file": "VRPTW/homberger-solutions/c1_6_4.13558.54.sintef.txt.solution"
+    "best_known_cost": 13558.54
   },
   "c1_6_6": {
     "comment": "",
     "solved_with_vehicles": 59,
     "jobs": 600,
     "total_amount": 11020,
-    "problem_file": "VRPTW/homberger/c1_6_6.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 15847.61,
-    "solution_file": "VRPTW/homberger-solutions/c1_6_6.59_15847.61.sintef.txt.solution"
+    "best_known_cost": 15847.61
   },
   "c1_6_7": {
     "comment": "",
     "solved_with_vehicles": 57,
     "jobs": 600,
     "total_amount": 11020,
-    "problem_file": "VRPTW/homberger/c1_6_7.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 15752.95,
-    "solution_file": "VRPTW/homberger-solutions/c1_6_7.57_15752.95.sintef.txt.solution"
+    "best_known_cost": 15752.95
   },
   "c1_6_1": {
     "comment": "Detailed solution by Q",
     "solved_with_vehicles": 60,
     "jobs": 600,
     "total_amount": 11020,
-    "problem_file": "VRPTW/homberger/c1_6_1.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 14095.64,
-    "solution_file": "VRPTW/homberger-solutions/c1_6_1.14095.64.sintef.txt.solution"
+    "best_known_cost": 14095.64
   },
   "c1_4_3": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7190,
-    "problem_file": "VRPTW/homberger/c1_4_3.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7060.67,
-    "solution_file": "VRPTW/homberger-solutions/c1_4_3.txt.solution"
+    "best_known_cost": 7060.67
   },
   "r2_4_2": {
     "comment": "Detailed solution by\u00a0SCR",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r2_4_2.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 7606.75,
-    "solution_file": "VRPTW/homberger-solutions/r2_4_2.8_7606.75.txt.solution"
+    "best_known_cost": 7606.75
   },
   "c1_6_8": {
     "comment": "",
     "solved_with_vehicles": 56,
     "jobs": 600,
     "total_amount": 11020,
-    "problem_file": "VRPTW/homberger/c1_6_8.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 14389.82,
-    "solution_file": "VRPTW/homberger-solutions/c1_6_8.14389.82.sintef.txt.solution"
+    "best_known_cost": 14389.82
   },
   "c1_6_9": {
     "comment": "",
     "solved_with_vehicles": 56,
     "jobs": 600,
     "total_amount": 11020,
-    "problem_file": "VRPTW/homberger/c1_6_9.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 13693.42,
-    "solution_file": "VRPTW/homberger-solutions/c1_6_9.txt.solution"
+    "best_known_cost": 13693.42
   },
   "c1_4_4": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7190,
-    "problem_file": "VRPTW/homberger/c1_4_4.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 6803.24,
-    "solution_file": "VRPTW/homberger-solutions/c1_4_4.txt.solution"
+    "best_known_cost": 6803.24
   },
   "c1_8_8": {
     "comment": "09-oct-14",
     "solved_with_vehicles": 73,
     "jobs": 800,
     "total_amount": 14380,
-    "problem_file": "VRPTW/homberger/c1_8_8.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 26684.02,
-    "solution_file": "VRPTW/homberger-solutions/c1_8_8-26684-02-sintef.txt.solution"
+    "best_known_cost": 26684.02
   },
   "c1_8_6": {
     "comment": "15-sep-14",
     "solved_with_vehicles": 79,
     "jobs": 800,
     "total_amount": 14380,
-    "problem_file": "VRPTW/homberger/c1_8_6.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 27202.7,
-    "solution_file": "VRPTW/homberger-solutions/c1_8_6.27202.7.sintef.txt.solution"
+    "best_known_cost": 27202.7
   },
   "c1_8_7": {
     "comment": "25-nov-15",
     "solved_with_vehicles": 77,
     "jobs": 800,
     "total_amount": 14380,
-    "problem_file": "VRPTW/homberger/c1_8_7.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 26486.14,
-    "solution_file": "VRPTW/homberger-solutions/c1_8_7.26486.14.sintef.txt.solution"
+    "best_known_cost": 26486.14
   },
   "c1_8_4": {
     "comment": "28-oct-14",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14380,
-    "problem_file": "VRPTW/homberger/c1_8_4.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 23824.17,
-    "solution_file": "VRPTW/homberger-solutions/c1_8_4-23824-17-sintef.txt.solution"
+    "best_known_cost": 23824.17
   },
   "C203.100": {
     "comment": "KLM",
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C203.100.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 588.7
@@ -2513,40 +2083,33 @@
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14380,
-    "problem_file": "VRPTW/homberger/c1_8_3.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 24249.35,
-    "solution_file": "VRPTW/homberger-solutions/c1_8_3.24249.35.sintef.txt.solution"
+    "best_known_cost": 24249.35
   },
   "c1_8_1": {
     "comment": "2002. There are questions whether\u00a0the solution\u00a0is valid, several authors report 80/25184.38",
     "solved_with_vehicles": 80,
     "jobs": 800,
     "total_amount": 14380,
-    "problem_file": "VRPTW/homberger/c1_8_1.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 25030.36,
-    "solution_file": "VRPTW/homberger-solutions/c1_8_1.25184.38.sintef.txt.solution"
+    "best_known_cost": 25030.36
   },
   "rc2_10_2": {
     "comment": "12-apr-18",
     "solved_with_vehicles": 18,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc2_10_2.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 26188.48,
-    "solution_file": "VRPTW/homberger-solutions/rc2_10_2.18_26188.48.txt.solution"
+    "best_known_cost": 26188.48
   },
   "R110": {
     "comment": "M",
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R110.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1118.59
@@ -2556,62 +2119,51 @@
     "solved_with_vehicles": 20,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc2_10_1.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 30278.5,
-    "solution_file": "VRPTW/homberger-solutions/rc2_10_1---30278.50.txt.solution"
+    "best_known_cost": 30278.5
   },
   "rc2_10_6": {
     "comment": "08-may-18",
     "solved_with_vehicles": 18,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc2_10_6.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 26748.84,
-    "solution_file": "VRPTW/homberger-solutions/rc2_10_6.18_26748.84.txt.solution"
+    "best_known_cost": 26748.84
   },
   "rc2_10_4": {
     "comment": "24-jan-2018",
     "solved_with_vehicles": 18,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc2_10_4.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 15733.25,
-    "solution_file": "VRPTW/homberger-solutions/rc2_10_4.18_15733.25.txt.solution"
+    "best_known_cost": 15733.25
   },
   "rc1_2_6": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc1_2_6.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3324.8,
-    "solution_file": "VRPTW/homberger-solutions/rc1_2_6.18_3324.80.txt.solution"
+    "best_known_cost": 3324.8
   },
   "rc2_10_9": {
     "comment": "09-sep-14",
     "solved_with_vehicles": 18,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc2_10_9.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 23028.1,
-    "solution_file": "VRPTW/homberger-solutions/rc2_10_9_solution.txt.solution"
+    "best_known_cost": 23028.1
   },
   "R112": {
     "comment": "GTA",
     "solved_with_vehicles": 9,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R112.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 982.14
@@ -2621,62 +2173,51 @@
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc2_6_10.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 9069.41,
-    "solution_file": "VRPTW/homberger-solutions/rc2_6_6---11933.88.txt.solution"
+    "best_known_cost": 9069.41
   },
   "c1_4_9": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7190,
-    "problem_file": "VRPTW/homberger/c1_4_9.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7042.53,
-    "solution_file": "VRPTW/homberger-solutions/c1_4_9.7042.53.sintef.txt.solution"
+    "best_known_cost": 7042.53
   },
   "rc2_4_5": {
     "comment": "",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc2_4_5.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 6710.12,
-    "solution_file": "VRPTW/homberger-solutions/rc2_4_5---6710.12.txt.solution"
+    "best_known_cost": 6710.12
   },
   "c1_2_4": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3530,
-    "problem_file": "VRPTW/homberger/c1_2_4.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2643.31,
-    "solution_file": "VRPTW/homberger-solutions/c1_2_4.18_2643.31.txt.solution"
+    "best_known_cost": 2643.31
   },
   "rc2_4_2": {
     "comment": "",
     "solved_with_vehicles": 9,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc2_4_2.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 6180.62,
-    "solution_file": "VRPTW/homberger-solutions/rc2_4_2---6180.62.txt.solution"
+    "best_known_cost": 6180.62
   },
   "C206.100": {
     "comment": "CR+KLM",
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C206.100.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 586.0
@@ -2686,337 +2227,276 @@
     "solved_with_vehicles": 60,
     "jobs": 600,
     "total_amount": 11020,
-    "problem_file": "VRPTW/homberger/c1_6_5.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 14085.72,
-    "solution_file": "VRPTW/homberger-solutions/c1_6_5.txt.solution"
+    "best_known_cost": 14085.72
   },
   "rc2_4_1": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 11,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc2_4_1.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 6682.37,
-    "solution_file": "VRPTW/homberger-solutions/rc2_4_1---6682.37.txt.solution"
+    "best_known_cost": 6682.37
   },
   "r2_6_10": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10737,
-    "problem_file": "VRPTW/homberger/r2_6_10.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 12253.47,
-    "solution_file": "VRPTW/homberger-solutions/r2_6_10---12253.47.txt.solution"
+    "best_known_cost": 12253.47
   },
   "c1_2_8": {
     "comment": "",
     "solved_with_vehicles": 19,
     "jobs": 200,
     "total_amount": 3530,
-    "problem_file": "VRPTW/homberger/c1_2_8.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2775.48,
-    "solution_file": "VRPTW/homberger-solutions/c1_2_8---2775.48.txt.solution"
+    "best_known_cost": 2775.48
   },
   "c1_2_9": {
     "comment": "",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3530,
-    "problem_file": "VRPTW/homberger/c1_2_9.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2687.83,
-    "solution_file": "VRPTW/homberger-solutions/c1_2_9.txt.solution"
+    "best_known_cost": 2687.83
   },
   "c1_2_2": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3530,
-    "problem_file": "VRPTW/homberger/c1_2_2.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2917.89,
-    "solution_file": "VRPTW/homberger-solutions/c1_2_2.18_2917.89.txt.solution"
+    "best_known_cost": 2917.89
   },
   "c1_2_3": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3530,
-    "problem_file": "VRPTW/homberger/c1_2_3.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2707.35,
-    "solution_file": "VRPTW/homberger-solutions/c1_2_4.18_2643.31.txt.solution"
+    "best_known_cost": 2707.35
   },
   "c1_2_6": {
     "comment": "Detailed solution by SAM::OPT",
     "solved_with_vehicles": 20,
     "jobs": 200,
     "total_amount": 3530,
-    "problem_file": "VRPTW/homberger/c1_2_6.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2701.04,
-    "solution_file": "VRPTW/homberger-solutions/c1_2_6.txt.solution"
+    "best_known_cost": 2701.04
   },
   "c1_2_7": {
     "comment": "Detailed solution by SAM::OPT",
     "solved_with_vehicles": 20,
     "jobs": 200,
     "total_amount": 3530,
-    "problem_file": "VRPTW/homberger/c1_2_7.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2701.04,
-    "solution_file": "VRPTW/homberger-solutions/c1_2_7.txt.solution"
+    "best_known_cost": 2701.04
   },
   "c2_6_9": {
     "comment": "",
     "solved_with_vehicles": 17,
     "jobs": 600,
     "total_amount": 11540,
-    "problem_file": "VRPTW/homberger/c2_6_9.txt",
     "capacity": 700,
     "vehicles": 150,
-    "best_known_cost": 7921.18,
-    "solution_file": "VRPTW/homberger-solutions/c2_6_9.7921.18.sintef.txt.solution"
+    "best_known_cost": 7921.18
   },
   "c1_6_2": {
     "comment": "Detailed solution by Q",
     "solved_with_vehicles": 56,
     "jobs": 600,
     "total_amount": 11020,
-    "problem_file": "VRPTW/homberger/c1_6_2.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 14163.31,
-    "solution_file": "VRPTW/homberger-solutions/c1_6_2.14163.31.sintef.txt.solution"
+    "best_known_cost": 14163.31
   },
   "r1_10_9": {
     "comment": "17-apr-18",
     "solved_with_vehicles": 91,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r1_10_9.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 49496.36,
-    "solution_file": "VRPTW/homberger-solutions/r1_10_9.91_49496.36.txt.solution"
+    "best_known_cost": 49496.36
   },
   "r1_10_8": {
     "comment": "18-sep-17",
     "solved_with_vehicles": 91,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r1_10_8.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 42452.51,
-    "solution_file": "VRPTW/homberger-solutions/r1_10_8.91_42452.51.txt.solution"
+    "best_known_cost": 42452.51
   },
   "r1_10_6": {
     "comment": "29-mar-18",
     "solved_with_vehicles": 91,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r1_10_6.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 47182.79,
-    "solution_file": "VRPTW/homberger-solutions/r1_10_6.91_47182.79.txt.solution"
+    "best_known_cost": 47182.79
   },
   "r1_10_3": {
     "comment": "23-mar-18",
     "solved_with_vehicles": 91,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r1_10_3.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 44935.8,
-    "solution_file": "VRPTW/homberger-solutions/r1_10_3.91_44935.80.txt.solution"
+    "best_known_cost": 44935.8
   },
   "r1_10_2": {
     "comment": "29-mar-18",
     "solved_with_vehicles": 91,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r1_10_2.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 48596.99,
-    "solution_file": "VRPTW/homberger-solutions/r1_10_2.91_48596.99.txt.solution"
+    "best_known_cost": 48596.99
   },
   "r1_10_1": {
     "comment": "22-mar-18",
     "solved_with_vehicles": 100,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r1_10_1.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 53435.98,
-    "solution_file": "VRPTW/homberger-solutions/r1_10_1.100_53435.98.txt.solution"
+    "best_known_cost": 53435.98
   },
   "rc1_8_10": {
     "comment": "16-oct-17",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc1_8_10.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 28474.35,
-    "solution_file": "VRPTW/homberger-solutions/rc1_8_10.72_28474.35.txt.solution"
+    "best_known_cost": 28474.35
   },
   "rc2_4_8": {
     "comment": "",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc2_4_8.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 4792.69,
-    "solution_file": "VRPTW/homberger-solutions/rc2_4_8.4792.69.sintef.txt.solution"
+    "best_known_cost": 4792.69
   },
   "rc2_2_10": {
     "comment": "There are questions whether 2015.60 is correct. Several authors report 2015.61",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc2_2_10.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2015.6,
-    "solution_file": "VRPTW/homberger-solutions/rc2_2_10.txt.solution"
+    "best_known_cost": 2015.6
   },
   "c1_4_10": {
     "comment": "Detailed solution by\u00a0SCR",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7190,
-    "problem_file": "VRPTW/homberger/c1_4_10.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 6860.63,
-    "solution_file": "VRPTW/homberger-solutions/c1_4_10.36_6860.63.txt.solution"
+    "best_known_cost": 6860.63
   },
   "r1_2_5": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r1_2_5.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 4107.86,
-    "solution_file": "VRPTW/homberger-solutions/r1_2_5.18_4107.86.txt.solution"
+    "best_known_cost": 4107.86
   },
   "rc2_8_8": {
     "comment": "18-jun-18",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc2_8_8.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 15790.21,
-    "solution_file": "VRPTW/homberger-solutions/rc2_8_8.15_15790.21.txt.solution"
+    "best_known_cost": 15790.21
   },
   "rc2_8_9": {
     "comment": "22-jun-18",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc2_8_9.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 15352.82,
-    "solution_file": "VRPTW/homberger-solutions/rc2_8_9.15_15352.82.txt.solution"
+    "best_known_cost": 15352.82
   },
   "r2_10_10": {
     "comment": "09-sep-14",
     "solved_with_vehicles": 19,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r2_10_10.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 30215.24,
-    "solution_file": "VRPTW/homberger-solutions/r2_10_10_solution.txt.solution"
+    "best_known_cost": 30215.24
   },
   "rc2_8_2": {
     "comment": "2009",
     "solved_with_vehicles": 16,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc2_8_2.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 18181.14,
-    "solution_file": "VRPTW/homberger-solutions/rc2_8_1---20981.14.txt.solution"
+    "best_known_cost": 18181.14
   },
   "rc2_8_1": {
     "comment": "05-apr-12",
     "solved_with_vehicles": 18,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc2_8_1.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 20981.14,
-    "solution_file": "VRPTW/homberger-solutions/rc2_8_1---20981.14.txt.solution"
+    "best_known_cost": 20981.14
   },
   "rc2_8_6": {
     "comment": "2009",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc2_8_6.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 18146.03,
-    "solution_file": "VRPTW/homberger-solutions/rc2_8_6.15_18146.03.txt.solution"
+    "best_known_cost": 18146.03
   },
   "rc2_8_7": {
     "comment": "13-jun-18",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc2_8_7.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 16841.12,
-    "solution_file": "VRPTW/homberger-solutions/rc2_8_7.15_16841.12.txt.solution"
+    "best_known_cost": 16841.12
   },
   "rc2_8_5": {
     "comment": "23-may-18",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc2_8_5.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 19119.97,
-    "solution_file": "VRPTW/homberger-solutions/rc2_8_5.15_19119.97.txt.solution"
+    "best_known_cost": 19119.97
   },
   "RC205.100": {
     "comment": "IV+C",
     "solved_with_vehicles": 7,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC205.100.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1154.0
@@ -3026,7 +2506,6 @@
     "solved_with_vehicles": 14,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R103.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1208.7
@@ -3036,106 +2515,87 @@
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc2_6_8.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 10007.82,
-    "solution_file": "VRPTW/homberger-solutions/rc2_6_6---11933.88.txt.solution"
+    "best_known_cost": 10007.82
   },
   "rc2_6_1": {
     "comment": "",
     "solved_with_vehicles": 14,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc2_6_1.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 13324.93,
-    "solution_file": "VRPTW/homberger-solutions/rc2_6_1---13324.93.txt.solution"
+    "best_known_cost": 13324.93
   },
   "rc2_6_2": {
     "comment": "",
     "solved_with_vehicles": 12,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc2_6_2.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 11555.51,
-    "solution_file": "VRPTW/homberger-solutions/rc2_6_2---11555.51.txt.solution"
+    "best_known_cost": 11555.51
   },
   "r1_2_8": {
     "comment": "Detailed solution by VCGP",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r1_2_8.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2951.99,
-    "solution_file": "VRPTW/homberger-solutions/r1_2_8.txt.solution"
+    "best_known_cost": 2951.99
   },
   "rc2_6_4": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc2_6_4.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 7065.72,
-    "solution_file": "VRPTW/homberger-solutions/rc2_6_4.7067.77.sintef.txt.solution"
+    "best_known_cost": 7065.72
   },
   "rc2_6_5": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc2_6_5.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 13000.84,
-    "solution_file": "VRPTW/homberger-solutions/rc2_6_4.7067.77.sintef.txt.solution"
+    "best_known_cost": 13000.84
   },
   "rc2_6_6": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc2_6_6.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 11933.88,
-    "solution_file": "VRPTW/homberger-solutions/rc2_6_6---11933.88.txt.solution"
+    "best_known_cost": 11933.88
   },
   "rc2_6_7": {
     "comment": "",
     "solved_with_vehicles": 11,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc2_6_7.txt",
     "capacity": 1000,
     "vehicles": 150,
-    "best_known_cost": 10724.85,
-    "solution_file": "VRPTW/homberger-solutions/rc2_6_6---11933.88.txt.solution"
+    "best_known_cost": 10724.85
   },
   "c1_2_10": {
     "comment": "There are questions whether 2643.51 is valid, several authors report 2643.55",
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3530,
-    "problem_file": "VRPTW/homberger/c1_2_10.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 2643.51,
-    "solution_file": "VRPTW/homberger-solutions/c1_2_10.txt.solution"
+    "best_known_cost": 2643.51
   },
   "R106.100": {
     "comment": "CR+KLM",
     "solved_with_vehicles": 13,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R106.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1234.6
@@ -3145,7 +2605,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C109.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 827.3
@@ -3155,7 +2614,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C104.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 822.9
@@ -3165,139 +2623,114 @@
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc2_2_4.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2038.56,
-    "solution_file": "VRPTW/homberger-solutions/rc2_2_4---2038.56.txt.solution"
+    "best_known_cost": 2038.56
   },
   "rc2_2_7": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc2_2_7.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2525.83,
-    "solution_file": "VRPTW/homberger-solutions/rc2_2_7.4_2525.83.txt.solution"
+    "best_known_cost": 2525.83
   },
   "rc2_2_1": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 6,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc2_2_1.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 3099.53,
-    "solution_file": "VRPTW/homberger-solutions/rc2_2_1.6_3099.53.txt.solution"
+    "best_known_cost": 3099.53
   },
   "rc2_2_2": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 5,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc2_2_2.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2825.24,
-    "solution_file": "VRPTW/homberger-solutions/rc2_2_2.5_2825.24.txt.solution"
+    "best_known_cost": 2825.24
   },
   "c1_8_9": {
     "comment": "14-aug-17",
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14380,
-    "problem_file": "VRPTW/homberger/c1_8_9.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 24300.21,
-    "solution_file": "VRPTW/homberger-solutions/c1_8_9.24300.21.sintef.txt.solution"
+    "best_known_cost": 24300.21
   },
   "rc2_2_8": {
     "comment": "",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc2_2_8.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2292.53,
-    "solution_file": "VRPTW/homberger-solutions/rc2_2_8.txt.solution"
+    "best_known_cost": 2292.53
   },
   "rc2_2_9": {
     "comment": "Detailed solution by SCR",
     "solved_with_vehicles": 4,
     "jobs": 200,
     "total_amount": 3558,
-    "problem_file": "VRPTW/homberger/rc2_2_9.txt",
     "capacity": 1000,
     "vehicles": 50,
-    "best_known_cost": 2175.04,
-    "solution_file": "VRPTW/homberger-solutions/rc2_2_9.4_2175.04.txt.solution"
+    "best_known_cost": 2175.04
   },
   "rc2_4_6": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc2_4_6.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 5766.61,
-    "solution_file": "VRPTW/homberger-solutions/rc2_4_6---5766.61.txt.solution"
+    "best_known_cost": 5766.61
   },
   "rc2_4_7": {
     "comment": "",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc2_4_7.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 5334.72,
-    "solution_file": "VRPTW/homberger-solutions/rc2_4_7.5334.72.sintef.txt.solution"
+    "best_known_cost": 5334.72
   },
   "rc2_4_4": {
     "comment": "Detailed solution by VCGP",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc2_4_4.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 3631.01,
-    "solution_file": "VRPTW/homberger-solutions/rc2_4_4.txt.solution"
+    "best_known_cost": 3631.01
   },
   "rc2_4_3": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc2_4_3.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 4930.84,
-    "solution_file": "VRPTW/homberger-solutions/rc2_4_3---4930.84.txt.solution"
+    "best_known_cost": 4930.84
   },
   "rc2_4_9": {
     "comment": "",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc2_4_9.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 4551.11,
-    "solution_file": "VRPTW/homberger-solutions/rc2_4_9.4551.11.sintef.txt.solution"
+    "best_known_cost": 4551.11
   },
   "RC103.100": {
     "comment": "CR+KLM",
     "solved_with_vehicles": 11,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC103.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1258.0
@@ -3307,161 +2740,132 @@
     "solved_with_vehicles": 6,
     "jobs": 200,
     "total_amount": 3770,
-    "problem_file": "VRPTW/homberger/c2_2_8.txt",
     "capacity": 700,
     "vehicles": 50,
-    "best_known_cost": 1820.53,
-    "solution_file": "VRPTW/homberger-solutions/c2_2_8.6_1820.53.txt.solution"
+    "best_known_cost": 1820.53
   },
   "r1_4_10": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7109,
-    "problem_file": "VRPTW/homberger/r1_4_10.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 8094.1,
-    "solution_file": "VRPTW/homberger-solutions/r1_4_10.8094.1.sintef.txt.solution"
+    "best_known_cost": 8094.1
   },
   "rc2_10_3": {
     "comment": "21-nov-17",
     "solved_with_vehicles": 18,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc2_10_3.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 19996.17,
-    "solution_file": "VRPTW/homberger-solutions/rc2_10_3.18_19996.17.txt.solution"
+    "best_known_cost": 19996.17
   },
   "rc1_4_2": {
     "comment": "",
     "solved_with_vehicles": 36,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc1_4_2.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7892.52,
-    "solution_file": "VRPTW/homberger-solutions/rc1_4_2.txt.solution"
+    "best_known_cost": 7892.52
   },
   "c1_4_8": {
     "comment": "",
     "solved_with_vehicles": 37,
     "jobs": 400,
     "total_amount": 7190,
-    "problem_file": "VRPTW/homberger/c1_4_8.txt",
     "capacity": 200,
     "vehicles": 100,
-    "best_known_cost": 7347.23,
-    "solution_file": "VRPTW/homberger-solutions/c1_4_8---7347.23.txt.solution"
+    "best_known_cost": 7347.23
   },
   "rc2_10_7": {
     "comment": "15-may-18",
     "solved_with_vehicles": 18,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc2_10_7.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 25059.87,
-    "solution_file": "VRPTW/homberger-solutions/rc2_10_7.18_25059.87.txt.solution"
+    "best_known_cost": 25059.87
   },
   "c2_10_3": {
     "comment": "05-apr-12",
     "solved_with_vehicles": 28,
     "jobs": 1000,
     "total_amount": 19150,
-    "problem_file": "VRPTW/homberger/c2_10_3.txt",
     "capacity": 700,
     "vehicles": 250,
-    "best_known_cost": 16884.08,
-    "solution_file": "VRPTW/homberger-solutions/c2_10_3---16884.08.txt.solution"
+    "best_known_cost": 16884.08
   },
   "rc2_10_5": {
     "comment": "04-may-2018",
     "solved_with_vehicles": 18,
     "jobs": 1000,
     "total_amount": 17822,
-    "problem_file": "VRPTW/homberger/rc2_10_5.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 27104.8,
-    "solution_file": "VRPTW/homberger-solutions/rc2_10_5.18_27104.80.txt.solution"
+    "best_known_cost": 27104.8
   },
   "rc1_6_10": {
     "comment": "",
     "solved_with_vehicles": 55,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc1_6_10.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 15675.99,
-    "solution_file": "VRPTW/homberger-solutions/rc1_6_10.15675.99.sintef.txt.solution"
+    "best_known_cost": 15675.99
   },
   "c2_10_7": {
     "comment": "05-apr-12",
     "solved_with_vehicles": 29,
     "jobs": 1000,
     "total_amount": 19150,
-    "problem_file": "VRPTW/homberger/c2_10_7.txt",
     "capacity": 700,
     "vehicles": 250,
-    "best_known_cost": 17882.42,
-    "solution_file": "VRPTW/homberger-solutions/c2_10_7---17882.42.txt.solution"
+    "best_known_cost": 17882.42
   },
   "r1_10_10": {
     "comment": "04-may-18",
     "solved_with_vehicles": 91,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r1_10_10.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 47623.04,
-    "solution_file": "VRPTW/homberger-solutions/r1_10_10.91_47623.04.txt.solution"
+    "best_known_cost": 47623.04
   },
   "c1_10_7": {
     "comment": "19-mar-18",
     "solved_with_vehicles": 97,
     "jobs": 1000,
     "total_amount": 17940,
-    "problem_file": "VRPTW/homberger/c1_10_7.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 43395.88,
-    "solution_file": "VRPTW/homberger-solutions/c1_10_7.43395.88.sintef.txt.solution"
+    "best_known_cost": 43395.88
   },
   "c1_10_4": {
     "comment": "17-apr-13",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17940,
-    "problem_file": "VRPTW/homberger/c1_10_4.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 39468.6,
-    "solution_file": "VRPTW/homberger-solutions/c1_10_4-39468-60-sintef.txt.solution"
+    "best_known_cost": 39468.6
   },
   "c1_10_5": {
     "comment": "25-feb-05",
     "solved_with_vehicles": 100,
     "jobs": 1000,
     "total_amount": 17940,
-    "problem_file": "VRPTW/homberger/c1_10_5.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 42469.18,
-    "solution_file": "VRPTW/homberger-solutions/c1_10_5-converted.txt.solution"
+    "best_known_cost": 42469.18
   },
   "C103.100": {
     "comment": "KDMSS",
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C103.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 826.3
@@ -3471,84 +2875,69 @@
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17940,
-    "problem_file": "VRPTW/homberger/c1_10_3.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 40101.36,
-    "solution_file": "VRPTW/homberger-solutions/c1_10_3.40101.36.sintef.txt.solution"
+    "best_known_cost": 40101.36
   },
   "c1_10_1": {
     "comment": "2001",
     "solved_with_vehicles": 100,
     "jobs": 1000,
     "total_amount": 17940,
-    "problem_file": "VRPTW/homberger/c1_10_1.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 42478.95,
-    "solution_file": "VRPTW/homberger-solutions/c1_10_1.42478.95.sintef.txt.solution"
+    "best_known_cost": 42478.95
   },
   "rc2_4_10": {
     "comment": "",
     "solved_with_vehicles": 8,
     "jobs": 400,
     "total_amount": 7127,
-    "problem_file": "VRPTW/homberger/rc2_4_10.txt",
     "capacity": 1000,
     "vehicles": 100,
-    "best_known_cost": 4278.61,
-    "solution_file": "VRPTW/homberger-solutions/rc2_4_10.txt.solution"
+    "best_known_cost": 4278.61
   },
   "c2_2_10": {
     "comment": "Detailed solution by BC4",
     "solved_with_vehicles": 6,
     "jobs": 200,
     "total_amount": 3770,
-    "problem_file": "VRPTW/homberger/c2_2_10.txt",
     "capacity": 700,
     "vehicles": 50,
-    "best_known_cost": 1806.58,
-    "solution_file": "VRPTW/homberger-solutions/c2_2_10---1806.58-clean.txt.solution"
+    "best_known_cost": 1806.58
   },
   "c1_10_8": {
     "comment": "05-sep-16",
     "solved_with_vehicles": 92,
     "jobs": 1000,
     "total_amount": 17940,
-    "problem_file": "VRPTW/homberger/c1_10_8.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 43029.97,
-    "solution_file": "VRPTW/homberger-solutions/c1_10_8.43029.97.sintef.txt.solution"
+    "best_known_cost": 43029.97
   },
   "c1_10_9": {
     "comment": "23-jan-18",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17940,
-    "problem_file": "VRPTW/homberger/c1_10_9.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 40353.52,
-    "solution_file": "VRPTW/homberger-solutions/c1_10_9.90_40353.52.txt.solution"
+    "best_known_cost": 40353.52
   },
   "c2_8_4": {
     "comment": "31-jul-12",
     "solved_with_vehicles": 22,
     "jobs": 800,
     "total_amount": 15210,
-    "problem_file": "VRPTW/homberger/c2_8_4.txt",
     "capacity": 700,
     "vehicles": 200,
-    "best_known_cost": 11154.4,
-    "solution_file": "VRPTW/homberger-solutions/c2_8_4.txt.solution"
+    "best_known_cost": 11154.4
   },
   "R108": {
     "comment": "BBB",
     "solved_with_vehicles": 9,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R108.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 960.88
@@ -3558,18 +2947,15 @@
     "solved_with_vehicles": 24,
     "jobs": 800,
     "total_amount": 15210,
-    "problem_file": "VRPTW/homberger/c2_8_7.txt",
     "capacity": 700,
     "vehicles": 200,
-    "best_known_cost": 11370.84,
-    "solution_file": "VRPTW/homberger-solutions/c2_8_7---11370.84.txt.solution"
+    "best_known_cost": 11370.84
   },
   "R201": {
     "comment": "HG",
     "solved_with_vehicles": 4,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R201.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1252.37
@@ -3579,7 +2965,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R202.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1191.7
@@ -3589,7 +2974,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R203.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 939.54
@@ -3599,7 +2983,6 @@
     "solved_with_vehicles": 2,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R204.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 825.52
@@ -3609,7 +2992,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R205.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 994.42
@@ -3619,7 +3001,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R206.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 906.14
@@ -3629,7 +3010,6 @@
     "solved_with_vehicles": 2,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R207.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 893.33
@@ -3639,7 +3019,6 @@
     "solved_with_vehicles": 2,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R208.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 726.75
@@ -3649,7 +3028,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R209.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 909.16
@@ -3659,18 +3037,15 @@
     "solved_with_vehicles": 72,
     "jobs": 800,
     "total_amount": 14380,
-    "problem_file": "VRPTW/homberger/c1_8_2.txt",
     "capacity": 200,
     "vehicles": 200,
-    "best_known_cost": 26591.87,
-    "solution_file": "VRPTW/homberger-solutions/c1_8_2.26591.87.sintef.txt.solution"
+    "best_known_cost": 26591.87
   },
   "RC103": {
     "comment": "S98",
     "solved_with_vehicles": 11,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC103.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1261.67
@@ -3680,7 +3055,6 @@
     "solved_with_vehicles": 12,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC102.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1554.75
@@ -3690,7 +3064,6 @@
     "solved_with_vehicles": 14,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC101.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1696.94
@@ -3700,7 +3073,6 @@
     "solved_with_vehicles": 11,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC107.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1230.48
@@ -3710,7 +3082,6 @@
     "solved_with_vehicles": 13,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC105.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1629.44
@@ -3720,7 +3091,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC104.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1135.48
@@ -3730,62 +3100,51 @@
     "solved_with_vehicles": 19,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r2_10_2.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 33449.22,
-    "solution_file": "VRPTW/homberger-solutions/r2_10_2.19_33449.22.txt.solution"
+    "best_known_cost": 33449.22
   },
   "r2_10_3": {
     "comment": "2009",
     "solved_with_vehicles": 19,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r2_10_3.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 24938.95,
-    "solution_file": "VRPTW/homberger-solutions/r2_10_2.19_33449.22.txt.solution"
+    "best_known_cost": 24938.95
   },
   "r2_10_1": {
     "comment": "09-sep-14",
     "solved_with_vehicles": 19,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r2_10_1.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 42188.86,
-    "solution_file": "VRPTW/homberger-solutions/r2_10_1_solution.txt.solution"
+    "best_known_cost": 42188.86
   },
   "r2_10_6": {
     "comment": "05-jan-18",
     "solved_with_vehicles": 19,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r2_10_6.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 30070.09,
-    "solution_file": "VRPTW/homberger-solutions/r2_10_6.19_30070.09.txt.solution"
+    "best_known_cost": 30070.09
   },
   "r2_10_7": {
     "comment": "2009",
     "solved_with_vehicles": 19,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r2_10_7.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 23253.89,
-    "solution_file": "VRPTW/homberger-solutions/r2_10_6.19_30070.09.txt.solution"
+    "best_known_cost": 23253.89
   },
   "C101.100": {
     "comment": "KDMSS",
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C101.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 827.3
@@ -3795,29 +3154,24 @@
     "solved_with_vehicles": 19,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r2_10_5.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 36232.18,
-    "solution_file": "VRPTW/homberger-solutions/r2_10_5_solution.txt.solution"
+    "best_known_cost": 36232.18
   },
   "r2_10_9": {
     "comment": "09-sep-14",
     "solved_with_vehicles": 19,
     "jobs": 1000,
     "total_amount": 18118,
-    "problem_file": "VRPTW/homberger/r2_10_9.txt",
     "capacity": 1000,
     "vehicles": 250,
-    "best_known_cost": 33002.36,
-    "solution_file": "VRPTW/homberger-solutions/r2_10_9_solution.txt.solution"
+    "best_known_cost": 33002.36
   },
   "R201.100": {
     "comment": "KLM",
     "solved_with_vehicles": 8,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R201.100.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 1143.2
@@ -3827,7 +3181,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C109.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 828.94
@@ -3837,18 +3190,15 @@
     "solved_with_vehicles": 18,
     "jobs": 200,
     "total_amount": 3513,
-    "problem_file": "VRPTW/homberger/r1_2_10.txt",
     "capacity": 200,
     "vehicles": 50,
-    "best_known_cost": 3301.18,
-    "solution_file": "VRPTW/homberger-solutions/r1_2_10.18_3301.18.txt.solution"
+    "best_known_cost": 3301.18
   },
   "C104": {
     "comment": "RT",
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C104.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 824.78
@@ -3858,7 +3208,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C106.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 828.94
@@ -3868,7 +3217,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C107.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 828.94
@@ -3878,7 +3226,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C101.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 828.94
@@ -3888,7 +3235,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C102.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 828.94
@@ -3898,7 +3244,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C103.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 828.06
@@ -3908,7 +3253,6 @@
     "solved_with_vehicles": 18,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R102.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1466.6
@@ -3918,7 +3262,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C102.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 827.3
@@ -3928,7 +3271,6 @@
     "solved_with_vehicles": 11,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R109.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1194.73
@@ -3938,7 +3280,6 @@
     "solved_with_vehicles": 13,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R103.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1292.68
@@ -3948,7 +3289,6 @@
     "solved_with_vehicles": 17,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R102.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1486.12
@@ -3958,7 +3298,6 @@
     "solved_with_vehicles": 19,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R101.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1645.79
@@ -3968,7 +3307,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R107.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1104.66
@@ -3978,7 +3316,6 @@
     "solved_with_vehicles": 12,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R106.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1251.98
@@ -3988,7 +3325,6 @@
     "solved_with_vehicles": 14,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R105.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1377.11
@@ -3998,7 +3334,6 @@
     "solved_with_vehicles": 9,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R104.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1007.24
@@ -4008,7 +3343,6 @@
     "solved_with_vehicles": 15,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R105.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1355.3
@@ -4018,7 +3352,6 @@
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C105.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 828.94
@@ -4028,7 +3361,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C207.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 588.29
@@ -4038,7 +3370,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C206.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 588.49
@@ -4048,7 +3379,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C205.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 588.88
@@ -4058,7 +3388,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C204.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 590.6
@@ -4068,7 +3397,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C203.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 591.17
@@ -4078,7 +3406,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C202.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 591.56
@@ -4088,7 +3415,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C201.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 591.56
@@ -4098,7 +3424,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C208.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 588.32
@@ -4108,7 +3433,6 @@
     "solved_with_vehicles": 13,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R109.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1146.9
@@ -4118,7 +3442,6 @@
     "solved_with_vehicles": 12,
     "jobs": 100,
     "total_amount": 1458,
-    "problem_file": "VRPTW/solomon/R110.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 1068.0
@@ -4128,29 +3451,24 @@
     "solved_with_vehicles": 55,
     "jobs": 600,
     "total_amount": 10880,
-    "problem_file": "VRPTW/homberger/rc1_6_4.txt",
     "capacity": 200,
     "vehicles": 150,
-    "best_known_cost": 14777.67,
-    "solution_file": "VRPTW/homberger-solutions/rc1_6_4.14777.67.sintef.txt.solution"
+    "best_known_cost": 14777.67
   },
   "c2_10_9": {
     "comment": "09-sep-14",
     "solved_with_vehicles": 29,
     "jobs": 1000,
     "total_amount": 19150,
-    "problem_file": "VRPTW/homberger/c2_10_9.txt",
     "capacity": 700,
     "vehicles": 250,
-    "best_known_cost": 16370.44,
-    "solution_file": "VRPTW/homberger-solutions/c2_10_9_solution.txt.solution"
+    "best_known_cost": 16370.44
   },
   "C205.100": {
     "comment": "CR+KLM",
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C205.100.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 586.4
@@ -4160,18 +3478,15 @@
     "solved_with_vehicles": 28,
     "jobs": 1000,
     "total_amount": 19150,
-    "problem_file": "VRPTW/homberger/c2_10_8.txt",
     "capacity": 700,
     "vehicles": 250,
-    "best_known_cost": 16577.32,
-    "solution_file": "VRPTW/homberger-solutions/c2_10_8.txt.solution"
+    "best_known_cost": 16577.32
   },
   "C106.100": {
     "comment": "KDMSS",
     "solved_with_vehicles": 10,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C106.100.txt",
     "capacity": 200,
     "vehicles": 25,
     "best_known_cost": 827.3
@@ -4181,40 +3496,33 @@
     "solved_with_vehicles": 99,
     "jobs": 1000,
     "total_amount": 17940,
-    "problem_file": "VRPTW/homberger/c1_10_6.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 43830.21,
-    "solution_file": "VRPTW/homberger-solutions/c1_10_6-43830-21-sintef.txt.solution"
+    "best_known_cost": 43830.21
   },
   "c1_10_2": {
     "comment": "23-nov-15",
     "solved_with_vehicles": 90,
     "jobs": 1000,
     "total_amount": 17940,
-    "problem_file": "VRPTW/homberger/c1_10_2.txt",
     "capacity": 200,
     "vehicles": 250,
-    "best_known_cost": 42247.05,
-    "solution_file": "VRPTW/homberger-solutions/c1_10_2.42247.05.sintef.txt.solution"
+    "best_known_cost": 42247.05
   },
   "rc2_8_10": {
     "comment": "2009",
     "solved_with_vehicles": 15,
     "jobs": 800,
     "total_amount": 14387,
-    "problem_file": "VRPTW/homberger/rc2_8_10.txt",
     "capacity": 1000,
     "vehicles": 200,
-    "best_known_cost": 14439.14,
-    "solution_file": "VRPTW/homberger-solutions/rc2_8_9.15_15352.82.txt.solution"
+    "best_known_cost": 14439.14
   },
   "C207.100": {
     "comment": "CR+KLM",
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1810,
-    "problem_file": "VRPTW/solomon/C207.100.txt",
     "capacity": 700,
     "vehicles": 25,
     "best_known_cost": 585.8
@@ -4224,7 +3532,6 @@
     "solved_with_vehicles": 3,
     "jobs": 100,
     "total_amount": 1724,
-    "problem_file": "VRPTW/solomon/RC204.txt",
     "capacity": 1000,
     "vehicles": 25,
     "best_known_cost": 798.41
