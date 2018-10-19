@@ -30,5 +30,5 @@ done
 
 echo "* Compare all results to best known solutions."
 [ -f $TOP/BKS.json ] || python $TOP/build_BKS.py
-python $TOP/../CVRP/compare_to_BKS.py $TOP/BKS.json `find $TOP -name '*_sol.json'` > ${sol_folder}.csv
+python $TOP/../compare_to_BKS.py $TOP/BKS.json `find $TOP -name '*_sol.json'` > ${sol_folder}.csv
 echo "  - output written to ${sol_folder}.csv"

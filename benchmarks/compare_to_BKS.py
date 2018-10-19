@@ -50,10 +50,7 @@ def log_comparisons(BKS, files):
     jobs.append(nb_job)
     nb_vehicle = indicators['vehicles']
     vehicles.append(nb_vehicle)
-    if indicators['capacity']:
-      tightness = round(float(indicators['total_amount']) / (nb_vehicle * indicators['capacity']), 3)
-    else:
-      tightness = 0
+    tightness = round(float(indicators['total_amount']) / (nb_vehicle * indicators['capacity']), 3)
     tightnesses.append(tightness)
     line = [
       instance,
