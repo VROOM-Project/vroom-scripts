@@ -8,27 +8,9 @@
     "total_amount": 1810,
     "vehicles": 25
   },
-  "C101.100": {
-    "class": "solomon",
-    "best_known_cost": 827.3,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 10,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
   "C102": {
     "class": "solomon",
     "best_known_cost": 828.94,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 10,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
-  "C102.100": {
-    "class": "solomon",
-    "best_known_cost": 827.3,
     "capacity": 200,
     "jobs": 100,
     "solved_with_vehicles": 10,
@@ -44,27 +26,9 @@
     "total_amount": 1810,
     "vehicles": 25
   },
-  "C103.100": {
-    "class": "solomon",
-    "best_known_cost": 826.3,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 10,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
   "C104": {
     "class": "solomon",
     "best_known_cost": 824.78,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 10,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
-  "C104.100": {
-    "class": "solomon",
-    "best_known_cost": 822.9,
     "capacity": 200,
     "jobs": 100,
     "solved_with_vehicles": 10,
@@ -80,27 +44,9 @@
     "total_amount": 1810,
     "vehicles": 25
   },
-  "C105.100": {
-    "class": "solomon",
-    "best_known_cost": 827.3,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 10,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
   "C106": {
     "class": "solomon",
     "best_known_cost": 828.94,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 10,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
-  "C106.100": {
-    "class": "solomon",
-    "best_known_cost": 827.3,
     "capacity": 200,
     "jobs": 100,
     "solved_with_vehicles": 10,
@@ -116,27 +62,9 @@
     "total_amount": 1810,
     "vehicles": 25
   },
-  "C107.100": {
-    "class": "solomon",
-    "best_known_cost": 827.3,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 10,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
   "C108": {
     "class": "solomon",
     "best_known_cost": 828.94,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 10,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
-  "C108.100": {
-    "class": "solomon",
-    "best_known_cost": 827.3,
     "capacity": 200,
     "jobs": 100,
     "solved_with_vehicles": 10,
@@ -152,27 +80,9 @@
     "total_amount": 1810,
     "vehicles": 25
   },
-  "C109.100": {
-    "class": "solomon",
-    "best_known_cost": 827.3,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 10,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
   "C201": {
     "class": "solomon",
     "best_known_cost": 591.56,
-    "capacity": 700,
-    "jobs": 100,
-    "solved_with_vehicles": 3,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
-  "C201.100": {
-    "class": "solomon",
-    "best_known_cost": 589.1,
     "capacity": 700,
     "jobs": 100,
     "solved_with_vehicles": 3,
@@ -188,27 +98,9 @@
     "total_amount": 1810,
     "vehicles": 25
   },
-  "C202.100": {
-    "class": "solomon",
-    "best_known_cost": 589.1,
-    "capacity": 700,
-    "jobs": 100,
-    "solved_with_vehicles": 3,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
   "C203": {
     "class": "solomon",
     "best_known_cost": 591.17,
-    "capacity": 700,
-    "jobs": 100,
-    "solved_with_vehicles": 3,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
-  "C203.100": {
-    "class": "solomon",
-    "best_known_cost": 588.7,
     "capacity": 700,
     "jobs": 100,
     "solved_with_vehicles": 3,
@@ -224,27 +116,9 @@
     "total_amount": 1810,
     "vehicles": 25
   },
-  "C204.100": {
-    "class": "solomon",
-    "best_known_cost": 588.1,
-    "capacity": 700,
-    "jobs": 100,
-    "solved_with_vehicles": 3,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
   "C205": {
     "class": "solomon",
     "best_known_cost": 588.88,
-    "capacity": 700,
-    "jobs": 100,
-    "solved_with_vehicles": 3,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
-  "C205.100": {
-    "class": "solomon",
-    "best_known_cost": 586.4,
     "capacity": 700,
     "jobs": 100,
     "solved_with_vehicles": 3,
@@ -260,27 +134,9 @@
     "total_amount": 1810,
     "vehicles": 25
   },
-  "C206.100": {
-    "class": "solomon",
-    "best_known_cost": 586,
-    "capacity": 700,
-    "jobs": 100,
-    "solved_with_vehicles": 3,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
   "C207": {
     "class": "solomon",
     "best_known_cost": 588.29,
-    "capacity": 700,
-    "jobs": 100,
-    "solved_with_vehicles": 3,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
-  "C207.100": {
-    "class": "solomon",
-    "best_known_cost": 585.8,
     "capacity": 700,
     "jobs": 100,
     "solved_with_vehicles": 3,
@@ -296,30 +152,12 @@
     "total_amount": 1810,
     "vehicles": 25
   },
-  "C208.100": {
-    "class": "solomon",
-    "best_known_cost": 585.8,
-    "capacity": 700,
-    "jobs": 100,
-    "solved_with_vehicles": 3,
-    "total_amount": 1810,
-    "vehicles": 25
-  },
   "R101": {
     "class": "solomon",
     "best_known_cost": 1645.79,
     "capacity": 200,
     "jobs": 100,
     "solved_with_vehicles": 19,
-    "total_amount": 1458,
-    "vehicles": 25
-  },
-  "R101.100": {
-    "class": "solomon",
-    "best_known_cost": 1637.7,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 20,
     "total_amount": 1458,
     "vehicles": 25
   },
@@ -332,30 +170,12 @@
     "total_amount": 1458,
     "vehicles": 25
   },
-  "R102.100": {
-    "class": "solomon",
-    "best_known_cost": 1466.6,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 18,
-    "total_amount": 1458,
-    "vehicles": 25
-  },
   "R103": {
     "class": "solomon",
     "best_known_cost": 1292.68,
     "capacity": 200,
     "jobs": 100,
     "solved_with_vehicles": 13,
-    "total_amount": 1458,
-    "vehicles": 25
-  },
-  "R103.100": {
-    "class": "solomon",
-    "best_known_cost": 1208.7,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 14,
     "total_amount": 1458,
     "vehicles": 25
   },
@@ -368,30 +188,12 @@
     "total_amount": 1458,
     "vehicles": 25
   },
-  "R104.100": {
-    "class": "solomon",
-    "best_known_cost": 971.5,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 11,
-    "total_amount": 1458,
-    "vehicles": 25
-  },
   "R105": {
     "class": "solomon",
     "best_known_cost": 1377.11,
     "capacity": 200,
     "jobs": 100,
     "solved_with_vehicles": 14,
-    "total_amount": 1458,
-    "vehicles": 25
-  },
-  "R105.100": {
-    "class": "solomon",
-    "best_known_cost": 1355.3,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 15,
     "total_amount": 1458,
     "vehicles": 25
   },
@@ -404,30 +206,12 @@
     "total_amount": 1458,
     "vehicles": 25
   },
-  "R106.100": {
-    "class": "solomon",
-    "best_known_cost": 1234.6,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 13,
-    "total_amount": 1458,
-    "vehicles": 25
-  },
   "R107": {
     "class": "solomon",
     "best_known_cost": 1104.66,
     "capacity": 200,
     "jobs": 100,
     "solved_with_vehicles": 10,
-    "total_amount": 1458,
-    "vehicles": 25
-  },
-  "R107.100": {
-    "class": "solomon",
-    "best_known_cost": 1064.6,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 11,
     "total_amount": 1458,
     "vehicles": 25
   },
@@ -449,15 +233,6 @@
     "total_amount": 1458,
     "vehicles": 25
   },
-  "R109.100": {
-    "class": "solomon",
-    "best_known_cost": 1146.9,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 13,
-    "total_amount": 1458,
-    "vehicles": 25
-  },
   "R110": {
     "class": "solomon",
     "best_known_cost": 1118.59,
@@ -467,30 +242,12 @@
     "total_amount": 1458,
     "vehicles": 25
   },
-  "R110.100": {
-    "class": "solomon",
-    "best_known_cost": 1068,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 12,
-    "total_amount": 1458,
-    "vehicles": 25
-  },
   "R111": {
     "class": "solomon",
     "best_known_cost": 1096.72,
     "capacity": 200,
     "jobs": 100,
     "solved_with_vehicles": 10,
-    "total_amount": 1458,
-    "vehicles": 25
-  },
-  "R111.100": {
-    "class": "solomon",
-    "best_known_cost": 1048.7,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 12,
     "total_amount": 1458,
     "vehicles": 25
   },
@@ -509,15 +266,6 @@
     "capacity": 1000,
     "jobs": 100,
     "solved_with_vehicles": 4,
-    "total_amount": 1458,
-    "vehicles": 25
-  },
-  "R201.100": {
-    "class": "solomon",
-    "best_known_cost": 1143.2,
-    "capacity": 1000,
-    "jobs": 100,
-    "solved_with_vehicles": 8,
     "total_amount": 1458,
     "vehicles": 25
   },
@@ -620,15 +368,6 @@
     "total_amount": 1724,
     "vehicles": 25
   },
-  "RC101.100": {
-    "class": "solomon",
-    "best_known_cost": 1619.8,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 15,
-    "total_amount": 1724,
-    "vehicles": 25
-  },
   "RC102": {
     "class": "solomon",
     "best_known_cost": 1554.75,
@@ -638,27 +377,9 @@
     "total_amount": 1724,
     "vehicles": 25
   },
-  "RC102.100": {
-    "class": "solomon",
-    "best_known_cost": 1457.4,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 14,
-    "total_amount": 1724,
-    "vehicles": 25
-  },
   "RC103": {
     "class": "solomon",
     "best_known_cost": 1261.67,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 11,
-    "total_amount": 1724,
-    "vehicles": 25
-  },
-  "RC103.100": {
-    "class": "solomon",
-    "best_known_cost": 1258,
     "capacity": 200,
     "jobs": 100,
     "solved_with_vehicles": 11,
@@ -683,15 +404,6 @@
     "total_amount": 1724,
     "vehicles": 25
   },
-  "RC105.100": {
-    "class": "solomon",
-    "best_known_cost": 1513.7,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 15,
-    "total_amount": 1724,
-    "vehicles": 25
-  },
   "RC106": {
     "class": "solomon",
     "best_known_cost": 1424.73,
@@ -710,30 +422,12 @@
     "total_amount": 1724,
     "vehicles": 25
   },
-  "RC107.100": {
-    "class": "solomon",
-    "best_known_cost": 1207.8,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 12,
-    "total_amount": 1724,
-    "vehicles": 25
-  },
   "RC108": {
     "class": "solomon",
     "best_known_cost": 1139.82,
     "capacity": 200,
     "jobs": 100,
     "solved_with_vehicles": 10,
-    "total_amount": 1724,
-    "vehicles": 25
-  },
-  "RC108.100": {
-    "class": "solomon",
-    "best_known_cost": 1114.2,
-    "capacity": 200,
-    "jobs": 100,
-    "solved_with_vehicles": 11,
     "total_amount": 1724,
     "vehicles": 25
   },
@@ -746,30 +440,12 @@
     "total_amount": 1724,
     "vehicles": 25
   },
-  "RC201.100": {
-    "class": "solomon",
-    "best_known_cost": 1261.8,
-    "capacity": 1000,
-    "jobs": 100,
-    "solved_with_vehicles": 9,
-    "total_amount": 1724,
-    "vehicles": 25
-  },
   "RC202": {
     "class": "solomon",
     "best_known_cost": 1367.09,
     "capacity": 1000,
     "jobs": 100,
     "solved_with_vehicles": 3,
-    "total_amount": 1724,
-    "vehicles": 25
-  },
-  "RC202.100": {
-    "class": "solomon",
-    "best_known_cost": 1092.3,
-    "capacity": 1000,
-    "jobs": 100,
-    "solved_with_vehicles": 8,
     "total_amount": 1724,
     "vehicles": 25
   },
@@ -797,15 +473,6 @@
     "capacity": 1000,
     "jobs": 100,
     "solved_with_vehicles": 4,
-    "total_amount": 1724,
-    "vehicles": 25
-  },
-  "RC205.100": {
-    "class": "solomon",
-    "best_known_cost": 1154,
-    "capacity": 1000,
-    "jobs": 100,
-    "solved_with_vehicles": 7,
     "total_amount": 1724,
     "vehicles": 25
   },
