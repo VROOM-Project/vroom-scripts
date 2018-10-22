@@ -10,9 +10,10 @@ euclidean distance (`EDGE_WEIGHT_TYPE = EUC_2D`).
 # Solving
 
 Assuming the `vroom` command is somewhere in your path, just run the
-provided script on the benchmark classes you want to use.
+provided scripts on the benchmark classes you want to use.
 
 ```
+./generate.sh A B E F M P X
 ./run.sh A B E F M P X
 ```
 

@@ -18,6 +18,7 @@ Assuming the `vroom` command is somewhere in your path, just run the
 provided script on the benchmark classes you want to use.
 
 ```
+./generate.sh solomon homberger_200
 ./run.sh solomon homberger_200
 ```
 
