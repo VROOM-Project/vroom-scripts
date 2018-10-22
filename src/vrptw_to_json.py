@@ -148,3 +148,11 @@ if __name__ == "__main__":
 
   with open(output_name, 'w') as out:
     json.dump(json_input, out)
+
+  if len(sys.argv) > 2:
+    nb_vehicles = int(sys.argv[2])
+    output_name = 'limited_fleet/' + output_name
+    print '- Writing problem ' + input_file + ' with limited number of vehicles to ' + output_name
+    json_input['vehicles'] = json_input['vehicles'][:nb_vehicles]
+    with open(output_name, 'w') as out:
+      json.dump(json_input, out)
