@@ -5,6 +5,10 @@ import numpy as np
 # Compare a set of computed solutions to best known solutions on the
 # same problems.
 
+# See src/vrptw_to_json.py
+VRPTW_PRECISION = 10000
+BENCH_DOUBLE_PRECISION = 100
+
 def s_round(v, d):
   if d == 0:
     return str(int(v))
@@ -46,6 +50,10 @@ def log_comparisons(BKS, files):
     indicators = BKS[instance]
 
     BK_cost = indicators['best_known_cost']
+    bench = indicators['class']
+    if 'solomon' in bench or 'homberger' in bench:
+      BK_cost = int(BENCH_DOUBLE_PRECISION * BK_cost)
+
     nb_job = indicators['jobs']
     jobs.append(nb_job)
     nb_vehicle = indicators['vehicles']
@@ -73,6 +81,9 @@ def log_comparisons(BKS, files):
     line.append(len(solution['routes']))
 
     cost = solution['summary']['cost']
+    if 'solomon' in bench or 'homberger' in bench:
+      cost = int(round(BENCH_DOUBLE_PRECISION * float(cost) / VRPTW_PRECISION))
+
     line.append(cost)
     line.append(nb_job - sol_jobs)
     unassigned.append(nb_job - sol_jobs)

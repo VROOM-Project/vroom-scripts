@@ -20,6 +20,7 @@ Assuming the `vroom` command is somewhere in your path, just run the
 provided script on the benchmark classes you want to use.
 
 ```
+./generate.sh TSPLIB national_TSP
 ./run.sh TSPLIB national_TSP
 ```
 

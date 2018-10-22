@@ -5,10 +5,10 @@ import math
 def nint(x):
   return int(x + 0.5);
 
-def euc_2D(c1, c2):
+def euc_2D(c1, c2, PRECISION = 1):
   xd = c1[0] - c2[0]
   yd = c1[1] - c2[1]
-  return nint(math.sqrt(xd * xd + yd * yd))
+  return nint(PRECISION * math.sqrt(xd * xd + yd * yd))
 
 # Retrieve value for a one-liner TSPLIB entry.
 def get_value(key, lines):
@@ -32,13 +32,13 @@ def parse_node_coords(s):
   return [v for v in coords if len(v) > 0]
 
 # Compute matrix based on ordered list of coordinates.
-def get_matrix(coords):
+def get_matrix(coords, PRECISION = 1):
   N = len(coords)
   matrix = [[0 for i in range(N)] for j in range(N)]
 
   for i in range(N):
     for j in range(i + 1, N):
-      value = euc_2D(coords[i], coords[j])
+      value = euc_2D(coords[i], coords[j], PRECISION)
       matrix[i][j] = value
       matrix[j][i] = value
 

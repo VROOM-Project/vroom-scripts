@@ -13,14 +13,16 @@ debug or help in using `VROOM`.
   instance to a csv file.
 - **tsplib_to_json** converts a TSPLIB file to json.
 - **cvrplib_to_json** converts a CVRPLIB file to json.
+- **vrptw_to_json** converts a VRPTW file to json.
 - **add_osrm_matrix** create a "standalone" version of a json input
   instance by adding a `matrix` key using OSRM.
 
 # Benchmarks
 
-The `benchmark` folder contains everything required to reproduce
+The `benchmarks` folder contains everything required to reproduce
 results on literature benchmarks with a single command. Detailed
 instructions for:
 
-- [TSP](benchmark/TSP)
-- [CVRP](benchmark/CVRP)
+- [TSP](benchmarks/TSP)
+- [CVRP](benchmarks/CVRP)
+- [VRPTW](benchmarks/VRPTW)
