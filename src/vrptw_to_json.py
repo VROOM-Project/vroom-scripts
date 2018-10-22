@@ -3,7 +3,7 @@
 import json, sys, os
 from utils.benchmark import *
 
-# Generate a json-formatted problem from a TSPTW and similar file.
+# Generate a json-formatted problem from a TSPTW/VRPTW file.
 
 line_no = 0
 
@@ -57,7 +57,7 @@ def parse_jobs(lines, jobs, coords):
       })
       location_index += 1
 
-def parse_cvrptw(input_file):
+def parse_vrptw(input_file):
   global line_no
 
   with open(input_file, 'r') as f:
@@ -136,10 +136,7 @@ if __name__ == "__main__":
   output_name = input_file[:input_file.rfind('.txt')] + '.json'
 
   print '- Writing problem ' + input_file + ' to ' + output_name
-  json_input = parse_cvrptw(input_file)
-  # debug
-  #json.dump(json_input, sys.stdout)
-  #exit(0)
+  json_input = parse_vrptw(input_file)
 
   with open(output_name, 'w') as out:
     json.dump(json_input, out)
