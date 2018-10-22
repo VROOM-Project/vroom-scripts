@@ -2,25 +2,20 @@
 
 ## VRPLIB
 
-The benchmark instances represented here are described in:
-- [VRPTW](https://www.sintef.no/projectweb/top/vrptw)
-- [TSPTW](http://homepages.dcc.ufmg.br/~rfsilva/tsptw)
-
-# Downloading
-
-Just run:
-```
-./download.sh
-```
-It will retrieve and aggregate everything needed.
+The `solomon` and `homberger` folders contain all VRPTW instances
+described in [Solomon](http://web.cba.neu.edu/~msolomon/problems.htm)
+and [Gehring &
+Homberger](https://www.sintef.no/projectweb/top/vrptw/homberger-benchmark/).
 
 # Solving
 
 Assuming the `vroom` command is somewhere in your path, just run the
 provided script on the benchmark classes you want to use.
+
 ```
-./run.sh [VRPTW|TSPTW|VRPTW TSPTW(default)]
+./run.sh solomon homberger_200
 ```
+
 It will
 - parse all instances `*.txt` files to generate `VROOM` input files in `json`
 format

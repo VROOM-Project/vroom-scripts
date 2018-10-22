@@ -6,29 +6,33 @@ t=8
 x=1
 sol_folder="solutions_t_${t}_x_${x}"
 
-TOP=`dirname $0`
-
-# Generate json files from *.txt files on the first execution.
-echo "* Writing json input files"
-for file in `find "$@" . -name '*.txt'`
+# Loop over list of folder in input.
+for class in "$@"
 do
-    json_file=${file%.txt}.json
-    [ -f ${json_file} ] || python $TOP/../../src/vrptw_to_json.py ${file}
-done
+    echo "* Move to ${class} class folder"
+    cd ${class}
 
-echo "* Solving with ${t} threads and exploration level ${x}, output written to ${class}/${sol_folder}"
-mkdir -p ${sol_folder}
+    # Generate json files from *.txt files on the first execution.
+    echo "* Writing json input files"
+    for file in `ls -rS *.txt`
+    do
+        json_file=${file%.txt}.json
+        [ -f ${json_file} ] || python ../../../src/vrptw_to_json.py ${file}
+    done
 
-for file in `find "$@" -name '*.txt'`
-do
-    json_file=${file%.txt}.json
-    base=`basename $file`
-    sol_file=${sol_folder}/${base%.txt}_sol.json
-    [ -f ${sol_file} ] || echo "Solving ${json_file}"
-    [ -f ${sol_file} ] || vroom -i ${json_file} -o ${sol_file} -t ${t} -x ${x}
+    echo "* Solving with ${t} threads and exploration level ${x}, output written to ${class}/${sol_folder}"
+    mkdir -p ${sol_folder}
+
+    for file in `ls -rS *.json`
+    do
+        sol_file=${sol_folder}/${file%.json}_sol.json
+        [ -f ${sol_file} ] || echo "Solving ${file%.json}"
+        [ -f ${sol_file} ] || vroom -i ${file} -o ${sol_file} -t ${t} -x ${x}
+    done
+
+    cd ../
 done
 
 echo "* Compare all results to best known solutions."
-[ -f $TOP/BKS.json ] || python $TOP/build_BKS.py
-python $TOP/../compare_to_BKS.py $TOP/BKS.json `find $TOP -name '*_sol.json'` > ${sol_folder}.csv
+python ../compare_to_BKS.py BKS.json  */${sol_folder}/*_sol.json > ${sol_folder}.csv
 echo "  - output written to ${sol_folder}.csv"
