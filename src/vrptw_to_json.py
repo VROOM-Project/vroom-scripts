@@ -5,6 +5,13 @@ from utils.benchmark import *
 
 # Generate a json-formatted problem from a TSPTW/VRPTW file.
 
+# Those benchmarks use double precision for matrix costs (and input
+# timings), and results are usually reported with 2 decimal places. As
+# a workaround, we multiply all costs/timings by VRPTW_PRECISION
+# before performing the usual integer rounding. Comparisons in
+# benchmarks/compare_to_BKS.py are adjusted accordingly.
+VRPTW_PRECISION = 10000
+
 line_no = 0
 
 def parse_meta(lines, meta):
@@ -52,8 +59,9 @@ def parse_jobs(lines, jobs, coords):
         'location': [float(x[1]), float(x[2])],
         'location_index': location_index,
         'amount': [int(float(x[3]))],
-        'time_windows': [[int(float(x[4])), int(float(x[5]))]],
-        'service': int(float(x[6]))
+        'time_windows': [[VRPTW_PRECISION * int(float(x[4])),
+                          VRPTW_PRECISION * int(float(x[5]))]],
+        'service': VRPTW_PRECISION * int(float(x[6]))
       })
       location_index += 1
 
@@ -86,7 +94,7 @@ def parse_vrptw(input_file):
     elif 'CUSTOMER' in l or 'CUST ' in l or '#NUM' in l:
       parse_jobs(lines, jobs, coords)
 
-  matrix = get_matrix(coords)
+  matrix = get_matrix(coords, VRPTW_PRECISION)
 
   j = jobs.pop(0)
 
