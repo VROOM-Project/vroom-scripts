@@ -19,7 +19,7 @@ provided script on the benchmark classes you want to use.
 
 ```
 ./generate.sh solomon homberger_200
-./run.sh solomon homberger_200
+./run.sh solomon/limited_fleet homberger_200/limited_fleet
 ```
 
 It will
