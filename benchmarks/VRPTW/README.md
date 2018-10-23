@@ -71,5 +71,5 @@ So on one hand, we need to compare to double precision values rounded
 to 2 decimal places, and on the other hand VROOM only uses integer
 values for costs. Our workaround is to round costs with the usual
 TSPLIB convention **after** multiplying double precision values by
-10000 to keep a fair amount of precision. Then this "scaling" is taken
+1000 to keep a fair amount of precision. Then this "scaling" is taken
 into account while comparing our results to best known solutions.

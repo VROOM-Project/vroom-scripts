@@ -6,7 +6,7 @@ import numpy as np
 # same problems.
 
 # See src/vrptw_to_json.py
-VRPTW_PRECISION = 10000
+VRPTW_PRECISION = 1000
 BENCH_DOUBLE_PRECISION = 100
 
 def s_round(v, d):

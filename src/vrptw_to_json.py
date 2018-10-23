@@ -10,7 +10,7 @@ from utils.benchmark import *
 # a workaround, we multiply all costs/timings by VRPTW_PRECISION
 # before performing the usual integer rounding. Comparisons in
 # benchmarks/compare_to_BKS.py are adjusted accordingly.
-VRPTW_PRECISION = 10000
+VRPTW_PRECISION = 1000
 
 line_no = 0
 
