@@ -17,9 +17,9 @@ provided scripts on the benchmark classes you want to use.
 ./run.sh A B E F M P X
 ```
 
-It will
+Includes:
 
-- parse all `*.vrp` files to generate `VROOM` input files in `json` format
-- solve all instances
-- retrieve comparisons to best known solutions for all instances
-- log global indicators
+- parsing all `*.vrp` files to generate `VROOM` input files in `json` format
+- solving all instances
+- retrieving comparisons to best known solutions for all instances
+- logging global indicators

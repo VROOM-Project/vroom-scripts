@@ -15,20 +15,19 @@ with sizes ranging from 200 to 1000 jobs.
 # Solving
 
 Assuming the `vroom` command is somewhere in your path, just run the
-provided script on the benchmark classes you want to use.
+provided scripts on the benchmark classes you want to use.
 
 ```
 ./generate.sh solomon homberger_200
 ./run.sh solomon/limited_fleet homberger_200/limited_fleet
 ```
 
-It will
+Includes:
 
-- parse all instances `*.txt` files to generate `VROOM` input files in `Jason`
-format
-- solve all instances
-- retrieve comparisons to best known solutions for all instances
-- log global indicators
+- parsing all `*.txt` files to generate `VROOM` input files in `json` format
+- solving all instances
+- retrieving comparisons to best known solutions for all instances
+- logging global indicators
 
 # Notes
 
