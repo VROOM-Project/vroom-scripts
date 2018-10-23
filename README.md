@@ -3,6 +3,7 @@
 The `src` folder contains a bunch of scripts to develop, benchmark,
 debug or help in using `VROOM`.
 
+- **plot** generates a simple svg visualisation for a solution file.
 - **overpass_to_json** generates a problem from all OSM nodes with a
   specific `key=value` tag in a chosen bounding box or city.
 - **random_problem** generates a ready-to-solve random problem based
@@ -14,7 +15,7 @@ debug or help in using `VROOM`.
 - **tsplib_to_json** converts a TSPLIB file to json.
 - **cvrplib_to_json** converts a CVRPLIB file to json.
 - **vrptw_to_json** converts a VRPTW file to json.
-- **add_osrm_matrix** create a "standalone" version of a json input
+- **add_osrm_matrix** creates a "standalone" version of a json input
   instance by adding a `matrix` key using OSRM.
 
 # Benchmarks
