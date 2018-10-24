@@ -93,7 +93,7 @@ def log_comparisons(BKS, files):
       gap = 100 * (float(cost) / BK_cost - 1)
       line.append(round(gap, 2))
       gaps.append(gap)
-      if cost == BK_cost:
+      if cost <= BK_cost:
         optimal_sols += 1
     else:
       line.append('')
