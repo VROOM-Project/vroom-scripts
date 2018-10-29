@@ -43,11 +43,16 @@ def log_comparisons(BKS, files):
     instance = f[0:f.rfind("_sol.json")]
     instance = instance[instance.rfind('/') + 1:]
 
-    if instance not in BKS:
+    if instance not in BKS and instance + '_distance' not in BKS:
       total_files -= 1
       continue
 
-    indicators = BKS[instance]
+    if instance + '_distance' in BKS:
+      # Specific entry for approach targeting distance as optimization
+      # objective.
+      indicators = BKS[instance + '_distance']
+    else:
+      indicators = BKS[instance]
 
     BK_cost = indicators['best_known_cost']
     bench = indicators['class']
