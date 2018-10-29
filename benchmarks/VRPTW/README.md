@@ -19,7 +19,7 @@ provided scripts on the benchmark classes you want to use.
 
 ```
 ./generate.sh solomon homberger_200
-./run.sh solomon/limited_fleet homberger_200/limited_fleet
+./run.sh solomon homberger_200
 ```
 
 Includes:
@@ -46,16 +46,6 @@ comparisons with stored best known solutions are meaningless if the
 number of vehicles used are different. For example VROOM might provide
 a solution that is way cheaper in term of travel time than the "best
 known solution", but uses one more vehicle.
-
-### Limited fleet instances
-
-To overcome the above limitation, an alternative set of instances is
-generated. The instances contain the same set of jobs but have a
-number of available vehicles that matches the minimal number of used
-vehicles observed in stored best known results. Thus we transform the
-"try to do everything with less vehicles" view into "try to handle all
-jobs with a small fleet". Then in case VROOM manages to handle all
-jobs, comparisons and gaps to best known solutions are relevant.
 
 ## Costs evaluation
 
