@@ -56,7 +56,7 @@ on best results gathered from 1., 2. and 3. They are described in
 
 1. O. Bräysi, M. Gendreau (2005). Vehicle Routing Problem with Time Windows, Part II: Metaheuristics.
 2. S. Jung, B.R. Moon (2002). A Hybrid Genetic Algorithm for the Vehicle Routing Problem with Time Windows.
-3. K. Tan, T. Lee, K. Ou, and L. Lee. A messy genetic algorithm
+3. K. Tan, T. Lee, K. Ou, and L. Lee (2001). A messy genetic algorithm
 for the vehicle routing problem with time window constraints.
 
 ## Costs evaluation
