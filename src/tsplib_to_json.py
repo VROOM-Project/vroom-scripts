@@ -30,7 +30,7 @@ def parse_tsp(input_file):
   meta['DIMENSION'] = int(meta['DIMENSION'])
 
   # Find start of nodes descriptions.
-  node_start = (i for i, s in enumerate(lines) if s.startswith('NODE_COORD_SECTION')).next()
+  node_start = next((i for i, s in enumerate(lines) if s.startswith('NODE_COORD_SECTION')))
 
   # Use first line as vehicle start/end.
   coord_line = parse_node_coords(lines[node_start + 1])

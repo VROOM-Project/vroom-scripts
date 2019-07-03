@@ -38,7 +38,7 @@ def parse_cvrp(input_file):
   meta['CAPACITY'] = int(meta['CAPACITY'])
 
   # Find start of nodes descriptions.
-  node_start = (i for i, s in enumerate(lines) if s.startswith('NODE_COORD_SECTION')).next()
+  node_start = next((i for i, s in enumerate(lines) if s.startswith('NODE_COORD_SECTION')))
 
   # Defining all jobs.
   jobs = []
@@ -62,7 +62,7 @@ def parse_cvrp(input_file):
 
   # Add all job demands.
   total_demand = 0
-  demand_start = (i for i, s in enumerate(lines) if s.startswith('DEMAND_SECTION')).next()
+  demand_start = next((i for i, s in enumerate(lines) if s.startswith('DEMAND_SECTION')))
   for i in range(demand_start + 1, demand_start + 1 + meta['DIMENSION']):
     demand_line = parse_node_coords(lines[i])
 
@@ -81,7 +81,7 @@ def parse_cvrp(input_file):
         break
 
   # Find depot description.
-  depot_start = (i for i, s in enumerate(lines) if s.startswith('DEPOT_SECTION')).next()
+  depot_start = next((i for i, s in enumerate(lines) if s.startswith('DEPOT_SECTION')))
 
   depot_def = lines[depot_start + 1].strip().split(' ')
   if len(depot_def) == 2:
@@ -94,7 +94,7 @@ def parse_cvrp(input_file):
     # Depot is one of the existing jobs, we retrieve loc and index in
     # coords, then remove the job.
     depot_id = int(depot_def[0])
-    job_index =  (i for i, j in enumerate(jobs) if j['id'] == depot_id).next()
+    job_index =  next((i for i, j in enumerate(jobs) if j['id'] == depot_id))
     depot_loc = jobs[job_index]['location']
     depot_index = jobs[job_index]['location_index']
     jobs.pop(job_index)
@@ -105,7 +105,7 @@ def parse_cvrp(input_file):
     meta['VEHICLES'] = int(meta['VEHICLES'])
     nb_vehicles = meta['VEHICLES']
   else:
-    nb_vehicles = 1 + (total_demand / meta['CAPACITY'])
+    nb_vehicles = int(1 + (total_demand / meta['CAPACITY']))
 
   vehicles = []
 
