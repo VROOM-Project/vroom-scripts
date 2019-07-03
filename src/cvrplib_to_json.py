@@ -31,7 +31,7 @@ def parse_cvrp(input_file):
       message += ': ' + meta['EDGE_WEIGHT_TYPE']
     message += '.'
 
-    print message
+    print(message)
     exit(0)
 
   meta['DIMENSION'] = int(meta['DIMENSION'])
@@ -125,7 +125,7 @@ if __name__ == "__main__":
   input_file = sys.argv[1]
   output_name = input_file[:input_file.rfind('.vrp')] + '.json'
 
-  print '- Writing problem ' + input_file + ' to ' + output_name
+  print('- Writing problem ' + input_file + ' to ' + output_name)
   json_input = parse_cvrp(input_file)
 
   with open(output_name, 'w') as out:

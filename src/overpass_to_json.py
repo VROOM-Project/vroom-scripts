@@ -70,7 +70,7 @@ if __name__ == '__main__':
                                  [args.right, args.top]])['elements']
 
   if len(nodes) < 2:
-    print "Too few nodes to format a problem!"
+    print("Too few nodes to format a problem!")
     sys.exit(0)
 
   lons = map(lambda n: n['lon'], nodes)

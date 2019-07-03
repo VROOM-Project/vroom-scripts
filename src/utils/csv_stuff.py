@@ -17,7 +17,7 @@ def write_to_csv(file_name, json_input):
   for job in json_input['jobs']:
     lines.append(coord_to_csv(job['location']))
 
-  print 'Writing csv file to ' + file_name + '.csv'
+  print('Writing csv file to ' + file_name + '.csv')
   with open(file_name + '.csv', 'w') as output_file:
     for l in lines:
       output_file.write(l)

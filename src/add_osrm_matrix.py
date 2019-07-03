@@ -51,6 +51,6 @@ if __name__ == "__main__":
     data['matrix'].append(map(lambda d: round_to_cost(d), line))
 
   with open(output_name, 'w') as out:
-    print 'Writing problem with matrix to ' + output_name
+    print('Writing problem with matrix to ' + output_name)
     json.dump(data, out, indent = 2)
 
