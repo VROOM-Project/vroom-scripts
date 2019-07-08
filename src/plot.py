@@ -32,7 +32,7 @@ def plot_routes(sol_file_name):
     lons = [step['location'][0] for step in route['steps']]
     lats = [step['location'][1] for step in route['steps']]
 
-    ax1.plot(lons, lats, color=color_list[route['vehicle']])
+    ax1.plot(lons, lats, color=color_list[route['vehicle'] % len(color_list)])
     ax1.scatter(lons,
                 lats,
                 facecolor='none',
