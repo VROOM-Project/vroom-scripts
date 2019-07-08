@@ -13,6 +13,24 @@ from utils.osrm import table
 def round_to_cost(d):
   return int(d + 0.5)
 
+def get_index(locations, locations_indices, loc):
+  new_index = len(locations)
+
+  lon_str = str(loc[0])
+  lat_str = str(loc[1])
+
+  if lon_str in locations_indices:
+    if lat_str in locations_indices[lon_str]:
+      return locations_indices[lon_str][lat_str]
+    else:
+      locations_indices[lon_str][lat_str] = new_index
+  else:
+    locations_indices[lon_str] = {lat_str: new_index}
+
+  # loc is not already listed in locations.
+  locations.append(loc)
+  return new_index
+
 if __name__ == "__main__":
   input_file = sys.argv[1]
   output_name = input_file[:input_file.rfind('.json')] + '_matrix.json'
@@ -22,24 +40,22 @@ if __name__ == "__main__":
   # Retrieve all problem locations in the same order as in
   # input_parser.cpp.
   locs = []
+  index_of_known_locations = {}
 
   for v in data['vehicles']:
     if ('start' not in v) and ('end' not in v):
       sys.exit("Missing coordinates for vehicle.")
 
     if 'start' in v:
-      v['start_index'] = len(locs)
-      locs.append(v['start'])
+      v['start_index'] = get_index(locs, index_of_known_locations, v['start'])
     if 'end' in v:
-      v['end_index'] = len(locs)
-      locs.append(v['end'])
+      v['end_index'] = get_index(locs, index_of_known_locations, v['end'])
 
   for job in data['jobs']:
     if ('location' not in job):
       sys.exit("Missing coordinates for job.")
     else:
-      job['location_index'] = len(locs)
-      locs.append(job['location'])
+      job['location_index'] = get_index(locs, index_of_known_locations, job['location'])
 
   # Get table from OSRM.
   matrix = table(locs)['durations']
