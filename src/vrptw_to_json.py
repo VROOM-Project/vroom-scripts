@@ -30,7 +30,7 @@ def parse_meta(lines, meta):
     else:
       x = l.split()
       if len(x) < 2:
-        print "Cannot understand line " + str(line_no) + ": too few columns."
+        print("Cannot understand line " + str(line_no) + ": too few columns.")
         exit(2)
       meta['VEHICLES'] = int(x[0]);
       meta['CAPACITY'] = int(x[1]);
@@ -48,7 +48,7 @@ def parse_jobs(lines, jobs, coords):
     else:
       x = l.split()
       if len(x) < 7:
-        print "Cannot understand line " + str(line_no) + ": too few columns."
+        print("Cannot understand line " + str(line_no) + ": too few columns.")
         exit(2)
       #some guys use '999' entry as terminator sign and others don't
       elif '999' in x[0] and len(jobs) < 999:
@@ -143,7 +143,7 @@ if __name__ == "__main__":
   input_file = sys.argv[1]
   output_name = input_file[:input_file.rfind('.txt')] + '.json'
 
-  print '- Writing problem ' + input_file + ' to ' + output_name
+  print('- Writing problem ' + input_file + ' to ' + output_name)
   json_input = parse_vrptw(input_file)
 
   with open(output_name, 'w') as out:

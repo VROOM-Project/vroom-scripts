@@ -24,13 +24,13 @@ def parse_tsp(input_file):
 
   # Only support EUC_2D for now.
   if ('EDGE_WEIGHT_TYPE' not in meta) or (meta['EDGE_WEIGHT_TYPE'] != 'EUC_2D'):
-    print '  - Unsupported EDGE_WEIGHT_TYPE: ' + meta['EDGE_WEIGHT_TYPE'] + '.'
+    print('  - Unsupported EDGE_WEIGHT_TYPE: ' + meta['EDGE_WEIGHT_TYPE'] + '.')
     exit(0)
 
   meta['DIMENSION'] = int(meta['DIMENSION'])
 
   # Find start of nodes descriptions.
-  node_start = (i for i, s in enumerate(lines) if s.startswith('NODE_COORD_SECTION')).next()
+  node_start = next((i for i, s in enumerate(lines) if s.startswith('NODE_COORD_SECTION')))
 
   # Use first line as vehicle start/end.
   coord_line = parse_node_coords(lines[node_start + 1])
@@ -66,7 +66,7 @@ if __name__ == "__main__":
   input_file = sys.argv[1]
   output_name = input_file[:input_file.rfind('.tsp')] + '.json'
 
-  print '- Writing problem ' + input_file + ' to ' + output_name
+  print('- Writing problem ' + input_file + ' to ' + output_name)
   json_input = parse_tsp(input_file)
 
   with open(output_name, 'w') as out:

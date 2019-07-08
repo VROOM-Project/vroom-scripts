@@ -8,7 +8,7 @@ import matplotlib.colors as clrs
 def plot_routes(sol_file_name):
   plot_file_name = sol_file_name[0:sol_file_name.rfind(".json")] + ".svg"
 
-  print "Parsing " + sol_file_name
+  print("Parsing " + sol_file_name)
   with open(sol_file_name, 'r') as sol_file:
     solution = json.load(sol_file)
 
@@ -89,7 +89,7 @@ def plot_routes(sol_file_name):
   ax1.set_ylim(ymin - margin_delta, ymax + margin_delta)
   ax1.set_aspect('equal')
 
-  print "Plotting file " + plot_file_name
+  print("Plotting file " + plot_file_name)
   plt.savefig(plot_file_name, bbox_inches='tight')
   plt.close()
   # plt.show()

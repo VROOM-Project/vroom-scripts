@@ -42,10 +42,10 @@ if __name__ == "__main__":
   r = global_indicators(map(lambda f: os.path.join(sys.argv[1], f),
                             os.listdir(folder)))
 
-  print folder
-  print r
+  print(folder)
+  print(r)
 
   # CSV values
   size = folder[:folder.find('/')]
   s = ','
-  print size, s, r['computing_times']['loading'], s, r['computing_times']['solving'], s, r['computing_times']['routing'], s
+  print(size, s, r['computing_times']['loading'], s, r['computing_times']['solving'], s, r['computing_times']['routing'], s)

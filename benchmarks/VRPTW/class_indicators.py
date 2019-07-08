@@ -69,46 +69,46 @@ def log_indicators(BKS, files):
     computing_times.append(solution['summary']['computing_times']['loading'] + solution['summary']['computing_times']['solving'])
 
   # Output
-  print ',' + ','.join(CLASSES) + ',' + 'Total'
+  print(',' + ','.join(CLASSES) + ',' + 'Total')
 
   cumulated_BKS_CNV = 0
   bks_cnv_line = 'BKS CNV,'
   for c in CLASSES:
     bks_cnv_line += s_round(np.mean(BKS_CNV[c]), 2) + ','
     cumulated_BKS_CNV += sum(BKS_CNV[c])
-  print bks_cnv_line + s_round(cumulated_BKS_CNV, 0)
+  print(bks_cnv_line + s_round(cumulated_BKS_CNV, 0))
 
   cumulated_BKS_CTT = 0
   bks_ctt_line = 'BKS CTT,'
   for c in CLASSES:
     bks_ctt_line += s_round(np.mean(BKS_CTT[c]), 2) + ','
     cumulated_BKS_CTT += sum(BKS_CTT[c])
-  print bks_ctt_line + s_round(cumulated_BKS_CTT, 0)
+  print(bks_ctt_line + s_round(cumulated_BKS_CTT, 0))
 
   cumulated_CNV = 0
   cnv_line = 'CNV,'
   for c in CLASSES:
     cnv_line += s_round(np.mean(CNV[c]), 2) + ','
     cumulated_CNV += sum(CNV[c])
-  print cnv_line + s_round(cumulated_CNV, 0)
+  print(cnv_line + s_round(cumulated_CNV, 0))
 
   cumulated_CTT = 0
   ctt_line = 'CTT,'
   for c in CLASSES:
     ctt_line += s_round(np.mean(CTT[c]) / VRPTW_PRECISION, 2) + ','
     cumulated_CTT += sum(CTT[c])
-  print ctt_line + s_round(cumulated_CTT / VRPTW_PRECISION, 0)
+  print(ctt_line + s_round(cumulated_CTT / VRPTW_PRECISION, 0))
 
   # Computing time percentiles
-  print ','
+  print(',')
   ct_percentiles = np.percentile(computing_times, [0, 10, 25, 50, 75, 90, 100])
-  print ',Computing times'
-  print 'Average,' + s_round(np.mean(computing_times), 0)
-  print ','
+  print(',Computing times')
+  print('Average,' + s_round(np.mean(computing_times), 0))
+  print(',')
 
   titles = ['Min', 'First decile', 'Lower quartile', 'Median', 'Upper quartile', 'Ninth decile', 'Max']
   for i in range(len(titles)):
-    print titles[i] + ',' + s_round(ct_percentiles[i], 0)
+    print(titles[i] + ',' + s_round(ct_percentiles[i], 0))
 
 if __name__ == "__main__":
   # First argument if the best known solution file.

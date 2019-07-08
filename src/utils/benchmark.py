@@ -14,12 +14,12 @@ def euc_2D(c1, c2, PRECISION = 1):
 def get_value(key, lines):
   result = None
 
-  match = filter(lambda s: (s).startswith(key + ':'), lines)
+  match = list(filter(lambda s: (s).startswith(key + ':'), lines))
   if len(match) > 0:
     result = match[0][len(key) + 1:].strip()
   else:
     # Also try with a space.
-    match = filter(lambda s: (s).startswith(key + ' :'), lines)
+    match = list(filter(lambda s: (s).startswith(key + ' :'), lines))
     if len(match) > 0:
       result = match[0][len(key) + 2:].strip()
 

@@ -25,7 +25,7 @@ def nb_jobs(solution):
   return jobs
 
 def log_comparisons(BKS, files):
-  print ','.join(["Instance", "Jobs", "Vehicles", "tightness", "Best known cost", "Assigned jobs", "Used vehicles", "Solution cost", "Unassigned jobs", "Gap (%)", "Computing time (ms)"])
+  print (','.join(["Instance", "Jobs", "Vehicles", "tightness", "Best known cost", "Assigned jobs", "Used vehicles", "Solution cost", "Unassigned jobs", "Gap (%)", "Computing time (ms)"]))
 
   jobs = []
   vehicles = []
@@ -107,28 +107,28 @@ def log_comparisons(BKS, files):
     line.append(computing_time)
     computing_times.append(computing_time)
 
-    print ','.join(map(lambda x: str(x), line))
+    print(','.join(map(lambda x: str(x), line)))
 
-  print 'Average,' + s_round(np.mean(jobs), 1) + ',' + s_round(np.mean(vehicles), 1) + ',' + s_round(np.mean(tightnesses), 2) + ',' + s_round(np.mean(assigned), 1) + ',,,,' + s_round(np.mean(unassigned), 1) + ',' + s_round(np.mean(gaps), 2) + ',' + s_round(np.mean(computing_times), 0)
+  print('Average,' + s_round(np.mean(jobs), 1) + ',' + s_round(np.mean(vehicles), 1) + ',' + s_round(np.mean(tightnesses), 2) + ',' + s_round(np.mean(assigned), 1) + ',,,,' + s_round(np.mean(unassigned), 1) + ',' + s_round(np.mean(gaps), 2) + ',' + s_round(np.mean(computing_times), 0))
 
   total_jobs = np.sum(jobs)
   assigned_jobs = np.sum(assigned)
-  print ','
-  print 'Total jobs,' + s_round(total_jobs, 0)
-  print 'Total jobs assigned,' + s_round(assigned_jobs, 0) + ',' + s_round(100 * float(assigned_jobs) / total_jobs, 2) + '%'
-  print ','
-  print 'Instances,' + s_round(total_files, 0)
-  print 'All jobs solutions,' + s_round(job_ok_files, 0) + ',' + s_round(100 * float(job_ok_files) / total_files, 2) + '%'
-  print 'Optimal solutions,' + s_round(optimal_sols, 0) + ',' + s_round(100 * float(optimal_sols) / total_files, 2) + '%'
+  print(',')
+  print('Total jobs,' + s_round(total_jobs, 0))
+  print('Total jobs assigned,' + s_round(assigned_jobs, 0) + ',' + s_round(100 * float(assigned_jobs) / total_jobs, 2) + '%')
+  print(',')
+  print('Instances,' + s_round(total_files, 0))
+  print('All jobs solutions,' + s_round(job_ok_files, 0) + ',' + s_round(100 * float(job_ok_files) / total_files, 2) + '%')
+  print('Optimal solutions,' + s_round(optimal_sols, 0) + ',' + s_round(100 * float(optimal_sols) / total_files, 2) + '%')
 
   # Percentiles
-  print ','
+  print(',')
   gaps_percentiles = np.percentile(gaps, [0, 10, 25, 50, 75, 90, 100])
   ct_percentiles = np.percentile(computing_times, [0, 10, 25, 50, 75, 90, 100])
-  print ',Gaps,Computing times'
+  print(',Gaps,Computing times')
   titles = ['Min', 'First decile', 'Lower quartile', 'Median', 'Upper quartile', 'Ninth decile', 'Max']
   for i in range(len(titles)):
-    print titles[i] + ',' + s_round(gaps_percentiles[i], 2) + ',' + s_round(ct_percentiles[i], 0)
+    print(titles[i] + ',' + s_round(gaps_percentiles[i], 2) + ',' + s_round(ct_percentiles[i], 0))
 
 if __name__ == "__main__":
   # First argument if the best known solution file.

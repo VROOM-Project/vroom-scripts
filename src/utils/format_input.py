@@ -58,13 +58,13 @@ def write_files(file_name, lons, lats, names, geojson, csv):
   json_input = format_json_from_coordinates(lons, lats, names)
 
   with open(file_name + '.json', 'w') as out:
-    print 'Writing problem to ' + file_name + '.json'
+    print('Writing problem to ' + file_name + '.json')
     json.dump(json_input,
               out,
               indent = 2)
   if geojson:
     with open(file_name + '.geojson', 'w') as out:
-      print 'Writing geojson file to ' + file_name + '.geojson'
+      print('Writing geojson file to ' + file_name + '.geojson')
       json.dump(format_geojson_from_coordinates(lons, lats, names), out, indent = 2)
 
   if csv:
