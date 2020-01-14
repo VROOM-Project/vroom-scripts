@@ -5,8 +5,8 @@ import numpy as np
 # Compare a set of computed solutions to best known solutions on the
 # same problems.
 
-# See src/vrptw_to_json.py
-VRPTW_PRECISION = 1000
+# See src/vrptw_to_json.py and src/pdptw_to_json.py
+CUSTOM_PRECISION = 1000
 BENCH_DOUBLE_PRECISION = 100
 
 def s_round(v, d):
@@ -15,11 +15,13 @@ def s_round(v, d):
   else:
     return str(round(v, d))
 
+JOB_TYPES = ['job', 'pickup', 'delivery']
+
 def nb_jobs(solution):
   jobs = 0
   for r in solution['routes']:
     for s in r['steps']:
-      if s['type'] == 'job':
+      if s['type'] in JOB_TYPES:
         jobs += 1
 
   return jobs
@@ -56,7 +58,7 @@ def log_comparisons(BKS, files):
 
     BK_cost = indicators['best_known_cost']
     bench = indicators['class']
-    if 'solomon' in bench or 'homberger' in bench:
+    if 'solomon' in bench or 'homberger' in bench or 'li_lim' in bench:
       BK_cost = int(BENCH_DOUBLE_PRECISION * BK_cost)
 
     nb_job = indicators['jobs']
@@ -86,8 +88,8 @@ def log_comparisons(BKS, files):
     line.append(len(solution['routes']))
 
     cost = solution['summary']['cost']
-    if 'solomon' in bench or 'homberger' in bench:
-      cost = int(round(BENCH_DOUBLE_PRECISION * float(cost) / VRPTW_PRECISION))
+    if 'solomon' in bench or 'homberger' in bench or 'li_lim' in bench:
+      cost = int(round(BENCH_DOUBLE_PRECISION * float(cost) / CUSTOM_PRECISION))
 
     line.append(cost)
     line.append(nb_job - sol_jobs)
