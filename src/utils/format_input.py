@@ -2,19 +2,20 @@
 import json
 from utils.csv_stuff import write_to_csv
 
-def format_json_from_coordinates(lons, lats, names):
-  # Set vehicle start and end.
-  vehicles = [
-    {
-      'id': 0
-    }
-  ]
+def format_json_from_coordinates(j, v, lons, lats, names):
   start = [lons[0], lats[0]]
-  vehicles[0]['start'] = start
-  vehicles[0]['end'] = start
-  if names[0] is not None:
-    vehicles[0]['startDescription'] = names[0]
-    vehicles[0]['endDescription'] = names[0]
+  vehicles = []
+
+  for i in range(0, v):
+    vehicles.append({
+      'id': i + 1,
+      'start': start,
+      'end': start,
+    })
+
+    if names[0] is not None:
+      vehicles[0]['startDescription'] = names[0]
+      vehicles[0]['endDescription'] = names[0]
 
   # Set jobs.
   jobs = []
@@ -54,8 +55,8 @@ def format_geojson_from_coordinates(lons, lats, names):
 
   return geo_content
 
-def write_files(file_name, lons, lats, names, geojson, csv):
-  json_input = format_json_from_coordinates(lons, lats, names)
+def write_files(file_name, j, v, lons, lats, names, geojson, csv):
+  json_input = format_json_from_coordinates(j, v, lons, lats, names)
 
   with open(file_name + '.json', 'w') as out:
     print('Writing problem to ' + file_name + '.json')

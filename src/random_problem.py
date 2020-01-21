@@ -7,11 +7,11 @@ from utils.format_input import write_files
 
 # Generate a random problem to feed vroom for solving.
 
-def generate_random_problem(size, sw, ne, file_name, uniform, geojson, csv):
+def generate_random_problem(j, v, sw, ne, file_name, uniform, geojson, csv):
   if uniform:
     # Using uniform distribution with bounding box coordinates.
-    lons = map(lambda x: round(x, 5), npr.uniform(sw[0], ne[0], size + 1))
-    lats = map(lambda x: round(x, 5), npr.uniform(sw[1], ne[1], size + 1))
+    lons = map(lambda x: round(x, 5), npr.uniform(sw[0], ne[0], j + 1))
+    lats = map(lambda x: round(x, 5), npr.uniform(sw[1], ne[1], j + 1))
   else:
     # Using normal distribution, with mean centered wrt the bounding
     # box.
@@ -23,10 +23,10 @@ def generate_random_problem(size, sw, ne, file_name, uniform, geojson, csv):
     sigma_lon = (ne[0] - mu_lon) / 3
     sigma_lat = (ne[1] - mu_lat) / 3
 
-    lons = map(lambda x: round(x, 5), npr.normal(mu_lon, sigma_lon, size + 1))
-    lats = map(lambda x: round(x, 5), npr.normal(mu_lat, sigma_lat, size + 1))
+    lons = map(lambda x: round(x, 5), npr.normal(mu_lon, sigma_lon, j + 1))
+    lats = map(lambda x: round(x, 5), npr.normal(mu_lat, sigma_lat, j + 1))
 
-  write_files(file_name, lons, lats, [None] * len(lons), geojson, csv)
+  write_files(file_name, j, v, lons, lats, [None] * len(lons), geojson, csv)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Generate random problem')
@@ -34,6 +34,10 @@ if __name__ == '__main__':
                       help = 'number of jobs to generate',
                       type = int,
                       default = '50')
+  parser.add_argument('-v', '--vehicles', metavar = 'VEHICLES',
+                      help = 'number of vehicles to generate',
+                      type = int,
+                      default = '5')
   parser.add_argument('-o', '--output', metavar = 'OUTPUT',
                       help = 'output file name',
                       default = None)
@@ -82,6 +86,7 @@ if __name__ == '__main__':
     file_name = 'jobs_' + str(args.jobs) + '_seed_' + str(seed)
 
   generate_random_problem(args.jobs,
+                          args.vehicles,
                           [args.left, args.bottom],
                           [args.right, args.top],
                           file_name,
