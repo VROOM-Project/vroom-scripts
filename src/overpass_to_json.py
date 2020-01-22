@@ -77,4 +77,15 @@ if __name__ == '__main__':
   lats = map(lambda n: n['lat'], nodes)
   names = map(lambda n: name_if_present(n), nodes)
 
-  write_files(file_name, lons, lats, names, args.geojson, args.csv)
+  locations = {
+    'vehicles': {
+      'coordinates': [[lons[0], lats[0]]],
+      'names': [names[0]]
+    },
+    'jobs': {
+      'coordinates': [list(c) for c in zip(lons[1:], lats[1:])],
+      'names': names[1:]
+    }
+  }
+
+  write_files(file_name, locations, args.geojson, args.csv)

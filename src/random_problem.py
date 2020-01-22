@@ -7,11 +7,28 @@ from utils.format_input import write_files
 
 # Generate a random problem to feed vroom for solving.
 
-def generate_random_problem(j, v, sw, ne, file_name, uniform, geojson, csv):
+def generate_random_problem(j, s, v, sw, ne, file_name, uniform, geojson, csv):
+  locations = {}
+
   if uniform:
     # Using uniform distribution with bounding box coordinates.
-    lons = map(lambda x: round(x, 5), npr.uniform(sw[0], ne[0], j + 1))
-    lats = map(lambda x: round(x, 5), npr.uniform(sw[1], ne[1], j + 1))
+    v_lon = round(npr.uniform(sw[0], ne[0], 1)[0], 5)
+    v_lat = round(npr.uniform(sw[1], ne[1], 1)[0], 5)
+    locations['vehicles'] = {
+      'coordinates': [[v_lon, v_lat]] * v
+    }
+
+    locations['jobs'] = {'coordinates': []}
+    for i in range(j):
+      j_lon = round(npr.uniform(sw[0], ne[0], 1)[0], 5)
+      j_lat = round(npr.uniform(sw[1], ne[1], 1)[0], 5)
+      locations['jobs']['coordinates'].append([j_lon, j_lat])
+
+    locations['shipments'] = {'coordinates': []}
+    for i in range(2 * s):
+      s_lon = round(npr.uniform(sw[0], ne[0], 1)[0], 5)
+      s_lat = round(npr.uniform(sw[1], ne[1], 1)[0], 5)
+      locations['shipments']['coordinates'].append([s_lon, s_lat])
   else:
     # Using normal distribution, with mean centered wrt the bounding
     # box.
@@ -23,10 +40,25 @@ def generate_random_problem(j, v, sw, ne, file_name, uniform, geojson, csv):
     sigma_lon = (ne[0] - mu_lon) / 3
     sigma_lat = (ne[1] - mu_lat) / 3
 
-    lons = map(lambda x: round(x, 5), npr.normal(mu_lon, sigma_lon, j + 1))
-    lats = map(lambda x: round(x, 5), npr.normal(mu_lat, sigma_lat, j + 1))
+    v_lon = round(npr.normal(mu_lon, sigma_lon, 1)[0], 5)
+    v_lat = round(npr.normal(mu_lat, sigma_lat, 1)[0], 5)
+    locations['vehicles'] = {
+      'coordinates': [[v_lon, v_lat]] * v
+    }
 
-  write_files(file_name, j, v, lons, lats, [None] * len(lons), geojson, csv)
+    locations['jobs'] = {'coordinates': []}
+    for i in range(j):
+      j_lon = round(npr.normal(mu_lon, sigma_lon, 1)[0], 5)
+      j_lat = round(npr.normal(mu_lat, sigma_lat, 1)[0], 5)
+      locations['jobs']['coordinates'].append([j_lon, j_lat])
+
+    locations['shipments'] = {'coordinates': []}
+    for i in range(2 * s):
+      s_lon = round(npr.normal(mu_lon, sigma_lon, 1)[0], 5)
+      s_lat = round(npr.normal(mu_lat, sigma_lat, 1)[0], 5)
+      locations['shipments']['coordinates'].append([s_lon, s_lat])
+
+  write_files(file_name, locations, geojson, csv)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Generate random problem')
@@ -34,6 +66,10 @@ if __name__ == '__main__':
                       help = 'number of jobs to generate',
                       type = int,
                       default = '50')
+  parser.add_argument('-s', '--shipments', metavar = 'SHIPMENTS',
+                      help = 'number of shipments to generate',
+                      type = int,
+                      default = '0')
   parser.add_argument('-v', '--vehicles', metavar = 'VEHICLES',
                       help = 'number of vehicles to generate',
                       type = int,
@@ -57,10 +93,10 @@ if __name__ == '__main__':
                       help = 'bounding box max longitude',
                       type = float,
                       default = 3.5),
-  parser.add_argument('-s', '--seed', metavar = 'SEED',
+  parser.add_argument('-r', '--random_seed', metavar = 'RANDOM_SEED',
                       help = 'number used for seeding the random generation',
                       type = int,
-                      default = None)
+                      default = 14)
   parser.add_argument('--uniform', action='store_true',
                       help = 'use an uniform distribution (default is normal)',
                       default = False)
@@ -74,19 +110,25 @@ if __name__ == '__main__':
   args = parser.parse_args()
 
   # Set random seed for generation.
-  if not args.seed:
-    seed = npr.randint(10000)
-  else:
-    # Avoid troubles with command-line args.
-    seed = args.seed
-  npr.seed(seed)
+  npr.seed(args.random_seed)
 
   file_name = args.output;
-  if not file_name:
-    file_name = 'jobs_' + str(args.jobs) + '_seed_' + str(seed)
+  j = args.jobs
+  s = args.shipments
+  v = args.vehicles
 
-  generate_random_problem(args.jobs,
-                          args.vehicles,
+  if not file_name:
+    file_name = ''
+    if(j > 0):
+      file_name += 'j_' + str(j) + '_'
+    if(s > 0):
+      file_name += 's_' + str(s) + '_'
+
+    file_name += 'v_' + str(v) + '_seed_' + str(args.random_seed)
+
+  generate_random_problem(j,
+                          s,
+                          v,
                           [args.left, args.bottom],
                           [args.right, args.top],
                           file_name,
