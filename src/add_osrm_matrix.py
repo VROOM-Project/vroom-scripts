@@ -57,6 +57,17 @@ if __name__ == "__main__":
     else:
       job['location_index'] = get_index(locs, index_of_known_locations, job['location'])
 
+  for shipment in data['shipments']:
+    if ('location' not in shipment['pickup']):
+      sys.exit("Missing coordinates for shipment pickup.")
+    else:
+      shipment['pickup']['location_index'] = get_index(locs, index_of_known_locations, shipment['pickup']['location'])
+
+    if ('location' not in shipment['delivery']):
+      sys.exit("Missing coordinates for shipment delivery.")
+    else:
+      shipment['delivery']['location_index'] = get_index(locs, index_of_known_locations, shipment['delivery']['location'])
+
   # Get table from OSRM.
   matrix = table(locs)['durations']
   data['matrix'] = []
@@ -69,4 +80,3 @@ if __name__ == "__main__":
   with open(output_name, 'w') as out:
     print('Writing problem with matrix to ' + output_name)
     json.dump(data, out, indent = 2)
-
