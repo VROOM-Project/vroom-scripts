@@ -51,22 +51,24 @@ if __name__ == "__main__":
     if 'end' in v:
       v['end_index'] = get_index(locs, index_of_known_locations, v['end'])
 
-  for job in data['jobs']:
-    if ('location' not in job):
-      sys.exit("Missing coordinates for job.")
-    else:
-      job['location_index'] = get_index(locs, index_of_known_locations, job['location'])
+  if ('jobs' in data):
+    for job in data['jobs']:
+      if ('location' not in job):
+        sys.exit("Missing coordinates for job.")
+      else:
+        job['location_index'] = get_index(locs, index_of_known_locations, job['location'])
 
-  for shipment in data['shipments']:
-    if ('location' not in shipment['pickup']):
-      sys.exit("Missing coordinates for shipment pickup.")
-    else:
-      shipment['pickup']['location_index'] = get_index(locs, index_of_known_locations, shipment['pickup']['location'])
+  if ('shipments' in data):
+    for shipment in data['shipments']:
+      if ('location' not in shipment['pickup']):
+        sys.exit("Missing coordinates for shipment pickup.")
+      else:
+        shipment['pickup']['location_index'] = get_index(locs, index_of_known_locations, shipment['pickup']['location'])
 
-    if ('location' not in shipment['delivery']):
-      sys.exit("Missing coordinates for shipment delivery.")
-    else:
-      shipment['delivery']['location_index'] = get_index(locs, index_of_known_locations, shipment['delivery']['location'])
+      if ('location' not in shipment['delivery']):
+        sys.exit("Missing coordinates for shipment delivery.")
+      else:
+        shipment['delivery']['location_index'] = get_index(locs, index_of_known_locations, shipment['delivery']['location'])
 
   # Get table from OSRM.
   matrix = table(locs)['durations']
