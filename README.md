@@ -28,3 +28,4 @@ instructions for:
 - [TSP](benchmarks/TSP)
 - [CVRP](benchmarks/CVRP)
 - [VRPTW](benchmarks/VRPTW)
+- [PDPTW](benchmarks/PDPTW)
