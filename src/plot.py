@@ -33,11 +33,6 @@ def plot_routes(sol_file_name):
     lats = [step['location'][1] for step in route['steps']]
 
     ax1.plot(lons, lats, color=color_list[route['vehicle'] % len(color_list)])
-    ax1.scatter(lons,
-                lats,
-                facecolor='none',
-                edgecolor='blue',
-                linewidth=0.7)
 
     xmin = min(xmin, min(lons))
     xmax = max(xmax, max(lons))
@@ -55,6 +50,25 @@ def plot_routes(sol_file_name):
       ax1.scatter([step['location'][0]], [step['location'][1]],
                   color='green',
                   linewidth = 1)
+
+    for step in route['steps']:
+      if step['type'] == 'job':
+        marker_shape = 'o'
+        marker_color = 'blue'
+      elif step['type'] == 'pickup':
+        marker_shape = '^'
+        marker_color = 'red'
+      elif step['type'] == 'delivery':
+        marker_shape = 'v'
+        marker_color = 'green'
+      else:
+        continue
+
+      ax1.scatter([step['location'][0]], [step['location'][1]],
+                  facecolor='none',
+                  edgecolor=marker_color,
+                  marker=marker_shape,
+                  linewidth = 0.7)
 
   if 'unassigned' in solution and len(solution['unassigned']) > 0:
     unassigned_lons = [u['location'][0] for u in solution['unassigned']]
