@@ -10,11 +10,14 @@ def generate_stats(input_file, sol_file):
   with open(sol_file, 'r') as data:
     solution = json.load(data)
 
-  print(','.join(["vehicle", "start", "end", "working_time", "working_ratio"]))
+  print(','.join(["vehicle", "start", "end", "working_time", "service_rate", "travel_rate", "waiting_rate", "working_ratio"]))
 
   starts = []
   ends = []
   working_times = []
+  service_rates = []
+  travel_rates = []
+  waiting_rates = []
   working_ratios  = []
 
   for route in solution['routes']:
@@ -34,6 +37,18 @@ def generate_stats(input_file, sol_file):
     working_time = end - start
     current.append(str(working_time))
     working_times.append(working_time)
+
+    service_rate = 100 * float(route['service']) / working_time
+    current.append(str(round(service_rate, 1)))
+    service_rates.append(service_rate)
+
+    travel_rate = 100 * float(route['duration']) / working_time
+    current.append(str(round(travel_rate, 1)))
+    travel_rates.append(travel_rate)
+
+    waiting_rate = 100 * float(route['waiting_time']) / working_time
+    current.append(str(round(waiting_rate, 1)))
+    waiting_rates.append(waiting_rate)
 
     v = next(v for v in problem['vehicles'] if v['id'] == v_id)
     if ('time_window' in v):
