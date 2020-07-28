@@ -10,6 +10,7 @@ debug or help in using `VROOM`.
   on a bounding box.
 - **global_indicators** collects indicators on all solutions contained
   in a folder.
+- **vehicle_stats** collects indicators on vehicle usage in a solution.
 - **json_to_csv** dumps all locations coordinates from a json input
   instance to a csv file.
 - **tsplib_to_json** converts a TSPLIB file to json.
