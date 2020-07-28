@@ -116,11 +116,11 @@ def generate_stats(input_file, sol_file):
     'Average',
     s_round(np.mean(starts), 0),
     s_round(np.mean(ends), 0),
-    s_round(np.mean(working_time), 0),
-    s_round(np.mean(service_rate), 1),
-    s_round(np.mean(travel_rate), 1),
-    s_round(np.mean(waiting_rate), 1),
-    s_round(np.mean(working_ratio), 1)
+    s_round(np.mean(working_times), 0),
+    s_round(np.mean(service_rates), 1),
+    s_round(np.mean(travel_rates), 1),
+    s_round(np.mean(waiting_rates), 1),
+    s_round(np.mean(working_ratios), 1)
   ]
 
   if (amount_size > 0):
