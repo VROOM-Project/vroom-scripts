@@ -17,7 +17,9 @@ def generate_stats(input_file, sol_file):
   with open(sol_file, 'r') as data:
     solution = json.load(data)
 
-  amount_size = len(solution['summary']['delivery'])
+  amount_size = 0
+  if 'delivery' in solution['summary']:
+    amount_size = len(solution['summary']['delivery'])
 
   headers = [
     "vehicle",
@@ -27,12 +29,16 @@ def generate_stats(input_file, sol_file):
     "service_rate",
     "travel_rate",
     "waiting_rate",
-    "working_ratio",
-    "max_load",
+    "working_ratio"
   ]
+  if (amount_size > 0):
+    headers.append("max_load")
+
   if (amount_size > 1):
     headers += (amount_size - 1) * [""]
-  headers.append("max_load_ratio")
+  if (amount_size > 0):
+    headers.append("max_load_ratio")
+
   if (amount_size > 1):
     headers += (amount_size - 1) * [""]
 
