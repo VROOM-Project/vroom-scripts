@@ -13,7 +13,8 @@ CUSTOM_PRECISION_CLASSES = [
   'solomon',
   'homberger',
   'li_lim',
-  'VFMP_V'
+  'VFMP_V',
+  'HFVRP'
 ]
 
 def uses_custom_precision(bench):

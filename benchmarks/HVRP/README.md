@@ -13,8 +13,8 @@ Assuming the `vroom` command is somewhere in your path, just run the
 provided scripts on the benchmark classes you want to use.
 
 ```
-./generate.sh VFMP_V
-./run.sh VFMP_V
+./generate.sh VFMP_V HFVRP
+./run.sh VFMP_V HFVRP
 ```
 
 Includes:
