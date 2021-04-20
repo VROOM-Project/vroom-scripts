@@ -59,14 +59,20 @@ def log_comparisons(BKS, files):
 
     BK_cost = indicators['best_known_cost']
     bench = indicators['class']
-    if 'solomon' in bench or 'homberger' in bench or 'li_lim' in bench:
+    if 'solomon' in bench or 'homberger' in bench or 'li_lim' in bench or 'VFMP_V' in bench:
       BK_cost = int(BENCH_DOUBLE_PRECISION * BK_cost)
 
     nb_job = indicators['jobs']
     jobs.append(nb_job)
     nb_vehicle = indicators['vehicles']
     vehicles.append(nb_vehicle)
-    tightness = round(float(indicators['total_amount']) / (nb_vehicle * indicators['capacity']), 3)
+
+    if 'capacity' in indicators:
+      total_capacity = nb_vehicle * indicators['capacity']
+    else:
+      total_capacity = indicators['total_capacity']
+
+    tightness = round(float(indicators['total_amount']) / total_capacity, 3)
     tightnesses.append(tightness)
     line = [
       instance,
@@ -89,7 +95,7 @@ def log_comparisons(BKS, files):
     line.append(len(solution['routes']))
 
     cost = solution['summary']['cost']
-    if 'solomon' in bench or 'homberger' in bench or 'li_lim' in bench:
+    if 'solomon' in bench or 'homberger' in bench or 'li_lim' in bench or 'VFMP_V' in bench:
       cost = int(round(BENCH_DOUBLE_PRECISION * float(cost) / CUSTOM_PRECISION))
 
     line.append(cost)
