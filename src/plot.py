@@ -29,8 +29,8 @@ def plot_routes(sol_file_name):
   ymax = ymin
 
   for route in solution['routes']:
-    lons = [step['location'][0] for step in route['steps']]
-    lats = [step['location'][1] for step in route['steps']]
+    lons = [step['location'][0] for step in route['steps'] if step['type'] != "break"]
+    lats = [step['location'][1] for step in route['steps'] if step['type'] != "break"]
 
     ax1.plot(lons, lats, color=color_list[route['vehicle'] % len(color_list)])
 
