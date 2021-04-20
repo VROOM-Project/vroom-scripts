@@ -31,3 +31,4 @@ instructions for:
 - [CVRP](benchmarks/CVRP)
 - [VRPTW](benchmarks/VRPTW)
 - [PDPTW](benchmarks/PDPTW)
+- [HVRP](benchmarks/HVRP)
