@@ -7,15 +7,20 @@ from utils.format_input import write_files
 
 # Generate a random problem to feed vroom for solving.
 
-def generate_random_problem(j, s, v, sw, ne, file_name, uniform, geojson, csv):
+def generate_random_problem(j, s, v, center, sw, ne, file_name, uniform, geojson, csv):
   locations = {}
 
   if uniform:
     # Using uniform distribution with bounding box coordinates.
-    v_lon = round(npr.uniform(sw[0], ne[0], 1)[0], 5)
-    v_lat = round(npr.uniform(sw[1], ne[1], 1)[0], 5)
+    if center:
+      v_loc = [(sw[0] + ne[0]) / 2, (sw[1] + ne[1]) / 2]
+    else:
+      v_lon = round(npr.uniform(sw[0], ne[0], 1)[0], 5)
+      v_lat = round(npr.uniform(sw[1], ne[1], 1)[0], 5)
+      v_loc = [v_lon, v_lat]
+
     locations['vehicles'] = {
-      'coordinates': [[v_lon, v_lat]] * v
+      'coordinates': [v_loc] * v
     }
 
     locations['jobs'] = {'coordinates': []}
@@ -40,10 +45,15 @@ def generate_random_problem(j, s, v, sw, ne, file_name, uniform, geojson, csv):
     sigma_lon = (ne[0] - mu_lon) / 3
     sigma_lat = (ne[1] - mu_lat) / 3
 
-    v_lon = round(npr.normal(mu_lon, sigma_lon, 1)[0], 5)
-    v_lat = round(npr.normal(mu_lat, sigma_lat, 1)[0], 5)
+    if center:
+      v_loc = [(sw[0] + ne[0]) / 2, (sw[1] + ne[1]) / 2]
+    else:
+      v_lon = round(npr.normal(mu_lon, sigma_lon, 1)[0], 5)
+      v_lat = round(npr.normal(mu_lat, sigma_lat, 1)[0], 5)
+      v_loc = [v_lon, v_lat]
+
     locations['vehicles'] = {
-      'coordinates': [[v_lon, v_lat]] * v
+      'coordinates': [v_loc] * v
     }
 
     locations['jobs'] = {'coordinates': []}
@@ -129,9 +139,13 @@ if __name__ == '__main__':
 
     file_name += 'v_' + str(v) + '_seed_' + str(args.random_seed)
 
+    if args.center:
+      file_name += '_center'
+
   generate_random_problem(j,
                           s,
                           v,
+                          args.center,
                           [args.left, args.bottom],
                           [args.right, args.top],
                           file_name,
