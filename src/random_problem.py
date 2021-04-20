@@ -62,6 +62,9 @@ def generate_random_problem(j, s, v, sw, ne, file_name, uniform, geojson, csv):
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Generate random problem')
+  parser.add_argument('-c', '--center', action='store_true',
+                      help = 'center vehicles location in the bbox',
+                      default = False)
   parser.add_argument('-j', '--jobs', metavar = 'JOBS',
                       help = 'number of jobs to generate',
                       type = int,
