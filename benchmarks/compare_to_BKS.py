@@ -5,7 +5,8 @@ import numpy as np
 # Compare a set of computed solutions to best known solutions on the
 # same problems.
 
-# See src/vrptw_to_json.py and src/pdptw_to_json.py
+# See src/vrptw_to_json.py, src/pdptw_to_json.py and
+# src/hvrp_to_json.py.
 CUSTOM_PRECISION = 1000
 BENCH_DOUBLE_PRECISION = 100
 

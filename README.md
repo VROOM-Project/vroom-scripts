@@ -17,6 +17,7 @@ debug or help in using `VROOM`.
 - **cvrplib_to_json** converts a CVRPLIB file to json.
 - **vrptw_to_json** converts a VRPTW file to json.
 - **pdptw_to_json** converts a PDPTW file to json.
+- **hvrp_to_json** converts a HVRP file to json.
 - **add_osrm_matrix** creates a "standalone" version of a json input
   instance by adding a `matrix` key using OSRM.
 
