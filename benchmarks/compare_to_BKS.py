@@ -5,9 +5,25 @@ import numpy as np
 # Compare a set of computed solutions to best known solutions on the
 # same problems.
 
-# See src/vrptw_to_json.py and src/pdptw_to_json.py
+# See src/vrptw_to_json.py, src/pdptw_to_json.py and
+# src/hvrp_to_json.py.
 CUSTOM_PRECISION = 1000
 BENCH_DOUBLE_PRECISION = 100
+CUSTOM_PRECISION_CLASSES = [
+  'solomon',
+  'homberger',
+  'li_lim',
+  'VFMP_V',
+  'HFVRP'
+]
+
+def uses_custom_precision(bench):
+  custom = False
+  for current_class in CUSTOM_PRECISION_CLASSES:
+    if current_class in bench:
+      custom = True
+      break
+  return custom
 
 def s_round(v, d):
   if d == 0:
@@ -58,14 +74,20 @@ def log_comparisons(BKS, files):
 
     BK_cost = indicators['best_known_cost']
     bench = indicators['class']
-    if 'solomon' in bench or 'homberger' in bench or 'li_lim' in bench:
+    if uses_custom_precision(bench):
       BK_cost = int(BENCH_DOUBLE_PRECISION * BK_cost)
 
     nb_job = indicators['jobs']
     jobs.append(nb_job)
     nb_vehicle = indicators['vehicles']
     vehicles.append(nb_vehicle)
-    tightness = round(float(indicators['total_amount']) / (nb_vehicle * indicators['capacity']), 3)
+
+    if 'capacity' in indicators:
+      total_capacity = nb_vehicle * indicators['capacity']
+    else:
+      total_capacity = indicators['total_capacity']
+
+    tightness = round(float(indicators['total_amount']) / total_capacity, 3)
     tightnesses.append(tightness)
     line = [
       instance,
@@ -88,7 +110,7 @@ def log_comparisons(BKS, files):
     line.append(len(solution['routes']))
 
     cost = solution['summary']['cost']
-    if 'solomon' in bench or 'homberger' in bench or 'li_lim' in bench:
+    if uses_custom_precision(bench):
       cost = int(round(BENCH_DOUBLE_PRECISION * float(cost) / CUSTOM_PRECISION))
 
     line.append(cost)
