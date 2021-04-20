@@ -9,6 +9,20 @@ import numpy as np
 # src/hvrp_to_json.py.
 CUSTOM_PRECISION = 1000
 BENCH_DOUBLE_PRECISION = 100
+CUSTOM_PRECISION_CLASSES = [
+  'solomon',
+  'homberger',
+  'li_lim',
+  'VFMP_V'
+]
+
+def uses_custom_precision(bench):
+  custom = False
+  for current_class in CUSTOM_PRECISION_CLASSES:
+    if current_class in bench:
+      custom = True
+      break
+  return custom
 
 def s_round(v, d):
   if d == 0:
@@ -59,7 +73,7 @@ def log_comparisons(BKS, files):
 
     BK_cost = indicators['best_known_cost']
     bench = indicators['class']
-    if 'solomon' in bench or 'homberger' in bench or 'li_lim' in bench or 'VFMP_V' in bench:
+    if uses_custom_precision(bench):
       BK_cost = int(BENCH_DOUBLE_PRECISION * BK_cost)
 
     nb_job = indicators['jobs']
@@ -95,7 +109,7 @@ def log_comparisons(BKS, files):
     line.append(len(solution['routes']))
 
     cost = solution['summary']['cost']
-    if 'solomon' in bench or 'homberger' in bench or 'li_lim' in bench or 'VFMP_V' in bench:
+    if uses_custom_precision(bench):
       cost = int(round(BENCH_DOUBLE_PRECISION * float(cost) / CUSTOM_PRECISION))
 
     line.append(cost)
