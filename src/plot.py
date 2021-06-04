@@ -20,7 +20,7 @@ def plot_routes(sol_file_name):
   fig.set_figwidth(15)
   plt.subplots_adjust(left=0.03, right=1, top=1, bottom=0.05, wspace=0.03)
 
-  if(not solution.has_key('routes')):
+  if('routes' not in solution):
     return
 
   xmin = solution['routes'][0]['steps'][0]['location'][0]
@@ -86,7 +86,7 @@ def plot_routes(sol_file_name):
 
   computing_time = solution['summary']['computing_times']['loading']
   computing_time += solution['summary']['computing_times']['solving']
-  if(solution['summary']['computing_times'].has_key('routing')):
+  if('routing' in solution['summary']['computing_times']):
     computing_time += solution['summary']['computing_times']['routing']
 
   # Handle margins.
