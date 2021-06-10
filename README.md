@@ -42,6 +42,7 @@ especially if you're unsure about potential changes or additions.
 ## Coding style
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
 We use [`black`](https://github.com/psf/black) for python code
 formatting in order to forget about how the code looks like and focus
