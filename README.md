@@ -21,6 +21,8 @@ debug or help in using `VROOM`.
 - **add_osrm_matrix** creates a "standalone" version of a json input
   instance by adding a `matrix` key using OSRM.
 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 # Benchmarks
 
 The `benchmarks` folder contains everything required to reproduce
