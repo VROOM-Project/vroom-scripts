@@ -12,7 +12,7 @@ def s_round(v, d):
     return str(round(v, d))
 
 def log_comparisons(BKS, files):
-  print ','.join(["Instance", "Jobs", "Vehicles", "Best known cost", "Solution cost", "Gap (%)", "Computing time (ms)"])
+  print(','.join(["Instance", "Jobs", "Vehicles", "Best known cost", "Solution cost", "Gap (%)", "Computing time (ms)"]))
 
   jobs = []
   gaps = []
@@ -55,20 +55,20 @@ def log_comparisons(BKS, files):
     line.append(computing_time)
     computing_times.append(computing_time)
 
-    print ','.join(map(lambda x: str(x), line))
+    print(','.join(map(lambda x: str(x), line)))
 
-  print ','
+  print(',')
 
-  print 'Average,' + s_round(np.mean(jobs), 1) + ',,,,' + s_round(np.mean(gaps), 2) + ',' + s_round(np.mean(computing_times), 0)
+  print('Average,' + s_round(np.mean(jobs), 1) + ',,,,' + s_round(np.mean(gaps), 2) + ',' + s_round(np.mean(computing_times), 0))
 
   # Percentiles
-  print ','
+  print(',')
   gaps_percentiles = np.percentile(gaps, [0, 10, 25, 50, 75, 90, 100])
   ct_percentiles = np.percentile(computing_times, [0, 10, 25, 50, 75, 90, 100])
-  print ',Gaps,Computing times'
+  print(',Gaps,Computing times')
   titles = ['Min', 'First decile', 'Lower quartile', 'Median', 'Upper quartile', 'Ninth decile', 'Max']
   for i in range(len(titles)):
-    print titles[i] + ',' + s_round(gaps_percentiles[i], 2) + ',' + s_round(ct_percentiles[i], 0)
+    print(titles[i] + ',' + s_round(gaps_percentiles[i], 2) + ',' + s_round(ct_percentiles[i], 0))
 
 if __name__ == "__main__":
   # First argument if the best known solution file.

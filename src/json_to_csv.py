@@ -8,7 +8,7 @@ from utils.csv_stuff import write_to_csv
 # all involved coordinates in Lat,Lng order.
 
 if __name__ == "__main__":
-  input_file = sys.argv[1]
-  output_name = input_file[:input_file.rfind('.json')]
+    input_file = sys.argv[1]
+    output_name = input_file[: input_file.rfind(".json")]
 
-  write_to_csv(output_name, load_json(input_file))
+    write_to_csv(output_name, load_json(input_file))
