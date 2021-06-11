@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import json, requests
+import requests
 
 
 def node_coordinates_bb(key, values, bb):

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-import json, sys, os
+import json
 import numpy as np
+import sys
 
 # Compare a set of computed solutions to best known solutions on the
 # same problems.

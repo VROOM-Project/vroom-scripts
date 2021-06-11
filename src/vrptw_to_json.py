@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import json, sys, os
-from utils.benchmark import *
+import json
+import sys
+from utils.benchmark import get_matrix
 
 # Generate a json-formatted problem from a TSPTW/VRPTW file.
 
@@ -18,18 +19,18 @@ line_no = 0
 def parse_meta(lines, meta):
     global line_no
     while len(lines) > 0:
-        l = lines.pop(0).strip()
+        line = lines.pop(0).strip()
         line_no += 1
-        if len(l) == 0:
+        if len(line) == 0:
             continue
-        elif "CUSTOMER" in l or "CUST NO." in l:
-            lines.insert(0, l)
+        elif "CUSTOMER" in line or "CUST NO." in line:
+            lines.insert(0, line)
             line_no -= 1
             break
-        elif "NUMBER" in l:
+        elif "NUMBER" in line:
             continue
         else:
-            x = l.split()
+            x = line.split()
             if len(x) < 2:
                 print("Cannot understand line " + str(line_no) + ": too few columns.")
                 exit(2)
@@ -41,14 +42,14 @@ def parse_jobs(lines, jobs, coords):
     global line_no
     location_index = 0
     while len(lines) > 0:
-        l = lines.pop(0).strip()
+        line = lines.pop(0).strip()
         line_no += 1
-        if len(l) == 0:
+        if len(line) == 0:
             continue
-        elif "CUST " in l:
+        elif "CUST " in line:
             continue
         else:
-            x = l.split()
+            x = line.split()
             if len(x) < 7:
                 print("Cannot understand line " + str(line_no) + ": too few columns.")
                 exit(2)
@@ -82,25 +83,25 @@ def parse_vrptw(input_file):
 
     meta = {}
     while len(lines) > 0:
-        l = lines.pop(0).strip()
+        line = lines.pop(0).strip()
         line_no += 1
-        if len(l) > 0:
-            if "#NUM" in l:
-                lines.insert(0, l)
+        if len(line) > 0:
+            if "#NUM" in line:
+                lines.insert(0, line)
                 meta["NAME"] = input_file
             else:
-                meta["NAME"] = l
+                meta["NAME"] = line
             break
 
     coords = []
     jobs = []
 
     while len(lines) > 0:
-        l = lines.pop(0)
+        line = lines.pop(0)
         line_no += 1
-        if "VEHICLE" in l:
+        if "VEHICLE" in line:
             parse_meta(lines, meta)
-        elif "CUSTOMER" in l or "CUST " in l or "#NUM" in l:
+        elif "CUSTOMER" in line or "CUST " in line or "#NUM" in line:
             parse_jobs(lines, jobs, coords)
 
     matrix = get_matrix(coords, CUSTOM_PRECISION)

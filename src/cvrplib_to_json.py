@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import json, sys
-from utils.benchmark import *
+import json
+import sys
+from utils.benchmark import get_value, parse_node_coords, get_matrix
 
 # Generate a json-formatted problem from a CVRPLIB file.
 

@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import json, sys, os
-from utils.benchmark import *
+import json
+import sys
+from utils.benchmark import get_matrix
 
 # Generate a json-formatted problem from a PDPTW file.
 

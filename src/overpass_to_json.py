@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import argparse, sys
+import argparse
+import sys
 from utils.format_input import write_files
 from utils.overpass import node_coordinates_bb, node_coordinates_city
 

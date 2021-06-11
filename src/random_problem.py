@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import argparse, sys
+import argparse
 import numpy.random as npr
-import json
 from utils.format_input import write_files
 
 # Generate a random problem to feed vroom for solving.

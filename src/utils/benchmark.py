@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import math
 
+
 # TSPLIB canonic rounding.
 def nint(x):
     return int(x + 0.5)

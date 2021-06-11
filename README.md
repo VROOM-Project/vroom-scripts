@@ -44,14 +44,19 @@ especially if you're unsure about potential changes or additions.
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
-We use [`black`](https://github.com/psf/black) for python code
-formatting in order to forget about how the code looks like and focus
-on what it does.
+We use:
 
-A convenient way to automate formatting is to setup a pre-commit
-hook. [`pre-commit`](https://pre-commit.com/) can do that for you
-based on our `.pre-commit-config.yaml` config file. Simply install and
-run:
+- [`black`](https://github.com/psf/black) for python code formatting in
+order to forget about how the code looks like and focus on what it
+does.
+
+- [`flake8`](https://flake8.pycqa.org) for style guide enforcement and
+PEP8 compliance.
+
+A convenient way to automate the whole workflow is to setup a
+pre-commit hook. [`pre-commit`](https://pre-commit.com/) can do that
+for you based on our `.pre-commit-config.yaml` config file. Simply
+install and run once:
 
 ```bash
 pip install pre-commit
