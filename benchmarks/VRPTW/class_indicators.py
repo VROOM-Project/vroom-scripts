@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-import json, sys, os
+import json
 import numpy as np
+import sys
 
 # Retrieve cumulated number of vehicle (CNV) and cumulated travel time
 # (CTT) per class.

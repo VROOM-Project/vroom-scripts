@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import json, sys
+import sys
 from utils.file import load_json
 from utils.csv_stuff import write_to_csv
 

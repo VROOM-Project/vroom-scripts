@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
-import json, sys
+import json
 import matplotlib.pyplot as plt
 import matplotlib.colors as clrs
+import sys
 
 # Very simple plot for a VROOM solution file.
 

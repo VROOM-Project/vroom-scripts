@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import json, sys
-from utils.benchmark import *
+import json
+import sys
+from utils.benchmark import get_value, get_matrix, parse_node_coords
 
 # Generate a json-formatted problem from a tsplib file.
 

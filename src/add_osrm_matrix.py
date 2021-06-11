@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import json, sys
+import json
+import sys
 from utils.file import load_json
 from utils.osrm import table
 

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-import json, sys
+import json
 import numpy as np
+import sys
 
 # Report simple stats on vehicle usage in a solution.
 

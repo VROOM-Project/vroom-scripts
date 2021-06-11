@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import json, sys, os
-from utils.benchmark import *
+import json
+import sys
+from utils.benchmark import get_matrix
 
 # Generate a json-formatted problem from a HVRP file.
 
@@ -16,29 +17,29 @@ FIRST_LINE = 5
 
 
 def parse_meta(line):
-    l = line.split()
+    meta = line.split()
     return {
-        "JOBS": int(l[0]),
-        "VEHICLE_TYPES": int(l[1]),
-        "LOWER_BOUND": float(l[4]),
-        "BKS": float(l[5]),
+        "JOBS": int(meta[0]),
+        "VEHICLE_TYPES": int(meta[1]),
+        "LOWER_BOUND": float(meta[4]),
+        "BKS": float(meta[5]),
     }
 
 
 def parse_jobs(lines, jobs, coords):
     for i in range(len(lines)):
-        l = lines[i].split()
-        if len(l) < 3:
+        customer = lines[i].split()
+        if len(customer) < 3:
             print("Too few columns in customer line.")
             exit(2)
 
-        current_coords = [int(l[0]), int(l[1])]
+        current_coords = [int(customer[0]), int(customer[1])]
         jobs.append(
             {
                 "id": i,
                 "location": current_coords,
                 "location_index": len(coords),
-                "delivery": [int(l[2])],
+                "delivery": [int(customer[2])],
             }
         )
         coords.append(current_coords)
@@ -72,12 +73,12 @@ def parse_hvrp(input_file):
 
     for v_type in range(1, meta["VEHICLE_TYPES"] + 1):
         line = lines[FIRST_LINE + v_type]
-        l = line.split()
+        vehicle = line.split()
 
-        v_number = int(l[0])
-        v_capacity = int(l[1])
-        v_fixed_cost = int(l[2])
-        v_du_cost = float(l[3])
+        v_number = int(vehicle[0])
+        v_capacity = int(vehicle[1])
+        v_fixed_cost = int(vehicle[2])
+        v_du_cost = float(vehicle[3])
 
         # BKS[input_file]['vehicles'] += v_number
         # BKS[input_file]['total_capacity'] += v_number * v_capacity

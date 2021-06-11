@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import json, os, sys
-from utils.file import *
+import os
+import sys
+from utils.file import solution_indicators
 
 # Produce global indicators from a set of solutions in a given folder.
 
@@ -13,10 +14,6 @@ def global_indicators(files):
         "distance": 0,
         "computing_times": {"loading": 0, "solving": 0, "routing": 0},
     }
-
-    # We only want to keep global solving details if they are always
-    # present.
-    has_solving_details = True
 
     for file in [f for f in files if f.endswith(".json")]:
         summary = solution_indicators(file)
