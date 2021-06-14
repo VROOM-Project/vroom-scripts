@@ -10,7 +10,14 @@ import sys
 # src/hvrp_to_json.py.
 CUSTOM_PRECISION = 1000
 BENCH_DOUBLE_PRECISION = 100
-CUSTOM_PRECISION_CLASSES = ["solomon", "homberger", "li_lim", "VFMP_V", "HFVRP"]
+CUSTOM_PRECISION_CLASSES = [
+    "solomon",
+    "homberger",
+    "li_lim",
+    "VFMP_V",
+    "HFVRP",
+    "cordeau",
+]
 
 
 def uses_custom_precision(bench):
