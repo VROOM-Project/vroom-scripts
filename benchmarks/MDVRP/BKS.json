@@ -1,0 +1,299 @@
+{
+  "p01": {
+    "class": "cordeau",
+    "best_known_cost": 576.87,
+    "capacity": 80,
+    "jobs": 50,
+    "vehicles": 16,
+    "total_amount": 777,
+    "depots": 4
+  },
+  "p02": {
+    "class": "cordeau",
+    "best_known_cost": 473.87,
+    "capacity": 160,
+    "jobs": 50,
+    "vehicles": 8,
+    "total_amount": 777,
+    "depots": 4
+  },
+  "p03": {
+    "class": "cordeau",
+    "best_known_cost": 641.2,
+    "capacity": 140,
+    "jobs": 75,
+    "vehicles": 15,
+    "total_amount": 1364,
+    "depots": 5
+  },
+  "p04": {
+    "class": "cordeau",
+    "best_known_cost": 1001.04,
+    "capacity": 100,
+    "jobs": 100,
+    "vehicles": 16,
+    "total_amount": 1458,
+    "depots": 2
+  },
+  "p05": {
+    "class": "cordeau",
+    "best_known_cost": 750.03,
+    "capacity": 200,
+    "jobs": 100,
+    "vehicles": 10,
+    "total_amount": 1458,
+    "depots": 2
+  },
+  "p06": {
+    "class": "cordeau",
+    "best_known_cost": 876.5,
+    "capacity": 100,
+    "jobs": 100,
+    "vehicles": 18,
+    "total_amount": 1458,
+    "depots": 3
+  },
+  "p07": {
+    "class": "cordeau",
+    "best_known_cost": 881.97,
+    "capacity": 100,
+    "jobs": 100,
+    "vehicles": 16,
+    "total_amount": 1458,
+    "depots": 4
+  },
+  "p08": {
+    "class": "cordeau",
+    "best_known_cost": 4372.78,
+    "capacity": 500,
+    "jobs": 249,
+    "vehicles": 28,
+    "total_amount": 12106,
+    "depots": 2
+  },
+  "p09": {
+    "class": "cordeau",
+    "best_known_cost": 3858.66,
+    "capacity": 500,
+    "jobs": 249,
+    "vehicles": 36,
+    "total_amount": 12106,
+    "depots": 3
+  },
+  "p10": {
+    "class": "cordeau",
+    "best_known_cost": 3631.11,
+    "capacity": 500,
+    "jobs": 249,
+    "vehicles": 32,
+    "total_amount": 12106,
+    "depots": 4
+  },
+  "p11": {
+    "class": "cordeau",
+    "best_known_cost": 3546.06,
+    "capacity": 500,
+    "jobs": 249,
+    "vehicles": 30,
+    "total_amount": 12106,
+    "depots": 5
+  },
+  "p12": {
+    "class": "cordeau",
+    "best_known_cost": 1318.95,
+    "capacity": 60,
+    "jobs": 80,
+    "vehicles": 10,
+    "total_amount": 432,
+    "depots": 2
+  },
+  "p13": {
+    "class": "cordeau",
+    "best_known_cost": 1318.95,
+    "capacity": 60,
+    "jobs": 80,
+    "vehicles": 10,
+    "total_amount": 432,
+    "depots": 2
+  },
+  "p14": {
+    "class": "cordeau",
+    "best_known_cost": 1360.12,
+    "capacity": 60,
+    "jobs": 80,
+    "vehicles": 10,
+    "total_amount": 432,
+    "depots": 2
+  },
+  "p15": {
+    "class": "cordeau",
+    "best_known_cost": 2505.42,
+    "capacity": 60,
+    "jobs": 160,
+    "vehicles": 20,
+    "total_amount": 864,
+    "depots": 4
+  },
+  "p16": {
+    "class": "cordeau",
+    "best_known_cost": 2572.23,
+    "capacity": 60,
+    "jobs": 160,
+    "vehicles": 20,
+    "total_amount": 864,
+    "depots": 4
+  },
+  "p17": {
+    "class": "cordeau",
+    "best_known_cost": 2709.09,
+    "capacity": 60,
+    "jobs": 160,
+    "vehicles": 20,
+    "total_amount": 864,
+    "depots": 4
+  },
+  "p18": {
+    "class": "cordeau",
+    "best_known_cost": 3702.85,
+    "capacity": 60,
+    "jobs": 240,
+    "vehicles": 30,
+    "total_amount": 1296,
+    "depots": 6
+  },
+  "p19": {
+    "class": "cordeau",
+    "best_known_cost": 3827.06,
+    "capacity": 60,
+    "jobs": 240,
+    "vehicles": 30,
+    "total_amount": 1296,
+    "depots": 6
+  },
+  "p20": {
+    "class": "cordeau",
+    "best_known_cost": 4058.07,
+    "capacity": 60,
+    "jobs": 240,
+    "vehicles": 30,
+    "total_amount": 1296,
+    "depots": 6
+  },
+  "p21": {
+    "class": "cordeau",
+    "best_known_cost": 5474.84,
+    "capacity": 60,
+    "jobs": 360,
+    "vehicles": 45,
+    "total_amount": 1944,
+    "depots": 9
+  },
+  "p22": {
+    "class": "cordeau",
+    "best_known_cost": 5702.16,
+    "capacity": 60,
+    "jobs": 360,
+    "vehicles": 45,
+    "total_amount": 1944,
+    "depots": 9
+  },
+  "p23": {
+    "class": "cordeau",
+    "best_known_cost": 6078.75,
+    "capacity": 60,
+    "jobs": 360,
+    "vehicles": 45,
+    "total_amount": 1944,
+    "depots": 9
+  },
+  "pr01": {
+    "class": "cordeau",
+    "best_known_cost": 861.32,
+    "capacity": 200,
+    "jobs": 48,
+    "vehicles": 4,
+    "total_amount": 657,
+    "depots": 4
+  },
+  "pr02": {
+    "class": "cordeau",
+    "best_known_cost": 1307.34,
+    "capacity": 195,
+    "jobs": 96,
+    "vehicles": 8,
+    "total_amount": 1220,
+    "depots": 4
+  },
+  "pr03": {
+    "class": "cordeau",
+    "best_known_cost": 1803.8,
+    "capacity": 190,
+    "jobs": 144,
+    "vehicles": 12,
+    "total_amount": 1788,
+    "depots": 4
+  },
+  "pr04": {
+    "class": "cordeau",
+    "best_known_cost": 2058.31,
+    "capacity": 185,
+    "jobs": 192,
+    "vehicles": 16,
+    "total_amount": 2477,
+    "depots": 4
+  },
+  "pr05": {
+    "class": "cordeau",
+    "best_known_cost": 2331.2,
+    "capacity": 180,
+    "jobs": 240,
+    "vehicles": 20,
+    "total_amount": 3351,
+    "depots": 4
+  },
+  "pr06": {
+    "class": "cordeau",
+    "best_known_cost": 2676.3,
+    "capacity": 175,
+    "jobs": 288,
+    "vehicles": 24,
+    "total_amount": 3671,
+    "depots": 4
+  },
+  "pr07": {
+    "class": "cordeau",
+    "best_known_cost": 1089.56,
+    "capacity": 200,
+    "jobs": 72,
+    "vehicles": 6,
+    "total_amount": 948,
+    "depots": 6
+  },
+  "pr08": {
+    "class": "cordeau",
+    "best_known_cost": 1664.85,
+    "capacity": 190,
+    "jobs": 144,
+    "vehicles": 12,
+    "total_amount": 2006,
+    "depots": 6
+  },
+  "pr09": {
+    "class": "cordeau",
+    "best_known_cost": 2133.2,
+    "capacity": 180,
+    "jobs": 216,
+    "vehicles": 18,
+    "total_amount": 2736,
+    "depots": 6
+  },
+  "pr10": {
+    "class": "cordeau",
+    "best_known_cost": 2867.26,
+    "capacity": 170,
+    "jobs": 288,
+    "vehicles": 24,
+    "total_amount": 3850,
+    "depots": 6
+  }
+}

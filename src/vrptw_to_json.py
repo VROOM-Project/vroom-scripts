@@ -69,7 +69,7 @@ def parse_jobs(lines, jobs, coords):
                             CUSTOM_PRECISION * int(float(x[5])),
                         ]
                     ],
-                    "service": CUSTOM_PRECISION * int(float(x[6])),
+                    "service": CUSTOM_PRECISION * int(x[6]),
                 }
             )
             location_index += 1
