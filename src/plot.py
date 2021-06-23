@@ -6,6 +6,37 @@ import sys
 
 # Very simple plot for a VROOM solution file.
 
+colors_blacklist = [
+    "whitesmoke",
+    "white",
+    "snow",
+    "mistyrose",
+    "seashell",
+    "linen",
+    "bisque",
+    "antiquewhite",
+    "blanchedalmond",
+    "papayawhip",
+    "wheat",
+    "oldlace",
+    "floralwhite",
+    "cornsilk",
+    "lemonchiffon",
+    "aliceblue",
+    "ivory",
+    "beige",
+    "lightyellow",
+    "lightgoldenrodyellow",
+    "honeydew",
+    "mintcream",
+    "azure",
+    "lightcyan",
+    "aliceblue",
+    "ghostwhite",
+    "lavender",
+    "lavenderblush",
+]
+
 
 def plot_routes(sol_file_name):
     plot_file_name = sol_file_name[0 : sol_file_name.rfind(".json")] + ".svg"
@@ -16,7 +47,8 @@ def plot_routes(sol_file_name):
 
     color_list = []
     for name, hex in clrs.cnames.items():
-        color_list.append(name)
+        if name not in colors_blacklist:
+            color_list.append(name)
 
     fig, ax1 = plt.subplots(1, 1)
     fig.set_figwidth(15)
