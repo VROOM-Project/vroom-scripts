@@ -5,11 +5,18 @@ import sys
 from utils.file import load_json
 from utils.osrm import table
 
-# Parse a json-formatted input instance, compute the matrix using
-# OSRM, then add the matrix and all relevant indices to the input
-# problem. Possible usage include checking that solving is consistent
-# between both instances, or creating a "standalone" problem instance
-# that can be further solved even without an OSRM server handy.
+# Parse a json-formatted input instance, compute the matrix using OSRM
+# for each required profile, then add the matrix and all relevant
+# indices to the input problem. Possible usage include checking that
+# solving is consistent between both instances, or creating a
+# "standalone" problem instance that can be further solved even
+# without an OSRM server handy.
+
+ROUTING = {
+    "car": {"host": "0.0.0.0", "port": "5000"},
+    "bike": {"host": "0.0.0.0", "port": "5001"},
+    "foot": {"host": "0.0.0.0", "port": "5002"},
+}
 
 
 def round_to_cost(d):
@@ -46,7 +53,14 @@ if __name__ == "__main__":
     locs = []
     index_of_known_locations = {}
 
+    profiles = set()
+
     for v in data["vehicles"]:
+        if "profile" in v:
+            profiles.add(v["profile"])
+        else:
+            profiles.add("car")
+
         if ("start" not in v) and ("end" not in v):
             sys.exit("Missing coordinates for vehicle.")
 
@@ -80,14 +94,20 @@ if __name__ == "__main__":
                     locs, index_of_known_locations, shipment["delivery"]["location"]
                 )
 
-    # Get table from OSRM.
-    matrix = table(locs)["durations"]
-    data["matrix"] = []
+    # Get matrices from OSRM.
+    data["matrices"] = {}
+    for p in profiles:
+        if p not in ROUTING:
+            print("Invalid profile: " + p)
+            exit(1)
 
-    # Round all costs to the nearest integer (same behavior as in
-    # osrm_wrapper.h)
-    for line in matrix:
-        data["matrix"].append(map(lambda d: round_to_cost(d), line))
+        matrix = table(locs, ROUTING[p]["host"], ROUTING[p]["port"])["durations"]
+        data["matrices"][p] = {"durations": []}
+
+        # Round all costs to the nearest integer (same behavior as in
+        # osrm_wrapper.h)
+        for line in matrix:
+            data["matrices"][p]["durations"].append([round_to_cost(d) for d in line])
 
     with open(output_name, "w") as out:
         print("Writing problem with matrix to " + output_name)
