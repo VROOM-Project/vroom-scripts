@@ -60,6 +60,46 @@ def dichotomy(data, first_solution):
     return solutions
 
 
+def backward_search(data, first_solution):
+    current = copy.deepcopy(data)
+    current_sol = first_solution
+    solutions = []
+
+    end_dates = [r["steps"][-1]["arrival"] for r in first_solution["routes"]]
+    latest = max(end_dates)
+
+    for vehicle in current["vehicles"]:
+        if "time_window" not in vehicle:
+            vehicle["time_window"] = [0, latest]
+
+    unassigned = first_solution["summary"]["unassigned"]
+
+    while unassigned == 0:
+        solutions.append(current_sol)
+
+        # Reduce time window length for all vehicles.
+        new_end = latest - 1
+        for v in range(len(current["vehicles"]) - 1, -1, -1):
+            vehicle = current["vehicles"][v]
+            if new_end < vehicle["time_window"][1]:
+                if new_end < vehicle["time_window"][0]:
+                    # Discard vehicle since its time window is past
+                    # new_end.
+                    current["vehicles"].pop(v)
+                else:
+                    # Reduce time window for vehicle.
+                    vehicle["time_window"][1] = new_end
+
+        # Solve updated variant
+        current_sol = solve(current)
+
+        unassigned = current_sol["summary"]["unassigned"]
+        if len(current_sol["routes"]) > 0:
+            latest = max([r["steps"][-1]["arrival"] for r in current_sol["routes"]])
+
+    return solutions
+
+
 def solve_asap(data):
     init_solution = solve(data)
 
