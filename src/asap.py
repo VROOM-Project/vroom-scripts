@@ -47,14 +47,19 @@ def dichotomy(data, first_solution):
     earliest = min(end_dates)
     latest = max(end_dates)
 
+    earliest_TW = sys.maxsize
+
+    for vehicle in init_input["vehicles"]:
+        if "time_window" in vehicle:
+            earliest_TW = min(earliest_TW, vehicle["time_window"][0])
+        else:
+            vehicle["time_window"] = [0, latest]
+            earliest_TW = 0
+
     if len(first_solution["routes"]) < len(init_input["vehicles"]):
         # There is an unused vehicle in the initial solution so
         # current earliest is meaningless.
-        earliest = 0
-
-    for vehicle in init_input["vehicles"]:
-        if "time_window" not in vehicle:
-            vehicle["time_window"] = [0, latest]
+        earliest = earliest_TW
 
     end_candidate = int(round(float(earliest + latest) / 2))
     while (end_candidate != earliest) and (end_candidate != latest):
