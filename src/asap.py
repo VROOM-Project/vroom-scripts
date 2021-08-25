@@ -10,6 +10,29 @@ from utils.vroom import solve
 # strategies to come up with a solution minimizing completion time.
 
 
+def filter_dominated(solutions):
+    indices = range(len(solutions))
+    completion_times = []
+    costs = []
+    to_pop = []
+
+    for i in indices:
+        sol = solutions[i]
+        completion_times.append(max([r["steps"][-1]["arrival"] for r in sol["routes"]]))
+        costs.append(sol["summary"]["cost"])
+
+    for i in indices:
+        for j in indices:
+            if j == i:
+                continue
+            if completion_times[j] < completion_times[i] and costs[j] < costs[i]:
+                to_pop.append(i)
+                break
+
+    for i in reversed(to_pop):
+        solutions.pop(i)
+
+
 def dichotomy(data, first_solution):
     init_input = copy.deepcopy(data)
     solutions = []
@@ -111,7 +134,10 @@ def solve_asap(data):
         print('{"code": 2, "error": "Can\'t solve problem with all jobs"}')
         exit(2)
 
-    dichotomy_solutions = dichotomy(data, init_solution)
+    solutions = dichotomy(data, init_solution)
+    solutions.extend(backward_search(data, init_solution))
+
+    filter_dominated(solutions)
 
     print(
         [
@@ -119,7 +145,7 @@ def solve_asap(data):
                 "completion": max([r["steps"][-1]["arrival"] for r in sol["routes"]]),
                 "cost": sol["summary"]["cost"],
             }
-            for sol in dichotomy_solutions
+            for sol in solutions
         ]
     )
 
