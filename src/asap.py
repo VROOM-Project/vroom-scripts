@@ -143,15 +143,24 @@ def solve_asap(data):
 
     filter_dominated(solutions)
 
-    print(
-        [
-            {
-                "completion": max([r["steps"][-1]["arrival"] for r in sol["routes"]]),
-                "cost": sol["summary"]["cost"],
-            }
-            for sol in solutions
-        ]
-    )
+    indicators = [
+        {
+            "completion": max([r["steps"][-1]["arrival"] for r in sol["routes"]]),
+            "cost": sol["summary"]["cost"],
+            "origin": sol["origin"],
+        }
+        for sol in solutions
+    ]
+
+    # Print solution with smallest completion time to standard output.
+    best_rank = 0
+    smallest_completion = indicators[0]["completion"]
+    for i in range(1, len(indicators)):
+        if indicators[i]["completion"] < smallest_completion:
+            best_rank = i
+            smallest_completion = indicators[i]["completion"]
+
+    print(json.dumps(solutions[best_rank]))
 
 
 if __name__ == "__main__":
