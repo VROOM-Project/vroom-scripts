@@ -12,7 +12,10 @@ from utils.vroom import solve
 
 def dichotomy(data, first_solution):
     init_input = copy.deepcopy(data)
-    solutions = [first_solution]
+    solutions = []
+
+    if len(first_solution["routes"]) > 0:
+        solutions.append(first_solution)
 
     end_dates = [r["steps"][-1]["arrival"] for r in first_solution["routes"]]
     earliest = min(end_dates)
