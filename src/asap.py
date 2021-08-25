@@ -38,7 +38,9 @@ def dichotomy(data, first_solution):
     solutions = []
 
     if len(first_solution["routes"]) > 0:
-        solutions.append(first_solution)
+        sol = copy.deepcopy(first_solution)
+        sol["origin"] = "dichotomy"
+        solutions.append(sol)
 
     end_dates = [r["steps"][-1]["arrival"] for r in first_solution["routes"]]
     earliest = min(end_dates)
@@ -73,6 +75,7 @@ def dichotomy(data, first_solution):
         current_sol = solve(current)
 
         if current_sol["summary"]["unassigned"] == 0:
+            current_sol["origin"] = "dichotomy"
             solutions.append(current_sol)
             latest = end_candidate
         else:
@@ -85,7 +88,7 @@ def dichotomy(data, first_solution):
 
 def backward_search(data, first_solution):
     current = copy.deepcopy(data)
-    current_sol = first_solution
+    current_sol = copy.deepcopy(first_solution)
     solutions = []
 
     end_dates = [r["steps"][-1]["arrival"] for r in first_solution["routes"]]
@@ -98,6 +101,7 @@ def backward_search(data, first_solution):
     unassigned = first_solution["summary"]["unassigned"]
 
     while unassigned == 0:
+        current_sol["origin"] = "backward_search"
         solutions.append(current_sol)
 
         # Reduce time window length for all vehicles.
