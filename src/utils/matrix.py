@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from utils.osrm import table
+from utils.osrm import table as osrm_table
+from utils.ors import table as ors_table
 
 # Compute durations matrix using OSRM for each required profile, then
 # add the matrix and all relevant indices to the input problem.
@@ -30,6 +31,11 @@ def get_index(locations, locations_indices, loc):
 
 
 def add_matrix(data, routing):
+    if "engine" not in routing or (
+        routing["engine"] != "osrm" and routing["engine"] != "ors"
+    ):
+        raise ValueError("Invalid routing engine.")
+
     # Retrieve all problem locations in the same order as in
     # input_parser.cpp.
     locs = []
@@ -76,16 +82,21 @@ def add_matrix(data, routing):
                     locs, index_of_known_locations, shipment["delivery"]["location"]
                 )
 
-    # Get matrices from OSRM.
     data["matrices"] = {}
     for p in profiles:
         if p not in routing["profiles"]:
             raise ValueError("Invalid profile: " + p)
 
-        matrix = table(
-            locs, routing["profiles"][p]["host"], routing["profiles"][p]["port"]
-        )["durations"]
         data["matrices"][p] = {"durations": []}
+
+        if routing["engine"] == "osrm":
+            matrix = osrm_table(
+                locs, routing["profiles"][p]["host"], routing["profiles"][p]["port"]
+            )["durations"]
+        if routing["engine"] == "ors":
+            matrix = ors_table(
+                locs, routing["profiles"][p]["host"], routing["profiles"][p]["port"]
+            )["durations"]
 
         # Round all durations to the nearest integer (same behavior as
         # in osrm_wrapper.h)
