@@ -46,7 +46,7 @@ def format_json_from_locations(locations):
         shipment_coords = locations["shipments"]["coordinates"]
         instance["shipments"] = []
 
-    s = len(shipment_coords) / 2
+    s = round(len(shipment_coords) / 2)
     for i in range(s):
         current = {
             "pickup": {"id": j + 2 * i + 1, "location": shipment_coords[2 * i]},
