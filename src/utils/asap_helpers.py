@@ -2,9 +2,8 @@
 # -*- coding: utf-8 -*-
 import copy
 import json
-import sys
 import matplotlib.pyplot as plt
-from utils.file import load_json
+import sys
 from utils.vroom import solve
 
 # Parse a json-formatted input instance, then apply iterative solving
@@ -203,12 +202,3 @@ def solve_asap(data, pareto_file=""):
             smallest_completion = indicators[i]["completion"]
 
     print(json.dumps(solutions[best_rank]))
-
-
-if __name__ == "__main__":
-    input_file = sys.argv[1]
-
-    data = load_json(input_file)
-
-    pareto_file = input_file[: input_file.rfind(".json")] + "_pareto.svg"
-    solve_asap(data, pareto_file)
