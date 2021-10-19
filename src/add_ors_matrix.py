@@ -10,11 +10,16 @@ from utils.matrix import add_matrix
 # that can be further solved even without an OSRM server handy.
 
 ROUTING = {
-    "engine": "osrm",
+    "engine": "ors",
     "profiles": {
-        "car": {"host": "0.0.0.0", "port": "5000"},
-        "bike": {"host": "0.0.0.0", "port": "5001"},
-        "foot": {"host": "0.0.0.0", "port": "5002"},
+        "driving-car": {"host": "localhost", "port": "8080"},
+        "driving-hgv": {"host": "localhost", "port": "8080"},
+        "cycling-regular": {"host": "localhost", "port": "8080"},
+        "cycling-mountain": {"host": "localhost", "port": "8080"},
+        "cycling-road": {"host": "localhost", "port": "8080"},
+        "cycling-electric": {"host": "localhost", "port": "8080"},
+        "foot-walking": {"host": "localhost", "port": "8080"},
+        "foot-hiking": {"host": "localhost", "port": "8080"},
     },
 }
 
