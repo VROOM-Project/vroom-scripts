@@ -100,7 +100,7 @@ def add_matrix(data, routing):
             )["durations"]
         if routing["engine"] == "ors":
             matrix = ors_table(
-                locs, routing["profiles"][p]["host"], routing["profiles"][p]["port"]
+                locs, p, routing["profiles"][p]["host"], routing["profiles"][p]["port"]
             )["durations"]
 
         # Round all durations to the nearest integer (same behavior as
