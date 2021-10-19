@@ -20,6 +20,8 @@ debug or help in using `VROOM`.
 - **hvrp_to_json** converts a HVRP file to json.
 - **add_osrm_matrix** creates a "standalone" version of a json input
   instance by adding a `matrices` key using OSRM.
+- **add_ors_matrix** creates a "standalone" version of a json input
+  instance by adding a `matrices` key using Openrouteservice.
 
 # Benchmarks
 
