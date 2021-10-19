@@ -105,6 +105,8 @@ def plot_pareto_front(indicators, pareto_file, full_Y_scale=False):
 
     for origin in ["backward_search", "dichotomy"]:
         costs = [i["cost"] for i in indicators if i["origin"] == origin]
+        if len(costs) == 0:
+            continue
         completions = [i["completion"] for i in indicators if i["origin"] == origin]
         ymax = max(ymax, max(costs))
 
@@ -178,7 +180,7 @@ def solve_asap(data, pareto_file=""):
         exit(2)
 
     solutions = dichotomy(data, init_solution)
-    solutions.extend(backward_search(data, init_solution))
+    # solutions.extend(backward_search(data, init_solution))
 
     filter_dominated(solutions)
 
