@@ -195,7 +195,7 @@ def solve_asap(data, pareto_file=""):
 
     plot_pareto_front(indicators, pareto_file)
 
-    # Print solution with smallest completion time to standard output.
+    # Return solution with smallest completion time.
     best_rank = 0
     smallest_completion = indicators[0]["completion"]
     for i in range(1, len(indicators)):
@@ -203,4 +203,4 @@ def solve_asap(data, pareto_file=""):
             best_rank = i
             smallest_completion = indicators[i]["completion"]
 
-    print(json.dumps(solutions[best_rank]))
+    return solutions[best_rank]

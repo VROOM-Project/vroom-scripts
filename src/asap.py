@@ -40,7 +40,8 @@ if __name__ == "__main__":
         "-o",
         metavar="OUTPUT",
         help="output file name",
-        type=str,
+        type=argparse.FileType("w"),
+        default="-",
     )
     parser.add_argument(
         "-p",
@@ -79,7 +80,4 @@ if __name__ == "__main__":
     # pareto_file = input_file[: input_file.rfind(".json")] + "_pareto.svg"
     response = solve_asap(data)
 
-    if args.o:
-        exit(0)
-    else:
-        print(json.dumps(response))
+    json.dump(response, args.o)
