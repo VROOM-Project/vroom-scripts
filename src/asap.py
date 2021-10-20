@@ -75,13 +75,15 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Read input from file or stdin.
-    data = json.load(args.i)
-
-    # pareto_file = input_file[: input_file.rfind(".json")] + "_pareto.svg"
     try:
-        response = solve_asap(data)
-    except OSError as e:
-        response = {"code": e.errno, "error": e.strerror}
+        data = json.load(args.i)
+        # pareto_file = input_file[: input_file.rfind(".json")] + "_pareto.svg"
+        try:
+            response = solve_asap(data)
+        except OSError as e:
+            response = {"code": e.errno, "error": e.strerror}
+    except ValueError as e:
+        response = {"code": 2, "error": str(e)}
 
     json.dump(response, args.o)
     exit(response["code"])

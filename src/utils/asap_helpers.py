@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import copy
-import json
 import matplotlib.pyplot as plt
 import sys
 from utils.vroom import solve
@@ -172,12 +171,10 @@ def solve_asap(data, pareto_file=""):
     init_solution = solve(data)
 
     if init_solution["code"] != 0:
-        print(json.dumps(init_solution))
-        exit(init_solution["code"])
+        raise OSError(init_solution["code"], init_solution["error"])
 
     if init_solution["summary"]["unassigned"] != 0:
-        print('{"code": 2, "error": "Can\'t solve problem with all jobs"}')
-        exit(2)
+        raise OSError(2, "Can't solve problem with all jobs")
 
     solutions = dichotomy(data, init_solution)
     # solutions.extend(backward_search(data, init_solution))
