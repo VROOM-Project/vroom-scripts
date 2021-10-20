@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import argparse
 import json
-from utils.file import load_json
 from utils.asap_helpers import solve_asap
 
 # Parse a json-formatted input instance, then apply iterative solving
@@ -28,7 +27,8 @@ if __name__ == "__main__":
         "-i",
         metavar="FILE",
         help="read input from FILE rather than from stdin",
-        type=str,
+        type=argparse.FileType("r"),
+        default="-",
     )
     parser.add_argument(
         "-l",
@@ -73,8 +73,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    if args.i:
-        data = load_json(args.i)
+    # Read input from file or stdin.
+    data = json.load(args.i)
 
     # pareto_file = input_file[: input_file.rfind(".json")] + "_pareto.svg"
     response = solve_asap(data)
