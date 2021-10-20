@@ -32,7 +32,7 @@ def filter_dominated(solutions):
         solutions.pop(i)
 
 
-def dichotomy(data, first_solution):
+def dichotomy(data, cl_args, first_solution):
     init_input = copy.deepcopy(data)
     solutions = []
 
@@ -76,7 +76,7 @@ def dichotomy(data, first_solution):
                     vehicle["time_window"][1] = end_candidate
 
         # Solve updated variant
-        current_sol = solve(current)
+        current_sol = solve(current, cl_args)
 
         if current_sol["summary"]["unassigned"] == 0:
             current_sol["origin"] = "dichotomy"
@@ -126,7 +126,7 @@ def plot_pareto_front(indicators, pareto_file, full_Y_scale=False):
     plt.close()
 
 
-def backward_search(data, first_solution):
+def backward_search(data, cl_args, first_solution):
     current = copy.deepcopy(data)
     current_sol = copy.deepcopy(first_solution)
     solutions = []
@@ -158,7 +158,7 @@ def backward_search(data, first_solution):
                     vehicle["time_window"][1] = new_end
 
         # Solve updated variant
-        current_sol = solve(current)
+        current_sol = solve(current, cl_args)
 
         unassigned = current_sol["summary"]["unassigned"]
         if len(current_sol["routes"]) > 0:
@@ -167,8 +167,8 @@ def backward_search(data, first_solution):
     return solutions
 
 
-def solve_asap(data, pareto_file=""):
-    init_solution = solve(data)
+def solve_asap(data, cl_args, pareto_file=""):
+    init_solution = solve(data, cl_args)
 
     if init_solution["code"] != 0:
         raise OSError(init_solution["code"], init_solution["error"])
@@ -176,8 +176,8 @@ def solve_asap(data, pareto_file=""):
     if init_solution["summary"]["unassigned"] != 0:
         raise OSError(2, "Can't solve problem with all jobs")
 
-    solutions = dichotomy(data, init_solution)
-    # solutions.extend(backward_search(data, init_solution))
+    solutions = dichotomy(data, cl_args, init_solution)
+    # solutions.extend(backward_search(data, cl_args, init_solution))
 
     filter_dominated(solutions)
 

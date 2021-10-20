@@ -8,6 +8,28 @@ from utils.asap_helpers import solve_asap
 # strategies to come up with a solution minimizing completion time.
 
 
+def get_cl_args(args):
+    all_args = []
+    if args.a:
+        for a in args.a:
+            all_args.append("-a" + a[0])
+    if args.g:
+        all_args.append("-g")
+    if args.l is not None:
+        all_args.append("-l" + str(args.l))
+    if args.p:
+        for p in args.p:
+            all_args.append("-p" + p[0])
+    if args.r:
+        all_args.append("-r" + args.r)
+    if args.t is not None:
+        all_args.append("-t " + str(args.t))
+    if args.x is not None:
+        all_args.append("-x " + str(args.x))
+
+    return all_args
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -79,7 +101,7 @@ if __name__ == "__main__":
         data = json.load(args.i)
         # pareto_file = input_file[: input_file.rfind(".json")] + "_pareto.svg"
         try:
-            response = solve_asap(data)
+            response = solve_asap(data, get_cl_args(args))
         except OSError as e:
             response = {"code": e.errno, "error": e.strerror}
     except ValueError as e:
