@@ -200,4 +200,7 @@ def solve_asap(data, cl_args, pareto_file=""):
             best_rank = i
             smallest_completion = indicators[i]["completion"]
 
+    solutions[best_rank].pop("origin", None)
+    solutions[best_rank]["summary"].pop("computing_times", None)
+
     return solutions[best_rank]
