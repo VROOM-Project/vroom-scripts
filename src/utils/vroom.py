@@ -10,6 +10,7 @@ def solve(data):
         result = subprocess.check_output(["vroom", str_data])
     except subprocess.CalledProcessError as e:
         # Some error reported by vroom
-        return json.loads(e.output)
+        json_error = json.loads(e.output)
+        raise OSError(json_error["code"], json_error["error"])
 
     return json.loads(result)

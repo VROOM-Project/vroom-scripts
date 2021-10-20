@@ -78,6 +78,10 @@ if __name__ == "__main__":
     data = json.load(args.i)
 
     # pareto_file = input_file[: input_file.rfind(".json")] + "_pareto.svg"
-    response = solve_asap(data)
+    try:
+        response = solve_asap(data)
+    except OSError as e:
+        response = {"code": e.errno, "error": e.strerror}
 
     json.dump(response, args.o)
+    exit(response["code"])
