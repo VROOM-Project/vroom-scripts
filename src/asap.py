@@ -3,6 +3,7 @@
 import argparse
 import json
 from utils.asap_helpers import solve_asap
+from utils.matrix import add_matrix
 
 # Parse a json-formatted input instance, then apply iterative solving
 # strategies to come up with a solution minimizing completion time.
@@ -28,6 +29,34 @@ def get_cl_args(args):
         all_args.append("-x " + str(args.x))
 
     return all_args
+
+
+def get_routing(args):
+    routing = {"engine": args.r, "profiles": {}}
+    if args.a:
+        for a in args.a:
+            kv = a[0].split(":")
+            profile = kv[0]
+            host = kv[1]
+            if profile not in routing["profiles"]:
+                routing["profiles"][profile] = {"host": host}
+            else:
+                routing["profiles"][profile]["host"] = host
+
+    if args.p:
+        for p in args.p:
+            kv = p[0].split(":")
+            profile = kv[0]
+            port = kv[1]
+            if profile not in routing["profiles"]:
+                routing["profiles"][profile] = {"port": port}
+            else:
+                routing["profiles"][profile]["port"] = port
+
+    if len(routing["profiles"]) == 0:
+        routing["profiles"] = {"car": {"host": "0.0.0.0", "port": "5000"}}
+
+    return routing
 
 
 if __name__ == "__main__":
@@ -101,6 +130,12 @@ if __name__ == "__main__":
         data = json.load(args.i)
         # pareto_file = input_file[: input_file.rfind(".json")] + "_pareto.svg"
         try:
+            if "matrices" not in data:
+                # Embed required matrices prior to solving to avoid
+                # duplicate matrix computations.
+                add_matrix(data, get_routing(args))
+
+            # Iterative solving approach.
             response = solve_asap(data, get_cl_args(args))
         except OSError as e:
             response = {"code": e.errno, "error": e.strerror}
