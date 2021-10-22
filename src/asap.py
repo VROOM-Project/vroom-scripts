@@ -102,6 +102,13 @@ if __name__ == "__main__":
         action="append",
     )
     parser.add_argument(
+        "--pareto-front",
+        action="store_true",
+        help="generate an array of solutions representing various trade-offs"
+        + " between cost and completion time",
+        default=False,
+    )
+    parser.add_argument(
         "--pareto-plot-file",
         metavar="PLOT FILE",
         help="plot file name",
@@ -143,11 +150,13 @@ if __name__ == "__main__":
                 add_matrix(data, get_routing(args))
 
             # Iterative solving approach.
-            response = solve_asap(data, get_cl_args(args), args.pareto_plot_file)
+            response = solve_asap(
+                data, args.pareto_front, get_cl_args(args), args.pareto_plot_file
+            )
         except OSError as e:
             response = {"code": e.errno, "error": e.strerror}
     except ValueError as e:
         response = {"code": 2, "error": str(e)}
 
     json.dump(response, args.o)
-    exit(response["code"])
+    exit(response["code"] if "code" in response else 0)

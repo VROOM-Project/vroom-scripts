@@ -167,7 +167,7 @@ def backward_search(data, cl_args, first_solution):
     return solutions
 
 
-def solve_asap(data, cl_args, pareto_plot_file=""):
+def solve_asap(data, return_pareto_front, cl_args, pareto_plot_file=""):
     init_solution = solve(data, cl_args)
 
     if init_solution["code"] != 0:
@@ -193,15 +193,20 @@ def solve_asap(data, cl_args, pareto_plot_file=""):
     if len(pareto_plot_file) > 0:
         plot_pareto_front(indicators, pareto_plot_file)
 
-    # Return solution with smallest completion time.
-    best_rank = 0
-    smallest_completion = indicators[0]["completion"]
-    for i in range(1, len(indicators)):
-        if indicators[i]["completion"] < smallest_completion:
-            best_rank = i
-            smallest_completion = indicators[i]["completion"]
+    if return_pareto_front:
+        for sol in solutions:
+            sol.pop("origin", None)
+        return solutions
+    else:
+        # Return solution with smallest completion time.
+        best_rank = 0
+        smallest_completion = indicators[0]["completion"]
+        for i in range(1, len(indicators)):
+            if indicators[i]["completion"] < smallest_completion:
+                best_rank = i
+                smallest_completion = indicators[i]["completion"]
 
-    solutions[best_rank].pop("origin", None)
-    solutions[best_rank]["summary"].pop("computing_times", None)
+        solutions[best_rank].pop("origin", None)
+        solutions[best_rank]["summary"].pop("computing_times", None)
 
-    return solutions[best_rank]
+        return solutions[best_rank]
