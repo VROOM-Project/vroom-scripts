@@ -177,9 +177,11 @@ def solve_asap(problem):
         raise OSError(2, "Can't solve problem with all jobs")
 
     solutions = dichotomy(problem["instance"], problem["cl_args"], init_solution)
-    # solutions.extend(
-    #     backward_search(problem["instance"], problem["cl_args"], init_solution)
-    # )
+
+    if problem["pareto_front_more_solution"]:
+        solutions.extend(
+            backward_search(problem["instance"], problem["cl_args"], init_solution)
+        )
 
     filter_dominated(solutions)
 

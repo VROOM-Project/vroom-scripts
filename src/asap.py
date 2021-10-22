@@ -109,6 +109,12 @@ if __name__ == "__main__":
         default=False,
     )
     parser.add_argument(
+        "--pareto-front-more-solutions",
+        action="store_true",
+        help="reach out to even more solutions than with --pareto-front",
+        default=False,
+    )
+    parser.add_argument(
         "--pareto-plot-file",
         metavar="PLOT FILE",
         help="plot file name",
@@ -153,7 +159,9 @@ if __name__ == "__main__":
             response = solve_asap(
                 {
                     "instance": data,
-                    "return_pareto_front": args.pareto_front,
+                    "return_pareto_front": args.pareto_front
+                    or args.pareto_front_more_solutions,
+                    "pareto_front_more_solution": args.pareto_front_more_solutions,
                     "cl_args": get_cl_args(args),
                     "pareto_plot_file": args.pareto_plot_file,
                 }
