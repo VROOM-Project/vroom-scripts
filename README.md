@@ -22,6 +22,8 @@ debug or help in using `VROOM`.
   instance by adding a `matrices` key using OSRM.
 - **add_ors_matrix** creates a "standalone" version of a json input
   instance by adding a `matrices` key using Openrouteservice.
+- **asap** reach out to a solution minimizing completion time or a set
+  of trade-offs between completion time and cost.
 
 # Benchmarks
 
