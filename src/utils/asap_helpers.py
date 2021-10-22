@@ -167,8 +167,8 @@ def backward_search(data, cl_args, first_solution):
     return solutions
 
 
-def solve_asap(data, return_pareto_front, cl_args, pareto_plot_file=""):
-    init_solution = solve(data, cl_args)
+def solve_asap(problem):
+    init_solution = solve(problem["instance"], problem["cl_args"])
 
     if init_solution["code"] != 0:
         raise OSError(init_solution["code"], init_solution["error"])
@@ -176,8 +176,10 @@ def solve_asap(data, return_pareto_front, cl_args, pareto_plot_file=""):
     if init_solution["summary"]["unassigned"] != 0:
         raise OSError(2, "Can't solve problem with all jobs")
 
-    solutions = dichotomy(data, cl_args, init_solution)
-    # solutions.extend(backward_search(data, cl_args, init_solution))
+    solutions = dichotomy(problem["instance"], problem["cl_args"], init_solution)
+    # solutions.extend(
+    #     backward_search(problem["instance"], problem["cl_args"], init_solution)
+    # )
 
     filter_dominated(solutions)
 
@@ -190,10 +192,10 @@ def solve_asap(data, return_pareto_front, cl_args, pareto_plot_file=""):
         for sol in solutions
     ]
 
-    if len(pareto_plot_file) > 0:
-        plot_pareto_front(indicators, pareto_plot_file)
+    if len(problem["pareto_plot_file"]) > 0:
+        plot_pareto_front(indicators, problem["pareto_plot_file"])
 
-    if return_pareto_front:
+    if problem["return_pareto_front"]:
         for sol in solutions:
             sol.pop("origin", None)
         return solutions

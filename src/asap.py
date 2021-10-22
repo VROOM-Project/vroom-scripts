@@ -151,7 +151,12 @@ if __name__ == "__main__":
 
             # Iterative solving approach.
             response = solve_asap(
-                data, args.pareto_front, get_cl_args(args), args.pareto_plot_file
+                {
+                    "instance": data,
+                    "return_pareto_front": args.pareto_front,
+                    "cl_args": get_cl_args(args),
+                    "pareto_plot_file": args.pareto_plot_file,
+                }
             )
         except OSError as e:
             response = {"code": e.errno, "error": e.strerror}
