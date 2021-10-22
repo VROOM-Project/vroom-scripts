@@ -183,6 +183,10 @@ def solve_asap(problem):
             backward_search(problem["instance"], problem["cl_args"], init_solution)
         )
 
+    # Sort solutions by increasing completion time.
+    solutions.sort(
+        key=lambda sol: max([r["steps"][-1]["arrival"] for r in sol["routes"]])
+    )
     filter_dominated(solutions)
 
     indicators = [
@@ -203,14 +207,7 @@ def solve_asap(problem):
         return solutions
     else:
         # Return solution with smallest completion time.
-        best_rank = 0
-        smallest_completion = indicators[0]["completion"]
-        for i in range(1, len(indicators)):
-            if indicators[i]["completion"] < smallest_completion:
-                best_rank = i
-                smallest_completion = indicators[i]["completion"]
+        solutions[0].pop("origin", None)
+        solutions[0]["summary"].pop("computing_times", None)
 
-        solutions[best_rank].pop("origin", None)
-        solutions[best_rank]["summary"].pop("computing_times", None)
-
-        return solutions[best_rank]
+        return solutions[0]
