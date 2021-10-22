@@ -32,6 +32,30 @@ def filter_dominated(solutions):
         solutions.pop(i)
 
 
+def filter_unique(solutions):
+    indices = range(len(solutions))
+    completion_times = []
+    costs = []
+    to_pop = []
+
+    for i in indices:
+        sol = solutions[i]
+        completion_times.append(max([r["steps"][-1]["arrival"] for r in sol["routes"]]))
+        costs.append(sol["summary"]["cost"])
+
+    for i in indices:
+        for j in range(i + 1, len(solutions)):
+            if j in to_pop:
+                continue
+
+            if completion_times[j] == completion_times[i] and costs[j] == costs[i]:
+                to_pop.append(j)
+                break
+
+    for i in reversed(to_pop):
+        solutions.pop(i)
+
+
 def dichotomy(data, cl_args, first_solution):
     init_input = copy.deepcopy(data)
     solutions = []
@@ -188,17 +212,18 @@ def solve_asap(problem):
         key=lambda sol: max([r["steps"][-1]["arrival"] for r in sol["routes"]])
     )
     filter_dominated(solutions)
-
-    indicators = [
-        {
-            "completion": max([r["steps"][-1]["arrival"] for r in sol["routes"]]),
-            "cost": sol["summary"]["cost"],
-            "origin": sol["origin"],
-        }
-        for sol in solutions
-    ]
+    filter_unique(solutions)
 
     if len(problem["pareto_plot_file"]) > 0:
+        indicators = [
+            {
+                "completion": max([r["steps"][-1]["arrival"] for r in sol["routes"]]),
+                "cost": sol["summary"]["cost"],
+                "origin": sol["origin"],
+            }
+            for sol in solutions
+        ]
+
         plot_pareto_front(indicators, problem["pareto_plot_file"])
 
     if problem["return_pareto_front"]:
