@@ -90,7 +90,7 @@ def dichotomy(data, cl_args, first_solution):
     return solutions
 
 
-def plot_pareto_front(indicators, pareto_file, full_Y_scale=False):
+def plot_pareto_front(indicators, pareto_plot_file, full_Y_scale=False):
     fig, ax1 = plt.subplots(1, 1)
     plt.xlabel("Completion time")
     plt.ylabel("Cost")
@@ -121,8 +121,8 @@ def plot_pareto_front(indicators, pareto_file, full_Y_scale=False):
     if full_Y_scale:
         ax1.set_ylim(0, ymax * 1.05)
 
-    plt.savefig(pareto_file, bbox_inches="tight")
-    plt.show()
+    plt.savefig(pareto_plot_file, bbox_inches="tight")
+    # plt.show()
     plt.close()
 
 
@@ -167,7 +167,7 @@ def backward_search(data, cl_args, first_solution):
     return solutions
 
 
-def solve_asap(data, cl_args, pareto_file=""):
+def solve_asap(data, cl_args, pareto_plot_file=""):
     init_solution = solve(data, cl_args)
 
     if init_solution["code"] != 0:
@@ -190,7 +190,8 @@ def solve_asap(data, cl_args, pareto_file=""):
         for sol in solutions
     ]
 
-    plot_pareto_front(indicators, pareto_file)
+    if len(pareto_plot_file) > 0:
+        plot_pareto_front(indicators, pareto_plot_file)
 
     # Return solution with smallest completion time.
     best_rank = 0

@@ -102,6 +102,13 @@ if __name__ == "__main__":
         action="append",
     )
     parser.add_argument(
+        "--pareto-plot-file",
+        metavar="PLOT FILE",
+        help="plot file name",
+        type=str,
+        default="",
+    )
+    parser.add_argument(
         "-r",
         metavar="ROUTER (=osrm)",
         help="osrm or ors",
@@ -136,7 +143,7 @@ if __name__ == "__main__":
                 add_matrix(data, get_routing(args))
 
             # Iterative solving approach.
-            response = solve_asap(data, get_cl_args(args))
+            response = solve_asap(data, get_cl_args(args), args.pareto_plot_file)
         except OSError as e:
             response = {"code": e.errno, "error": e.strerror}
     except ValueError as e:
