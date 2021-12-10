@@ -7,9 +7,8 @@ import subprocess
 def solve(data, cl_args):
     args = ["vroom"]
     args.extend(cl_args)
-    args.append(json.dumps(data))
     try:
-        result = subprocess.check_output(args)
+        result = subprocess.check_output(args, text=True, input=json.dumps(data))
     except subprocess.CalledProcessError as e:
         # Some error reported by vroom
         json_error = json.loads(e.output)
