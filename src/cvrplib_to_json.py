@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import json
 import sys
-from utils.benchmark import get_value, parse_node_coords, get_matrix
+from utils.benchmark import get_value, parse_demand, parse_node_coords, get_matrix
 
 # Generate a json-formatted problem from a CVRPLIB file.
 
@@ -51,19 +51,16 @@ def parse_cvrp(input_file):
     coords = []
 
     for i in range(node_start + 1, node_start + 1 + meta["DIMENSION"]):
-        coord_line = parse_node_coords(lines[i])
+        node = parse_node_coords(lines[i])
 
-        if len(coord_line) < 3:
-            # Reaching another section (like DEMAND_SECTION), happens when
-            # only jobs are listed in NODE_COORD_SECTION but DIMENSION count
-            # include jobs + depot.
+        if node is None:
             break
 
-        coords.append([float(coord_line[1]), float(coord_line[2])])
+        coords.append(node["location"])
         jobs.append(
             {
-                "id": int(coord_line[0]),
-                "location": [float(coord_line[1]), float(coord_line[2])],
+                "id": node["id"],
+                "location": node["location"],
                 "location_index": i - node_start - 1,
             }
         )
@@ -74,7 +71,7 @@ def parse_cvrp(input_file):
         (i for i, s in enumerate(lines) if s.startswith("DEMAND_SECTION"))
     )
     for i in range(demand_start + 1, demand_start + 1 + meta["DIMENSION"]):
-        demand_line = parse_node_coords(lines[i])
+        demand_line = parse_demand(lines[i])
 
         if len(demand_line) < 2:
             # Same as above in job parsing.

@@ -33,15 +33,15 @@ def parse_tsp(input_file):
     )
 
     # Use first line as vehicle start/end.
-    coord_line = parse_node_coords(lines[node_start + 1])
+    node = parse_node_coords(lines[node_start + 1])
 
-    coords = [[float(coord_line[1]), float(coord_line[2])]]
+    coords = [node["location"]]
 
     vehicle = {
-        "id": int(coord_line[0]),
-        "start": [float(coord_line[1]), float(coord_line[2])],
+        "id": node["id"],
+        "start": node["location"],
         "start_index": 0,
-        "end": [float(coord_line[1]), float(coord_line[2])],
+        "end": node["location"],
         "end_index": 0,
     }
 
@@ -49,13 +49,13 @@ def parse_tsp(input_file):
     jobs = []
 
     for i in range(node_start + 2, node_start + 1 + meta["DIMENSION"]):
-        coord_line = parse_node_coords(lines[i])
+        node = parse_node_coords(lines[i])
 
-        coords.append([float(coord_line[1]), float(coord_line[2])])
+        coords.append(node["location"])
         jobs.append(
             {
-                "id": int(coord_line[0]),
-                "location": [float(coord_line[1]), float(coord_line[2])],
+                "id": node["id"],
+                "location": node["location"],
                 "location_index": i - node_start - 1,
             }
         )
