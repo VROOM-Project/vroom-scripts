@@ -41,9 +41,23 @@ def parse_node_coords(s):
         # count include jobs + depot.
         return None
 
+    node_id = int(coord_line[0])
+    node_type = "linehaul"
+
+    if len(coord_line) == 3:
+        node_coords = [float(coord_line[1]), float(coord_line[2])]
+    else:
+        node_coords = [float(coord_line[2]), float(coord_line[3])]
+        type_value = int(coord_line[1])
+        if type_value == -1:
+            node_type = "depot"
+        elif type_value == 1:
+            node_type = "backhaul"
+
     return {
-        "id": int(coord_line[0]),
-        "location": [float(coord_line[1]), float(coord_line[2])],
+        "id": node_id,
+        "type": node_type,
+        "location": node_coords,
     }
 
 

@@ -62,11 +62,13 @@ def parse_cvrp(input_file):
                 "id": node["id"],
                 "location": node["location"],
                 "location_index": i - node_start - 1,
+                "type": node["type"],
             }
         )
 
     # Add all job demands.
-    total_demand = 0
+    total_delivery = 0
+    total_pickup = 0
     demand_start = next(
         (i for i, s in enumerate(lines) if s.startswith("DEMAND_SECTION"))
     )
@@ -83,8 +85,14 @@ def parse_cvrp(input_file):
         for j in jobs:
             # Add demand to relevant job.
             if j["id"] == job_id:
-                j["amount"] = [current_demand]
-                total_demand += current_demand
+                if j["type"] == "linehaul":
+                    j["delivery"] = [current_demand]
+                    total_delivery += current_demand
+                elif j["type"] == "backhaul":
+                    j["pickup"] = [current_demand]
+                    total_pickup += current_demand
+
+                j.pop("type")
                 break
 
     # Find depot description.
@@ -114,7 +122,7 @@ def parse_cvrp(input_file):
         meta["VEHICLES"] = int(meta["VEHICLES"])
         nb_vehicles = meta["VEHICLES"]
     else:
-        nb_vehicles = int(1 + (total_demand / meta["CAPACITY"]))
+        nb_vehicles = int(1 + (max(total_delivery, total_pickup) / meta["CAPACITY"]))
 
     vehicles = []
 
