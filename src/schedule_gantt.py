@@ -1,5 +1,6 @@
 #-*- coding: utf-8 -*-
 import json
+from xmlrpc.client import MAXINT
 import matplotlib.pyplot as plt
 import matplotlib.colors as clrs
 import sys
@@ -58,13 +59,11 @@ def plot_schedules(sol_file_name):
         return
 
     t = 0
-    tmax = 0
-    for route in solution["routes"]:
-        tmax = max(tmax, route["steps"][-1]["arrival"] - route["steps"][0]["arrival"])
     dt = 0
     n = solution["routes"][-1]["vehicle"]
 
     for route in solution["routes"]:
+        t = route["steps"][0]["arrival"]
         d1, d2 = 0, 0
         for step in route["steps"]:
             dt = step["waiting_time"]
@@ -81,7 +80,6 @@ def plot_schedules(sol_file_name):
                 ax1.vlines(x = t, ymin = (route["vehicle"])-0.5+5/(n+10), ymax = route["vehicle"]+0.5-5/(n+10), colors = color_list[route["vehicle"] % len(color_list)])
                 ax1.hlines(y = route["vehicle"], xmin = t, xmax = t + dt, colors = color_list[route["vehicle"] % len(color_list)], linewidth = 5)
             t += dt
-        t = 0
 
     computing_time = solution["summary"]["computing_times"]["loading"]
     computing_time += solution["summary"]["computing_times"]["solving"]
