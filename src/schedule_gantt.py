@@ -1,42 +1,11 @@
 # -*- coding: utf-8 -*-
+from curses import color_pair
 import json
 import matplotlib.pyplot as plt
-import matplotlib.colors as clrs
 import sys
+from utils.color_list import color_list
 
 # Very simple plot for a VROOM solution file.
-
-colors_blacklist = [
-    "whitesmoke",
-    "white",
-    "snow",
-    "mistyrose",
-    "seashell",
-    "linen",
-    "bisque",
-    "antiquewhite",
-    "blanchedalmond",
-    "papayawhip",
-    "wheat",
-    "oldlace",
-    "floralwhite",
-    "cornsilk",
-    "lemonchiffon",
-    "aliceblue",
-    "ivory",
-    "beige",
-    "lightyellow",
-    "lightgoldenrodyellow",
-    "honeydew",
-    "mintcream",
-    "azure",
-    "lightcyan",
-    "aliceblue",
-    "ghostwhite",
-    "lavender",
-    "lavenderblush",
-]
-
 
 def plot_schedules(sol_file_name):
     plot_file_name = sol_file_name[0 : sol_file_name.rfind(".json")] + "_gantt.svg"
@@ -45,11 +14,6 @@ def plot_schedules(sol_file_name):
     with open(sol_file_name, "r") as sol_file:
         solution = json.load(sol_file)
 
-    color_list = []
-    for name, hex in clrs.cnames.items():
-        if name not in colors_blacklist:
-            color_list.append(name)
-
     fig, ax1 = plt.subplots(1, 1)
     fig.set_figwidth(15)
     plt.subplots_adjust(left=0.03, right=1, top=1, bottom=0.05, wspace=0.03)
@@ -57,31 +21,31 @@ def plot_schedules(sol_file_name):
     if "routes" not in solution:
         return
 
-    t = 0
-    dt = 0
-    n = solution["routes"][-1]["vehicle"]
+    n = len(solution["routes"])
+    i = 0
 
     for route in solution["routes"]:
+        color = color_list[route["vehicle"] % len(color_list)]
         t = route["steps"][0]["arrival"]
         d1, d2 = 0, 0
         for step in route["steps"]:
-            dt = step["waiting_time"]
-            t += dt
             d1, d2 = d2, step["duration"]
             dt = d2 - d1
             ax1.hlines(
-                y=route["vehicle"],
+                y=i,
                 xmin=t,
                 xmax=t + dt,
-                colors=color_list[route["vehicle"] % len(color_list)],
+                colors=color,
             )
+            t += dt
+            dt = step["waiting_time"]
             t += dt
             dt = step["setup"]
             ax1.hlines(
-                y=route["vehicle"],
+                y=i,
                 xmin=t,
                 xmax=t + dt,
-                colors=color_list[route["vehicle"] % len(color_list)],
+                colors=color,
                 linewidth=5,
             )
             t += dt
@@ -89,18 +53,19 @@ def plot_schedules(sol_file_name):
             if step["type"] in ["job", "pickup", "delivery"]:
                 ax1.vlines(
                     x=t,
-                    ymin=(route["vehicle"]) - 0.5 + 5 / (n + 10),
-                    ymax=route["vehicle"] + 0.5 - 5 / (n + 10),
-                    colors=color_list[route["vehicle"] % len(color_list)],
+                    ymin=i - 0.5 + 5 / (n + 10),
+                    ymax=i + 0.5 - 5 / (n + 10),
+                    colors=color,
                 )
                 ax1.hlines(
-                    y=route["vehicle"],
+                    y=i,
                     xmin=t,
                     xmax=t + dt,
-                    colors=color_list[route["vehicle"] % len(color_list)],
+                    colors=color,
                     linewidth=5,
                 )
             t += dt
+        i += 1
 
     computing_time = solution["summary"]["computing_times"]["loading"]
     computing_time += solution["summary"]["computing_times"]["solving"]
@@ -120,6 +85,6 @@ def plot_schedules(sol_file_name):
 
 
 if __name__ == "__main__":
-    # Argument is the name of the solution fils to plot.
+    # Argument is the name of the solution files to plot.
     for f in sys.argv[1:]:
         plot_schedules(f)
