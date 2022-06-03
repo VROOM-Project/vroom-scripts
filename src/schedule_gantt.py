@@ -64,6 +64,14 @@ def plot_schedules(sol_file_name):
                     colors=color,
                     linewidth=5,
                 )
+            elif step["type"] == "break":
+                ax1.hlines(
+                    y=i,
+                    xmin=t,
+                    xmax=t + dt,
+                    colors=color,
+                    linestyle='dashed',
+                )
             t += dt
         i += 1
 
