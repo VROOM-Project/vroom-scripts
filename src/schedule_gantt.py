@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-from curses import color_pair
 import json
 import matplotlib.pyplot as plt
 import sys
 from utils.color_list import color_list
 
 # Very simple plot for a VROOM solution file.
+
 
 def plot_schedules(sol_file_name):
     plot_file_name = sol_file_name[0 : sol_file_name.rfind(".json")] + "_gantt.svg"
@@ -70,7 +70,7 @@ def plot_schedules(sol_file_name):
                     xmin=t,
                     xmax=t + dt,
                     colors=color,
-                    linestyle='dashed',
+                    linestyle="dashed",
                 )
             t += dt
         i += 1

@@ -6,6 +6,7 @@ from utils.color_list import color_list
 
 # Very simple plot for a VROOM solution file.
 
+
 def plot_routes(sol_file_name):
     plot_file_name = sol_file_name[0 : sol_file_name.rfind(".json")] + ".svg"
 
