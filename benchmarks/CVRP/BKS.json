@@ -4,7 +4,7 @@
     "jobs": 31,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 410,
+    "total_demand": 410,
     "best_known_cost": 784,
     "proven_optimal": true
   },
@@ -13,7 +13,7 @@
     "jobs": 32,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 446,
+    "total_demand": 446,
     "best_known_cost": 661,
     "proven_optimal": true
   },
@@ -22,7 +22,7 @@
     "jobs": 32,
     "vehicles": 6,
     "capacity": 100,
-    "total_amount": 541,
+    "total_demand": 541,
     "best_known_cost": 742,
     "proven_optimal": true
   },
@@ -31,7 +31,7 @@
     "jobs": 33,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 460,
+    "total_demand": 460,
     "best_known_cost": 778,
     "proven_optimal": true
   },
@@ -40,7 +40,7 @@
     "jobs": 35,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 442,
+    "total_demand": 442,
     "best_known_cost": 799,
     "proven_optimal": true
   },
@@ -49,7 +49,7 @@
     "jobs": 36,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 407,
+    "total_demand": 407,
     "best_known_cost": 669,
     "proven_optimal": true
   },
@@ -58,7 +58,7 @@
     "jobs": 36,
     "vehicles": 6,
     "capacity": 100,
-    "total_amount": 570,
+    "total_demand": 570,
     "best_known_cost": 949,
     "proven_optimal": true
   },
@@ -67,7 +67,7 @@
     "jobs": 37,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 481,
+    "total_demand": 481,
     "best_known_cost": 730,
     "proven_optimal": true
   },
@@ -76,7 +76,7 @@
     "jobs": 38,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 475,
+    "total_demand": 475,
     "best_known_cost": 822,
     "proven_optimal": true
   },
@@ -85,7 +85,7 @@
     "jobs": 38,
     "vehicles": 6,
     "capacity": 100,
-    "total_amount": 526,
+    "total_demand": 526,
     "best_known_cost": 831,
     "proven_optimal": true
   },
@@ -94,7 +94,7 @@
     "jobs": 43,
     "vehicles": 6,
     "capacity": 100,
-    "total_amount": 570,
+    "total_demand": 570,
     "best_known_cost": 937,
     "proven_optimal": true
   },
@@ -103,7 +103,7 @@
     "jobs": 44,
     "vehicles": 6,
     "capacity": 100,
-    "total_amount": 593,
+    "total_demand": 593,
     "best_known_cost": 944,
     "proven_optimal": true
   },
@@ -112,7 +112,7 @@
     "jobs": 44,
     "vehicles": 7,
     "capacity": 100,
-    "total_amount": 634,
+    "total_demand": 634,
     "best_known_cost": 1146,
     "proven_optimal": true
   },
@@ -121,7 +121,7 @@
     "jobs": 45,
     "vehicles": 7,
     "capacity": 100,
-    "total_amount": 603,
+    "total_demand": 603,
     "best_known_cost": 914,
     "proven_optimal": true
   },
@@ -130,7 +130,7 @@
     "jobs": 47,
     "vehicles": 7,
     "capacity": 100,
-    "total_amount": 626,
+    "total_demand": 626,
     "best_known_cost": 1073,
     "proven_optimal": true
   },
@@ -139,7 +139,7 @@
     "jobs": 52,
     "vehicles": 7,
     "capacity": 100,
-    "total_amount": 664,
+    "total_demand": 664,
     "best_known_cost": 1010,
     "proven_optimal": true
   },
@@ -148,7 +148,7 @@
     "jobs": 53,
     "vehicles": 7,
     "capacity": 100,
-    "total_amount": 669,
+    "total_demand": 669,
     "best_known_cost": 1167,
     "proven_optimal": true
   },
@@ -157,7 +157,7 @@
     "jobs": 54,
     "vehicles": 9,
     "capacity": 100,
-    "total_amount": 839,
+    "total_demand": 839,
     "best_known_cost": 1073,
     "proven_optimal": true
   },
@@ -166,7 +166,7 @@
     "jobs": 59,
     "vehicles": 9,
     "capacity": 100,
-    "total_amount": 829,
+    "total_demand": 829,
     "best_known_cost": 1354,
     "proven_optimal": true
   },
@@ -175,7 +175,7 @@
     "jobs": 60,
     "vehicles": 9,
     "capacity": 100,
-    "total_amount": 885,
+    "total_demand": 885,
     "best_known_cost": 1034,
     "proven_optimal": true
   },
@@ -184,7 +184,7 @@
     "jobs": 61,
     "vehicles": 8,
     "capacity": 100,
-    "total_amount": 733,
+    "total_demand": 733,
     "best_known_cost": 1288,
     "proven_optimal": true
   },
@@ -193,7 +193,7 @@
     "jobs": 62,
     "vehicles": 9,
     "capacity": 100,
-    "total_amount": 873,
+    "total_demand": 873,
     "best_known_cost": 1616,
     "proven_optimal": true
   },
@@ -202,7 +202,7 @@
     "jobs": 62,
     "vehicles": 10,
     "capacity": 100,
-    "total_amount": 932,
+    "total_demand": 932,
     "best_known_cost": 1314,
     "proven_optimal": true
   },
@@ -211,7 +211,7 @@
     "jobs": 63,
     "vehicles": 9,
     "capacity": 100,
-    "total_amount": 848,
+    "total_demand": 848,
     "best_known_cost": 1401,
     "proven_optimal": true
   },
@@ -220,7 +220,7 @@
     "jobs": 64,
     "vehicles": 9,
     "capacity": 100,
-    "total_amount": 877,
+    "total_demand": 877,
     "best_known_cost": 1174,
     "proven_optimal": true
   },
@@ -229,7 +229,7 @@
     "jobs": 68,
     "vehicles": 9,
     "capacity": 100,
-    "total_amount": 845,
+    "total_demand": 845,
     "best_known_cost": 1159,
     "proven_optimal": true
   },
@@ -238,7 +238,7 @@
     "jobs": 79,
     "vehicles": 10,
     "capacity": 100,
-    "total_amount": 942,
+    "total_demand": 942,
     "best_known_cost": 1763,
     "proven_optimal": true
   },
@@ -247,7 +247,7 @@
     "jobs": 30,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 412,
+    "total_demand": 412,
     "best_known_cost": 672,
     "proven_optimal": true
   },
@@ -256,7 +256,7 @@
     "jobs": 33,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 457,
+    "total_demand": 457,
     "best_known_cost": 788,
     "proven_optimal": true
   },
@@ -265,7 +265,7 @@
     "jobs": 34,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 437,
+    "total_demand": 437,
     "best_known_cost": 955,
     "proven_optimal": true
   },
@@ -274,7 +274,7 @@
     "jobs": 37,
     "vehicles": 6,
     "capacity": 100,
-    "total_amount": 512,
+    "total_demand": 512,
     "best_known_cost": 805,
     "proven_optimal": true
   },
@@ -283,7 +283,7 @@
     "jobs": 38,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 440,
+    "total_demand": 440,
     "best_known_cost": 549,
     "proven_optimal": true
   },
@@ -292,7 +292,7 @@
     "jobs": 40,
     "vehicles": 6,
     "capacity": 100,
-    "total_amount": 567,
+    "total_demand": 567,
     "best_known_cost": 829,
     "proven_optimal": true
   },
@@ -301,7 +301,7 @@
     "jobs": 42,
     "vehicles": 6,
     "capacity": 100,
-    "total_amount": 521,
+    "total_demand": 521,
     "best_known_cost": 742,
     "proven_optimal": true
   },
@@ -310,7 +310,7 @@
     "jobs": 43,
     "vehicles": 7,
     "capacity": 100,
-    "total_amount": 641,
+    "total_demand": 641,
     "best_known_cost": 909,
     "proven_optimal": true
   },
@@ -319,7 +319,7 @@
     "jobs": 44,
     "vehicles": 5,
     "capacity": 100,
-    "total_amount": 486,
+    "total_demand": 486,
     "best_known_cost": 751,
     "proven_optimal": true
   },
@@ -328,7 +328,7 @@
     "jobs": 44,
     "vehicles": 6,
     "capacity": 100,
-    "total_amount": 592,
+    "total_demand": 592,
     "best_known_cost": 678,
     "proven_optimal": true
   },
@@ -337,7 +337,7 @@
     "jobs": 49,
     "vehicles": 7,
     "capacity": 100,
-    "total_amount": 609,
+    "total_demand": 609,
     "best_known_cost": 741,
     "proven_optimal": true
   },
@@ -346,7 +346,7 @@
     "jobs": 49,
     "vehicles": 8,
     "capacity": 100,
-    "total_amount": 735,
+    "total_demand": 735,
     "best_known_cost": 1312,
     "proven_optimal": true
   },
@@ -355,7 +355,7 @@
     "jobs": 50,
     "vehicles": 7,
     "capacity": 100,
-    "total_amount": 684,
+    "total_demand": 684,
     "best_known_cost": 1032,
     "proven_optimal": true
   },
@@ -364,7 +364,7 @@
     "jobs": 51,
     "vehicles": 7,
     "capacity": 100,
-    "total_amount": 606,
+    "total_demand": 606,
     "best_known_cost": 747,
     "proven_optimal": true
   },
@@ -373,7 +373,7 @@
     "jobs": 55,
     "vehicles": 7,
     "capacity": 100,
-    "total_amount": 616,
+    "total_demand": 616,
     "best_known_cost": 707,
     "proven_optimal": true
   },
@@ -382,7 +382,7 @@
     "jobs": 56,
     "vehicles": 7,
     "capacity": 100,
-    "total_amount": 697,
+    "total_demand": 697,
     "best_known_cost": 1153,
     "proven_optimal": true
   },
@@ -391,7 +391,7 @@
     "jobs": 56,
     "vehicles": 9,
     "capacity": 100,
-    "total_amount": 803,
+    "total_demand": 803,
     "best_known_cost": 1598,
     "proven_optimal": true
   },
@@ -400,7 +400,7 @@
     "jobs": 62,
     "vehicles": 10,
     "capacity": 100,
-    "total_amount": 922,
+    "total_demand": 922,
     "best_known_cost": 1496,
     "proven_optimal": true
   },
@@ -409,7 +409,7 @@
     "jobs": 63,
     "vehicles": 9,
     "capacity": 100,
-    "total_amount": 878,
+    "total_demand": 878,
     "best_known_cost": 861,
     "proven_optimal": true
   },
@@ -418,7 +418,7 @@
     "jobs": 65,
     "vehicles": 9,
     "capacity": 100,
-    "total_amount": 861,
+    "total_demand": 861,
     "best_known_cost": 1316,
     "proven_optimal": true
   },
@@ -427,7 +427,7 @@
     "jobs": 66,
     "vehicles": 10,
     "capacity": 100,
-    "total_amount": 907,
+    "total_demand": 907,
     "best_known_cost": 1032,
     "proven_optimal": true
   },
@@ -436,7 +436,7 @@
     "jobs": 67,
     "vehicles": 9,
     "capacity": 100,
-    "total_amount": 837,
+    "total_demand": 837,
     "best_known_cost": 1272,
     "proven_optimal": true
   },
@@ -445,7 +445,7 @@
     "jobs": 77,
     "vehicles": 10,
     "capacity": 100,
-    "total_amount": 937,
+    "total_demand": 937,
     "best_known_cost": 1221,
     "proven_optimal": true
   },
@@ -454,7 +454,7 @@
     "jobs": 21,
     "vehicles": 4,
     "capacity": 6000,
-    "total_amount": 22500,
+    "total_demand": 22500,
     "best_known_cost": 375,
     "proven_optimal": true
   },
@@ -463,7 +463,7 @@
     "jobs": 22,
     "vehicles": 3,
     "capacity": 4500,
-    "total_amount": 10189,
+    "total_demand": 10189,
     "best_known_cost": 569,
     "proven_optimal": true
   },
@@ -472,7 +472,7 @@
     "jobs": 29,
     "vehicles": 3,
     "capacity": 4500,
-    "total_amount": 12750,
+    "total_demand": 12750,
     "best_known_cost": 534,
     "proven_optimal": true
   },
@@ -481,7 +481,7 @@
     "jobs": 32,
     "vehicles": 4,
     "capacity": 8000,
-    "total_amount": 29370,
+    "total_demand": 29370,
     "best_known_cost": 835,
     "proven_optimal": true
   },
@@ -490,7 +490,7 @@
     "jobs": 50,
     "vehicles": 5,
     "capacity": 160,
-    "total_amount": 777,
+    "total_demand": 777,
     "best_known_cost": 521,
     "proven_optimal": true
   },
@@ -499,7 +499,7 @@
     "jobs": 75,
     "vehicles": 7,
     "capacity": 220,
-    "total_amount": 1364,
+    "total_demand": 1364,
     "best_known_cost": 682,
     "proven_optimal": true
   },
@@ -508,7 +508,7 @@
     "jobs": 75,
     "vehicles": 8,
     "capacity": 180,
-    "total_amount": 1364,
+    "total_demand": 1364,
     "best_known_cost": 735,
     "proven_optimal": true
   },
@@ -517,7 +517,7 @@
     "jobs": 75,
     "vehicles": 10,
     "capacity": 140,
-    "total_amount": 1364,
+    "total_demand": 1364,
     "best_known_cost": 830,
     "proven_optimal": true
   },
@@ -526,7 +526,7 @@
     "jobs": 75,
     "vehicles": 14,
     "capacity": 100,
-    "total_amount": 1364,
+    "total_demand": 1364,
     "best_known_cost": 1021,
     "proven_optimal": true
   },
@@ -535,7 +535,7 @@
     "jobs": 100,
     "vehicles": 8,
     "capacity": 200,
-    "total_amount": 1458,
+    "total_demand": 1458,
     "best_known_cost": 815,
     "proven_optimal": true
   },
@@ -544,7 +544,7 @@
     "jobs": 100,
     "vehicles": 14,
     "capacity": 112,
-    "total_amount": 1458,
+    "total_demand": 1458,
     "best_known_cost": 1067,
     "proven_optimal": true
   },
@@ -553,7 +553,7 @@
     "jobs": 44,
     "vehicles": 4,
     "capacity": 2010,
-    "total_amount": 7220,
+    "total_demand": 7220,
     "best_known_cost": 724,
     "proven_optimal": true
   },
@@ -562,7 +562,7 @@
     "jobs": 71,
     "vehicles": 4,
     "capacity": 30000,
-    "total_amount": 114840,
+    "total_demand": 114840,
     "best_known_cost": 237,
     "proven_optimal": true
   },
@@ -571,7 +571,7 @@
     "jobs": 134,
     "vehicles": 7,
     "capacity": 2210,
-    "total_amount": 14620,
+    "total_demand": 14620,
     "best_known_cost": 1162,
     "proven_optimal": true
   },
@@ -580,7 +580,7 @@
     "jobs": 100,
     "vehicles": 10,
     "capacity": 200,
-    "total_amount": 1810,
+    "total_demand": 1810,
     "best_known_cost": 820,
     "proven_optimal": true
   },
@@ -589,7 +589,7 @@
     "jobs": 120,
     "vehicles": 7,
     "capacity": 200,
-    "total_amount": 1375,
+    "total_demand": 1375,
     "best_known_cost": 1034,
     "proven_optimal": true
   },
@@ -598,7 +598,7 @@
     "jobs": 150,
     "vehicles": 12,
     "capacity": 200,
-    "total_amount": 2235,
+    "total_demand": 2235,
     "best_known_cost": 1015,
     "proven_optimal": true
   },
@@ -607,7 +607,7 @@
     "jobs": 199,
     "vehicles": 16,
     "capacity": 200,
-    "total_amount": 3186,
+    "total_demand": 3186,
     "best_known_cost": 1274,
     "proven_optimal": true
   },
@@ -616,7 +616,7 @@
     "jobs": 199,
     "vehicles": 17,
     "capacity": 200,
-    "total_amount": 3186,
+    "total_demand": 3186,
     "best_known_cost": 1275,
     "proven_optimal": true
   },
@@ -625,7 +625,7 @@
     "jobs": 15,
     "vehicles": 8,
     "capacity": 35,
-    "total_amount": 246,
+    "total_demand": 246,
     "best_known_cost": 450,
     "proven_optimal": true
   },
@@ -634,7 +634,7 @@
     "jobs": 18,
     "vehicles": 2,
     "capacity": 160,
-    "total_amount": 310,
+    "total_demand": 310,
     "best_known_cost": 212,
     "proven_optimal": true
   },
@@ -643,7 +643,7 @@
     "jobs": 19,
     "vehicles": 2,
     "capacity": 160,
-    "total_amount": 310,
+    "total_demand": 310,
     "best_known_cost": 216,
     "proven_optimal": true
   },
@@ -652,7 +652,7 @@
     "jobs": 20,
     "vehicles": 2,
     "capacity": 160,
-    "total_amount": 298,
+    "total_demand": 298,
     "best_known_cost": 211,
     "proven_optimal": true
   },
@@ -661,7 +661,7 @@
     "jobs": 21,
     "vehicles": 2,
     "capacity": 160,
-    "total_amount": 308,
+    "total_demand": 308,
     "best_known_cost": 216,
     "proven_optimal": true
   },
@@ -670,7 +670,7 @@
     "jobs": 21,
     "vehicles": 8,
     "capacity": 3000,
-    "total_amount": 22500,
+    "total_demand": 22500,
     "best_known_cost": 603,
     "proven_optimal": true
   },
@@ -679,7 +679,7 @@
     "jobs": 22,
     "vehicles": 8,
     "capacity": 40,
-    "total_amount": 313,
+    "total_demand": 313,
     "best_known_cost": 529,
     "proven_optimal": true
   },
@@ -688,7 +688,7 @@
     "jobs": 39,
     "vehicles": 5,
     "capacity": 140,
-    "total_amount": 618,
+    "total_demand": 618,
     "best_known_cost": 458,
     "proven_optimal": true
   },
@@ -697,7 +697,7 @@
     "jobs": 44,
     "vehicles": 5,
     "capacity": 150,
-    "total_amount": 692,
+    "total_demand": 692,
     "best_known_cost": 510,
     "proven_optimal": true
   },
@@ -706,7 +706,7 @@
     "jobs": 49,
     "vehicles": 7,
     "capacity": 150,
-    "total_amount": 951,
+    "total_demand": 951,
     "best_known_cost": 554,
     "proven_optimal": true
   },
@@ -715,7 +715,7 @@
     "jobs": 49,
     "vehicles": 8,
     "capacity": 120,
-    "total_amount": 951,
+    "total_demand": 951,
     "best_known_cost": 631,
     "proven_optimal": true
   },
@@ -724,7 +724,7 @@
     "jobs": 49,
     "vehicles": 10,
     "capacity": 100,
-    "total_amount": 951,
+    "total_demand": 951,
     "best_known_cost": 696,
     "proven_optimal": true
   },
@@ -733,7 +733,7 @@
     "jobs": 50,
     "vehicles": 10,
     "capacity": 80,
-    "total_amount": 777,
+    "total_demand": 777,
     "best_known_cost": 741,
     "proven_optimal": true
   },
@@ -742,7 +742,7 @@
     "jobs": 54,
     "vehicles": 7,
     "capacity": 170,
-    "total_amount": 1042,
+    "total_demand": 1042,
     "best_known_cost": 568,
     "proven_optimal": true
   },
@@ -751,7 +751,7 @@
     "jobs": 54,
     "vehicles": 10,
     "capacity": 115,
-    "total_amount": 1042,
+    "total_demand": 1042,
     "best_known_cost": 694,
     "proven_optimal": true
   },
@@ -760,7 +760,7 @@
     "jobs": 54,
     "vehicles": 15,
     "capacity": 70,
-    "total_amount": 1042,
+    "total_demand": 1042,
     "best_known_cost": 989,
     "proven_optimal": true
   },
@@ -769,7 +769,7 @@
     "jobs": 59,
     "vehicles": 10,
     "capacity": 120,
-    "total_amount": 1134,
+    "total_demand": 1134,
     "best_known_cost": 744,
     "proven_optimal": true
   },
@@ -778,7 +778,7 @@
     "jobs": 59,
     "vehicles": 15,
     "capacity": 80,
-    "total_amount": 1134,
+    "total_demand": 1134,
     "best_known_cost": 968,
     "proven_optimal": true
   },
@@ -787,7 +787,7 @@
     "jobs": 64,
     "vehicles": 10,
     "capacity": 130,
-    "total_amount": 1219,
+    "total_demand": 1219,
     "best_known_cost": 792,
     "proven_optimal": true
   },
@@ -796,7 +796,7 @@
     "jobs": 69,
     "vehicles": 10,
     "capacity": 135,
-    "total_amount": 1313,
+    "total_demand": 1313,
     "best_known_cost": 827,
     "proven_optimal": true
   },
@@ -805,7 +805,7 @@
     "jobs": 75,
     "vehicles": 4,
     "capacity": 350,
-    "total_amount": 1364,
+    "total_demand": 1364,
     "best_known_cost": 593,
     "proven_optimal": true
   },
@@ -814,7 +814,7 @@
     "jobs": 75,
     "vehicles": 5,
     "capacity": 280,
-    "total_amount": 1364,
+    "total_demand": 1364,
     "best_known_cost": 627,
     "proven_optimal": true
   },
@@ -823,7 +823,7 @@
     "jobs": 100,
     "vehicles": 4,
     "capacity": 400,
-    "total_amount": 1458,
+    "total_demand": 1458,
     "best_known_cost": 681,
     "proven_optimal": true
   },
@@ -832,7 +832,7 @@
     "jobs": 100,
     "vehicles": 25,
     "capacity": 206,
-    "total_amount": 5147,
+    "total_demand": 5147,
     "best_known_cost": 27591,
     "proven_optimal": true
   },
@@ -841,7 +841,7 @@
     "jobs": 105,
     "vehicles": 14,
     "capacity": 600,
-    "total_amount": 7864,
+    "total_demand": 7864,
     "best_known_cost": 26362,
     "proven_optimal": true
   },
@@ -850,7 +850,7 @@
     "jobs": 109,
     "vehicles": 13,
     "capacity": 66,
-    "total_amount": 816,
+    "total_demand": 816,
     "best_known_cost": 14971,
     "proven_optimal": true
   },
@@ -859,7 +859,7 @@
     "jobs": 114,
     "vehicles": 10,
     "capacity": 169,
-    "total_amount": 1535,
+    "total_demand": 1535,
     "best_known_cost": 12747,
     "proven_optimal": true
   },
@@ -868,7 +868,7 @@
     "jobs": 119,
     "vehicles": 6,
     "capacity": 21,
-    "total_amount": 119,
+    "total_demand": 119,
     "best_known_cost": 13332,
     "proven_optimal": true
   },
@@ -877,7 +877,7 @@
     "jobs": 124,
     "vehicles": 30,
     "capacity": 188,
-    "total_amount": 5536,
+    "total_demand": 5536,
     "best_known_cost": 55539,
     "proven_optimal": true
   },
@@ -886,7 +886,7 @@
     "jobs": 128,
     "vehicles": 18,
     "capacity": 39,
-    "total_amount": 665,
+    "total_demand": 665,
     "best_known_cost": 28940,
     "proven_optimal": true
   },
@@ -895,7 +895,7 @@
     "jobs": 133,
     "vehicles": 13,
     "capacity": 643,
-    "total_amount": 8220,
+    "total_demand": 8220,
     "best_known_cost": 10916,
     "proven_optimal": true
   },
@@ -904,7 +904,7 @@
     "jobs": 138,
     "vehicles": 10,
     "capacity": 106,
-    "total_amount": 1039,
+    "total_demand": 1039,
     "best_known_cost": 13590,
     "proven_optimal": true
   },
@@ -913,7 +913,7 @@
     "jobs": 142,
     "vehicles": 7,
     "capacity": 1190,
-    "total_amount": 7475,
+    "total_demand": 7475,
     "best_known_cost": 15700,
     "proven_optimal": true
   },
@@ -922,7 +922,7 @@
     "jobs": 147,
     "vehicles": 46,
     "capacity": 18,
-    "total_amount": 817,
+    "total_demand": 817,
     "best_known_cost": 43448,
     "proven_optimal": true
   },
@@ -931,7 +931,7 @@
     "jobs": 152,
     "vehicles": 22,
     "capacity": 144,
-    "total_amount": 3068,
+    "total_demand": 3068,
     "best_known_cost": 21220,
     "proven_optimal": true
   },
@@ -940,7 +940,7 @@
     "jobs": 156,
     "vehicles": 13,
     "capacity": 12,
-    "total_amount": 156,
+    "total_demand": 156,
     "best_known_cost": 16876,
     "proven_optimal": true
   },
@@ -949,7 +949,7 @@
     "jobs": 161,
     "vehicles": 11,
     "capacity": 1174,
-    "total_amount": 12194,
+    "total_demand": 12194,
     "best_known_cost": 14138,
     "proven_optimal": true
   },
@@ -958,7 +958,7 @@
     "jobs": 166,
     "vehicles": 10,
     "capacity": 133,
-    "total_amount": 1236,
+    "total_demand": 1236,
     "best_known_cost": 20557,
     "proven_optimal": true
   },
@@ -967,7 +967,7 @@
     "jobs": 171,
     "vehicles": 51,
     "capacity": 161,
-    "total_amount": 8092,
+    "total_demand": 8092,
     "best_known_cost": 45607,
     "proven_optimal": true
   },
@@ -976,7 +976,7 @@
     "jobs": 175,
     "vehicles": 26,
     "capacity": 142,
-    "total_amount": 3632,
+    "total_demand": 3632,
     "best_known_cost": 47812,
     "proven_optimal": true
   },
@@ -985,7 +985,7 @@
     "jobs": 180,
     "vehicles": 23,
     "capacity": 8,
-    "total_amount": 180,
+    "total_demand": 180,
     "best_known_cost": 25569,
     "proven_optimal": true
   },
@@ -994,7 +994,7 @@
     "jobs": 185,
     "vehicles": 15,
     "capacity": 974,
-    "total_amount": 13853,
+    "total_demand": 13853,
     "best_known_cost": 24145,
     "proven_optimal": true
   },
@@ -1003,7 +1003,7 @@
     "jobs": 189,
     "vehicles": 8,
     "capacity": 138,
-    "total_amount": 1043,
+    "total_demand": 1043,
     "best_known_cost": 16980,
     "proven_optimal": true
   },
@@ -1012,7 +1012,7 @@
     "jobs": 194,
     "vehicles": 51,
     "capacity": 181,
-    "total_amount": 9208,
+    "total_demand": 9208,
     "best_known_cost": 44225,
     "proven_optimal": true
   },
@@ -1021,7 +1021,7 @@
     "jobs": 199,
     "vehicles": 36,
     "capacity": 402,
-    "total_amount": 14263,
+    "total_demand": 14263,
     "best_known_cost": 58578,
     "proven_optimal": true
   },
@@ -1030,7 +1030,7 @@
     "jobs": 203,
     "vehicles": 19,
     "capacity": 836,
-    "total_amount": 15135,
+    "total_demand": 15135,
     "best_known_cost": 19565,
     "proven_optimal": true
   },
@@ -1039,7 +1039,7 @@
     "jobs": 208,
     "vehicles": 16,
     "capacity": 101,
-    "total_amount": 1547,
+    "total_demand": 1547,
     "best_known_cost": 30656,
     "proven_optimal": true
   },
@@ -1048,7 +1048,7 @@
     "jobs": 213,
     "vehicles": 11,
     "capacity": 944,
-    "total_amount": 10356,
+    "total_demand": 10356,
     "best_known_cost": 10856,
     "proven_optimal": true
   },
@@ -1057,7 +1057,7 @@
     "jobs": 218,
     "vehicles": 73,
     "capacity": 3,
-    "total_amount": 218,
+    "total_demand": 218,
     "best_known_cost": 117595,
     "proven_optimal": true
   },
@@ -1066,7 +1066,7 @@
     "jobs": 222,
     "vehicles": 34,
     "capacity": 37,
-    "total_amount": 1234,
+    "total_demand": 1234,
     "best_known_cost": 40437,
     "proven_optimal": true
   },
@@ -1075,7 +1075,7 @@
     "jobs": 227,
     "vehicles": 23,
     "capacity": 154,
-    "total_amount": 3478,
+    "total_demand": 3478,
     "best_known_cost": 25742,
     "proven_optimal": true
   },
@@ -1084,7 +1084,7 @@
     "jobs": 232,
     "vehicles": 16,
     "capacity": 631,
-    "total_amount": 10093,
+    "total_demand": 10093,
     "best_known_cost": 19230,
     "proven_optimal": true
   },
@@ -1093,7 +1093,7 @@
     "jobs": 236,
     "vehicles": 14,
     "capacity": 18,
-    "total_amount": 236,
+    "total_demand": 236,
     "best_known_cost": 27042,
     "proven_optimal": true
   },
@@ -1102,7 +1102,7 @@
     "jobs": 241,
     "vehicles": 48,
     "capacity": 28,
-    "total_amount": 1324,
+    "total_demand": 1324,
     "best_known_cost": 82751,
     "proven_optimal": true
   },
@@ -1119,7 +1119,7 @@
     "jobs": 250,
     "vehicles": 28,
     "capacity": 69,
-    "total_amount": 1867,
+    "total_demand": 1867,
     "best_known_cost": 38684,
     "proven_optimal": true
   },
@@ -1128,7 +1128,7 @@
     "jobs": 255,
     "vehicles": 16,
     "capacity": 1225,
-    "total_amount": 19514,
+    "total_demand": 19514,
     "best_known_cost": 18839,
     "proven_optimal": false
   },
@@ -1137,7 +1137,7 @@
     "jobs": 260,
     "vehicles": 13,
     "capacity": 1081,
-    "total_amount": 13381,
+    "total_demand": 13381,
     "best_known_cost": 26558,
     "proven_optimal": false
   },
@@ -1146,7 +1146,7 @@
     "jobs": 265,
     "vehicles": 58,
     "capacity": 35,
-    "total_amount": 2015,
+    "total_demand": 2015,
     "best_known_cost": 75478,
     "proven_optimal": true
   },
@@ -1155,7 +1155,7 @@
     "jobs": 269,
     "vehicles": 35,
     "capacity": 585,
-    "total_amount": 20419,
+    "total_demand": 20419,
     "best_known_cost": 35291,
     "proven_optimal": true
   },
@@ -1164,7 +1164,7 @@
     "jobs": 274,
     "vehicles": 28,
     "capacity": 10,
-    "total_amount": 274,
+    "total_demand": 274,
     "best_known_cost": 21245,
     "proven_optimal": true
   },
@@ -1173,7 +1173,7 @@
     "jobs": 279,
     "vehicles": 17,
     "capacity": 192,
-    "total_amount": 3233,
+    "total_demand": 3233,
     "best_known_cost": 33503,
     "proven_optimal": false
   },
@@ -1182,7 +1182,7 @@
     "jobs": 283,
     "vehicles": 15,
     "capacity": 109,
-    "total_amount": 1527,
+    "total_demand": 1527,
     "best_known_cost": 20226,
     "proven_optimal": false
   },
@@ -1191,7 +1191,7 @@
     "jobs": 288,
     "vehicles": 60,
     "capacity": 267,
-    "total_amount": 15974,
+    "total_demand": 15974,
     "best_known_cost": 95151,
     "proven_optimal": true
   },
@@ -1200,7 +1200,7 @@
     "jobs": 293,
     "vehicles": 50,
     "capacity": 285,
-    "total_amount": 14135,
+    "total_demand": 14135,
     "best_known_cost": 47161,
     "proven_optimal": false
   },
@@ -1209,7 +1209,7 @@
     "jobs": 297,
     "vehicles": 31,
     "capacity": 55,
-    "total_amount": 1689,
+    "total_demand": 1689,
     "best_known_cost": 34231,
     "proven_optimal": true
   },
@@ -1218,7 +1218,7 @@
     "jobs": 302,
     "vehicles": 21,
     "capacity": 794,
-    "total_amount": 15967,
+    "total_demand": 15967,
     "best_known_cost": 21744,
     "proven_optimal": false
   },
@@ -1227,7 +1227,7 @@
     "jobs": 307,
     "vehicles": 13,
     "capacity": 246,
-    "total_amount": 3118,
+    "total_demand": 3118,
     "best_known_cost": 25859,
     "proven_optimal": false
   },
@@ -1236,7 +1236,7 @@
     "jobs": 312,
     "vehicles": 71,
     "capacity": 248,
-    "total_amount": 17545,
+    "total_demand": 17545,
     "best_known_cost": 94044,
     "proven_optimal": false
   },
@@ -1245,7 +1245,7 @@
     "jobs": 316,
     "vehicles": 53,
     "capacity": 6,
-    "total_amount": 316,
+    "total_demand": 316,
     "best_known_cost": 78355,
     "proven_optimal": true
   },
@@ -1254,7 +1254,7 @@
     "jobs": 321,
     "vehicles": 28,
     "capacity": 868,
-    "total_amount": 24003,
+    "total_demand": 24003,
     "best_known_cost": 29834,
     "proven_optimal": false
   },
@@ -1263,7 +1263,7 @@
     "jobs": 326,
     "vehicles": 20,
     "capacity": 128,
-    "total_amount": 2452,
+    "total_demand": 2452,
     "best_known_cost": 27532,
     "proven_optimal": false
   },
@@ -1272,7 +1272,7 @@
     "jobs": 330,
     "vehicles": 15,
     "capacity": 23,
-    "total_amount": 330,
+    "total_demand": 330,
     "best_known_cost": 31102,
     "proven_optimal": true
   },
@@ -1281,7 +1281,7 @@
     "jobs": 335,
     "vehicles": 84,
     "capacity": 203,
-    "total_amount": 16921,
+    "total_demand": 16921,
     "best_known_cost": 139135,
     "proven_optimal": false
   },
@@ -1290,7 +1290,7 @@
     "jobs": 343,
     "vehicles": 43,
     "capacity": 61,
-    "total_amount": 2602,
+    "total_demand": 2602,
     "best_known_cost": 42056,
     "proven_optimal": false
   },
@@ -1299,7 +1299,7 @@
     "jobs": 350,
     "vehicles": 40,
     "capacity": 436,
-    "total_amount": 17317,
+    "total_demand": 17317,
     "best_known_cost": 25928,
     "proven_optimal": false
   },
@@ -1308,7 +1308,7 @@
     "jobs": 358,
     "vehicles": 29,
     "capacity": 68,
-    "total_amount": 1946,
+    "total_demand": 1946,
     "best_known_cost": 51505,
     "proven_optimal": false
   },
@@ -1317,7 +1317,7 @@
     "jobs": 366,
     "vehicles": 17,
     "capacity": 218,
-    "total_amount": 3647,
+    "total_demand": 3647,
     "best_known_cost": 22814,
     "proven_optimal": false
   },
@@ -1326,7 +1326,7 @@
     "jobs": 375,
     "vehicles": 94,
     "capacity": 4,
-    "total_amount": 375,
+    "total_demand": 375,
     "best_known_cost": 147713,
     "proven_optimal": true
   },
@@ -1335,7 +1335,7 @@
     "jobs": 383,
     "vehicles": 52,
     "capacity": 564,
-    "total_amount": 29157,
+    "total_demand": 29157,
     "best_known_cost": 65943,
     "proven_optimal": false
   },
@@ -1344,7 +1344,7 @@
     "jobs": 392,
     "vehicles": 38,
     "capacity": 78,
-    "total_amount": 2919,
+    "total_demand": 2919,
     "best_known_cost": 38260,
     "proven_optimal": false
   },
@@ -1353,7 +1353,7 @@
     "jobs": 400,
     "vehicles": 29,
     "capacity": 745,
-    "total_amount": 21275,
+    "total_demand": 21275,
     "best_known_cost": 66187,
     "proven_optimal": false
   },
@@ -1362,7 +1362,7 @@
     "jobs": 410,
     "vehicles": 19,
     "capacity": 216,
-    "total_amount": 3901,
+    "total_demand": 3901,
     "best_known_cost": 19718,
     "proven_optimal": false
   },
@@ -1371,7 +1371,7 @@
     "jobs": 419,
     "vehicles": 130,
     "capacity": 18,
-    "total_amount": 2325,
+    "total_demand": 2325,
     "best_known_cost": 107798,
     "proven_optimal": true
   },
@@ -1380,7 +1380,7 @@
     "jobs": 428,
     "vehicles": 61,
     "capacity": 536,
-    "total_amount": 32261,
+    "total_demand": 32261,
     "best_known_cost": 65483,
     "proven_optimal": false
   },
@@ -1389,7 +1389,7 @@
     "jobs": 438,
     "vehicles": 37,
     "capacity": 12,
-    "total_amount": 438,
+    "total_demand": 438,
     "best_known_cost": 36391,
     "proven_optimal": true
   },
@@ -1398,7 +1398,7 @@
     "jobs": 448,
     "vehicles": 29,
     "capacity": 777,
-    "total_amount": 22439,
+    "total_demand": 22439,
     "best_known_cost": 55269,
     "proven_optimal": false
   },
@@ -1407,7 +1407,7 @@
     "jobs": 458,
     "vehicles": 26,
     "capacity": 1106,
-    "total_amount": 28435,
+    "total_demand": 28435,
     "best_known_cost": 24145,
     "proven_optimal": false
   },
@@ -1416,7 +1416,7 @@
     "jobs": 468,
     "vehicles": 138,
     "capacity": 256,
-    "total_amount": 35171,
+    "total_demand": 35171,
     "best_known_cost": 221909,
     "proven_optimal": false
   },
@@ -1425,7 +1425,7 @@
     "jobs": 479,
     "vehicles": 70,
     "capacity": 52,
-    "total_amount": 3598,
+    "total_demand": 3598,
     "best_known_cost": 89458,
     "proven_optimal": false
   },
@@ -1434,7 +1434,7 @@
     "jobs": 490,
     "vehicles": 59,
     "capacity": 428,
-    "total_amount": 24957,
+    "total_demand": 24957,
     "best_known_cost": 66510,
     "proven_optimal": false
   },
@@ -1443,7 +1443,7 @@
     "jobs": 501,
     "vehicles": 39,
     "capacity": 13,
-    "total_amount": 501,
+    "total_demand": 501,
     "best_known_cost": 69230,
     "proven_optimal": false
   },
@@ -1452,7 +1452,7 @@
     "jobs": 512,
     "vehicles": 21,
     "capacity": 142,
-    "total_amount": 2905,
+    "total_demand": 2905,
     "best_known_cost": 24201,
     "proven_optimal": false
   },
@@ -1469,7 +1469,7 @@
     "jobs": 535,
     "vehicles": 96,
     "capacity": 371,
-    "total_amount": 35423,
+    "total_demand": 35423,
     "best_known_cost": 94988,
     "proven_optimal": false
   },
@@ -1478,7 +1478,7 @@
     "jobs": 547,
     "vehicles": 50,
     "capacity": 11,
-    "total_amount": 547,
+    "total_demand": 547,
     "best_known_cost": 86701,
     "proven_optimal": false
   },
@@ -1487,7 +1487,7 @@
     "jobs": 560,
     "vehicles": 42,
     "capacity": 74,
-    "total_amount": 3055,
+    "total_demand": 3055,
     "best_known_cost": 42722,
     "proven_optimal": false
   },
@@ -1496,7 +1496,7 @@
     "jobs": 572,
     "vehicles": 30,
     "capacity": 210,
-    "total_amount": 6172,
+    "total_demand": 6172,
     "best_known_cost": 50719,
     "proven_optimal": false
   },
@@ -1505,7 +1505,7 @@
     "jobs": 585,
     "vehicles": 159,
     "capacity": 28,
-    "total_amount": 4430,
+    "total_demand": 4430,
     "best_known_cost": 190423,
     "proven_optimal": false
   },
@@ -1514,7 +1514,7 @@
     "jobs": 598,
     "vehicles": 92,
     "capacity": 487,
-    "total_amount": 44741,
+    "total_demand": 44741,
     "best_known_cost": 108490,
     "proven_optimal": false
   },
@@ -1523,7 +1523,7 @@
     "jobs": 612,
     "vehicles": 62,
     "capacity": 523,
-    "total_amount": 32002,
+    "total_demand": 32002,
     "best_known_cost": 59556,
     "proven_optimal": false
   },
@@ -1532,7 +1532,7 @@
     "jobs": 626,
     "vehicles": 43,
     "capacity": 110,
-    "total_amount": 4713,
+    "total_demand": 4713,
     "best_known_cost": 62210,
     "proven_optimal": false
   },
@@ -1541,7 +1541,7 @@
     "jobs": 640,
     "vehicles": 35,
     "capacity": 1381,
-    "total_amount": 47511,
+    "total_demand": 47511,
     "best_known_cost": 63737,
     "proven_optimal": false
   },
@@ -1550,7 +1550,7 @@
     "jobs": 654,
     "vehicles": 131,
     "capacity": 5,
-    "total_amount": 654,
+    "total_demand": 654,
     "best_known_cost": 106780,
     "proven_optimal": true
   },
@@ -1567,7 +1567,7 @@
     "jobs": 684,
     "vehicles": 75,
     "capacity": 408,
-    "total_amount": 30299,
+    "total_demand": 30299,
     "best_known_cost": 68261,
     "proven_optimal": false
   },
@@ -1576,7 +1576,7 @@
     "jobs": 700,
     "vehicles": 44,
     "capacity": 87,
-    "total_amount": 3797,
+    "total_demand": 3797,
     "best_known_cost": 81934,
     "proven_optimal": false
   },
@@ -1585,7 +1585,7 @@
     "jobs": 715,
     "vehicles": 35,
     "capacity": 1007,
-    "total_amount": 34266,
+    "total_demand": 34266,
     "best_known_cost": 43414,
     "proven_optimal": false
   },
@@ -1594,7 +1594,7 @@
     "jobs": 732,
     "vehicles": 159,
     "capacity": 25,
-    "total_amount": 3969,
+    "total_demand": 3969,
     "best_known_cost": 136250,
     "proven_optimal": false
   },
@@ -1603,7 +1603,7 @@
     "jobs": 748,
     "vehicles": 98,
     "capacity": 396,
-    "total_amount": 38414,
+    "total_demand": 38414,
     "best_known_cost": 77365,
     "proven_optimal": false
   },
@@ -1612,7 +1612,7 @@
     "jobs": 765,
     "vehicles": 71,
     "capacity": 166,
-    "total_amount": 11695,
+    "total_demand": 11695,
     "best_known_cost": 114525,
     "proven_optimal": false
   },
@@ -1621,7 +1621,7 @@
     "jobs": 782,
     "vehicles": 48,
     "capacity": 832,
-    "total_amount": 39413,
+    "total_demand": 39413,
     "best_known_cost": 72445,
     "proven_optimal": false
   },
@@ -1630,7 +1630,7 @@
     "jobs": 800,
     "vehicles": 40,
     "capacity": 20,
-    "total_amount": 800,
+    "total_demand": 800,
     "best_known_cost": 73331,
     "proven_optimal": false
   },
@@ -1639,7 +1639,7 @@
     "jobs": 818,
     "vehicles": 171,
     "capacity": 358,
-    "total_amount": 60914,
+    "total_demand": 60914,
     "best_known_cost": 158267,
     "proven_optimal": false
   },
@@ -1648,7 +1648,7 @@
     "jobs": 836,
     "vehicles": 142,
     "capacity": 44,
-    "total_amount": 6211,
+    "total_demand": 6211,
     "best_known_cost": 193813,
     "proven_optimal": false
   },
@@ -1657,7 +1657,7 @@
     "jobs": 855,
     "vehicles": 95,
     "capacity": 9,
-    "total_amount": 855,
+    "total_demand": 855,
     "best_known_cost": 89007,
     "proven_optimal": false
   },
@@ -1666,7 +1666,7 @@
     "jobs": 875,
     "vehicles": 59,
     "capacity": 764,
-    "total_amount": 44534,
+    "total_demand": 44534,
     "best_known_cost": 99331,
     "proven_optimal": false
   },
@@ -1675,7 +1675,7 @@
     "jobs": 894,
     "vehicles": 37,
     "capacity": 1816,
-    "total_amount": 67057,
+    "total_demand": 67057,
     "best_known_cost": 53946,
     "proven_optimal": false
   },
@@ -1684,7 +1684,7 @@
     "jobs": 915,
     "vehicles": 207,
     "capacity": 33,
-    "total_amount": 6816,
+    "total_demand": 6816,
     "best_known_cost": 329247,
     "proven_optimal": false
   },
@@ -1693,7 +1693,7 @@
     "jobs": 935,
     "vehicles": 151,
     "capacity": 138,
-    "total_amount": 20743,
+    "total_demand": 20743,
     "best_known_cost": 132926,
     "proven_optimal": false
   },
@@ -1702,7 +1702,7 @@
     "jobs": 956,
     "vehicles": 87,
     "capacity": 11,
-    "total_amount": 956,
+    "total_demand": 956,
     "best_known_cost": 85482,
     "proven_optimal": false
   },
@@ -1711,7 +1711,7 @@
     "jobs": 978,
     "vehicles": 58,
     "capacity": 998,
-    "total_amount": 57369,
+    "total_demand": 57369,
     "best_known_cost": 119008,
     "proven_optimal": false
   },
@@ -1720,7 +1720,7 @@
     "jobs": 1000,
     "vehicles": 43,
     "capacity": 131,
-    "total_amount": 5557,
+    "total_demand": 5557,
     "best_known_cost": 72404,
     "proven_optimal": false
   }

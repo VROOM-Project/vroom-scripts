@@ -86,7 +86,7 @@ def parse_cvrp(input_file):
         for j in jobs:
             # Add demand to relevant job.
             if j["id"] == job_id:
-                j["amount"] = [current_demand]
+                j["delivery"] = [current_demand]
                 total_demand += current_demand
                 break
 
