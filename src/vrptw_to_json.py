@@ -62,7 +62,7 @@ def parse_jobs(lines, jobs, coords):
                     "id": int(x[0]),
                     "location": [float(x[1]), float(x[2])],
                     "location_index": location_index,
-                    "amount": [int(float(x[3]))],
+                    "delivery": [int(float(x[3]))],
                     "time_windows": [
                         [
                             CUSTOM_PRECISION * int(float(x[4])),
@@ -112,7 +112,7 @@ def parse_vrptw(input_file):
     time_min = ~0
     time_max = 0
     for n in range(len(jobs)):
-        total_demand += jobs[n]["amount"][0]
+        total_demand += jobs[n]["delivery"][0]
         for t in jobs[n]["time_windows"]:
             if t[0] - matrix[0][n] < time_min:
                 time_min = t[0] - matrix[0][n]
@@ -149,7 +149,12 @@ def parse_vrptw(input_file):
             }
         )
 
-    return {"meta": meta, "vehicles": vehicles, "jobs": jobs, "matrix": matrix}
+    return {
+        "meta": meta,
+        "vehicles": vehicles,
+        "jobs": jobs,
+        "matrices": {"car": {"durations": matrix}},
+    }
 
 
 if __name__ == "__main__":

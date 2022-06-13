@@ -59,7 +59,7 @@ def parse_hvrp(input_file):
     #     "class": "vfmp_v",
     #     "best_known_cost": meta['BKS'],
     #     "jobs": meta['JOBS'],
-    #     "total_amount": 0,
+    #     "total_demand": 0,
     #     "total_capacity": 0,
     #     "vehicles": 0
     #   }
@@ -92,7 +92,6 @@ def parse_hvrp(input_file):
             vehicles.append(
                 {
                     "id": v_type * 1000 + n,
-                    "profile": "euc_2D",
                     "start": coords[0],
                     "start_index": 0,
                     "end": coords[0],
@@ -112,7 +111,7 @@ def parse_hvrp(input_file):
     meta["VEHICLES"] = len(vehicles)
 
     # for n in range(len(jobs)):
-    #   BKS[input_file]['total_amount'] += jobs[n]['delivery'][0]
+    #   BKS[input_file]['total_demand'] += jobs[n]['delivery'][0]
 
     # # Uncomment to generate BKS file.
     # print(json.dumps(BKS))
@@ -122,7 +121,7 @@ def parse_hvrp(input_file):
         "meta": meta,
         "vehicles": vehicles,
         "jobs": jobs,
-        "matrices": {"euc_2D": {"durations": matrix}},
+        "matrices": {"car": {"durations": matrix}},
     }
 
 

@@ -86,7 +86,7 @@ def parse_cvrp(input_file):
         for j in jobs:
             # Add demand to relevant job.
             if j["id"] == job_id:
-                j["amount"] = [current_demand]
+                j["delivery"] = [current_demand]
                 total_demand += current_demand
                 break
 
@@ -133,7 +133,12 @@ def parse_cvrp(input_file):
             }
         )
 
-    return {"meta": meta, "vehicles": vehicles, "jobs": jobs, "matrix": matrix}
+    return {
+        "meta": meta,
+        "vehicles": vehicles,
+        "jobs": jobs,
+        "matrices": {"car": {"durations": matrix}},
+    }
 
 
 if __name__ == "__main__":
