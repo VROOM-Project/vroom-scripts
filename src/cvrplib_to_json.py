@@ -133,7 +133,12 @@ def parse_cvrp(input_file):
             }
         )
 
-    return {"meta": meta, "vehicles": vehicles, "jobs": jobs, "matrix": matrix}
+    return {
+        "meta": meta,
+        "vehicles": vehicles,
+        "jobs": jobs,
+        "matrices": {"car": {"durations": matrix}},
+    }
 
 
 if __name__ == "__main__":

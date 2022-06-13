@@ -92,7 +92,6 @@ def parse_hvrp(input_file):
             vehicles.append(
                 {
                     "id": v_type * 1000 + n,
-                    "profile": "euc_2D",
                     "start": coords[0],
                     "start_index": 0,
                     "end": coords[0],
@@ -122,7 +121,7 @@ def parse_hvrp(input_file):
         "meta": meta,
         "vehicles": vehicles,
         "jobs": jobs,
-        "matrices": {"euc_2D": {"durations": matrix}},
+        "matrices": {"car": {"durations": matrix}},
     }
 
 

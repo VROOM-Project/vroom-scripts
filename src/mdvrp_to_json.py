@@ -94,7 +94,6 @@ def parse_mdvrp(input_file):
             vehicles.append(
                 {
                     "id": 100 * depot_id + v,
-                    "profile": "euc_2D",
                     "start": depot_coords,
                     "start_index": location_index,
                     "end": depot_coords,
@@ -115,7 +114,7 @@ def parse_mdvrp(input_file):
         "meta": meta,
         "vehicles": vehicles,
         "jobs": jobs,
-        "matrices": {"euc_2D": {"durations": matrix}},
+        "matrices": {"car": {"durations": matrix}},
     }
 
 

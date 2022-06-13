@@ -62,7 +62,12 @@ def parse_tsp(input_file):
 
     matrix = get_matrix(coords)
 
-    return {"meta": meta, "vehicles": [vehicle], "jobs": jobs, "matrix": matrix}
+    return {
+        "meta": meta,
+        "vehicles": [vehicle],
+        "jobs": jobs,
+        "matrices": {"car": {"durations": matrix}},
+    }
 
 
 if __name__ == "__main__":
