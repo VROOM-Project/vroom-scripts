@@ -77,7 +77,7 @@ def parse_hvrp(input_file):
 
         v_number = int(vehicle[0])
         v_capacity = int(vehicle[1])
-        v_fixed_cost = int(float(vehicle[2]))
+        v_fixed_cost = int(CUSTOM_PRECISION * float(vehicle[2]))
         v_du_cost = float(vehicle[3])
 
         # BKS[input_file]['vehicles'] += v_number
