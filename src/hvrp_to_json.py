@@ -77,16 +77,11 @@ def parse_hvrp(input_file):
 
         v_number = int(vehicle[0])
         v_capacity = int(vehicle[1])
-        v_fixed_cost = int(vehicle[2])
+        v_fixed_cost = int(float(vehicle[2]))
         v_du_cost = float(vehicle[3])
 
         # BKS[input_file]['vehicles'] += v_number
         # BKS[input_file]['total_capacity'] += v_number * v_capacity
-
-        if v_fixed_cost != 0:
-            # Not handled yet!
-            print("Non-fixed cost!")
-            exit(1)
 
         for n in range(v_number):
             vehicles.append(
@@ -98,6 +93,7 @@ def parse_hvrp(input_file):
                     "end_index": 0,
                     "capacity": [v_capacity],
                     "speed_factor": 1 / v_du_cost,
+                    "costs": {"fixed": v_fixed_cost},
                 }
             )
 
