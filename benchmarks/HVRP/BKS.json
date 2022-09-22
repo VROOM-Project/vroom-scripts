@@ -159,13 +159,13 @@
     "best_known_cost": 1117.51,
     "class": "HFVRP"
   },
-  "vfmpf06": {
+  "vfmpf03": {
     "jobs": 20,
-    "total_capacity": 5800,
-    "vehicles": 60,
-    "best_known_cost": 6516.47,
+    "total_capacity": 5600,
+    "vehicles": 100,
+    "best_known_cost": 961.03,
     "total_demand": 354,
-    "class": "vfmp_v"
+    "class": "VFMP_F"
   },
   "vfmpf04": {
     "jobs": 20,
@@ -173,7 +173,7 @@
     "vehicles": 60,
     "best_known_cost": 6437.33,
     "total_demand": 354,
-    "class": "vfmp_v"
+    "class": "VFMP_F"
   },
   "vfmpf05": {
     "jobs": 20,
@@ -181,31 +181,15 @@
     "vehicles": 100,
     "best_known_cost": 1007.05,
     "total_demand": 354,
-    "class": "vfmp_v"
+    "class": "VFMP_F"
   },
-  "vfmpf16": {
-    "jobs": 50,
-    "total_capacity": 13000,
-    "vehicles": 150,
-    "best_known_cost": 2720.43,
-    "total_demand": 777,
-    "class": "vfmp_v"
-  },
-  "vfmpf15": {
-    "jobs": 50,
-    "total_capacity": 15500,
-    "vehicles": 150,
-    "best_known_cost": 2586.37,
-    "total_demand": 777,
-    "class": "vfmp_v"
-  },
-  "vfmpf14": {
-    "jobs": 50,
-    "total_capacity": 29000,
-    "vehicles": 150,
-    "best_known_cost": 9119.03,
-    "total_demand": 973,
-    "class": "vfmp_v"
+  "vfmpf06": {
+    "jobs": 20,
+    "total_capacity": 5800,
+    "vehicles": 60,
+    "best_known_cost": 6516.47,
+    "total_demand": 354,
+    "class": "VFMP_F"
   },
   "vfmpf13": {
     "jobs": 50,
@@ -213,7 +197,31 @@
     "vehicles": 300,
     "best_known_cost": 2406.36,
     "total_demand": 973,
-    "class": "vfmp_v"
+    "class": "VFMP_F"
+  },
+  "vfmpf14": {
+    "jobs": 50,
+    "total_capacity": 29000,
+    "vehicles": 150,
+    "best_known_cost": 9119.03,
+    "total_demand": 973,
+    "class": "VFMP_F"
+  },
+  "vfmpf15": {
+    "jobs": 50,
+    "total_capacity": 15500,
+    "vehicles": 150,
+    "best_known_cost": 2586.37,
+    "total_demand": 777,
+    "class": "VFMP_F"
+  },
+  "vfmpf16": {
+    "jobs": 50,
+    "total_capacity": 13000,
+    "vehicles": 150,
+    "best_known_cost": 2720.43,
+    "total_demand": 777,
+    "class": "VFMP_F"
   },
   "vfmpf17": {
     "jobs": 75,
@@ -221,7 +229,7 @@
     "vehicles": 300,
     "best_known_cost": 1734.53,
     "total_demand": 1364,
-    "class": "vfmp_v"
+    "class": "VFMP_F"
   },
   "vfmpf18": {
     "jobs": 75,
@@ -229,15 +237,7 @@
     "vehicles": 450,
     "best_known_cost": 2369.65,
     "total_demand": 1364,
-    "class": "vfmp_v"
-  },
-  "vfmpf20": {
-    "jobs": 100,
-    "total_capacity": 40000,
-    "vehicles": 300,
-    "best_known_cost": 4039.49,
-    "total_demand": 1458,
-    "class": "vfmp_v"
+    "class": "VFMP_F"
   },
   "vfmpf19": {
     "jobs": 100,
@@ -245,6 +245,14 @@
     "vehicles": 300,
     "best_known_cost": 8661.81,
     "total_demand": 1458,
-    "class": "vfmp_v"
+    "class": "VFMP_F"
+  },
+  "vfmpf20": {
+    "jobs": 100,
+    "total_capacity": 40000,
+    "vehicles": 300,
+    "best_known_cost": 4039.49,
+    "total_demand": 1458,
+    "class": "VFMP_F"
   }
 }
