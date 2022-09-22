@@ -17,6 +17,7 @@ CUSTOM_PRECISION_CLASSES = [
     "VFMP_V",
     "VFMP_F",
     "HFVRP",
+    "DLP",
     "cordeau",
 ]
 
