@@ -1,0 +1,32 @@
+ //Lines 1:5      : these comments
+ //Line  6        : customers (N), vehicle types (T), range, service time, LB, BKS
+ //Lines 7:T+6    : per type: number, capacity, fixed cost, cost per distance unit
+ //Line  T+7      : depot coordinates X and Y
+ //Lines T+8:T+N+7: per customer: coordinates X and Y and demand
+ 20  5  999999.0  0.0 961.03 961.03
+ 20   20   20.0  1.0
+ 20   30   35.0  1.0
+ 20   40   50.0  1.0
+ 20   70  120.0  1.0
+ 20  120  225.0  1.0 
+ 30  40 
+ 37  52   7
+ 49  49  30
+ 52  64  16
+ 20  26   9
+ 40  30  21
+ 21  47  15
+ 17  63  19
+ 31  62  23
+ 52  33  11
+ 51  21   5
+ 42  41  19
+ 31  32  29
+  5  25  23
+ 12  42  21
+ 36  16  10
+ 52  41  15
+ 27  23   3
+ 17  33  41
+ 13  13   9
+ 57  58  28

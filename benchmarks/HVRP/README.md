@@ -2,7 +2,7 @@
 
 ## Instances
 
-The `VFMP_V` and `HVRP` folders contain instances available
+The `VFMP_V`, `VFMP_F` and `HVRP` folders contain instances available
 [here](http://fc.isima.fr/~lacomme/hvrp/hvrp.html). See
 [Prins](https://dl.acm.org/doi/abs/10.1016/j.engappai.2008.10.006) for
 a description of this class of problem.
@@ -13,7 +13,7 @@ Assuming the `vroom` command is somewhere in your path, just run the
 provided scripts on the benchmark classes you want to use.
 
 ```
-./generate.sh VFMP_V HFVRP
+./generate.sh VFMP_V VFMP_F HFVRP
 ./run.sh VFMP_V HFVRP
 ```
 
