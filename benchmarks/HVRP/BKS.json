@@ -255,6 +255,102 @@
     "total_demand": 1458,
     "class": "VFMP_F"
   },
+  "vfmpfv03": {
+    "jobs": 20,
+    "vehicles": 100,
+    "best_known_cost": 1144.22,
+    "total_capacity": 5600,
+    "total_demand": 354,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv04": {
+    "jobs": 20,
+    "vehicles": 60,
+    "best_known_cost": 6437.33,
+    "total_capacity": 5800,
+    "total_demand": 354,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv05": {
+    "jobs": 20,
+    "vehicles": 100,
+    "best_known_cost": 1322.26,
+    "total_capacity": 5600,
+    "total_demand": 354,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv06": {
+    "jobs": 20,
+    "vehicles": 60,
+    "best_known_cost": 6516.47,
+    "total_capacity": 5800,
+    "total_demand": 354,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv13": {
+    "jobs": 50,
+    "vehicles": 300,
+    "best_known_cost": 2964.65,
+    "total_capacity": 24000,
+    "total_demand": 973,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv14": {
+    "jobs": 50,
+    "vehicles": 150,
+    "best_known_cost": 9126.9,
+    "total_capacity": 29000,
+    "total_demand": 973,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv15": {
+    "jobs": 50,
+    "vehicles": 150,
+    "best_known_cost": 2634.96,
+    "total_capacity": 15500,
+    "total_demand": 777,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv16": {
+    "jobs": 50,
+    "vehicles": 150,
+    "best_known_cost": 3168.92,
+    "total_capacity": 13000,
+    "total_demand": 777,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv17": {
+    "jobs": 75,
+    "vehicles": 300,
+    "best_known_cost": 2004.48,
+    "total_capacity": 54000,
+    "total_demand": 1364,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv18": {
+    "jobs": 75,
+    "vehicles": 450,
+    "best_known_cost": 3147.99,
+    "total_capacity": 72750,
+    "total_demand": 1364,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv19": {
+    "jobs": 100,
+    "vehicles": 300,
+    "best_known_cost": 8661.81,
+    "total_capacity": 60000,
+    "total_demand": 1458,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv20": {
+    "jobs": 100,
+    "vehicles": 300,
+    "best_known_cost": 4154.49,
+    "total_capacity": 40000,
+    "total_demand": 1458,
+    "class": "VFMP_FV"
+  },
   "HVRP_DLP_01": {
     "jobs": 91,
     "vehicles": 40,
