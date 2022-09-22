@@ -5,6 +5,13 @@ import sys
 
 # Generate a json-formatted problem from a DLP file.
 
+# Those benchmarks use double precision for matrix costs and results
+# are usually reported with 2 decimal places. As a workaround, we
+# multiply all costs by CUSTOM_PRECISION before performing the usual
+# integer rounding. Comparisons in benchmarks/compare_to_BKS.py are
+# adjusted accordingly.
+CUSTOM_PRECISION = 1000
+
 FIRST_LINE = 5
 
 
@@ -67,6 +74,8 @@ def parse_dlp(input_file):
 
     matrix_start = FIRST_LINE + meta["VEHICLE_TYPES"] + 2
 
+    # No custom precision here as it appears matrix values are already
+    # scaled, presumably provided in meters while global cost is km.
     matrix = parse_matrix(lines[matrix_start : matrix_start + meta["JOBS"] + 1])
 
     # Handle vehicles.
@@ -78,7 +87,7 @@ def parse_dlp(input_file):
 
         v_number = int(vehicle[0])
         v_capacity = int(vehicle[1])
-        v_fixed_cost = int(vehicle[2])
+        v_fixed_cost = int(CUSTOM_PRECISION * float(vehicle[2]))
         v_du_cost = float(vehicle[3])
 
         BKS[instance_name]["vehicles"] += v_number
@@ -92,7 +101,7 @@ def parse_dlp(input_file):
                     "end_index": depot_index,
                     "capacity": [v_capacity],
                     "speed_factor": 1 / v_du_cost,
-                    "cost": {"fixed": v_fixed_cost},
+                    "costs": {"fixed": v_fixed_cost},
                     "description": str(v_type),
                 }
             )
