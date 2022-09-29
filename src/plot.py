@@ -1,41 +1,10 @@
 # -*- coding: utf-8 -*-
 import json
 import matplotlib.pyplot as plt
-import matplotlib.colors as clrs
 import sys
+from utils.color_list import color_list
 
 # Very simple plot for a VROOM solution file.
-
-colors_blacklist = [
-    "whitesmoke",
-    "white",
-    "snow",
-    "mistyrose",
-    "seashell",
-    "linen",
-    "bisque",
-    "antiquewhite",
-    "blanchedalmond",
-    "papayawhip",
-    "wheat",
-    "oldlace",
-    "floralwhite",
-    "cornsilk",
-    "lemonchiffon",
-    "aliceblue",
-    "ivory",
-    "beige",
-    "lightyellow",
-    "lightgoldenrodyellow",
-    "honeydew",
-    "mintcream",
-    "azure",
-    "lightcyan",
-    "aliceblue",
-    "ghostwhite",
-    "lavender",
-    "lavenderblush",
-]
 
 
 def plot_routes(sol_file_name):
@@ -44,11 +13,6 @@ def plot_routes(sol_file_name):
     print("Parsing " + sol_file_name)
     with open(sol_file_name, "r") as sol_file:
         solution = json.load(sol_file)
-
-    color_list = []
-    for name, hex in clrs.cnames.items():
-        if name not in colors_blacklist:
-            color_list.append(name)
 
     fig, ax1 = plt.subplots(1, 1)
     fig.set_figwidth(15)

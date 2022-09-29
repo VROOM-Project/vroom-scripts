@@ -127,7 +127,7 @@ def parse_pdptw(input_file):
         "meta": meta,
         "vehicles": vehicles,
         "shipments": shipments,
-        "matrix": matrix,
+        "matrices": {"car": {"durations": matrix}},
     }
 
 

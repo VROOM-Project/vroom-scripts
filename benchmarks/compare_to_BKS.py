@@ -110,7 +110,7 @@ def log_comparisons(BKS, files):
         else:
             total_capacity = indicators["total_capacity"]
 
-        tightness = round(float(indicators["total_amount"]) / total_capacity, 3)
+        tightness = round(float(indicators["total_demand"]) / total_capacity, 3)
         tightnesses.append(tightness)
         line = [instance, nb_job, nb_vehicle, tightness, BK_cost]
 
