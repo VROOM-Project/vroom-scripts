@@ -124,6 +124,8 @@ def parse_cvrp(input_file):
     else:
         nb_vehicles = int(1 + (max(total_delivery, total_pickup) / meta["CAPACITY"]))
 
+    is_VRPB = (total_pickup != 0) and (total_delivery != 0)
+
     vehicles = []
 
     for i in range(nb_vehicles):
@@ -137,6 +139,9 @@ def parse_cvrp(input_file):
                 "capacity": [meta["CAPACITY"]],
             }
         )
+
+        if is_VRPB:
+            vehicles[-1]["breaks"] = [{"id": 1, "max_load": [0]}]
 
     return {
         "meta": meta,
