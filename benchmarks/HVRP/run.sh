@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Number of threads for solving.
-t=8
+t=32
 # Exploration level.
-x=1
+x=0
 sol_folder="solutions_t_${t}_x_${x}"
 
 solutions=()
