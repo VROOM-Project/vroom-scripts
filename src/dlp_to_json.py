@@ -100,8 +100,7 @@ def parse_dlp(input_file):
                     "start_index": depot_index,
                     "end_index": depot_index,
                     "capacity": [v_capacity],
-                    "speed_factor": 1 / v_du_cost,
-                    "costs": {"fixed": v_fixed_cost},
+                    "costs": {"fixed": v_fixed_cost, "per_hour": int(3600 * v_du_cost)},
                     "description": str(v_type),
                 }
             )

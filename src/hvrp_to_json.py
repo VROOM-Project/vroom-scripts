@@ -92,8 +92,7 @@ def parse_hvrp(input_file):
                     "end": coords[0],
                     "end_index": 0,
                     "capacity": [v_capacity],
-                    "speed_factor": 1 / v_du_cost,
-                    "costs": {"fixed": v_fixed_cost},
+                    "costs": {"fixed": v_fixed_cost, "per_hour": int(3600 * v_du_cost)},
                 }
             )
 

@@ -2,8 +2,9 @@
 
 ## Instances
 
-The `VFMP_V`, `VFMP_F`, `VFMP_FV` and `HVRP` folders contain instances
-available [here](http://fc.isima.fr/~lacomme/hvrp/hvrp.html). See
+The `VFMP_V`, `VFMP_F`, `VFMP_FV`, `HVRP` and `DLP folders contain
+instances available
+[here](http://fc.isima.fr/~lacomme/hvrp/hvrp.html). See
 [Prins](https://dl.acm.org/doi/abs/10.1016/j.engappai.2008.10.006) for
 a description of this class of problem.
 
