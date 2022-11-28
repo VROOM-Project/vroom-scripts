@@ -2,7 +2,7 @@
 
 ## Instances
 
-The `VFMP_V`, `VFMP_F`, `VFMP_FV`, `HVRP` and `DLP folders contain
+The `HVRP`, `DLP`, `VFMP_F`, `VFMP_FV` and `VFMP_V` folders contain
 instances available
 [here](http://fc.isima.fr/~lacomme/hvrp/hvrp.html). See
 [Prins](https://dl.acm.org/doi/abs/10.1016/j.engappai.2008.10.006) for
@@ -15,7 +15,7 @@ provided scripts on the benchmark classes you want to use.
 
 ```
 ./generate.sh VFMP_V VFMP_F VFMP_FV HFVRP
-./run.sh VFMP_V HFVRP
+./run.sh HFVRP DLP VFMP_F VFMP_FV VFMP_V
 ```
 
 Includes:
