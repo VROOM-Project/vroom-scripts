@@ -158,5 +158,998 @@
     "vehicles": 10,
     "best_known_cost": 1117.51,
     "class": "HFVRP"
+  },
+  "vfmpf03": {
+    "jobs": 20,
+    "total_capacity": 5600,
+    "vehicles": 100,
+    "best_known_cost": 961.03,
+    "total_demand": 354,
+    "class": "VFMP_F"
+  },
+  "vfmpf04": {
+    "jobs": 20,
+    "total_capacity": 5800,
+    "vehicles": 60,
+    "best_known_cost": 6437.33,
+    "total_demand": 354,
+    "class": "VFMP_F"
+  },
+  "vfmpf05": {
+    "jobs": 20,
+    "total_capacity": 5600,
+    "vehicles": 100,
+    "best_known_cost": 1007.05,
+    "total_demand": 354,
+    "class": "VFMP_F"
+  },
+  "vfmpf06": {
+    "jobs": 20,
+    "total_capacity": 5800,
+    "vehicles": 60,
+    "best_known_cost": 6516.47,
+    "total_demand": 354,
+    "class": "VFMP_F"
+  },
+  "vfmpf13": {
+    "jobs": 50,
+    "total_capacity": 24000,
+    "vehicles": 300,
+    "best_known_cost": 2406.36,
+    "total_demand": 973,
+    "class": "VFMP_F"
+  },
+  "vfmpf14": {
+    "jobs": 50,
+    "total_capacity": 29000,
+    "vehicles": 150,
+    "best_known_cost": 9119.03,
+    "total_demand": 973,
+    "class": "VFMP_F"
+  },
+  "vfmpf15": {
+    "jobs": 50,
+    "total_capacity": 15500,
+    "vehicles": 150,
+    "best_known_cost": 2586.37,
+    "total_demand": 777,
+    "class": "VFMP_F"
+  },
+  "vfmpf16": {
+    "jobs": 50,
+    "total_capacity": 13000,
+    "vehicles": 150,
+    "best_known_cost": 2720.43,
+    "total_demand": 777,
+    "class": "VFMP_F"
+  },
+  "vfmpf17": {
+    "jobs": 75,
+    "total_capacity": 54000,
+    "vehicles": 300,
+    "best_known_cost": 1734.53,
+    "total_demand": 1364,
+    "class": "VFMP_F"
+  },
+  "vfmpf18": {
+    "jobs": 75,
+    "total_capacity": 72750,
+    "vehicles": 450,
+    "best_known_cost": 2369.65,
+    "total_demand": 1364,
+    "class": "VFMP_F"
+  },
+  "vfmpf19": {
+    "jobs": 100,
+    "total_capacity": 60000,
+    "vehicles": 300,
+    "best_known_cost": 8661.81,
+    "total_demand": 1458,
+    "class": "VFMP_F"
+  },
+  "vfmpf20": {
+    "jobs": 100,
+    "total_capacity": 40000,
+    "vehicles": 300,
+    "best_known_cost": 4039.49,
+    "total_demand": 1458,
+    "class": "VFMP_F"
+  },
+  "vfmpfv03": {
+    "jobs": 20,
+    "vehicles": 100,
+    "best_known_cost": 1144.22,
+    "total_capacity": 5600,
+    "total_demand": 354,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv04": {
+    "jobs": 20,
+    "vehicles": 60,
+    "best_known_cost": 6437.33,
+    "total_capacity": 5800,
+    "total_demand": 354,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv05": {
+    "jobs": 20,
+    "vehicles": 100,
+    "best_known_cost": 1322.26,
+    "total_capacity": 5600,
+    "total_demand": 354,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv06": {
+    "jobs": 20,
+    "vehicles": 60,
+    "best_known_cost": 6516.47,
+    "total_capacity": 5800,
+    "total_demand": 354,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv13": {
+    "jobs": 50,
+    "vehicles": 300,
+    "best_known_cost": 2964.65,
+    "total_capacity": 24000,
+    "total_demand": 973,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv14": {
+    "jobs": 50,
+    "vehicles": 150,
+    "best_known_cost": 9126.9,
+    "total_capacity": 29000,
+    "total_demand": 973,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv15": {
+    "jobs": 50,
+    "vehicles": 150,
+    "best_known_cost": 2634.96,
+    "total_capacity": 15500,
+    "total_demand": 777,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv16": {
+    "jobs": 50,
+    "vehicles": 150,
+    "best_known_cost": 3168.92,
+    "total_capacity": 13000,
+    "total_demand": 777,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv17": {
+    "jobs": 75,
+    "vehicles": 300,
+    "best_known_cost": 2004.48,
+    "total_capacity": 54000,
+    "total_demand": 1364,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv18": {
+    "jobs": 75,
+    "vehicles": 450,
+    "best_known_cost": 3147.99,
+    "total_capacity": 72750,
+    "total_demand": 1364,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv19": {
+    "jobs": 100,
+    "vehicles": 300,
+    "best_known_cost": 8661.81,
+    "total_capacity": 60000,
+    "total_demand": 1458,
+    "class": "VFMP_FV"
+  },
+  "vfmpfv20": {
+    "jobs": 100,
+    "vehicles": 300,
+    "best_known_cost": 4154.49,
+    "total_capacity": 40000,
+    "total_demand": 1458,
+    "class": "VFMP_FV"
+  },
+  "HVRP_DLP_01": {
+    "jobs": 91,
+    "vehicles": 40,
+    "best_known_cost": 9210.14,
+    "proven_optimal": true,
+    "total_capacity": 7500,
+    "total_demand": 4000,
+    "class": "DLP"
+  },
+  "HVRP_DLP_02": {
+    "jobs": 180,
+    "vehicles": 110,
+    "best_known_cost": 11649.81,
+    "proven_optimal": true,
+    "total_capacity": 10000,
+    "total_demand": 4777,
+    "class": "DLP"
+  },
+  "HVRP_DLP_03": {
+    "jobs": 123,
+    "vehicles": 45,
+    "best_known_cost": 10709.66,
+    "proven_optimal": true,
+    "total_capacity": 6000,
+    "total_demand": 3400,
+    "class": "DLP"
+  },
+  "HVRP_DLP_04": {
+    "jobs": 182,
+    "vehicles": 45,
+    "best_known_cost": 10714.84,
+    "proven_optimal": true,
+    "total_capacity": 6500,
+    "total_demand": 3900,
+    "class": "DLP"
+  },
+  "HVRP_DLP_05": {
+    "jobs": 115,
+    "vehicles": 39,
+    "best_known_cost": 10869.04,
+    "proven_optimal": true,
+    "total_capacity": 7750,
+    "total_demand": 6652,
+    "class": "DLP"
+  },
+  "HVRP_DLP_06": {
+    "jobs": 120,
+    "vehicles": 41,
+    "best_known_cost": 11682.98,
+    "proven_optimal": true,
+    "total_capacity": 8600,
+    "total_demand": 6775,
+    "class": "DLP"
+  },
+  "HVRP_DLP_07": {
+    "jobs": 107,
+    "vehicles": 34,
+    "best_known_cost": 8071.97,
+    "proven_optimal": true,
+    "total_capacity": 7500,
+    "total_demand": 5365,
+    "class": "DLP"
+  },
+  "HVRP_DLP_08": {
+    "jobs": 83,
+    "vehicles": 27,
+    "best_known_cost": 4591.75,
+    "proven_optimal": true,
+    "total_capacity": 5000,
+    "total_demand": 4555,
+    "class": "DLP"
+  },
+  "HVRP_DLP_09": {
+    "jobs": 166,
+    "vehicles": 47,
+    "best_known_cost": 7599.72,
+    "proven_optimal": true,
+    "total_capacity": 9750,
+    "total_demand": 8600,
+    "class": "DLP"
+  },
+  "HVRP_DLP_10": {
+    "jobs": 68,
+    "vehicles": 18,
+    "best_known_cost": 2107.55,
+    "proven_optimal": true,
+    "total_capacity": 5350,
+    "total_demand": 3600,
+    "class": "DLP"
+  },
+  "HVRP_DLP_11": {
+    "jobs": 94,
+    "vehicles": 20,
+    "best_known_cost": 3367.41,
+    "proven_optimal": true,
+    "total_capacity": 5750,
+    "total_demand": 4800,
+    "class": "DLP"
+  },
+  "HVRP_DLP_12": {
+    "jobs": 111,
+    "vehicles": 22,
+    "best_known_cost": 3543.99,
+    "proven_optimal": true,
+    "total_capacity": 8100,
+    "total_demand": 5200,
+    "class": "DLP"
+  },
+  "HVRP_DLP_13": {
+    "jobs": 118,
+    "vehicles": 50,
+    "best_known_cost": 6696.43,
+    "total_capacity": 7500,
+    "total_demand": 3000,
+    "class": "DLP"
+  },
+  "HVRP_DLP_14": {
+    "jobs": 175,
+    "vehicles": 25,
+    "best_known_cost": 5639.98,
+    "total_capacity": 10100,
+    "total_demand": 8000,
+    "class": "DLP"
+  },
+  "HVRP_DLP_15": {
+    "jobs": 187,
+    "vehicles": 26,
+    "best_known_cost": 8221,
+    "total_capacity": 9300,
+    "total_demand": 8700,
+    "class": "DLP"
+  },
+  "HVRP_DLP_16": {
+    "jobs": 128,
+    "vehicles": 20,
+    "best_known_cost": 4156.97,
+    "total_capacity": 8600,
+    "total_demand": 5700,
+    "class": "DLP"
+  },
+  "HVRP_DLP_17": {
+    "jobs": 104,
+    "vehicles": 35,
+    "best_known_cost": 5362.83,
+    "proven_optimal": true,
+    "total_capacity": 3500,
+    "total_demand": 2000,
+    "class": "DLP"
+  },
+  "HVRP_DLP_18": {
+    "jobs": 255,
+    "vehicles": 100,
+    "best_known_cost": 9649.05,
+    "total_capacity": 10000,
+    "total_demand": 5000,
+    "class": "DLP"
+  },
+  "HVRP_DLP_19": {
+    "jobs": 223,
+    "vehicles": 50,
+    "best_known_cost": 11686.39,
+    "total_capacity": 7500,
+    "total_demand": 4400,
+    "class": "DLP"
+  },
+  "HVRP_DLP_21": {
+    "jobs": 125,
+    "vehicles": 30,
+    "best_known_cost": 5139.84,
+    "proven_optimal": true,
+    "total_capacity": 5500,
+    "total_demand": 2500,
+    "class": "DLP"
+  },
+  "HVRP_DLP_22": {
+    "jobs": 238,
+    "vehicles": 70,
+    "best_known_cost": 13050,
+    "total_capacity": 8000,
+    "total_demand": 6000,
+    "class": "DLP"
+  },
+  "HVRP_DLP_23": {
+    "jobs": 202,
+    "vehicles": 40,
+    "best_known_cost": 7742,
+    "total_capacity": 7000,
+    "total_demand": 5000,
+    "class": "DLP"
+  },
+  "HVRP_DLP_24": {
+    "jobs": 162,
+    "vehicles": 42,
+    "best_known_cost": 9102,
+    "total_capacity": 6500,
+    "total_demand": 4700,
+    "class": "DLP"
+  },
+  "HVRP_DLP_25": {
+    "jobs": 142,
+    "vehicles": 53,
+    "best_known_cost": 7207,
+    "total_capacity": 8000,
+    "total_demand": 4100,
+    "class": "DLP"
+  },
+  "HVRP_DLP_26": {
+    "jobs": 125,
+    "vehicles": 100,
+    "best_known_cost": 6406.16,
+    "proven_optimal": true,
+    "total_capacity": 10000,
+    "total_demand": 2700,
+    "class": "DLP"
+  },
+  "HVRP_DLP_27": {
+    "jobs": 219,
+    "vehicles": 80,
+    "best_known_cost": 8423,
+    "total_capacity": 8500,
+    "total_demand": 4400,
+    "class": "DLP"
+  },
+  "HVRP_DLP_28": {
+    "jobs": 140,
+    "vehicles": 80,
+    "best_known_cost": 5525.9,
+    "total_capacity": 6500,
+    "total_demand": 2400,
+    "class": "DLP"
+  },
+  "HVRP_DLP_29": {
+    "jobs": 163,
+    "vehicles": 80,
+    "best_known_cost": 9132.03,
+    "proven_optimal": true,
+    "total_capacity": 8000,
+    "total_demand": 2900,
+    "class": "DLP"
+  },
+  "HVRP_DLP_2A": {
+    "jobs": 112,
+    "vehicles": 50,
+    "best_known_cost": 7793.16,
+    "proven_optimal": true,
+    "total_capacity": 4650,
+    "total_demand": 2100,
+    "class": "DLP"
+  },
+  "HVRP_DLP_2B": {
+    "jobs": 106,
+    "vehicles": 50,
+    "best_known_cost": 8462.56,
+    "total_capacity": 4650,
+    "total_demand": 1900,
+    "class": "DLP"
+  },
+  "HVRP_DLP_30": {
+    "jobs": 111,
+    "vehicles": 60,
+    "best_known_cost": 6278.62,
+    "proven_optimal": true,
+    "total_capacity": 7000,
+    "total_demand": 2100,
+    "class": "DLP"
+  },
+  "HVRP_DLP_31": {
+    "jobs": 130,
+    "vehicles": 70,
+    "best_known_cost": 4091.52,
+    "proven_optimal": true,
+    "total_capacity": 6800,
+    "total_demand": 2500,
+    "class": "DLP"
+  },
+  "HVRP_DLP_32": {
+    "jobs": 243,
+    "vehicles": 70,
+    "best_known_cost": 9382.6,
+    "total_capacity": 7650,
+    "total_demand": 4500,
+    "class": "DLP"
+  },
+  "HVRP_DLP_33": {
+    "jobs": 188,
+    "vehicles": 60,
+    "best_known_cost": 9333.39,
+    "total_capacity": 6650,
+    "total_demand": 4000,
+    "class": "DLP"
+  },
+  "HVRP_DLP_34": {
+    "jobs": 135,
+    "vehicles": 50,
+    "best_known_cost": 5739.02,
+    "proven_optimal": true,
+    "total_capacity": 4650,
+    "total_demand": 2500,
+    "class": "DLP"
+  },
+  "HVRP_DLP_35": {
+    "jobs": 167,
+    "vehicles": 50,
+    "best_known_cost": 9522.45,
+    "proven_optimal": true,
+    "total_capacity": 4650,
+    "total_demand": 3500,
+    "class": "DLP"
+  },
+  "HVRP_DLP_36": {
+    "jobs": 84,
+    "vehicles": 50,
+    "best_known_cost": 5684.62,
+    "proven_optimal": true,
+    "total_capacity": 4650,
+    "total_demand": 1700,
+    "class": "DLP"
+  },
+  "HVRP_DLP_37": {
+    "jobs": 160,
+    "vehicles": 70,
+    "best_known_cost": 6838.72,
+    "total_capacity": 6000,
+    "total_demand": 3000,
+    "class": "DLP"
+  },
+  "HVRP_DLP_38": {
+    "jobs": 204,
+    "vehicles": 70,
+    "best_known_cost": 11194.68,
+    "total_capacity": 7000,
+    "total_demand": 3600,
+    "class": "DLP"
+  },
+  "HVRP_DLP_39": {
+    "jobs": 76,
+    "vehicles": 24,
+    "best_known_cost": 2918.87,
+    "total_capacity": 2500,
+    "total_demand": 1396,
+    "class": "DLP"
+  },
+  "HVRP_DLP_40": {
+    "jobs": 131,
+    "vehicles": 38,
+    "best_known_cost": 11056.13,
+    "total_capacity": 3650,
+    "total_demand": 2802,
+    "class": "DLP"
+  },
+  "HVRP_DLP_41": {
+    "jobs": 134,
+    "vehicles": 31,
+    "best_known_cost": 7578.53,
+    "total_capacity": 5850,
+    "total_demand": 3999,
+    "class": "DLP"
+  },
+  "HVRP_DLP_42": {
+    "jobs": 177,
+    "vehicles": 24,
+    "best_known_cost": 10805.94,
+    "total_capacity": 8050,
+    "total_demand": 4666,
+    "class": "DLP"
+  },
+  "HVRP_DLP_43": {
+    "jobs": 85,
+    "vehicles": 36,
+    "best_known_cost": 8737.02,
+    "proven_optimal": true,
+    "total_capacity": 14450,
+    "total_demand": 6874,
+    "class": "DLP"
+  },
+  "HVRP_DLP_44": {
+    "jobs": 171,
+    "vehicles": 10,
+    "best_known_cost": 12192,
+    "total_capacity": 17000,
+    "total_demand": 13962,
+    "class": "DLP"
+  },
+  "HVRP_DLP_45": {
+    "jobs": 169,
+    "vehicles": 15,
+    "best_known_cost": 10476.25,
+    "total_capacity": 16500,
+    "total_demand": 12561,
+    "class": "DLP"
+  },
+  "HVRP_DLP_46": {
+    "jobs": 249,
+    "vehicles": 30,
+    "best_known_cost": 24566.23,
+    "total_capacity": 58750,
+    "total_demand": 40520,
+    "class": "DLP"
+  },
+  "HVRP_DLP_47": {
+    "jobs": 110,
+    "vehicles": 24,
+    "best_known_cost": 16156.12,
+    "total_capacity": 22550,
+    "total_demand": 18347,
+    "class": "DLP"
+  },
+  "HVRP_DLP_48": {
+    "jobs": 110,
+    "vehicles": 22,
+    "best_known_cost": 21257.38,
+    "total_capacity": 20550,
+    "total_demand": 16320,
+    "class": "DLP"
+  },
+  "HVRP_DLP_49": {
+    "jobs": 245,
+    "vehicles": 37,
+    "best_known_cost": 16181.17,
+    "total_capacity": 59750,
+    "total_demand": 42700,
+    "class": "DLP"
+  },
+  "HVRP_DLP_50": {
+    "jobs": 186,
+    "vehicles": 50,
+    "best_known_cost": 12370.94,
+    "total_capacity": 60750,
+    "total_demand": 31519,
+    "class": "DLP"
+  },
+  "HVRP_DLP_51": {
+    "jobs": 128,
+    "vehicles": 27,
+    "best_known_cost": 7721.47,
+    "proven_optimal": true,
+    "total_capacity": 50500,
+    "total_demand": 25722,
+    "class": "DLP"
+  },
+  "HVRP_DLP_52": {
+    "jobs": 58,
+    "vehicles": 12,
+    "best_known_cost": 4027.27,
+    "proven_optimal": true,
+    "total_capacity": 21500,
+    "total_demand": 9679,
+    "class": "DLP"
+  },
+  "HVRP_DLP_53": {
+    "jobs": 114,
+    "vehicles": 12,
+    "best_known_cost": 6434.83,
+    "proven_optimal": true,
+    "total_capacity": 21500,
+    "total_demand": 17848,
+    "class": "DLP"
+  },
+  "HVRP_DLP_54": {
+    "jobs": 171,
+    "vehicles": 20,
+    "best_known_cost": 10351.97,
+    "total_capacity": 55000,
+    "total_demand": 28947,
+    "class": "DLP"
+  },
+  "HVRP_DLP_55": {
+    "jobs": 55,
+    "vehicles": 18,
+    "best_known_cost": 10244.34,
+    "proven_optimal": true,
+    "total_capacity": 11000,
+    "total_demand": 9484,
+    "class": "DLP"
+  },
+  "HVRP_DLP_56": {
+    "jobs": 152,
+    "vehicles": 28,
+    "best_known_cost": 30905.95,
+    "total_capacity": 26000,
+    "total_demand": 23325,
+    "class": "DLP"
+  },
+  "HVRP_DLP_57": {
+    "jobs": 162,
+    "vehicles": 30,
+    "best_known_cost": 44781.64,
+    "total_capacity": 28000,
+    "total_demand": 26054,
+    "class": "DLP"
+  },
+  "HVRP_DLP_58": {
+    "jobs": 219,
+    "vehicles": 37,
+    "best_known_cost": 23370.42,
+    "total_capacity": 51000,
+    "total_demand": 37418,
+    "class": "DLP"
+  },
+  "HVRP_DLP_59": {
+    "jobs": 192,
+    "vehicles": 35,
+    "best_known_cost": 14283,
+    "total_capacity": 65500,
+    "total_demand": 36193,
+    "class": "DLP"
+  },
+  "HVRP_DLP_60": {
+    "jobs": 136,
+    "vehicles": 30,
+    "best_known_cost": 17012.42,
+    "total_capacity": 28000,
+    "total_demand": 23216,
+    "class": "DLP"
+  },
+  "HVRP_DLP_61": {
+    "jobs": 110,
+    "vehicles": 10,
+    "best_known_cost": 7292.03,
+    "total_capacity": 26000,
+    "total_demand": 17283,
+    "class": "DLP"
+  },
+  "HVRP_DLP_62": {
+    "jobs": 224,
+    "vehicles": 45,
+    "best_known_cost": 22987,
+    "total_capacity": 60500,
+    "total_demand": 42216,
+    "class": "DLP"
+  },
+  "HVRP_DLP_63": {
+    "jobs": 173,
+    "vehicles": 25,
+    "best_known_cost": 19890.65,
+    "total_capacity": 30500,
+    "total_demand": 27639,
+    "class": "DLP"
+  },
+  "HVRP_DLP_64": {
+    "jobs": 160,
+    "vehicles": 20,
+    "best_known_cost": 17135.16,
+    "total_capacity": 52500,
+    "total_demand": 26556,
+    "class": "DLP"
+  },
+  "HVRP_DLP_65": {
+    "jobs": 222,
+    "vehicles": 15,
+    "best_known_cost": 13043.54,
+    "total_capacity": 42500,
+    "total_demand": 33789,
+    "class": "DLP"
+  },
+  "HVRP_DLP_66": {
+    "jobs": 149,
+    "vehicles": 30,
+    "best_known_cost": 12776.24,
+    "total_capacity": 47500,
+    "total_demand": 27369,
+    "class": "DLP"
+  },
+  "HVRP_DLP_67": {
+    "jobs": 171,
+    "vehicles": 25,
+    "best_known_cost": 10772.81,
+    "total_capacity": 50000,
+    "total_demand": 30435,
+    "class": "DLP"
+  },
+  "HVRP_DLP_68": {
+    "jobs": 124,
+    "vehicles": 20,
+    "best_known_cost": 8889.03,
+    "total_capacity": 30000,
+    "total_demand": 22254,
+    "class": "DLP"
+  },
+  "HVRP_DLP_69": {
+    "jobs": 151,
+    "vehicles": 25,
+    "best_known_cost": 9127.16,
+    "total_capacity": 35000,
+    "total_demand": 29800,
+    "class": "DLP"
+  },
+  "HVRP_DLP_70": {
+    "jobs": 77,
+    "vehicles": 14,
+    "best_known_cost": 6684.56,
+    "total_capacity": 16500,
+    "total_demand": 13755,
+    "class": "DLP"
+  },
+  "HVRP_DLP_71": {
+    "jobs": 185,
+    "vehicles": 40,
+    "best_known_cost": 9798.06,
+    "total_capacity": 7500,
+    "total_demand": 6200,
+    "class": "DLP"
+  },
+  "HVRP_DLP_72": {
+    "jobs": 185,
+    "vehicles": 50,
+    "best_known_cost": 5870.43,
+    "total_capacity": 9500,
+    "total_demand": 6100,
+    "class": "DLP"
+  },
+  "HVRP_DLP_73": {
+    "jobs": 136,
+    "vehicles": 70,
+    "best_known_cost": 10195.33,
+    "proven_optimal": true,
+    "total_capacity": 7000,
+    "total_demand": 4200,
+    "class": "DLP"
+  },
+  "HVRP_DLP_74": {
+    "jobs": 124,
+    "vehicles": 70,
+    "best_known_cost": 11586.58,
+    "proven_optimal": true,
+    "total_capacity": 7000,
+    "total_demand": 3700,
+    "class": "DLP"
+  },
+  "HVRP_DLP_75": {
+    "jobs": 19,
+    "vehicles": 11,
+    "best_known_cost": 452.85,
+    "proven_optimal": true,
+    "total_capacity": 1150,
+    "total_demand": 700,
+    "class": "DLP"
+  },
+  "HVRP_DLP_76": {
+    "jobs": 151,
+    "vehicles": 62,
+    "best_known_cost": 11994.22,
+    "total_capacity": 7100,
+    "total_demand": 5400,
+    "class": "DLP"
+  },
+  "HVRP_DLP_77": {
+    "jobs": 189,
+    "vehicles": 70,
+    "best_known_cost": 6917,
+    "total_capacity": 8000,
+    "total_demand": 5200,
+    "class": "DLP"
+  },
+  "HVRP_DLP_78": {
+    "jobs": 189,
+    "vehicles": 50,
+    "best_known_cost": 7036,
+    "total_capacity": 8000,
+    "total_demand": 5400,
+    "class": "DLP"
+  },
+  "HVRP_DLP_79": {
+    "jobs": 146,
+    "vehicles": 50,
+    "best_known_cost": 7257.97,
+    "total_capacity": 5500,
+    "total_demand": 3300,
+    "class": "DLP"
+  },
+  "HVRP_DLP_80": {
+    "jobs": 170,
+    "vehicles": 30,
+    "best_known_cost": 6816.89,
+    "total_capacity": 6000,
+    "total_demand": 3900,
+    "class": "DLP"
+  },
+  "HVRP_DLP_81": {
+    "jobs": 105,
+    "vehicles": 40,
+    "best_known_cost": 10583.6,
+    "total_capacity": 31000,
+    "total_demand": 16938,
+    "class": "DLP"
+  },
+  "HVRP_DLP_82": {
+    "jobs": 78,
+    "vehicles": 25,
+    "best_known_cost": 4718.27,
+    "total_capacity": 3000,
+    "total_demand": 1900,
+    "class": "DLP"
+  },
+  "HVRP_DLP_83": {
+    "jobs": 123,
+    "vehicles": 40,
+    "best_known_cost": 10001.8,
+    "total_capacity": 4000,
+    "total_demand": 2900,
+    "class": "DLP"
+  },
+  "HVRP_DLP_84": {
+    "jobs": 104,
+    "vehicles": 40,
+    "best_known_cost": 7227.88,
+    "total_capacity": 4000,
+    "total_demand": 2700,
+    "class": "DLP"
+  },
+  "HVRP_DLP_85": {
+    "jobs": 145,
+    "vehicles": 45,
+    "best_known_cost": 8763.9,
+    "total_capacity": 5000,
+    "total_demand": 3700,
+    "class": "DLP"
+  },
+  "HVRP_DLP_86": {
+    "jobs": 152,
+    "vehicles": 60,
+    "best_known_cost": 9020.63,
+    "total_capacity": 6200,
+    "total_demand": 3900,
+    "class": "DLP"
+  },
+  "HVRP_DLP_87": {
+    "jobs": 107,
+    "vehicles": 22,
+    "best_known_cost": 3753.87,
+    "proven_optimal": true,
+    "total_capacity": 8100,
+    "total_demand": 5100,
+    "class": "DLP"
+  },
+  "HVRP_DLP_88": {
+    "jobs": 126,
+    "vehicles": 45,
+    "best_known_cost": 12385.74,
+    "total_capacity": 8500,
+    "total_demand": 7800,
+    "class": "DLP"
+  },
+  "HVRP_DLP_89": {
+    "jobs": 133,
+    "vehicles": 45,
+    "best_known_cost": 7087,
+    "total_capacity": 4500,
+    "total_demand": 2500,
+    "class": "DLP"
+  },
+  "HVRP_DLP_90": {
+    "jobs": 101,
+    "vehicles": 17,
+    "best_known_cost": 2278.05,
+    "total_capacity": 7100,
+    "total_demand": 5000,
+    "class": "DLP"
+  },
+  "HVRP_DLP_91": {
+    "jobs": 195,
+    "vehicles": 32,
+    "best_known_cost": 6348.36,
+    "total_capacity": 10000,
+    "total_demand": 9000,
+    "class": "DLP"
+  },
+  "HVRP_DLP_92": {
+    "jobs": 34,
+    "vehicles": 10,
+    "best_known_cost": 564.39,
+    "proven_optimal": true,
+    "total_capacity": 22500,
+    "total_demand": 5420,
+    "class": "DLP"
+  },
+  "HVRP_DLP_93": {
+    "jobs": 39,
+    "vehicles": 18,
+    "best_known_cost": 1036.99,
+    "total_capacity": 3400,
+    "total_demand": 1900,
+    "class": "DLP"
+  },
+  "HVRP_DLP_94": {
+    "jobs": 46,
+    "vehicles": 35,
+    "best_known_cost": 1378.25,
+    "proven_optimal": true,
+    "total_capacity": 8250,
+    "total_demand": 3475,
+    "class": "DLP"
+  },
+  "HVRP_DLP_95": {
+    "jobs": 183,
+    "vehicles": 40,
+    "best_known_cost": 6170.2,
+    "total_capacity": 14000,
+    "total_demand": 9950,
+    "class": "DLP"
   }
 }

@@ -15,7 +15,10 @@ CUSTOM_PRECISION_CLASSES = [
     "homberger",
     "li_lim",
     "VFMP_V",
+    "VFMP_F",
+    "VFMP_FV",
     "HFVRP",
+    "DLP",
     "cordeau",
 ]
 
