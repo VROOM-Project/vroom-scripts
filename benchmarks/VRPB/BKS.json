@@ -1,0 +1,3002 @@
+{
+  "X-n101-50-k13": {
+    "class": "X",
+    "jobs": 100,
+    "vehicles": 13,
+    "capacity": 206,
+    "total_pickup": 2615,
+    "total_delivery": 2532,
+    "total_demand": 5147,
+    "best_known_cost": 19033
+  },
+  "X-n101-66-k17": {
+    "class": "X",
+    "jobs": 100,
+    "vehicles": 17,
+    "capacity": 206,
+    "total_pickup": 1728,
+    "total_delivery": 3419,
+    "total_demand": 5147,
+    "best_known_cost": 20490
+  },
+  "X-n101-80-k21": {
+    "class": "X",
+    "jobs": 100,
+    "vehicles": 21,
+    "capacity": 206,
+    "total_pickup": 997,
+    "total_delivery": 4150,
+    "total_demand": 5147,
+    "best_known_cost": 23305
+  },
+  "X-n106-50-k7": {
+    "class": "X",
+    "jobs": 105,
+    "vehicles": 7,
+    "capacity": 600,
+    "total_pickup": 3929,
+    "total_delivery": 3935,
+    "total_demand": 7864,
+    "best_known_cost": 15413
+  },
+  "X-n106-66-k9": {
+    "class": "X",
+    "jobs": 105,
+    "vehicles": 9,
+    "capacity": 600,
+    "total_pickup": 2639,
+    "total_delivery": 5225,
+    "total_demand": 7864,
+    "best_known_cost": 18984
+  },
+  "X-n106-80-k11": {
+    "class": "X",
+    "jobs": 105,
+    "vehicles": 11,
+    "capacity": 600,
+    "total_pickup": 1541,
+    "total_delivery": 6323,
+    "total_demand": 7864,
+    "best_known_cost": 22131
+  },
+  "X-n110-50-k7": {
+    "class": "X",
+    "jobs": 109,
+    "vehicles": 7,
+    "capacity": 66,
+    "total_pickup": 395,
+    "total_delivery": 421,
+    "total_demand": 816,
+    "best_known_cost": 13103
+  },
+  "X-n110-66-k9": {
+    "class": "X",
+    "jobs": 109,
+    "vehicles": 9,
+    "capacity": 66,
+    "total_pickup": 267,
+    "total_delivery": 549,
+    "total_demand": 816,
+    "best_known_cost": 13598
+  },
+  "X-n110-80-k11": {
+    "class": "X",
+    "jobs": 109,
+    "vehicles": 11,
+    "capacity": 66,
+    "total_pickup": 146,
+    "total_delivery": 670,
+    "total_demand": 816,
+    "best_known_cost": 14302
+  },
+  "X-n115-50-k8": {
+    "class": "X",
+    "jobs": 114,
+    "vehicles": 8,
+    "capacity": 169,
+    "total_pickup": 296,
+    "total_delivery": 1239,
+    "total_demand": 1535,
+    "best_known_cost": 13927
+  },
+  "X-n115-66-k8": {
+    "class": "X",
+    "jobs": 114,
+    "vehicles": 8,
+    "capacity": 169,
+    "total_pickup": 228,
+    "total_delivery": 1307,
+    "total_demand": 1535,
+    "best_known_cost": 14032
+  },
+  "X-n115-80-k9": {
+    "class": "X",
+    "jobs": 114,
+    "vehicles": 9,
+    "capacity": 169,
+    "total_pickup": 140,
+    "total_delivery": 1395,
+    "total_demand": 1535,
+    "best_known_cost": 13536
+  },
+  "X-n120-50-k3": {
+    "class": "X",
+    "jobs": 119,
+    "vehicles": 3,
+    "capacity": 21,
+    "total_pickup": 59,
+    "total_delivery": 60,
+    "total_demand": 119,
+    "best_known_cost": 12416
+  },
+  "X-n120-66-k4": {
+    "class": "X",
+    "jobs": 119,
+    "vehicles": 4,
+    "capacity": 21,
+    "total_pickup": 40,
+    "total_delivery": 79,
+    "total_demand": 119,
+    "best_known_cost": 13145
+  },
+  "X-n120-80-k5": {
+    "class": "X",
+    "jobs": 119,
+    "vehicles": 5,
+    "capacity": 21,
+    "total_pickup": 23,
+    "total_delivery": 96,
+    "total_demand": 119,
+    "best_known_cost": 13528
+  },
+  "X-n125-50-k16": {
+    "class": "X",
+    "jobs": 124,
+    "vehicles": 16,
+    "capacity": 188,
+    "total_pickup": 2834,
+    "total_delivery": 2702,
+    "total_demand": 5536,
+    "best_known_cost": 32224
+  },
+  "X-n125-66-k19": {
+    "class": "X",
+    "jobs": 124,
+    "vehicles": 19,
+    "capacity": 188,
+    "total_pickup": 2098,
+    "total_delivery": 3438,
+    "total_demand": 5536,
+    "best_known_cost": 36400
+  },
+  "X-n125-80-k23": {
+    "class": "X",
+    "jobs": 124,
+    "vehicles": 23,
+    "capacity": 188,
+    "total_pickup": 1221,
+    "total_delivery": 4315,
+    "total_demand": 5536,
+    "best_known_cost": 43960
+  },
+  "X-n129-50-k10": {
+    "class": "X",
+    "jobs": 128,
+    "vehicles": 10,
+    "capacity": 39,
+    "total_pickup": 307,
+    "total_delivery": 358,
+    "total_demand": 665,
+    "best_known_cost": 19468
+  },
+  "X-n129-66-k12": {
+    "class": "X",
+    "jobs": 128,
+    "vehicles": 13,
+    "capacity": 39,
+    "total_pickup": 197,
+    "total_delivery": 468,
+    "total_demand": 665,
+    "best_known_cost": 22606
+  },
+  "X-n129-80-k14": {
+    "class": "X",
+    "jobs": 128,
+    "vehicles": 14,
+    "capacity": 39,
+    "total_pickup": 127,
+    "total_delivery": 538,
+    "total_demand": 665,
+    "best_known_cost": 24575
+  },
+  "X-n134-50-k7": {
+    "class": "X",
+    "jobs": 133,
+    "vehicles": 7,
+    "capacity": 643,
+    "total_pickup": 4221,
+    "total_delivery": 3999,
+    "total_demand": 8220,
+    "best_known_cost": 8369
+  },
+  "X-n134-66-k9": {
+    "class": "X",
+    "jobs": 133,
+    "vehicles": 9,
+    "capacity": 643,
+    "total_pickup": 2983,
+    "total_delivery": 5237,
+    "total_demand": 8220,
+    "best_known_cost": 8974
+  },
+  "X-n134-80-k11": {
+    "class": "X",
+    "jobs": 133,
+    "vehicles": 11,
+    "capacity": 643,
+    "total_pickup": 1773,
+    "total_delivery": 6447,
+    "total_demand": 8220,
+    "best_known_cost": 9699
+  },
+  "X-n139-50-k5": {
+    "class": "X",
+    "jobs": 138,
+    "vehicles": 5,
+    "capacity": 106,
+    "total_pickup": 520,
+    "total_delivery": 519,
+    "total_demand": 1039,
+    "best_known_cost": 13281
+  },
+  "X-n139-66-k7": {
+    "class": "X",
+    "jobs": 138,
+    "vehicles": 7,
+    "capacity": 106,
+    "total_pickup": 349,
+    "total_delivery": 690,
+    "total_demand": 1039,
+    "best_known_cost": 13512
+  },
+  "X-n139-80-k8": {
+    "class": "X",
+    "jobs": 138,
+    "vehicles": 8,
+    "capacity": 106,
+    "total_pickup": 200,
+    "total_delivery": 839,
+    "total_demand": 1039,
+    "best_known_cost": 13662
+  },
+  "X-n143-50-k4": {
+    "class": "X",
+    "jobs": 142,
+    "vehicles": 4,
+    "capacity": 1190,
+    "total_pickup": 4121,
+    "total_delivery": 3354,
+    "total_demand": 7475,
+    "best_known_cost": 14539
+  },
+  "X-n143-66-k4": {
+    "class": "X",
+    "jobs": 142,
+    "vehicles": 4,
+    "capacity": 1190,
+    "total_pickup": 2863,
+    "total_delivery": 4612,
+    "total_demand": 7475,
+    "best_known_cost": 14310
+  },
+  "X-n143-80-k5": {
+    "class": "X",
+    "jobs": 142,
+    "vehicles": 5,
+    "capacity": 1190,
+    "total_pickup": 1903,
+    "total_delivery": 5572,
+    "total_demand": 7475,
+    "best_known_cost": 14447
+  },
+  "X-n148-50-k25": {
+    "class": "X",
+    "jobs": 147,
+    "vehicles": 25,
+    "capacity": 18,
+    "total_pickup": 440,
+    "total_delivery": 377,
+    "total_demand": 817,
+    "best_known_cost": 28210
+  },
+  "X-n148-66-k29": {
+    "class": "X",
+    "jobs": 147,
+    "vehicles": 29,
+    "capacity": 18,
+    "total_pickup": 296,
+    "total_delivery": 521,
+    "total_demand": 817,
+    "best_known_cost": 30482
+  },
+  "X-n148-80-k36": {
+    "class": "X",
+    "jobs": 147,
+    "vehicles": 36,
+    "capacity": 18,
+    "total_pickup": 175,
+    "total_delivery": 642,
+    "total_demand": 817,
+    "best_known_cost": 35430
+  },
+  "X-n153-50-k19": {
+    "class": "X",
+    "jobs": 152,
+    "vehicles": 19,
+    "capacity": 144,
+    "total_pickup": 391,
+    "total_delivery": 2677,
+    "total_demand": 3068,
+    "best_known_cost": 20536
+  },
+  "X-n153-66-k20": {
+    "class": "X",
+    "jobs": 152,
+    "vehicles": 20,
+    "capacity": 144,
+    "total_pickup": 269,
+    "total_delivery": 2799,
+    "total_demand": 3068,
+    "best_known_cost": 20613
+  },
+  "X-n153-80-k21": {
+    "class": "X",
+    "jobs": 152,
+    "vehicles": 21,
+    "capacity": 144,
+    "total_pickup": 167,
+    "total_delivery": 2901,
+    "total_demand": 3068,
+    "best_known_cost": 20819
+  },
+  "X-n157-50-k7": {
+    "class": "X",
+    "jobs": 156,
+    "vehicles": 7,
+    "capacity": 12,
+    "total_pickup": 78,
+    "total_delivery": 78,
+    "total_demand": 156,
+    "best_known_cost": 11727
+  },
+  "X-n157-66-k9": {
+    "class": "X",
+    "jobs": 156,
+    "vehicles": 9,
+    "capacity": 12,
+    "total_pickup": 53,
+    "total_delivery": 103,
+    "total_demand": 156,
+    "best_known_cost": 13651
+  },
+  "X-n157-80-k11": {
+    "class": "X",
+    "jobs": 156,
+    "vehicles": 11,
+    "capacity": 12,
+    "total_pickup": 31,
+    "total_delivery": 125,
+    "total_demand": 156,
+    "best_known_cost": 15264
+  },
+  "X-n162-50-k6": {
+    "class": "X",
+    "jobs": 161,
+    "vehicles": 6,
+    "capacity": 1174,
+    "total_pickup": 5881,
+    "total_delivery": 6313,
+    "total_demand": 12194,
+    "best_known_cost": 12812
+  },
+  "X-n162-66-k8": {
+    "class": "X",
+    "jobs": 161,
+    "vehicles": 8,
+    "capacity": 1174,
+    "total_pickup": 3964,
+    "total_delivery": 8230,
+    "total_demand": 12194,
+    "best_known_cost": 13450
+  },
+  "X-n162-80-k9": {
+    "class": "X",
+    "jobs": 161,
+    "vehicles": 9,
+    "capacity": 1174,
+    "total_pickup": 2410,
+    "total_delivery": 9784,
+    "total_demand": 12194,
+    "best_known_cost": 13854
+  },
+  "X-n167-50-k5": {
+    "class": "X",
+    "jobs": 166,
+    "vehicles": 5,
+    "capacity": 133,
+    "total_pickup": 620,
+    "total_delivery": 616,
+    "total_demand": 1236,
+    "best_known_cost": 16489
+  },
+  "X-n167-66-k7": {
+    "class": "X",
+    "jobs": 166,
+    "vehicles": 7,
+    "capacity": 133,
+    "total_pickup": 412,
+    "total_delivery": 824,
+    "total_demand": 1236,
+    "best_known_cost": 17827
+  },
+  "X-n167-80-k8": {
+    "class": "X",
+    "jobs": 166,
+    "vehicles": 8,
+    "capacity": 133,
+    "total_pickup": 238,
+    "total_delivery": 998,
+    "total_demand": 1236,
+    "best_known_cost": 19415
+  },
+  "X-n172-50-k27": {
+    "class": "X",
+    "jobs": 171,
+    "vehicles": 27,
+    "capacity": 161,
+    "total_pickup": 4248,
+    "total_delivery": 3844,
+    "total_demand": 8092,
+    "best_known_cost": 30634
+  },
+  "X-n172-66-k31": {
+    "class": "X",
+    "jobs": 171,
+    "vehicles": 31,
+    "capacity": 161,
+    "total_pickup": 3221,
+    "total_delivery": 4871,
+    "total_demand": 8092,
+    "best_known_cost": 31864
+  },
+  "X-n172-80-k39": {
+    "class": "X",
+    "jobs": 171,
+    "vehicles": 39,
+    "capacity": 161,
+    "total_pickup": 1839,
+    "total_delivery": 6253,
+    "total_demand": 8092,
+    "best_known_cost": 36803
+  },
+  "X-n176-50-k23": {
+    "class": "X",
+    "jobs": 175,
+    "vehicles": 23,
+    "capacity": 142,
+    "total_pickup": 491,
+    "total_delivery": 3141,
+    "total_demand": 3632,
+    "best_known_cost": 45239
+  },
+  "X-n176-66-k24": {
+    "class": "X",
+    "jobs": 175,
+    "vehicles": 24,
+    "capacity": 142,
+    "total_pickup": 316,
+    "total_delivery": 3316,
+    "total_demand": 3632,
+    "best_known_cost": 46416
+  },
+  "X-n176-80-k25": {
+    "class": "X",
+    "jobs": 175,
+    "vehicles": 25,
+    "capacity": 142,
+    "total_pickup": 207,
+    "total_delivery": 3425,
+    "total_demand": 3632,
+    "best_known_cost": 47033
+  },
+  "X-n181-50-k12": {
+    "class": "X",
+    "jobs": 180,
+    "vehicles": 12,
+    "capacity": 8,
+    "total_pickup": 90,
+    "total_delivery": 90,
+    "total_demand": 180,
+    "best_known_cost": 16549
+  },
+  "X-n181-66-k15": {
+    "class": "X",
+    "jobs": 180,
+    "vehicles": 15,
+    "capacity": 8,
+    "total_pickup": 61,
+    "total_delivery": 119,
+    "total_demand": 180,
+    "best_known_cost": 18832
+  },
+  "X-n181-80-k18": {
+    "class": "X",
+    "jobs": 180,
+    "vehicles": 19,
+    "capacity": 8,
+    "total_pickup": 36,
+    "total_delivery": 144,
+    "total_demand": 180,
+    "best_known_cost": 21241
+  },
+  "X-n186-50-k8": {
+    "class": "X",
+    "jobs": 185,
+    "vehicles": 8,
+    "capacity": 974,
+    "total_pickup": 6873,
+    "total_delivery": 6980,
+    "total_demand": 13853,
+    "best_known_cost": 17978
+  },
+  "X-n186-66-k10": {
+    "class": "X",
+    "jobs": 185,
+    "vehicles": 10,
+    "capacity": 974,
+    "total_pickup": 4673,
+    "total_delivery": 9180,
+    "total_demand": 13853,
+    "best_known_cost": 19751
+  },
+  "X-n186-80-k12": {
+    "class": "X",
+    "jobs": 185,
+    "vehicles": 12,
+    "capacity": 974,
+    "total_pickup": 2860,
+    "total_delivery": 10993,
+    "total_demand": 13853,
+    "best_known_cost": 21754
+  },
+  "X-n190-50-k4": {
+    "class": "X",
+    "jobs": 189,
+    "vehicles": 4,
+    "capacity": 138,
+    "total_pickup": 536,
+    "total_delivery": 507,
+    "total_demand": 1043,
+    "best_known_cost": 11552
+  },
+  "X-n190-66-k5": {
+    "class": "X",
+    "jobs": 189,
+    "vehicles": 5,
+    "capacity": 138,
+    "total_pickup": 373,
+    "total_delivery": 670,
+    "total_demand": 1043,
+    "best_known_cost": 12784
+  },
+  "X-n190-80-k6": {
+    "class": "X",
+    "jobs": 189,
+    "vehicles": 6,
+    "capacity": 138,
+    "total_pickup": 226,
+    "total_delivery": 817,
+    "total_demand": 1043,
+    "best_known_cost": 14410
+  },
+  "X-n195-50-k27": {
+    "class": "X",
+    "jobs": 194,
+    "vehicles": 27,
+    "capacity": 181,
+    "total_pickup": 4417,
+    "total_delivery": 4791,
+    "total_demand": 9208,
+    "best_known_cost": 29470
+  },
+  "X-n195-66-k34": {
+    "class": "X",
+    "jobs": 194,
+    "vehicles": 34,
+    "capacity": 181,
+    "total_pickup": 3114,
+    "total_delivery": 6094,
+    "total_demand": 9208,
+    "best_known_cost": 33137
+  },
+  "X-n195-80-k42": {
+    "class": "X",
+    "jobs": 194,
+    "vehicles": 42,
+    "capacity": 181,
+    "total_pickup": 1671,
+    "total_delivery": 7537,
+    "total_demand": 9208,
+    "best_known_cost": 38629
+  },
+  "X-n200-50-k18": {
+    "class": "X",
+    "jobs": 199,
+    "vehicles": 18,
+    "capacity": 402,
+    "total_pickup": 7137,
+    "total_delivery": 7126,
+    "total_demand": 14263,
+    "best_known_cost": 34416
+  },
+  "X-n200-66-k24": {
+    "class": "X",
+    "jobs": 199,
+    "vehicles": 24,
+    "capacity": 402,
+    "total_pickup": 4845,
+    "total_delivery": 9418,
+    "total_demand": 14263,
+    "best_known_cost": 40474
+  },
+  "X-n200-80-k29": {
+    "class": "X",
+    "jobs": 199,
+    "vehicles": 29,
+    "capacity": 402,
+    "total_pickup": 2868,
+    "total_delivery": 11395,
+    "total_demand": 14263,
+    "best_known_cost": 47741
+  },
+  "X-n204-50-k10": {
+    "class": "X",
+    "jobs": 203,
+    "vehicles": 10,
+    "capacity": 836,
+    "total_pickup": 7449,
+    "total_delivery": 7686,
+    "total_demand": 15135,
+    "best_known_cost": 15877
+  },
+  "X-n204-66-k12": {
+    "class": "X",
+    "jobs": 203,
+    "vehicles": 12,
+    "capacity": 836,
+    "total_pickup": 5108,
+    "total_delivery": 10027,
+    "total_demand": 15135,
+    "best_known_cost": 16703
+  },
+  "X-n204-80-k15": {
+    "class": "X",
+    "jobs": 203,
+    "vehicles": 15,
+    "capacity": 836,
+    "total_pickup": 3019,
+    "total_delivery": 12116,
+    "total_demand": 15135,
+    "best_known_cost": 17832
+  },
+  "X-n209-50-k8": {
+    "class": "X",
+    "jobs": 208,
+    "vehicles": 8,
+    "capacity": 101,
+    "total_pickup": 776,
+    "total_delivery": 771,
+    "total_demand": 1547,
+    "best_known_cost": 21837
+  },
+  "X-n209-66-k11": {
+    "class": "X",
+    "jobs": 208,
+    "vehicles": 11,
+    "capacity": 101,
+    "total_pickup": 532,
+    "total_delivery": 1015,
+    "total_demand": 1547,
+    "best_known_cost": 24378
+  },
+  "X-n209-80-k13": {
+    "class": "X",
+    "jobs": 208,
+    "vehicles": 13,
+    "capacity": 101,
+    "total_pickup": 309,
+    "total_delivery": 1238,
+    "total_demand": 1547,
+    "best_known_cost": 27177
+  },
+  "X-n214-50-k6": {
+    "class": "X",
+    "jobs": 213,
+    "vehicles": 6,
+    "capacity": 944,
+    "total_pickup": 5203,
+    "total_delivery": 5153,
+    "total_demand": 10356,
+    "best_known_cost": 9574
+  },
+  "X-n214-66-k8": {
+    "class": "X",
+    "jobs": 213,
+    "vehicles": 8,
+    "capacity": 944,
+    "total_pickup": 3559,
+    "total_delivery": 6797,
+    "total_demand": 10356,
+    "best_known_cost": 10001
+  },
+  "X-n214-80-k9": {
+    "class": "X",
+    "jobs": 213,
+    "vehicles": 9,
+    "capacity": 944,
+    "total_pickup": 2333,
+    "total_delivery": 8023,
+    "total_demand": 10356,
+    "best_known_cost": 10457
+  },
+  "X-n219-50-k37": {
+    "class": "X",
+    "jobs": 218,
+    "vehicles": 37,
+    "capacity": 3,
+    "total_pickup": 109,
+    "total_delivery": 109,
+    "total_demand": 218,
+    "best_known_cost": 64691
+  },
+  "X-n219-66-k48": {
+    "class": "X",
+    "jobs": 218,
+    "vehicles": 49,
+    "capacity": 3,
+    "total_pickup": 74,
+    "total_delivery": 144,
+    "total_demand": 218,
+    "best_known_cost": 80405
+  },
+  "X-n219-80-k59": {
+    "class": "X",
+    "jobs": 218,
+    "vehicles": 59,
+    "capacity": 3,
+    "total_pickup": 43,
+    "total_delivery": 175,
+    "total_demand": 218,
+    "best_known_cost": 95845
+  },
+  "X-n223-50-k18": {
+    "class": "X",
+    "jobs": 222,
+    "vehicles": 18,
+    "capacity": 37,
+    "total_pickup": 647,
+    "total_delivery": 587,
+    "total_demand": 1234,
+    "best_known_cost": 27449
+  },
+  "X-n223-66-k23": {
+    "class": "X",
+    "jobs": 222,
+    "vehicles": 23,
+    "capacity": 37,
+    "total_pickup": 419,
+    "total_delivery": 815,
+    "total_demand": 1234,
+    "best_known_cost": 30717
+  },
+  "X-n223-80-k27": {
+    "class": "X",
+    "jobs": 222,
+    "vehicles": 27,
+    "capacity": 37,
+    "total_pickup": 241,
+    "total_delivery": 993,
+    "total_demand": 1234,
+    "best_known_cost": 34440
+  },
+  "X-n228-50-k19": {
+    "class": "X",
+    "jobs": 227,
+    "vehicles": 19,
+    "capacity": 154,
+    "total_pickup": 660,
+    "total_delivery": 2818,
+    "total_demand": 3478,
+    "best_known_cost": 23128
+  },
+  "X-n228-66-k20": {
+    "class": "X",
+    "jobs": 227,
+    "vehicles": 20,
+    "capacity": 154,
+    "total_pickup": 466,
+    "total_delivery": 3012,
+    "total_demand": 3478,
+    "best_known_cost": 24114
+  },
+  "X-n228-80-k21": {
+    "class": "X",
+    "jobs": 227,
+    "vehicles": 21,
+    "capacity": 154,
+    "total_pickup": 281,
+    "total_delivery": 3197,
+    "total_demand": 3478,
+    "best_known_cost": 24592
+  },
+  "X-n233-50-k10": {
+    "class": "X",
+    "jobs": 232,
+    "vehicles": 10,
+    "capacity": 631,
+    "total_pickup": 3883,
+    "total_delivery": 6210,
+    "total_demand": 10093,
+    "best_known_cost": 17186
+  },
+  "X-n233-66-k12": {
+    "class": "X",
+    "jobs": 232,
+    "vehicles": 12,
+    "capacity": 631,
+    "total_pickup": 2799,
+    "total_delivery": 7294,
+    "total_demand": 10093,
+    "best_known_cost": 18026
+  },
+  "X-n233-80-k14": {
+    "class": "X",
+    "jobs": 232,
+    "vehicles": 14,
+    "capacity": 631,
+    "total_pickup": 1588,
+    "total_delivery": 8505,
+    "total_demand": 10093,
+    "best_known_cost": 18885
+  },
+  "X-n237-50-k7": {
+    "class": "X",
+    "jobs": 236,
+    "vehicles": 7,
+    "capacity": 18,
+    "total_pickup": 118,
+    "total_delivery": 118,
+    "total_demand": 236,
+    "best_known_cost": 20745
+  },
+  "X-n237-66-k9": {
+    "class": "X",
+    "jobs": 236,
+    "vehicles": 9,
+    "capacity": 18,
+    "total_pickup": 80,
+    "total_delivery": 156,
+    "total_demand": 236,
+    "best_known_cost": 22471
+  },
+  "X-n237-80-k11": {
+    "class": "X",
+    "jobs": 236,
+    "vehicles": 11,
+    "capacity": 18,
+    "total_pickup": 47,
+    "total_delivery": 189,
+    "total_demand": 236,
+    "best_known_cost": 24357
+  },
+  "X-n242-50-k25": {
+    "class": "X",
+    "jobs": 241,
+    "vehicles": 25,
+    "capacity": 28,
+    "total_pickup": 642,
+    "total_delivery": 682,
+    "total_demand": 1324,
+    "best_known_cost": 47949
+  },
+  "X-n242-66-k32": {
+    "class": "X",
+    "jobs": 241,
+    "vehicles": 32,
+    "capacity": 28,
+    "total_pickup": 449,
+    "total_delivery": 875,
+    "total_demand": 1324,
+    "best_known_cost": 57197
+  },
+  "X-n242-80-k39": {
+    "class": "X",
+    "jobs": 241,
+    "vehicles": 39,
+    "capacity": 28,
+    "total_pickup": 258,
+    "total_delivery": 1066,
+    "total_demand": 1324,
+    "best_known_cost": 68969
+  },
+  "X-n247-50-k42": {
+    "class": "X",
+    "jobs": 246,
+    "vehicles": 42,
+    "capacity": 134,
+    "total_pickup": 652,
+    "total_delivery": 5548,
+    "total_demand": 6200,
+    "best_known_cost": 36701
+  },
+  "X-n247-66-k43": {
+    "class": "X",
+    "jobs": 246,
+    "vehicles": 43,
+    "capacity": 134,
+    "total_pickup": 443,
+    "total_delivery": 5757,
+    "total_demand": 6200,
+    "best_known_cost": 36994
+  },
+  "X-n247-80-k45": {
+    "class": "X",
+    "jobs": 246,
+    "vehicles": 45,
+    "capacity": 134,
+    "total_pickup": 250,
+    "total_delivery": 5950,
+    "total_demand": 6200,
+    "best_known_cost": 37220
+  },
+  "X-n251-50-k14": {
+    "class": "X",
+    "jobs": 250,
+    "vehicles": 14,
+    "capacity": 69,
+    "total_pickup": 944,
+    "total_delivery": 923,
+    "total_demand": 1867,
+    "best_known_cost": 24968
+  },
+  "X-n251-66-k18": {
+    "class": "X",
+    "jobs": 250,
+    "vehicles": 18,
+    "capacity": 69,
+    "total_pickup": 638,
+    "total_delivery": 1229,
+    "total_demand": 1867,
+    "best_known_cost": 27817
+  },
+  "X-n251-80-k22": {
+    "class": "X",
+    "jobs": 250,
+    "vehicles": 22,
+    "capacity": 69,
+    "total_pickup": 370,
+    "total_delivery": 1497,
+    "total_demand": 1867,
+    "best_known_cost": 32170
+  },
+  "X-n256-50-k8": {
+    "class": "X",
+    "jobs": 255,
+    "vehicles": 8,
+    "capacity": 1225,
+    "total_pickup": 9722,
+    "total_delivery": 9792,
+    "total_demand": 19514,
+    "best_known_cost": 15922
+  },
+  "X-n256-66-k11": {
+    "class": "X",
+    "jobs": 255,
+    "vehicles": 11,
+    "capacity": 1225,
+    "total_pickup": 6534,
+    "total_delivery": 12980,
+    "total_demand": 19514,
+    "best_known_cost": 17250
+  },
+  "X-n256-80-k13": {
+    "class": "X",
+    "jobs": 255,
+    "vehicles": 13,
+    "capacity": 1225,
+    "total_pickup": 3856,
+    "total_delivery": 15658,
+    "total_demand": 19514,
+    "best_known_cost": 18189
+  },
+  "X-n261-50-k7": {
+    "class": "X",
+    "jobs": 260,
+    "vehicles": 7,
+    "capacity": 1081,
+    "total_pickup": 6391,
+    "total_delivery": 6990,
+    "total_demand": 13381,
+    "best_known_cost": 21555
+  },
+  "X-n261-66-k9": {
+    "class": "X",
+    "jobs": 260,
+    "vehicles": 9,
+    "capacity": 1081,
+    "total_pickup": 4161,
+    "total_delivery": 9220,
+    "total_demand": 13381,
+    "best_known_cost": 23065
+  },
+  "X-n261-80-k11": {
+    "class": "X",
+    "jobs": 260,
+    "vehicles": 11,
+    "capacity": 1081,
+    "total_pickup": 2233,
+    "total_delivery": 11148,
+    "total_demand": 13381,
+    "best_known_cost": 25128
+  },
+  "X-n266-50-k30": {
+    "class": "X",
+    "jobs": 265,
+    "vehicles": 30,
+    "capacity": 35,
+    "total_pickup": 992,
+    "total_delivery": 1023,
+    "total_demand": 2015,
+    "best_known_cost": 47815
+  },
+  "X-n266-66-k39": {
+    "class": "X",
+    "jobs": 265,
+    "vehicles": 39,
+    "capacity": 35,
+    "total_pickup": 678,
+    "total_delivery": 1337,
+    "total_demand": 2015,
+    "best_known_cost": 55962
+  },
+  "X-n266-80-k47": {
+    "class": "X",
+    "jobs": 265,
+    "vehicles": 47,
+    "capacity": 35,
+    "total_pickup": 401,
+    "total_delivery": 1614,
+    "total_demand": 2015,
+    "best_known_cost": 63880
+  },
+  "X-n270-50-k18": {
+    "class": "X",
+    "jobs": 269,
+    "vehicles": 18,
+    "capacity": 585,
+    "total_pickup": 10317,
+    "total_delivery": 10102,
+    "total_demand": 20419,
+    "best_known_cost": 24776
+  },
+  "X-n270-66-k24": {
+    "class": "X",
+    "jobs": 269,
+    "vehicles": 24,
+    "capacity": 585,
+    "total_pickup": 6946,
+    "total_delivery": 13473,
+    "total_demand": 20419,
+    "best_known_cost": 26377
+  },
+  "X-n270-80-k29": {
+    "class": "X",
+    "jobs": 269,
+    "vehicles": 29,
+    "capacity": 585,
+    "total_pickup": 4002,
+    "total_delivery": 16417,
+    "total_demand": 20419,
+    "best_known_cost": 29789
+  },
+  "X-n275-50-k14": {
+    "class": "X",
+    "jobs": 274,
+    "vehicles": 14,
+    "capacity": 10,
+    "total_pickup": 137,
+    "total_delivery": 137,
+    "total_demand": 274,
+    "best_known_cost": 15561
+  },
+  "X-n275-66-k19": {
+    "class": "X",
+    "jobs": 274,
+    "vehicles": 19,
+    "capacity": 10,
+    "total_pickup": 93,
+    "total_delivery": 181,
+    "total_demand": 274,
+    "best_known_cost": 16944
+  },
+  "X-n275-80-k22": {
+    "class": "X",
+    "jobs": 274,
+    "vehicles": 23,
+    "capacity": 10,
+    "total_pickup": 54,
+    "total_delivery": 220,
+    "total_demand": 274,
+    "best_known_cost": 18690
+  },
+  "X-n280-50-k13": {
+    "class": "X",
+    "jobs": 279,
+    "vehicles": 13,
+    "capacity": 192,
+    "total_pickup": 812,
+    "total_delivery": 2421,
+    "total_demand": 3233,
+    "best_known_cost": 29132
+  },
+  "X-n280-66-k15": {
+    "class": "X",
+    "jobs": 279,
+    "vehicles": 15,
+    "capacity": 192,
+    "total_pickup": 522,
+    "total_delivery": 2711,
+    "total_demand": 3233,
+    "best_known_cost": 31315
+  },
+  "X-n280-80-k16": {
+    "class": "X",
+    "jobs": 279,
+    "vehicles": 16,
+    "capacity": 192,
+    "total_pickup": 311,
+    "total_delivery": 2922,
+    "total_demand": 3233,
+    "best_known_cost": 32332
+  },
+  "X-n284-50-k8": {
+    "class": "X",
+    "jobs": 283,
+    "vehicles": 8,
+    "capacity": 109,
+    "total_pickup": 760,
+    "total_delivery": 767,
+    "total_demand": 1527,
+    "best_known_cost": 15944
+  },
+  "X-n284-66-k10": {
+    "class": "X",
+    "jobs": 283,
+    "vehicles": 10,
+    "capacity": 109,
+    "total_pickup": 518,
+    "total_delivery": 1009,
+    "total_demand": 1527,
+    "best_known_cost": 17277
+  },
+  "X-n284-80-k12": {
+    "class": "X",
+    "jobs": 283,
+    "vehicles": 12,
+    "capacity": 109,
+    "total_pickup": 279,
+    "total_delivery": 1248,
+    "total_demand": 1527,
+    "best_known_cost": 18830
+  },
+  "X-n289-50-k34": {
+    "class": "X",
+    "jobs": 288,
+    "vehicles": 34,
+    "capacity": 267,
+    "total_pickup": 8929,
+    "total_delivery": 7045,
+    "total_demand": 15974,
+    "best_known_cost": 57957
+  },
+  "X-n289-66-k38": {
+    "class": "X",
+    "jobs": 288,
+    "vehicles": 38,
+    "capacity": 267,
+    "total_pickup": 6045,
+    "total_delivery": 9929,
+    "total_demand": 15974,
+    "best_known_cost": 63446
+  },
+  "X-n289-80-k47": {
+    "class": "X",
+    "jobs": 288,
+    "vehicles": 47,
+    "capacity": 267,
+    "total_pickup": 3594,
+    "total_delivery": 12380,
+    "total_demand": 15974,
+    "best_known_cost": 75963
+  },
+  "X-n294-50-k26": {
+    "class": "X",
+    "jobs": 293,
+    "vehicles": 26,
+    "capacity": 285,
+    "total_pickup": 7181,
+    "total_delivery": 6954,
+    "total_demand": 14135,
+    "best_known_cost": 30859
+  },
+  "X-n294-66-k33": {
+    "class": "X",
+    "jobs": 293,
+    "vehicles": 33,
+    "capacity": 285,
+    "total_pickup": 4906,
+    "total_delivery": 9229,
+    "total_demand": 14135,
+    "best_known_cost": 34636
+  },
+  "X-n294-80-k40": {
+    "class": "X",
+    "jobs": 293,
+    "vehicles": 40,
+    "capacity": 285,
+    "total_pickup": 2931,
+    "total_delivery": 11204,
+    "total_demand": 14135,
+    "best_known_cost": 39269
+  },
+  "X-n298-50-k16": {
+    "class": "X",
+    "jobs": 297,
+    "vehicles": 16,
+    "capacity": 55,
+    "total_pickup": 812,
+    "total_delivery": 877,
+    "total_demand": 1689,
+    "best_known_cost": 25081
+  },
+  "X-n298-66-k21": {
+    "class": "X",
+    "jobs": 297,
+    "vehicles": 21,
+    "capacity": 55,
+    "total_pickup": 548,
+    "total_delivery": 1141,
+    "total_demand": 1689,
+    "best_known_cost": 27643
+  },
+  "X-n298-80-k25": {
+    "class": "X",
+    "jobs": 297,
+    "vehicles": 25,
+    "capacity": 55,
+    "total_pickup": 337,
+    "total_delivery": 1352,
+    "total_demand": 1689,
+    "best_known_cost": 30222
+  },
+  "X-n303-50-k11": {
+    "class": "X",
+    "jobs": 302,
+    "vehicles": 11,
+    "capacity": 794,
+    "total_pickup": 8282,
+    "total_delivery": 7685,
+    "total_demand": 15967,
+    "best_known_cost": 17763
+  },
+  "X-n303-66-k13": {
+    "class": "X",
+    "jobs": 302,
+    "vehicles": 13,
+    "capacity": 794,
+    "total_pickup": 5961,
+    "total_delivery": 10006,
+    "total_demand": 15967,
+    "best_known_cost": 18120
+  },
+  "X-n303-80-k16": {
+    "class": "X",
+    "jobs": 302,
+    "vehicles": 16,
+    "capacity": 794,
+    "total_pickup": 3351,
+    "total_delivery": 12616,
+    "total_demand": 15967,
+    "best_known_cost": 19603
+  },
+  "X-n308-50-k9": {
+    "class": "X",
+    "jobs": 307,
+    "vehicles": 9,
+    "capacity": 246,
+    "total_pickup": 937,
+    "total_delivery": 2181,
+    "total_demand": 3118,
+    "best_known_cost": 22544
+  },
+  "X-n308-66-k11": {
+    "class": "X",
+    "jobs": 307,
+    "vehicles": 11,
+    "capacity": 246,
+    "total_pickup": 620,
+    "total_delivery": 2498,
+    "total_demand": 3118,
+    "best_known_cost": 24154
+  },
+  "X-n308-80-k12": {
+    "class": "X",
+    "jobs": 307,
+    "vehicles": 12,
+    "capacity": 246,
+    "total_pickup": 364,
+    "total_delivery": 2754,
+    "total_demand": 3118,
+    "best_known_cost": 25164
+  },
+  "X-n313-50-k39": {
+    "class": "X",
+    "jobs": 312,
+    "vehicles": 39,
+    "capacity": 248,
+    "total_pickup": 9651,
+    "total_delivery": 7894,
+    "total_demand": 17545,
+    "best_known_cost": 57762
+  },
+  "X-n313-66-k44": {
+    "class": "X",
+    "jobs": 312,
+    "vehicles": 44,
+    "capacity": 248,
+    "total_pickup": 6685,
+    "total_delivery": 10860,
+    "total_demand": 17545,
+    "best_known_cost": 60089
+  },
+  "X-n313-80-k56": {
+    "class": "X",
+    "jobs": 312,
+    "vehicles": 56,
+    "capacity": 248,
+    "total_pickup": 3852,
+    "total_delivery": 13693,
+    "total_demand": 17545,
+    "best_known_cost": 73834
+  },
+  "X-n317-50-k27": {
+    "class": "X",
+    "jobs": 316,
+    "vehicles": 27,
+    "capacity": 6,
+    "total_pickup": 158,
+    "total_delivery": 158,
+    "total_demand": 316,
+    "best_known_cost": 43396
+  },
+  "X-n317-66-k35": {
+    "class": "X",
+    "jobs": 316,
+    "vehicles": 35,
+    "capacity": 6,
+    "total_pickup": 107,
+    "total_delivery": 209,
+    "total_demand": 316,
+    "best_known_cost": 54502
+  },
+  "X-n317-80-k43": {
+    "class": "X",
+    "jobs": 316,
+    "vehicles": 43,
+    "capacity": 6,
+    "total_pickup": 63,
+    "total_delivery": 253,
+    "total_demand": 316,
+    "best_known_cost": 63683
+  },
+  "X-n322-50-k14": {
+    "class": "X",
+    "jobs": 321,
+    "vehicles": 14,
+    "capacity": 868,
+    "total_pickup": 11894,
+    "total_delivery": 12109,
+    "total_demand": 24003,
+    "best_known_cost": 23309
+  },
+  "X-n322-66-k19": {
+    "class": "X",
+    "jobs": 321,
+    "vehicles": 19,
+    "capacity": 868,
+    "total_pickup": 8027,
+    "total_delivery": 15976,
+    "total_demand": 24003,
+    "best_known_cost": 25034
+  },
+  "X-n322-80-k23": {
+    "class": "X",
+    "jobs": 321,
+    "vehicles": 23,
+    "capacity": 868,
+    "total_pickup": 4547,
+    "total_delivery": 19456,
+    "total_demand": 24003,
+    "best_known_cost": 27500
+  },
+  "X-n327-50-k10": {
+    "class": "X",
+    "jobs": 326,
+    "vehicles": 10,
+    "capacity": 128,
+    "total_pickup": 1236,
+    "total_delivery": 1216,
+    "total_demand": 2452,
+    "best_known_cost": 21610
+  },
+  "X-n327-66-k13": {
+    "class": "X",
+    "jobs": 326,
+    "vehicles": 13,
+    "capacity": 128,
+    "total_pickup": 829,
+    "total_delivery": 1623,
+    "total_demand": 2452,
+    "best_known_cost": 23322
+  },
+  "X-n327-80-k16": {
+    "class": "X",
+    "jobs": 326,
+    "vehicles": 16,
+    "capacity": 128,
+    "total_pickup": 486,
+    "total_delivery": 1966,
+    "total_demand": 2452,
+    "best_known_cost": 24990
+  },
+  "X-n331-50-k8": {
+    "class": "X",
+    "jobs": 330,
+    "vehicles": 8,
+    "capacity": 23,
+    "total_pickup": 165,
+    "total_delivery": 165,
+    "total_demand": 330,
+    "best_known_cost": 24152
+  },
+  "X-n331-66-k10": {
+    "class": "X",
+    "jobs": 330,
+    "vehicles": 10,
+    "capacity": 23,
+    "total_pickup": 112,
+    "total_delivery": 218,
+    "total_demand": 330,
+    "best_known_cost": 26247
+  },
+  "X-n331-80-k12": {
+    "class": "X",
+    "jobs": 330,
+    "vehicles": 12,
+    "capacity": 23,
+    "total_pickup": 66,
+    "total_delivery": 264,
+    "total_demand": 330,
+    "best_known_cost": 28265
+  },
+  "X-n336-50-k45": {
+    "class": "X",
+    "jobs": 335,
+    "vehicles": 45,
+    "capacity": 203,
+    "total_pickup": 7895,
+    "total_delivery": 9026,
+    "total_demand": 16921,
+    "best_known_cost": 81760
+  },
+  "X-n336-66-k57": {
+    "class": "X",
+    "jobs": 335,
+    "vehicles": 57,
+    "capacity": 203,
+    "total_pickup": 5482,
+    "total_delivery": 11439,
+    "total_demand": 16921,
+    "best_known_cost": 99226
+  },
+  "X-n336-80-k68": {
+    "class": "X",
+    "jobs": 335,
+    "vehicles": 68,
+    "capacity": 203,
+    "total_pickup": 3241,
+    "total_delivery": 13680,
+    "total_demand": 16921,
+    "best_known_cost": 116185
+  },
+  "X-n344-50-k22": {
+    "class": "X",
+    "jobs": 343,
+    "vehicles": 22,
+    "capacity": 61,
+    "total_pickup": 1297,
+    "total_delivery": 1305,
+    "total_demand": 2602,
+    "best_known_cost": 28527
+  },
+  "X-n344-66-k29": {
+    "class": "X",
+    "jobs": 343,
+    "vehicles": 29,
+    "capacity": 61,
+    "total_pickup": 872,
+    "total_delivery": 1730,
+    "total_demand": 2602,
+    "best_known_cost": 31845
+  },
+  "X-n344-80-k35": {
+    "class": "X",
+    "jobs": 343,
+    "vehicles": 35,
+    "capacity": 61,
+    "total_pickup": 513,
+    "total_delivery": 2089,
+    "total_demand": 2602,
+    "best_known_cost": 35743
+  },
+  "X-n351-50-k21": {
+    "class": "X",
+    "jobs": 350,
+    "vehicles": 21,
+    "capacity": 436,
+    "total_pickup": 8744,
+    "total_delivery": 8573,
+    "total_demand": 17317,
+    "best_known_cost": 18584
+  },
+  "X-n351-66-k26": {
+    "class": "X",
+    "jobs": 350,
+    "vehicles": 26,
+    "capacity": 436,
+    "total_pickup": 6179,
+    "total_delivery": 11138,
+    "total_demand": 17317,
+    "best_known_cost": 19758
+  },
+  "X-n351-80-k32": {
+    "class": "X",
+    "jobs": 350,
+    "vehicles": 32,
+    "capacity": 436,
+    "total_pickup": 3548,
+    "total_delivery": 13769,
+    "total_demand": 17317,
+    "best_known_cost": 22158
+  },
+  "X-n359-50-k15": {
+    "class": "X",
+    "jobs": 358,
+    "vehicles": 15,
+    "capacity": 68,
+    "total_pickup": 984,
+    "total_delivery": 962,
+    "total_demand": 1946,
+    "best_known_cost": 33255
+  },
+  "X-n359-66-k19": {
+    "class": "X",
+    "jobs": 358,
+    "vehicles": 19,
+    "capacity": 68,
+    "total_pickup": 683,
+    "total_delivery": 1263,
+    "total_demand": 1946,
+    "best_known_cost": 37695
+  },
+  "X-n359-80-k23": {
+    "class": "X",
+    "jobs": 358,
+    "vehicles": 23,
+    "capacity": 68,
+    "total_pickup": 394,
+    "total_delivery": 1552,
+    "total_demand": 1946,
+    "best_known_cost": 43412
+  },
+  "X-n367-50-k12": {
+    "class": "X",
+    "jobs": 366,
+    "vehicles": 12,
+    "capacity": 218,
+    "total_pickup": 1039,
+    "total_delivery": 2608,
+    "total_demand": 3647,
+    "best_known_cost": 20526
+  },
+  "X-n367-66-k14": {
+    "class": "X",
+    "jobs": 366,
+    "vehicles": 14,
+    "capacity": 218,
+    "total_pickup": 740,
+    "total_delivery": 2907,
+    "total_demand": 3647,
+    "best_known_cost": 21479
+  },
+  "X-n367-80-k15": {
+    "class": "X",
+    "jobs": 366,
+    "vehicles": 15,
+    "capacity": 218,
+    "total_pickup": 444,
+    "total_delivery": 3203,
+    "total_demand": 3647,
+    "best_known_cost": 22386
+  },
+  "X-n376-50-k47": {
+    "class": "X",
+    "jobs": 375,
+    "vehicles": 48,
+    "capacity": 4,
+    "total_pickup": 187,
+    "total_delivery": 188,
+    "total_demand": 375,
+    "best_known_cost": 80736
+  },
+  "X-n376-66-k62": {
+    "class": "X",
+    "jobs": 375,
+    "vehicles": 63,
+    "capacity": 4,
+    "total_pickup": 127,
+    "total_delivery": 248,
+    "total_demand": 375,
+    "best_known_cost": 100613
+  },
+  "X-n376-80-k75": {
+    "class": "X",
+    "jobs": 375,
+    "vehicles": 76,
+    "capacity": 4,
+    "total_pickup": 75,
+    "total_delivery": 300,
+    "total_demand": 375,
+    "best_known_cost": 119581
+  },
+  "X-n384-50-k27": {
+    "class": "X",
+    "jobs": 383,
+    "vehicles": 27,
+    "capacity": 564,
+    "total_pickup": 14480,
+    "total_delivery": 14677,
+    "total_demand": 29157,
+    "best_known_cost": 41206
+  },
+  "X-n384-66-k35": {
+    "class": "X",
+    "jobs": 383,
+    "vehicles": 35,
+    "capacity": 564,
+    "total_pickup": 9895,
+    "total_delivery": 19262,
+    "total_demand": 29157,
+    "best_known_cost": 47373
+  },
+  "X-n384-80-k42": {
+    "class": "X",
+    "jobs": 383,
+    "vehicles": 42,
+    "capacity": 564,
+    "total_pickup": 5784,
+    "total_delivery": 23373,
+    "total_demand": 29157,
+    "best_known_cost": 55386
+  },
+  "X-n393-50-k19": {
+    "class": "X",
+    "jobs": 392,
+    "vehicles": 19,
+    "capacity": 78,
+    "total_pickup": 1452,
+    "total_delivery": 1467,
+    "total_demand": 2919,
+    "best_known_cost": 30005
+  },
+  "X-n393-66-k25": {
+    "class": "X",
+    "jobs": 392,
+    "vehicles": 25,
+    "capacity": 78,
+    "total_pickup": 979,
+    "total_delivery": 1940,
+    "total_demand": 2919,
+    "best_known_cost": 29340
+  },
+  "X-n393-80-k31": {
+    "class": "X",
+    "jobs": 392,
+    "vehicles": 31,
+    "capacity": 78,
+    "total_pickup": 568,
+    "total_delivery": 2351,
+    "total_demand": 2919,
+    "best_known_cost": 32619
+  },
+  "X-n401-50-k15": {
+    "class": "X",
+    "jobs": 400,
+    "vehicles": 15,
+    "capacity": 745,
+    "total_pickup": 10331,
+    "total_delivery": 10944,
+    "total_demand": 21275,
+    "best_known_cost": 39746
+  },
+  "X-n401-66-k20": {
+    "class": "X",
+    "jobs": 400,
+    "vehicles": 20,
+    "capacity": 745,
+    "total_pickup": 7061,
+    "total_delivery": 14214,
+    "total_demand": 21275,
+    "best_known_cost": 47658
+  },
+  "X-n401-80-k23": {
+    "class": "X",
+    "jobs": 400,
+    "vehicles": 23,
+    "capacity": 745,
+    "total_pickup": 4308,
+    "total_delivery": 16967,
+    "total_demand": 21275,
+    "best_known_cost": 54270
+  },
+  "X-n411-50-k14": {
+    "class": "X",
+    "jobs": 410,
+    "vehicles": 14,
+    "capacity": 216,
+    "total_pickup": 1077,
+    "total_delivery": 2824,
+    "total_demand": 3901,
+    "best_known_cost": 17959
+  },
+  "X-n411-66-k15": {
+    "class": "X",
+    "jobs": 410,
+    "vehicles": 15,
+    "capacity": 216,
+    "total_pickup": 709,
+    "total_delivery": 3192,
+    "total_demand": 3901,
+    "best_known_cost": 18785
+  },
+  "X-n411-80-k17": {
+    "class": "X",
+    "jobs": 410,
+    "vehicles": 17,
+    "capacity": 216,
+    "total_pickup": 406,
+    "total_delivery": 3495,
+    "total_demand": 3901,
+    "best_known_cost": 19496
+  },
+  "X-n420-50-k67": {
+    "class": "X",
+    "jobs": 419,
+    "vehicles": 67,
+    "capacity": 18,
+    "total_pickup": 1124,
+    "total_delivery": 1201,
+    "total_demand": 2325,
+    "best_known_cost": 75527
+  },
+  "X-n420-66-k86": {
+    "class": "X",
+    "jobs": 419,
+    "vehicles": 86,
+    "capacity": 18,
+    "total_pickup": 781,
+    "total_delivery": 1544,
+    "total_demand": 2325,
+    "best_known_cost": 76079
+  },
+  "X-n420-80-k105": {
+    "class": "X",
+    "jobs": 419,
+    "vehicles": 105,
+    "capacity": 18,
+    "total_pickup": 441,
+    "total_delivery": 1884,
+    "total_demand": 2325,
+    "best_known_cost": 89381
+  },
+  "X-n429-50-k31": {
+    "class": "X",
+    "jobs": 428,
+    "vehicles": 31,
+    "capacity": 536,
+    "total_pickup": 16158,
+    "total_delivery": 16103,
+    "total_demand": 32261,
+    "best_known_cost": 41284
+  },
+  "X-n429-66-k40": {
+    "class": "X",
+    "jobs": 428,
+    "vehicles": 40,
+    "capacity": 536,
+    "total_pickup": 10993,
+    "total_delivery": 21268,
+    "total_demand": 32261,
+    "best_known_cost": 47793
+  },
+  "X-n429-80-k48": {
+    "class": "X",
+    "jobs": 428,
+    "vehicles": 48,
+    "capacity": 536,
+    "total_pickup": 6540,
+    "total_delivery": 25721,
+    "total_demand": 32261,
+    "best_known_cost": 54835
+  },
+  "X-n439-50-k19": {
+    "class": "X",
+    "jobs": 438,
+    "vehicles": 19,
+    "capacity": 12,
+    "total_pickup": 219,
+    "total_delivery": 219,
+    "total_demand": 438,
+    "best_known_cost": 27011
+  },
+  "X-n439-66-k25": {
+    "class": "X",
+    "jobs": 438,
+    "vehicles": 25,
+    "capacity": 12,
+    "total_pickup": 148,
+    "total_delivery": 290,
+    "total_demand": 438,
+    "best_known_cost": 28883
+  },
+  "X-n439-80-k30": {
+    "class": "X",
+    "jobs": 438,
+    "vehicles": 30,
+    "capacity": 12,
+    "total_pickup": 87,
+    "total_delivery": 351,
+    "total_demand": 438,
+    "best_known_cost": 32074
+  },
+  "X-n449-50-k15": {
+    "class": "X",
+    "jobs": 448,
+    "vehicles": 15,
+    "capacity": 777,
+    "total_pickup": 11351,
+    "total_delivery": 11088,
+    "total_demand": 22439,
+    "best_known_cost": 36929
+  },
+  "X-n449-66-k20": {
+    "class": "X",
+    "jobs": 448,
+    "vehicles": 20,
+    "capacity": 777,
+    "total_pickup": 7609,
+    "total_delivery": 14830,
+    "total_demand": 22439,
+    "best_known_cost": 41846
+  },
+  "X-n449-80-k23": {
+    "class": "X",
+    "jobs": 448,
+    "vehicles": 23,
+    "capacity": 777,
+    "total_pickup": 4808,
+    "total_delivery": 17631,
+    "total_demand": 22439,
+    "best_known_cost": 46738
+  },
+  "X-n459-50-k14": {
+    "class": "X",
+    "jobs": 458,
+    "vehicles": 14,
+    "capacity": 1106,
+    "total_pickup": 13887,
+    "total_delivery": 14548,
+    "total_demand": 28435,
+    "best_known_cost": 18891
+  },
+  "X-n459-66-k18": {
+    "class": "X",
+    "jobs": 458,
+    "vehicles": 18,
+    "capacity": 1106,
+    "total_pickup": 9302,
+    "total_delivery": 19133,
+    "total_demand": 28435,
+    "best_known_cost": 20561
+  },
+  "X-n459-80-k21": {
+    "class": "X",
+    "jobs": 458,
+    "vehicles": 21,
+    "capacity": 1106,
+    "total_pickup": 5558,
+    "total_delivery": 22877,
+    "total_demand": 28435,
+    "best_known_cost": 22047
+  },
+  "X-n469-50-k70": {
+    "class": "X",
+    "jobs": 468,
+    "vehicles": 70,
+    "capacity": 256,
+    "total_pickup": 17827,
+    "total_delivery": 17344,
+    "total_demand": 35171,
+    "best_known_cost": 123817
+  },
+  "X-n469-66-k90": {
+    "class": "X",
+    "jobs": 468,
+    "vehicles": 90,
+    "capacity": 256,
+    "total_pickup": 12271,
+    "total_delivery": 22900,
+    "total_demand": 35171,
+    "best_known_cost": 148455
+  },
+  "X-n469-80-k109": {
+    "class": "X",
+    "jobs": 468,
+    "vehicles": 109,
+    "capacity": 256,
+    "total_pickup": 7296,
+    "total_delivery": 27875,
+    "total_demand": 35171,
+    "best_known_cost": 178511
+  },
+  "X-n480-50-k36": {
+    "class": "X",
+    "jobs": 479,
+    "vehicles": 36,
+    "capacity": 52,
+    "total_pickup": 1755,
+    "total_delivery": 1843,
+    "total_demand": 3598,
+    "best_known_cost": 52309
+  },
+  "X-n480-66-k47": {
+    "class": "X",
+    "jobs": 479,
+    "vehicles": 47,
+    "capacity": 52,
+    "total_pickup": 1185,
+    "total_delivery": 2413,
+    "total_demand": 3598,
+    "best_known_cost": 63577
+  },
+  "X-n480-80-k56": {
+    "class": "X",
+    "jobs": 479,
+    "vehicles": 56,
+    "capacity": 52,
+    "total_pickup": 691,
+    "total_delivery": 2907,
+    "total_demand": 3598,
+    "best_known_cost": 73993
+  },
+  "X-n491-50-k30": {
+    "class": "X",
+    "jobs": 490,
+    "vehicles": 30,
+    "capacity": 428,
+    "total_pickup": 12544,
+    "total_delivery": 12413,
+    "total_demand": 24957,
+    "best_known_cost": 43952
+  },
+  "X-n491-66-k39": {
+    "class": "X",
+    "jobs": 490,
+    "vehicles": 39,
+    "capacity": 428,
+    "total_pickup": 8298,
+    "total_delivery": 16659,
+    "total_demand": 24957,
+    "best_known_cost": 49627
+  },
+  "X-n491-80-k47": {
+    "class": "X",
+    "jobs": 490,
+    "vehicles": 47,
+    "capacity": 428,
+    "total_pickup": 4991,
+    "total_delivery": 19966,
+    "total_demand": 24957,
+    "best_known_cost": 56141
+  },
+  "X-n502-50-k20": {
+    "class": "X",
+    "jobs": 501,
+    "vehicles": 20,
+    "capacity": 13,
+    "total_pickup": 250,
+    "total_delivery": 251,
+    "total_demand": 501,
+    "best_known_cost": 40591
+  },
+  "X-n502-66-k26": {
+    "class": "X",
+    "jobs": 501,
+    "vehicles": 26,
+    "capacity": 13,
+    "total_pickup": 170,
+    "total_delivery": 331,
+    "total_demand": 501,
+    "best_known_cost": 49285
+  },
+  "X-n502-80-k31": {
+    "class": "X",
+    "jobs": 501,
+    "vehicles": 31,
+    "capacity": 13,
+    "total_pickup": 100,
+    "total_delivery": 401,
+    "total_demand": 501,
+    "best_known_cost": 56997
+  },
+  "X-n513-50-k11": {
+    "class": "X",
+    "jobs": 512,
+    "vehicles": 11,
+    "capacity": 142,
+    "total_pickup": 1453,
+    "total_delivery": 1452,
+    "total_demand": 2905,
+    "best_known_cost": 21675
+  },
+  "X-n513-66-k14": {
+    "class": "X",
+    "jobs": 512,
+    "vehicles": 14,
+    "capacity": 142,
+    "total_pickup": 960,
+    "total_delivery": 1945,
+    "total_demand": 2905,
+    "best_known_cost": 22426
+  },
+  "X-n513-80-k17": {
+    "class": "X",
+    "jobs": 512,
+    "vehicles": 17,
+    "capacity": 142,
+    "total_pickup": 560,
+    "total_delivery": 2345,
+    "total_demand": 2905,
+    "best_known_cost": 23448
+  },
+  "X-n524-50-k125": {
+    "class": "X",
+    "jobs": 523,
+    "vehicles": 125,
+    "capacity": 125,
+    "total_pickup": 1464,
+    "total_delivery": 15603,
+    "total_demand": 17067,
+    "best_known_cost": 154137
+  },
+  "X-n524-66-k129": {
+    "class": "X",
+    "jobs": 523,
+    "vehicles": 129,
+    "capacity": 125,
+    "total_pickup": 1008,
+    "total_delivery": 16059,
+    "total_demand": 17067,
+    "best_known_cost": 154416
+  },
+  "X-n524-80-k132": {
+    "class": "X",
+    "jobs": 523,
+    "vehicles": 132,
+    "capacity": 125,
+    "total_pickup": 589,
+    "total_delivery": 16478,
+    "total_demand": 17067,
+    "best_known_cost": 154497
+  },
+  "X-n536-50-k49": {
+    "class": "X",
+    "jobs": 535,
+    "vehicles": 49,
+    "capacity": 371,
+    "total_pickup": 17598,
+    "total_delivery": 17825,
+    "total_demand": 35423,
+    "best_known_cost": 54658
+  },
+  "X-n536-66-k64": {
+    "class": "X",
+    "jobs": 535,
+    "vehicles": 64,
+    "capacity": 371,
+    "total_pickup": 11987,
+    "total_delivery": 23436,
+    "total_demand": 35423,
+    "best_known_cost": 66032
+  },
+  "X-n536-80-k77": {
+    "class": "X",
+    "jobs": 535,
+    "vehicles": 77,
+    "capacity": 371,
+    "total_pickup": 7113,
+    "total_delivery": 28310,
+    "total_demand": 35423,
+    "best_known_cost": 77811
+  },
+  "X-n548-50-k25": {
+    "class": "X",
+    "jobs": 547,
+    "vehicles": 25,
+    "capacity": 11,
+    "total_pickup": 273,
+    "total_delivery": 274,
+    "total_demand": 547,
+    "best_known_cost": 53049
+  },
+  "X-n548-66-k33": {
+    "class": "X",
+    "jobs": 547,
+    "vehicles": 33,
+    "capacity": 11,
+    "total_pickup": 185,
+    "total_delivery": 362,
+    "total_demand": 547,
+    "best_known_cost": 61421
+  },
+  "X-n548-80-k40": {
+    "class": "X",
+    "jobs": 547,
+    "vehicles": 40,
+    "capacity": 11,
+    "total_pickup": 109,
+    "total_delivery": 438,
+    "total_demand": 547,
+    "best_known_cost": 71867
+  },
+  "X-n561-50-k22": {
+    "class": "X",
+    "jobs": 560,
+    "vehicles": 22,
+    "capacity": 74,
+    "total_pickup": 1497,
+    "total_delivery": 1558,
+    "total_demand": 3055,
+    "best_known_cost": 31826
+  },
+  "X-n561-66-k28": {
+    "class": "X",
+    "jobs": 560,
+    "vehicles": 28,
+    "capacity": 74,
+    "total_pickup": 985,
+    "total_delivery": 2070,
+    "total_demand": 3055,
+    "best_known_cost": 34370
+  },
+  "X-n561-80-k34": {
+    "class": "X",
+    "jobs": 560,
+    "vehicles": 34,
+    "capacity": 74,
+    "total_pickup": 595,
+    "total_delivery": 2460,
+    "total_demand": 3055,
+    "best_known_cost": 38053
+  },
+  "X-n573-50-k22": {
+    "class": "X",
+    "jobs": 572,
+    "vehicles": 22,
+    "capacity": 210,
+    "total_pickup": 1568,
+    "total_delivery": 4604,
+    "total_demand": 6172,
+    "best_known_cost": 40239
+  },
+  "X-n573-66-k25": {
+    "class": "X",
+    "jobs": 572,
+    "vehicles": 25,
+    "capacity": 210,
+    "total_pickup": 1055,
+    "total_delivery": 5117,
+    "total_demand": 6172,
+    "best_known_cost": 44151
+  },
+  "X-n573-80-k27": {
+    "class": "X",
+    "jobs": 572,
+    "vehicles": 27,
+    "capacity": 210,
+    "total_pickup": 604,
+    "total_delivery": 5568,
+    "total_demand": 6172,
+    "best_known_cost": 47054
+  },
+  "X-n586-50-k80": {
+    "class": "X",
+    "jobs": 585,
+    "vehicles": 80,
+    "capacity": 28,
+    "total_pickup": 2202,
+    "total_delivery": 2228,
+    "total_demand": 4430,
+    "best_known_cost": 122632
+  },
+  "X-n586-66-k105": {
+    "class": "X",
+    "jobs": 585,
+    "vehicles": 105,
+    "capacity": 28,
+    "total_pickup": 1494,
+    "total_delivery": 2936,
+    "total_demand": 4430,
+    "best_known_cost": 140396
+  },
+  "X-n586-80-k127": {
+    "class": "X",
+    "jobs": 585,
+    "vehicles": 127,
+    "capacity": 28,
+    "total_pickup": 881,
+    "total_delivery": 3549,
+    "total_demand": 4430,
+    "best_known_cost": 160390
+  },
+  "X-n599-50-k47": {
+    "class": "X",
+    "jobs": 598,
+    "vehicles": 47,
+    "capacity": 487,
+    "total_pickup": 22243,
+    "total_delivery": 22498,
+    "total_demand": 44741,
+    "best_known_cost": 65292
+  },
+  "X-n599-66-k61": {
+    "class": "X",
+    "jobs": 598,
+    "vehicles": 61,
+    "capacity": 487,
+    "total_pickup": 15332,
+    "total_delivery": 29409,
+    "total_demand": 44741,
+    "best_known_cost": 76472
+  },
+  "X-n599-80-k74": {
+    "class": "X",
+    "jobs": 598,
+    "vehicles": 74,
+    "capacity": 487,
+    "total_pickup": 9066,
+    "total_delivery": 35675,
+    "total_demand": 44741,
+    "best_known_cost": 89844
+  },
+  "X-n613-50-k32": {
+    "class": "X",
+    "jobs": 612,
+    "vehicles": 32,
+    "capacity": 523,
+    "total_pickup": 15683,
+    "total_delivery": 16319,
+    "total_demand": 32002,
+    "best_known_cost": 40838
+  },
+  "X-n613-66-k41": {
+    "class": "X",
+    "jobs": 612,
+    "vehicles": 41,
+    "capacity": 523,
+    "total_pickup": 10675,
+    "total_delivery": 21327,
+    "total_demand": 32002,
+    "best_known_cost": 46074
+  },
+  "X-n613-80-k50": {
+    "class": "X",
+    "jobs": 612,
+    "vehicles": 50,
+    "capacity": 523,
+    "total_pickup": 6120,
+    "total_delivery": 25882,
+    "total_demand": 32002,
+    "best_known_cost": 52096
+  },
+  "X-n627-50-k22": {
+    "class": "X",
+    "jobs": 626,
+    "vehicles": 22,
+    "capacity": 110,
+    "total_pickup": 2353,
+    "total_delivery": 2360,
+    "total_demand": 4713,
+    "best_known_cost": 38096
+  },
+  "X-n627-66-k29": {
+    "class": "X",
+    "jobs": 626,
+    "vehicles": 29,
+    "capacity": 110,
+    "total_pickup": 1592,
+    "total_delivery": 3121,
+    "total_demand": 4713,
+    "best_known_cost": 44782
+  },
+  "X-n627-80-k35": {
+    "class": "X",
+    "jobs": 626,
+    "vehicles": 35,
+    "capacity": 110,
+    "total_pickup": 946,
+    "total_delivery": 3767,
+    "total_demand": 4713,
+    "best_known_cost": 52429
+  },
+  "X-n641-50-k18": {
+    "class": "X",
+    "jobs": 640,
+    "vehicles": 18,
+    "capacity": 1381,
+    "total_pickup": 23693,
+    "total_delivery": 23818,
+    "total_demand": 47511,
+    "best_known_cost": 42333
+  },
+  "X-n641-66-k23": {
+    "class": "X",
+    "jobs": 640,
+    "vehicles": 23,
+    "capacity": 1381,
+    "total_pickup": 16261,
+    "total_delivery": 31250,
+    "total_demand": 47511,
+    "best_known_cost": 47501
+  },
+  "X-n641-80-k28": {
+    "class": "X",
+    "jobs": 640,
+    "vehicles": 28,
+    "capacity": 1381,
+    "total_pickup": 9536,
+    "total_delivery": 37975,
+    "total_demand": 47511,
+    "best_known_cost": 54116
+  },
+  "X-n655-50-k66": {
+    "class": "X",
+    "jobs": 654,
+    "vehicles": 66,
+    "capacity": 5,
+    "total_pickup": 327,
+    "total_delivery": 327,
+    "total_demand": 654,
+    "best_known_cost": 59442
+  },
+  "X-n655-66-k87": {
+    "class": "X",
+    "jobs": 654,
+    "vehicles": 87,
+    "capacity": 5,
+    "total_pickup": 222,
+    "total_delivery": 432,
+    "total_demand": 654,
+    "best_known_cost": 72456
+  },
+  "X-n655-80-k105": {
+    "class": "X",
+    "jobs": 654,
+    "vehicles": 105,
+    "capacity": 5,
+    "total_pickup": 130,
+    "total_delivery": 524,
+    "total_demand": 654,
+    "best_known_cost": 86564
+  },
+  "X-n670-50-k112": {
+    "class": "X",
+    "jobs": 669,
+    "vehicles": 112,
+    "capacity": 129,
+    "total_pickup": 1782,
+    "total_delivery": 14432,
+    "total_demand": 16214,
+    "best_known_cost": 144707
+  },
+  "X-n670-66-k117": {
+    "class": "X",
+    "jobs": 669,
+    "vehicles": 117,
+    "capacity": 129,
+    "total_pickup": 1225,
+    "total_delivery": 14989,
+    "total_demand": 16214,
+    "best_known_cost": 144990
+  },
+  "X-n670-80-k120": {
+    "class": "X",
+    "jobs": 669,
+    "vehicles": 120,
+    "capacity": 129,
+    "total_pickup": 755,
+    "total_delivery": 15459,
+    "total_demand": 16214,
+    "best_known_cost": 145275
+  },
+  "X-n685-50-k43": {
+    "class": "X",
+    "jobs": 684,
+    "vehicles": 43,
+    "capacity": 408,
+    "total_pickup": 13138,
+    "total_delivery": 17161,
+    "total_demand": 30299,
+    "best_known_cost": 48023
+  },
+  "X-n685-66-k54": {
+    "class": "X",
+    "jobs": 684,
+    "vehicles": 54,
+    "capacity": 408,
+    "total_pickup": 8655,
+    "total_delivery": 21644,
+    "total_demand": 30299,
+    "best_known_cost": 53240
+  },
+  "X-n685-80-k62": {
+    "class": "X",
+    "jobs": 684,
+    "vehicles": 62,
+    "capacity": 408,
+    "total_pickup": 5222,
+    "total_delivery": 25077,
+    "total_demand": 30299,
+    "best_known_cost": 59301
+  },
+  "X-n701-50-k23": {
+    "class": "X",
+    "jobs": 700,
+    "vehicles": 23,
+    "capacity": 87,
+    "total_pickup": 1918,
+    "total_delivery": 1879,
+    "total_demand": 3797,
+    "best_known_cost": 51390
+  },
+  "X-n701-66-k30": {
+    "class": "X",
+    "jobs": 700,
+    "vehicles": 30,
+    "capacity": 87,
+    "total_pickup": 1265,
+    "total_delivery": 2532,
+    "total_demand": 3797,
+    "best_known_cost": 58844
+  },
+  "X-n701-80-k36": {
+    "class": "X",
+    "jobs": 700,
+    "vehicles": 36,
+    "capacity": 87,
+    "total_pickup": 713,
+    "total_delivery": 3084,
+    "total_demand": 3797,
+    "best_known_cost": 68618
+  },
+  "X-n716-50-k18": {
+    "class": "X",
+    "jobs": 715,
+    "vehicles": 18,
+    "capacity": 1007,
+    "total_pickup": 17956,
+    "total_delivery": 16310,
+    "total_demand": 34266,
+    "best_known_cost": 29757
+  },
+  "X-n716-66-k23": {
+    "class": "X",
+    "jobs": 715,
+    "vehicles": 23,
+    "capacity": 1007,
+    "total_pickup": 12025,
+    "total_delivery": 22241,
+    "total_demand": 34266,
+    "best_known_cost": 32527
+  },
+  "X-n716-80-k28": {
+    "class": "X",
+    "jobs": 715,
+    "vehicles": 28,
+    "capacity": 1007,
+    "total_pickup": 6701,
+    "total_delivery": 27565,
+    "total_demand": 34266,
+    "best_known_cost": 37976
+  },
+  "X-n733-50-k83": {
+    "class": "X",
+    "jobs": 732,
+    "vehicles": 83,
+    "capacity": 25,
+    "total_pickup": 2063,
+    "total_delivery": 1906,
+    "total_demand": 3969,
+    "best_known_cost": 80585
+  },
+  "X-n733-66-k102": {
+    "class": "X",
+    "jobs": 732,
+    "vehicles": 102,
+    "capacity": 25,
+    "total_pickup": 1435,
+    "total_delivery": 2534,
+    "total_demand": 3969,
+    "best_known_cost": 92156
+  },
+  "X-n733-80-k125": {
+    "class": "X",
+    "jobs": 732,
+    "vehicles": 125,
+    "capacity": 25,
+    "total_pickup": 845,
+    "total_delivery": 3124,
+    "total_demand": 3969,
+    "best_known_cost": 110659
+  },
+  "X-n749-50-k49": {
+    "class": "X",
+    "jobs": 748,
+    "vehicles": 49,
+    "capacity": 396,
+    "total_pickup": 19397,
+    "total_delivery": 19017,
+    "total_demand": 38414,
+    "best_known_cost": 47740
+  },
+  "X-n749-66-k63": {
+    "class": "X",
+    "jobs": 748,
+    "vehicles": 63,
+    "capacity": 396,
+    "total_pickup": 13633,
+    "total_delivery": 24781,
+    "total_demand": 38414,
+    "best_known_cost": 55560
+  },
+  "X-n749-80-k78": {
+    "class": "X",
+    "jobs": 748,
+    "vehicles": 78,
+    "capacity": 396,
+    "total_pickup": 7883,
+    "total_delivery": 30531,
+    "total_demand": 38414,
+    "best_known_cost": 63991
+  },
+  "X-n766-50-k58": {
+    "class": "X",
+    "jobs": 765,
+    "vehicles": 58,
+    "capacity": 166,
+    "total_pickup": 2102,
+    "total_delivery": 9593,
+    "total_demand": 11695,
+    "best_known_cost": 95674
+  },
+  "X-n766-66-k62": {
+    "class": "X",
+    "jobs": 765,
+    "vehicles": 62,
+    "capacity": 166,
+    "total_pickup": 1489,
+    "total_delivery": 10206,
+    "total_demand": 11695,
+    "best_known_cost": 101566
+  },
+  "X-n766-80-k65": {
+    "class": "X",
+    "jobs": 765,
+    "vehicles": 65,
+    "capacity": 166,
+    "total_pickup": 916,
+    "total_delivery": 10779,
+    "total_demand": 11695,
+    "best_known_cost": 106758
+  },
+  "X-n783-50-k24": {
+    "class": "X",
+    "jobs": 782,
+    "vehicles": 24,
+    "capacity": 832,
+    "total_pickup": 19568,
+    "total_delivery": 19845,
+    "total_demand": 39413,
+    "best_known_cost": 49027
+  },
+  "X-n783-66-k31": {
+    "class": "X",
+    "jobs": 782,
+    "vehicles": 31,
+    "capacity": 832,
+    "total_pickup": 13791,
+    "total_delivery": 25622,
+    "total_demand": 39413,
+    "best_known_cost": 53429
+  },
+  "X-n783-80-k38": {
+    "class": "X",
+    "jobs": 782,
+    "vehicles": 38,
+    "capacity": 832,
+    "total_pickup": 8402,
+    "total_delivery": 31011,
+    "total_demand": 39413,
+    "best_known_cost": 60937
+  },
+  "X-n801-50-k20": {
+    "class": "X",
+    "jobs": 800,
+    "vehicles": 21,
+    "capacity": 20,
+    "total_pickup": 400,
+    "total_delivery": 400,
+    "total_demand": 800,
+    "best_known_cost": 48459
+  },
+  "X-n801-66-k27": {
+    "class": "X",
+    "jobs": 800,
+    "vehicles": 27,
+    "capacity": 20,
+    "total_pickup": 272,
+    "total_delivery": 528,
+    "total_demand": 800,
+    "best_known_cost": 54929
+  },
+  "X-n801-80-k32": {
+    "class": "X",
+    "jobs": 800,
+    "vehicles": 33,
+    "capacity": 20,
+    "total_pickup": 160,
+    "total_delivery": 640,
+    "total_demand": 800,
+    "best_known_cost": 62698
+  },
+  "X-n819-50-k86": {
+    "class": "X",
+    "jobs": 818,
+    "vehicles": 86,
+    "capacity": 358,
+    "total_pickup": 30672,
+    "total_delivery": 30242,
+    "total_demand": 60914,
+    "best_known_cost": 89296
+  },
+  "X-n819-66-k112": {
+    "class": "X",
+    "jobs": 818,
+    "vehicles": 112,
+    "capacity": 358,
+    "total_pickup": 20902,
+    "total_delivery": 40012,
+    "total_demand": 60914,
+    "best_known_cost": 108431
+  },
+  "X-n819-80-k136": {
+    "class": "X",
+    "jobs": 818,
+    "vehicles": 136,
+    "capacity": 358,
+    "total_pickup": 12465,
+    "total_delivery": 48449,
+    "total_demand": 60914,
+    "best_known_cost": 128617
+  },
+  "X-n837-50-k71": {
+    "class": "X",
+    "jobs": 836,
+    "vehicles": 71,
+    "capacity": 44,
+    "total_pickup": 3121,
+    "total_delivery": 3090,
+    "total_demand": 6211,
+    "best_known_cost": 116553
+  },
+  "X-n837-66-k94": {
+    "class": "X",
+    "jobs": 836,
+    "vehicles": 94,
+    "capacity": 44,
+    "total_pickup": 2095,
+    "total_delivery": 4116,
+    "total_demand": 6211,
+    "best_known_cost": 129183
+  },
+  "X-n837-80-k114": {
+    "class": "X",
+    "jobs": 836,
+    "vehicles": 114,
+    "capacity": 44,
+    "total_pickup": 1232,
+    "total_delivery": 4979,
+    "total_demand": 6211,
+    "best_known_cost": 154966
+  },
+  "X-n856-50-k48": {
+    "class": "X",
+    "jobs": 855,
+    "vehicles": 48,
+    "capacity": 9,
+    "total_pickup": 427,
+    "total_delivery": 428,
+    "total_demand": 855,
+    "best_known_cost": 57777
+  },
+  "X-n856-66-k63": {
+    "class": "X",
+    "jobs": 855,
+    "vehicles": 63,
+    "capacity": 9,
+    "total_pickup": 290,
+    "total_delivery": 565,
+    "total_demand": 855,
+    "best_known_cost": 63542
+  },
+  "X-n856-80-k76": {
+    "class": "X",
+    "jobs": 855,
+    "vehicles": 77,
+    "capacity": 9,
+    "total_pickup": 171,
+    "total_delivery": 684,
+    "total_demand": 855,
+    "best_known_cost": 73802
+  },
+  "X-n876-50-k30": {
+    "class": "X",
+    "jobs": 875,
+    "vehicles": 30,
+    "capacity": 764,
+    "total_pickup": 22487,
+    "total_delivery": 22047,
+    "total_demand": 44534,
+    "best_known_cost": 58780
+  },
+  "X-n876-66-k38": {
+    "class": "X",
+    "jobs": 875,
+    "vehicles": 38,
+    "capacity": 764,
+    "total_pickup": 15811,
+    "total_delivery": 28723,
+    "total_demand": 44534,
+    "best_known_cost": 69617
+  },
+  "X-n876-80-k46": {
+    "class": "X",
+    "jobs": 875,
+    "vehicles": 46,
+    "capacity": 764,
+    "total_pickup": 9576,
+    "total_delivery": 34958,
+    "total_demand": 44534,
+    "best_known_cost": 80983
+  },
+  "X-n895-50-k19": {
+    "class": "X",
+    "jobs": 894,
+    "vehicles": 19,
+    "capacity": 1816,
+    "total_pickup": 33535,
+    "total_delivery": 33522,
+    "total_demand": 67057,
+    "best_known_cost": 40668
+  },
+  "X-n895-66-k25": {
+    "class": "X",
+    "jobs": 894,
+    "vehicles": 25,
+    "capacity": 1816,
+    "total_pickup": 22754,
+    "total_delivery": 44303,
+    "total_demand": 67057,
+    "best_known_cost": 44059
+  },
+  "X-n895-80-k30": {
+    "class": "X",
+    "jobs": 894,
+    "vehicles": 30,
+    "capacity": 1816,
+    "total_pickup": 13239,
+    "total_delivery": 53818,
+    "total_demand": 67057,
+    "best_known_cost": 48451
+  },
+  "X-n916-50-k105": {
+    "class": "X",
+    "jobs": 915,
+    "vehicles": 105,
+    "capacity": 33,
+    "total_pickup": 3383,
+    "total_delivery": 3433,
+    "total_demand": 6816,
+    "best_known_cost": 190108
+  },
+  "X-n916-66-k136": {
+    "class": "X",
+    "jobs": 915,
+    "vehicles": 136,
+    "capacity": 33,
+    "total_pickup": 2330,
+    "total_delivery": 4486,
+    "total_demand": 6816,
+    "best_known_cost": 222807
+  },
+  "X-n916-80-k165": {
+    "class": "X",
+    "jobs": 915,
+    "vehicles": 165,
+    "capacity": 33,
+    "total_pickup": 1377,
+    "total_delivery": 5439,
+    "total_demand": 6816,
+    "best_known_cost": 263885
+  },
+  "X-n936-50-k132": {
+    "class": "X",
+    "jobs": 935,
+    "vehicles": 132,
+    "capacity": 138,
+    "total_pickup": 2573,
+    "total_delivery": 18170,
+    "total_demand": 20743,
+    "best_known_cost": 127497
+  },
+  "X-n936-66-k138": {
+    "class": "X",
+    "jobs": 935,
+    "vehicles": 138,
+    "capacity": 138,
+    "total_pickup": 1737,
+    "total_delivery": 19006,
+    "total_demand": 20743,
+    "best_known_cost": 128871
+  },
+  "X-n936-80-k143": {
+    "class": "X",
+    "jobs": 935,
+    "vehicles": 143,
+    "capacity": 138,
+    "total_pickup": 1014,
+    "total_delivery": 19729,
+    "total_demand": 20743,
+    "best_known_cost": 130808
+  },
+  "X-n957-50-k44": {
+    "class": "X",
+    "jobs": 956,
+    "vehicles": 44,
+    "capacity": 11,
+    "total_pickup": 478,
+    "total_delivery": 478,
+    "total_demand": 956,
+    "best_known_cost": 57019
+  },
+  "X-n957-66-k58": {
+    "class": "X",
+    "jobs": 956,
+    "vehicles": 58,
+    "capacity": 11,
+    "total_pickup": 325,
+    "total_delivery": 631,
+    "total_demand": 956,
+    "best_known_cost": 62593
+  },
+  "X-n957-80-k70": {
+    "class": "X",
+    "jobs": 956,
+    "vehicles": 70,
+    "capacity": 11,
+    "total_pickup": 191,
+    "total_delivery": 765,
+    "total_demand": 956,
+    "best_known_cost": 71855
+  },
+  "X-n979-50-k30": {
+    "class": "X",
+    "jobs": 978,
+    "vehicles": 30,
+    "capacity": 998,
+    "total_pickup": 28227,
+    "total_delivery": 29142,
+    "total_demand": 57369,
+    "best_known_cost": 69739
+  },
+  "X-n979-66-k39": {
+    "class": "X",
+    "jobs": 978,
+    "vehicles": 39,
+    "capacity": 998,
+    "total_pickup": 19150,
+    "total_delivery": 38219,
+    "total_demand": 57369,
+    "best_known_cost": 84499
+  },
+  "X-n979-80-k47": {
+    "class": "X",
+    "jobs": 978,
+    "vehicles": 47,
+    "capacity": 998,
+    "total_pickup": 11343,
+    "total_delivery": 46026,
+    "total_demand": 57369,
+    "best_known_cost": 99605
+  },
+  "X-n1001-50-k22": {
+    "class": "X",
+    "jobs": 1000,
+    "vehicles": 22,
+    "capacity": 131,
+    "total_pickup": 2799,
+    "total_delivery": 2758,
+    "total_demand": 5557,
+    "best_known_cost": 49978
+  },
+  "X-n1001-66-k28": {
+    "class": "X",
+    "jobs": 1000,
+    "vehicles": 28,
+    "capacity": 131,
+    "total_pickup": 1903,
+    "total_delivery": 3654,
+    "total_demand": 5557,
+    "best_known_cost": 56126
+  },
+  "X-n1001-80-k34": {
+    "class": "X",
+    "jobs": 1000,
+    "vehicles": 34,
+    "capacity": 131,
+    "total_pickup": 1116,
+    "total_delivery": 4441,
+    "total_demand": 5557,
+    "best_known_cost": 63278
+  }
+}
