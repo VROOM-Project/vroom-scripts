@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import json
 import sys
-from utils.benchmark import get_value, parse_node_coords, get_matrix
+from utils.benchmark import get_value, parse_demand, parse_node_coords, get_matrix
 
 # Generate a json-formatted problem from a CVRPLIB file.
 
@@ -51,30 +51,29 @@ def parse_cvrp(input_file):
     coords = []
 
     for i in range(node_start + 1, node_start + 1 + meta["DIMENSION"]):
-        coord_line = parse_node_coords(lines[i])
+        node = parse_node_coords(lines[i])
 
-        if len(coord_line) < 3:
-            # Reaching another section (like DEMAND_SECTION), happens when
-            # only jobs are listed in NODE_COORD_SECTION but DIMENSION count
-            # include jobs + depot.
+        if node is None:
             break
 
-        coords.append([float(coord_line[1]), float(coord_line[2])])
+        coords.append(node["location"])
         jobs.append(
             {
-                "id": int(coord_line[0]),
-                "location": [float(coord_line[1]), float(coord_line[2])],
+                "id": node["id"],
+                "location": node["location"],
                 "location_index": i - node_start - 1,
+                "type": node["type"],
             }
         )
 
     # Add all job demands.
-    total_demand = 0
+    total_delivery = 0
+    total_pickup = 0
     demand_start = next(
         (i for i, s in enumerate(lines) if s.startswith("DEMAND_SECTION"))
     )
     for i in range(demand_start + 1, demand_start + 1 + meta["DIMENSION"]):
-        demand_line = parse_node_coords(lines[i])
+        demand_line = parse_demand(lines[i])
 
         if len(demand_line) < 2:
             # Same as above in job parsing.
@@ -86,8 +85,14 @@ def parse_cvrp(input_file):
         for j in jobs:
             # Add demand to relevant job.
             if j["id"] == job_id:
-                j["delivery"] = [current_demand]
-                total_demand += current_demand
+                if j["type"] == "linehaul":
+                    j["delivery"] = [current_demand]
+                    total_delivery += current_demand
+                elif j["type"] == "backhaul":
+                    j["pickup"] = [current_demand]
+                    total_pickup += current_demand
+
+                j.pop("type")
                 break
 
     # Find depot description.
@@ -117,7 +122,9 @@ def parse_cvrp(input_file):
         meta["VEHICLES"] = int(meta["VEHICLES"])
         nb_vehicles = meta["VEHICLES"]
     else:
-        nb_vehicles = int(1 + (total_demand / meta["CAPACITY"]))
+        nb_vehicles = int(1 + (max(total_delivery, total_pickup) / meta["CAPACITY"]))
+
+    is_VRPB = (total_pickup != 0) and (total_delivery != 0)
 
     vehicles = []
 
@@ -132,6 +139,9 @@ def parse_cvrp(input_file):
                 "capacity": [meta["CAPACITY"]],
             }
         )
+
+        if is_VRPB:
+            vehicles[-1]["breaks"] = [{"id": 1, "max_load": [0]}]
 
     return {
         "meta": meta,
