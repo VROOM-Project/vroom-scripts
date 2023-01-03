@@ -37,6 +37,7 @@ instructions for:
 - [VRPTW](benchmarks/VRPTW)
 - [PDPTW](benchmarks/PDPTW)
 - [HVRP](benchmarks/HVRP)
+- [VRPB](benchmarks/VRPB)
 
 # Contributing
 
