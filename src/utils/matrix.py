@@ -82,17 +82,13 @@ def add_matrices(data, routing):
                     locs, index_of_known_locations, shipment["delivery"]["location"]
                 )
 
-    if "matrices" not in data:
-        data["matrices"] = {}
+    data["matrices"] = {}
 
     for p in profiles:
         if p not in routing["profiles"]:
             raise ValueError("Invalid profile: " + p)
 
-        if p in data["matrices"] and "durations" in data["matrices"][p]:
-            continue
-
-        data["matrices"][p] = {"durations": []}
+        data["matrices"][p] = {"durations": [], "distances": []}
 
         try:
             if routing["engine"] == "osrm":
