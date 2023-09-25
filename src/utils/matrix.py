@@ -30,7 +30,7 @@ def get_index(locations, locations_indices, loc):
     return new_index
 
 
-def add_matrix(data, routing):
+def add_matrices(data, routing):
     if "engine" not in routing or (
         routing["engine"] != "osrm" and routing["engine"] != "ors"
     ):
