@@ -92,20 +92,23 @@ def add_matrices(data, routing):
 
         try:
             if routing["engine"] == "osrm":
-                matrix = osrm_table(
+                matrices = osrm_table(
                     locs, routing["profiles"][p]["host"], routing["profiles"][p]["port"]
-                )["durations"]
+                )
             if routing["engine"] == "ors":
-                matrix = ors_table(
+                matrices = ors_table(
                     locs,
                     p,
                     routing["profiles"][p]["host"],
                     routing["profiles"][p]["port"],
-                )["durations"]
+                )
         except Exception:
             raise ValueError("Failed to connect to " + routing["engine"])
 
         # Round all durations to the nearest integer (same behavior as
-        # in osrm_wrapper.h)
-        for line in matrix:
+        # in osrm_routed_wrapper.cpp and ors_wrapper.cpp)
+        for line in matrices["durations"]:
             data["matrices"][p]["durations"].append([round_to_cost(d) for d in line])
+
+        for line in matrices["distances"]:
+            data["matrices"][p]["distances"].append([round_to_cost(d) for d in line])
