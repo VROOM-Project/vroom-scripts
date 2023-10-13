@@ -30,7 +30,7 @@ def get_index(locations, locations_indices, loc):
     return new_index
 
 
-def add_matrix(data, routing):
+def add_matrices(data, routing):
     if "engine" not in routing or (
         routing["engine"] != "osrm" and routing["engine"] != "ors"
     ):
@@ -82,34 +82,33 @@ def add_matrix(data, routing):
                     locs, index_of_known_locations, shipment["delivery"]["location"]
                 )
 
-    if "matrices" not in data:
-        data["matrices"] = {}
+    data["matrices"] = {}
 
     for p in profiles:
         if p not in routing["profiles"]:
             raise ValueError("Invalid profile: " + p)
 
-        if p in data["matrices"] and "durations" in data["matrices"][p]:
-            continue
-
-        data["matrices"][p] = {"durations": []}
+        data["matrices"][p] = {"durations": [], "distances": []}
 
         try:
             if routing["engine"] == "osrm":
-                matrix = osrm_table(
+                matrices = osrm_table(
                     locs, routing["profiles"][p]["host"], routing["profiles"][p]["port"]
-                )["durations"]
+                )
             if routing["engine"] == "ors":
-                matrix = ors_table(
+                matrices = ors_table(
                     locs,
                     p,
                     routing["profiles"][p]["host"],
                     routing["profiles"][p]["port"],
-                )["durations"]
+                )
         except Exception:
             raise ValueError("Failed to connect to " + routing["engine"])
 
         # Round all durations to the nearest integer (same behavior as
-        # in osrm_wrapper.h)
-        for line in matrix:
+        # in osrm_routed_wrapper.cpp and ors_wrapper.cpp)
+        for line in matrices["durations"]:
             data["matrices"][p]["durations"].append([round_to_cost(d) for d in line])
+
+        for line in matrices["distances"]:
+            data["matrices"][p]["distances"].append([round_to_cost(d) for d in line])

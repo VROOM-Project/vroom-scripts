@@ -27,4 +27,7 @@ def route(locs, extra_args="", ip=DEFAULT_IP, port=DEFAULT_PORT):
 
 def table(locs, ip=DEFAULT_IP, port=DEFAULT_PORT):
     req = format_request("table", locs, ip, port)
+
+    req += "?annotations=duration,distance"
+
     return requests.get(req).json()
