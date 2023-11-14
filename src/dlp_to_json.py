@@ -38,7 +38,7 @@ def parse_matrix(lines):
     return matrix
 
 
-def parse_jobs(lines, jobs):
+def parse_jobs(lines, cities, jobs):
     for i in range(len(lines)):
         customer = lines[i].split()
         if len(customer) < 2:
@@ -48,13 +48,42 @@ def parse_jobs(lines, jobs):
         index = int(customer[0])
 
         jobs.append(
-            {"id": index, "location_index": index, "delivery": [int(customer[1])]}
+            {
+                "id": index,
+                "description": cities[index]["description"],
+                "location": cities[index]["location"],
+                "location_index": index,
+                "delivery": [int(customer[1])],
+            }
         )
 
 
-def parse_dlp(input_file):
+def get_cities(cities_file):
+    with open(cities_file, "r") as c:
+        lines = c.readlines()
+
+    cities = []
+
+    for line in lines[1:]:
+        fields = line.split(",")
+        cities.append(
+            {
+                "description": fields[0],
+                "location": [
+                    float(fields[2]),
+                    float(fields[1]),
+                ],
+            }
+        )
+
+    return cities
+
+
+def parse_dlp(input_file, cities_file):
     with open(input_file, "r") as f:
         lines = f.readlines()
+
+    cities = get_cities(cities_file)
 
     meta = parse_meta(lines[FIRST_LINE])
 
@@ -97,7 +126,9 @@ def parse_dlp(input_file):
             vehicles.append(
                 {
                     "id": v_type * 1000 + n,
+                    "start": cities[0]["location"],
                     "start_index": depot_index,
+                    "end": cities[0]["location"],
                     "end_index": depot_index,
                     "capacity": [v_capacity],
                     "costs": {"fixed": v_fixed_cost, "per_hour": int(3600 * v_du_cost)},
@@ -109,7 +140,7 @@ def parse_dlp(input_file):
     jobs = []
     jobs_start = matrix_start + meta["JOBS"] + 2
 
-    parse_jobs(lines[jobs_start : jobs_start + meta["JOBS"]], jobs)
+    parse_jobs(lines[jobs_start : jobs_start + meta["JOBS"]], cities, jobs)
 
     for n in range(len(jobs)):
         BKS[instance_name]["total_demand"] += jobs[n]["delivery"][0]
@@ -133,10 +164,11 @@ def parse_dlp(input_file):
 if __name__ == "__main__":
     input_file = sys.argv[1]
     instance_name = input_file[: input_file.rfind(".txt")]
+    cities_file = "cities/" + instance_name + ".csv"
     output_name = instance_name + ".json"
 
-    print("- Writing problem " + input_file + " to " + output_name)
-    json_input = parse_dlp(input_file)
+    print("- Writing problem " + instance_name + " to " + output_name)
+    json_input = parse_dlp(input_file, cities_file)
 
     json_input["meta"]["NAME"] = instance_name
 
