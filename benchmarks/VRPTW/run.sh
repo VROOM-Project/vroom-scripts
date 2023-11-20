@@ -25,9 +25,9 @@ do
 done
 
 echo "* Compare all results to best known solutions."
-python ../compare_to_BKS.py BKS.json ${solutions[@]} > ${sol_folder}.csv
+python3 ../compare_to_BKS.py BKS.json ${solutions[@]} > ${sol_folder}.csv
 echo "  - output written to ${sol_folder}.csv"
 echo "* Retrieve indicators by class."
 indic="indicators_t_${t}_x_${x}.csv"
-python class_indicators.py BKS.json ${solutions[@]} > ${indic}
+python3 class_indicators.py BKS.json ${solutions[@]} > ${indic}
 echo "  - output written to ${indic}"
