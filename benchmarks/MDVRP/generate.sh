@@ -11,7 +11,7 @@ do
     for file in `ls -rS *.txt`
     do
         json_file=${file%.txt}.json
-        [ -f ${json_file} ] || python ../../../src/mdvrp_to_json.py ${file}
+        [ -f ${json_file} ] || python3 ../../../src/mdvrp_to_json.py ${file}
     done
 
     cd ../

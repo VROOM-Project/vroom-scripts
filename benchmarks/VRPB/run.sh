@@ -22,5 +22,5 @@ do
 done
 
 echo "* Compare all results to best known solutions."
-python ../compare_to_BKS.py BKS.json */${sol_folder}/*_sol.json > ${sol_folder}.csv
+python3 ../compare_to_BKS.py BKS.json */${sol_folder}/*_sol.json > ${sol_folder}.csv
 echo "  - output written to ${sol_folder}.csv"
