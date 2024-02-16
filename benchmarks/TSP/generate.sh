@@ -11,6 +11,6 @@ do
     for file in `ls -rS *.tsp`
     do
         json_file=${file%tsp}json
-        [ -f ${json_file} ] || python ../../../src/tsplib_to_json.py ${file}
+        [ -f ${json_file} ] || python3 ../../../src/tsplib_to_json.py ${file}
     done
 done

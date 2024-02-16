@@ -11,7 +11,7 @@ do
     for file in `ls -rS *.vrp`
     do
         json_file=${file%vrp}json
-        [ -f ${json_file} ] || python ../../../src/cvrplib_to_json.py ${file}
+        [ -f ${json_file} ] || python3 ../../../src/cvrplib_to_json.py ${file}
     done
 
     cd ../
