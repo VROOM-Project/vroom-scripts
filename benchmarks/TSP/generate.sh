@@ -13,4 +13,6 @@ do
         json_file=${file%tsp}json
         [ -f ${json_file} ] || python3 ../../../src/tsplib_to_json.py ${file}
     done
+
+    cd ../
 done
