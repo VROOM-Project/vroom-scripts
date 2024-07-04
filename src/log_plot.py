@@ -11,6 +11,39 @@ RUIN = "Ruin"
 ROLLBACK = "Rollback"
 
 
+def get_title(ls_search, best_score):
+    return (
+        ";".join(
+            [
+                ls_search["heuristic"],
+                ls_search["init"],
+                str(round(ls_search["regret"], 2)),
+                ls_search["sort"],
+            ]
+        )
+        + " / assigned: "
+        + str(best_score["assigned"])
+        + " / cost: "
+        + str(best_score["cost"])
+    )
+
+
+def is_smaller_score(a, b):
+    return (-a["priority"], -a["assigned"], a["cost"]) < (
+        -b["priority"],
+        -b["assigned"],
+        b["cost"],
+    )
+
+
+def is_equal_score(a, b):
+    return (a["priority"], a["assigned"], a["cost"]) == (
+        b["priority"],
+        b["assigned"],
+        b["cost"],
+    )
+
+
 def generate_log_plot(steps, fig, ax):
     specific_ranks = {"start": [], "job_addition": [], "ruin": [], "rollback": []}
 
@@ -35,7 +68,7 @@ def generate_log_plot(steps, fig, ax):
             color_map,
             ax=ax,
             orientation="vertical",
-            label="Missing tasks vs best score",
+            label="Missing tasks",
         )
 
     plot_times = []
@@ -48,11 +81,7 @@ def generate_log_plot(steps, fig, ax):
         current_score = s["score"]
         current_cost = current_score["cost"]
 
-        if (
-            -current_score["priority"],
-            -current_score["assigned"],
-            current_cost,
-        ) < (-best_score["priority"], -best_score["assigned"], best_score["cost"]):
+        if is_smaller_score(current_score, best_score):
             best_score = current_score
             best_score_rank = i
 
@@ -143,27 +172,73 @@ def generate_log_plot(steps, fig, ax):
         markeredgewidth=1.2,
     )
 
+    return best_score, best_score_rank
+
 
 def log_plot(log_file):
-    # log_plot_name = log_file[0 : log_file.rfind(".json")] + ".svg"
+    log_plot_name = log_file[0 : log_file.rfind(".json")] + ".png"
 
     print("Parsing " + log_file)
     with open(log_file, "r") as data_file:
         data = json.load(data_file)
 
     nb_plots = len(data)
-    fig, axes = plt.subplots(
-        nb_plots, 1, sharex=True, squeeze=False, figsize=(15, 10 * nb_plots)
-    )
+    fig, axes = plt.subplots(nb_plots, 1, sharex=True, squeeze=False)
+    fig.set_tight_layout(True)
+    fig.set_figwidth(10)
+    fig.set_figheight(2 * nb_plots)
+
+    # Handle individual plots and get best scores per search.
+    best_scores = []
+    best_scores_ranks = []
+    for i, ls_data in enumerate(data):
+        best_score, best_score_rank = generate_log_plot(
+            ls_data["steps"], fig, axes[i][0]
+        )
+
+        best_scores.append(best_score)
+        best_scores_ranks.append(best_score_rank)
+
+        # axes[i][0].tick_params(axis="both", reset=True)
+
+    # Handle things related to best overall score.
+    best_score_overall = best_scores[0]
+
+    for i, score in enumerate(best_scores):
+        if is_smaller_score(score, best_score_overall):
+            best_score_overall = score
+            best_score_rank = i
 
     for i, ls_data in enumerate(data):
-        generate_log_plot(ls_data["steps"], fig, axes[i][0])
-        axes[i][0].tick_params(axis="both", reset=True)
+        axes[i][0].plot(
+            [ls_data["steps"][0]["time"], ls_data["steps"][-1]["time"]],
+            [best_score_overall["cost"], best_score_overall["cost"]],
+            color="red",
+            linewidth=0.5,
+        )
 
-    # print("Plotting file " + log_plot_name)
-    # plt.savefig(log_plot_name, bbox_inches="tight")
-    # plt.close()
-    plt.show()
+        reaches_best = is_equal_score(best_scores[i], best_score_overall)
+
+        axes[i][0].set_title(
+            get_title(ls_data, best_scores[i]),
+            color="red" if reaches_best else "black",
+        )
+
+        if reaches_best:
+            axes[i][0].plot(
+                [ls_data["steps"][best_scores_ranks[i]]["time"]],
+                [best_scores[i]["cost"]],
+                "o",
+                ms=12,
+                markerfacecolor="None",
+                markeredgecolor="red",
+                markeredgewidth=1.2,
+            )
+
+    print("Plotting file " + log_plot_name)
+    plt.savefig(log_plot_name, bbox_inches="tight")
+    # plt.show()
+    plt.close()
 
 
 if __name__ == "__main__":
