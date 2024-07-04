@@ -44,6 +44,13 @@ def is_equal_score(a, b):
     )
 
 
+def is_cost_comparable(a, b):
+    return (a["priority"], a["assigned"]) == (
+        b["priority"],
+        b["assigned"],
+    )
+
+
 def generate_log_plot(steps, fig, ax):
     specific_ranks = {"start": [], "job_addition": [], "ruin": [], "rollback": []}
 
@@ -219,8 +226,13 @@ def log_plot(log_file):
 
         reaches_best = is_equal_score(best_scores[i], best_score_overall)
 
+        gap_str = ""
+        if not reaches_best and is_cost_comparable(best_scores[i], best_score_overall):
+            gap = 100 * (float(best_scores[i]["cost"]) / best_score_overall["cost"] - 1)
+            gap_str = " (+" + str(round(gap, 1)) + "%)"
+
         axes[i][0].set_title(
-            get_title(ls_data, best_scores[i]),
+            get_title(ls_data, best_scores[i]) + gap_str,
             color="red" if reaches_best else "black",
         )
 
