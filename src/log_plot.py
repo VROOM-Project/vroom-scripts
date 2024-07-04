@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import json
-import matplotlib.pyplot as plt
 import matplotlib as mpl
+import matplotlib.patches as patches
+import matplotlib.pyplot as plt
 import sys
 
 START = "Start"
@@ -67,14 +68,10 @@ def log_plot(log_file):
 
         # First filter high-level LS modification.
         event = s["event"]
-        if (event == RUIN) or (event == ROLLBACK):
-            if event == RUIN:
-                specific_ranks["ruin"].append(i)
-            else:
-                specific_ranks["rollback"].append(i)
-            continue
-
-        # Moving on into current LS step.
+        if event == RUIN:
+            specific_ranks["ruin"].append(i)
+        if event == ROLLBACK:
+            specific_ranks["rollback"].append(i)
         if event == START:
             specific_ranks["start"].append(i)
         if event == JOB_ADDITION:
@@ -119,6 +116,21 @@ def log_plot(log_file):
             [min_cost, max_cost],
             color="black",
             linewidth=1,
+        )
+
+    # Materialize ruin events.
+    for i in specific_ranks["ruin"]:
+        assert i > 0
+        previous_time = steps[i - 1]["time"]
+        time = steps[i]["time"]
+        ax1.add_patch(
+            patches.Rectangle(
+                (previous_time, min_cost),
+                time - previous_time,
+                max_cost - min_cost,
+                linewidth=0,
+                facecolor="oldlace",
+            )
         )
 
     ax1.scatter(plot_times, plot_costs, s=4, c=plot_colors, linewidths=0)
