@@ -11,17 +11,7 @@ RUIN = "Ruin"
 ROLLBACK = "Rollback"
 
 
-def log_plot(log_file):
-    # log_plot_name = log_file[0 : log_file.rfind(".json")] + ".svg"
-
-    print("Parsing " + log_file)
-    with open(log_file, "r") as data_file:
-        data = json.load(data_file)
-
-    fig, ax1 = plt.subplots(1, 1)
-    fig.set_figwidth(15)
-
-    steps = data[0]["steps"]
+def generate_log_plot(steps, fig, ax):
     specific_ranks = {"start": [], "job_addition": [], "ruin": [], "rollback": []}
 
     best_score = steps[0]["score"]
@@ -43,7 +33,7 @@ def log_plot(log_file):
 
         fig.colorbar(
             color_map,
-            ax=ax1,
+            ax=ax,
             orientation="vertical",
             label="Missing tasks vs best score",
         )
@@ -89,7 +79,7 @@ def log_plot(log_file):
     # Materialize job addition events.
     for i in specific_ranks["job_addition"]:
         time = steps[i]["time"]
-        ax1.plot(
+        ax.plot(
             [time, time],
             [
                 best_score["cost"],
@@ -102,7 +92,7 @@ def log_plot(log_file):
     # Materialize rollback events and depth levels.
     for i in specific_ranks["rollback"]:
         time = steps[i]["time"]
-        ax1.plot(
+        ax.plot(
             [time],
             [steps[i]["score"]["cost"]],
             "o",
@@ -111,7 +101,7 @@ def log_plot(log_file):
             markeredgecolor="black",
             markeredgewidth=0.8,
         )
-        ax1.plot(
+        ax.plot(
             [time, time],
             [min_cost, max_cost],
             color="black",
@@ -123,7 +113,7 @@ def log_plot(log_file):
         assert i > 0
         previous_time = steps[i - 1]["time"]
         time = steps[i]["time"]
-        ax1.add_patch(
+        ax.add_patch(
             patches.Rectangle(
                 (previous_time, min_cost),
                 time - previous_time,
@@ -133,17 +123,17 @@ def log_plot(log_file):
             )
         )
 
-    ax1.scatter(plot_times, plot_costs, s=4, c=plot_colors, linewidths=0)
+    ax.scatter(plot_times, plot_costs, s=4, c=plot_colors, linewidths=0)
 
     # Best cost
-    ax1.plot(
+    ax.plot(
         [steps[0]["time"], steps[-1]["time"]],
         [best_score["cost"], best_score["cost"]],
         color="gray",
         linewidth=0.5,
     )
 
-    ax1.plot(
+    ax.plot(
         [steps[best_score_rank]["time"]],
         [best_score["cost"]],
         "o",
@@ -152,6 +142,23 @@ def log_plot(log_file):
         markeredgecolor="green",
         markeredgewidth=1.2,
     )
+
+
+def log_plot(log_file):
+    # log_plot_name = log_file[0 : log_file.rfind(".json")] + ".svg"
+
+    print("Parsing " + log_file)
+    with open(log_file, "r") as data_file:
+        data = json.load(data_file)
+
+    nb_plots = len(data)
+    fig, axes = plt.subplots(
+        nb_plots, 1, sharex=True, squeeze=False, figsize=(15, 10 * nb_plots)
+    )
+
+    for i, ls_data in enumerate(data):
+        generate_log_plot(ls_data["steps"], fig, axes[i][0])
+        axes[i][0].tick_params(axis="both", reset=True)
 
     # print("Plotting file " + log_plot_name)
     # plt.savefig(log_plot_name, bbox_inches="tight")
