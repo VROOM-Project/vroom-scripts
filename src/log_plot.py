@@ -51,7 +51,7 @@ def is_cost_comparable(a, b):
     )
 
 
-def generate_log_plot(steps, fig, ax):
+def generate_log_plot(steps, assigned_values, max_assigned, assigned_boundary, fig, ax):
     specific_ranks = {"start": [], "job_addition": [], "ruin": [], "rollback": []}
 
     best_score = steps[0]["score"]
@@ -60,14 +60,12 @@ def generate_log_plot(steps, fig, ax):
     min_cost = min([s["score"]["cost"] for s in steps])
     max_cost = max([s["score"]["cost"] for s in steps])
 
-    assigned_values = sorted(set([s["score"]["assigned"] for s in steps]), reverse=True)
     use_colormap = len(assigned_values) != 1
 
     if use_colormap:
-        max_assigned = max(assigned_values)
         cmap = mpl.cm.viridis
         norm = mpl.colors.BoundaryNorm(
-            [max_assigned - v for v in assigned_values], cmap.N
+            assigned_boundary + [assigned_boundary[-1] + 1], cmap.N
         )
         color_map = mpl.cm.ScalarMappable(norm=norm, cmap=cmap)
 
@@ -205,17 +203,36 @@ def log_plot(log_file):
         data = json.load(data_file)
 
     nb_plots = len(data)
-    fig, axes = plt.subplots(nb_plots, 1, sharex=True, squeeze=False)
-    fig.set_tight_layout(True)
+    fig, axes = plt.subplots(
+        nb_plots, 1, sharex=True, squeeze=False, constrained_layout=True
+    )
     fig.set_figwidth(10)
     fig.set_figheight(2 * nb_plots)
+
+    # Decide range for assigned tasks.
+    assigned_ranges = [
+        sorted(set([s["score"]["assigned"] for s in ls_data["steps"]]), reverse=True)
+        for ls_data in data
+    ]
+    merged_ranges = []
+    for r in assigned_ranges:
+        merged_ranges += r
+
+    common_assigned_ranges = sorted(set(merged_ranges), reverse=True)
+    max_assigned = common_assigned_ranges[0]
+    assigned_boundary = [max_assigned - v for v in common_assigned_ranges]
 
     # Handle individual plots and get best scores per search.
     best_scores = []
     best_scores_ranks = []
     for i, ls_data in enumerate(data):
         best_score, best_score_rank = generate_log_plot(
-            ls_data["steps"], fig, axes[i][0]
+            ls_data["steps"],
+            assigned_ranges[i],
+            max_assigned,
+            assigned_boundary,
+            fig,
+            axes[i][0],
         )
 
         best_scores.append(best_score)
@@ -259,7 +276,7 @@ def log_plot(log_file):
                 ms=12,
                 markerfacecolor="None",
                 markeredgecolor="red",
-                markeredgewidth=1.2,
+                markeredgewidth=1.5,
             )
 
     print("Plotting file " + log_plot_name)
