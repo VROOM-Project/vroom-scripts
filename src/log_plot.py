@@ -125,6 +125,36 @@ def generate_log_plot(steps, fig, ax):
             linewidth=0.5,
         )
 
+    # Materialize ruin events.
+    for i in specific_ranks["ruin"]:
+        assert i > 0
+        previous_time = steps[i - 1]["time"]
+        time = steps[i]["time"]
+        ax.add_patch(
+            patches.Rectangle(
+                (previous_time, min_cost),
+                time - previous_time,
+                max_cost - min_cost,
+                linewidth=0,
+                facecolor="oldlace",
+            )
+        )
+        ax.plot(
+            [time, time],
+            [min_cost, max_cost],
+            color="orange",
+            linewidth=0.8,
+        )
+        ax.plot(
+            [time],
+            [steps[i]["score"]["cost"]],
+            "o",
+            ms=6,
+            markerfacecolor="None",
+            markeredgecolor="darkgoldenrod",
+            markeredgewidth=0.8,
+        )
+
     # Materialize rollback events and depth levels.
     for i in specific_ranks["rollback"]:
         time = steps[i]["time"]
@@ -144,22 +174,7 @@ def generate_log_plot(steps, fig, ax):
             linewidth=1,
         )
 
-    # Materialize ruin events.
-    for i in specific_ranks["ruin"]:
-        assert i > 0
-        previous_time = steps[i - 1]["time"]
-        time = steps[i]["time"]
-        ax.add_patch(
-            patches.Rectangle(
-                (previous_time, min_cost),
-                time - previous_time,
-                max_cost - min_cost,
-                linewidth=0,
-                facecolor="oldlace",
-            )
-        )
-
-    ax.scatter(plot_times, plot_costs, s=4, c=plot_colors, linewidths=0)
+    ax.scatter(plot_times, plot_costs, s=5, c=plot_colors, linewidths=0)
 
     # Best cost
     ax.plot(
@@ -175,8 +190,8 @@ def generate_log_plot(steps, fig, ax):
         "o",
         ms=12,
         markerfacecolor="None",
-        markeredgecolor="green",
-        markeredgewidth=1.2,
+        markeredgecolor="limegreen",
+        markeredgewidth=1.5,
     )
 
     return best_score, best_score_rank
