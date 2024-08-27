@@ -192,6 +192,8 @@ def generate_log_plot(steps, assigned_values, max_assigned, assigned_boundary, f
         markeredgewidth=1.5,
     )
 
+    ax.xaxis.set_major_formatter(lambda x, pos: str(int(float(x) / 1000)))
+
     return best_score, best_score_rank
 
 
