@@ -830,7 +830,7 @@
   "X-n101-k25": {
     "class": "X",
     "jobs": 100,
-    "vehicles": 25,
+    "vehicles": 26,
     "capacity": 206,
     "total_demand": 5147,
     "best_known_cost": 27591,
@@ -920,7 +920,7 @@
   "X-n148-k46": {
     "class": "X",
     "jobs": 147,
-    "vehicles": 46,
+    "vehicles": 47,
     "capacity": 18,
     "total_demand": 817,
     "best_known_cost": 43448,
@@ -929,7 +929,7 @@
   "X-n153-k22": {
     "class": "X",
     "jobs": 152,
-    "vehicles": 22,
+    "vehicles": 23,
     "capacity": 144,
     "total_demand": 3068,
     "best_known_cost": 21220,
@@ -965,7 +965,7 @@
   "X-n172-k51": {
     "class": "X",
     "jobs": 171,
-    "vehicles": 51,
+    "vehicles": 53,
     "capacity": 161,
     "total_demand": 8092,
     "best_known_cost": 45607,
@@ -1010,7 +1010,7 @@
   "X-n195-k51": {
     "class": "X",
     "jobs": 194,
-    "vehicles": 51,
+    "vehicles": 53,
     "capacity": 181,
     "total_demand": 9208,
     "best_known_cost": 44225,
@@ -1082,7 +1082,7 @@
   "X-n233-k16": {
     "class": "X",
     "jobs": 232,
-    "vehicles": 16,
+    "vehicles": 17,
     "capacity": 631,
     "total_demand": 10093,
     "best_known_cost": 19230,
@@ -1153,7 +1153,7 @@
   "X-n270-k35": {
     "class": "X",
     "jobs": 269,
-    "vehicles": 35,
+    "vehicles": 36,
     "capacity": 585,
     "total_demand": 20419,
     "best_known_cost": 35291,
@@ -1189,7 +1189,7 @@
   "X-n289-k60": {
     "class": "X",
     "jobs": 288,
-    "vehicles": 60,
+    "vehicles": 61,
     "capacity": 267,
     "total_demand": 15974,
     "best_known_cost": 95151,
@@ -1198,7 +1198,7 @@
   "X-n294-k50": {
     "class": "X",
     "jobs": 293,
-    "vehicles": 50,
+    "vehicles": 51,
     "capacity": 285,
     "total_demand": 14135,
     "best_known_cost": 47161,
@@ -1234,7 +1234,7 @@
   "X-n313-k71": {
     "class": "X",
     "jobs": 312,
-    "vehicles": 71,
+    "vehicles": 72,
     "capacity": 248,
     "total_demand": 17545,
     "best_known_cost": 94044,
@@ -1279,7 +1279,7 @@
   "X-n336-k84": {
     "class": "X",
     "jobs": 335,
-    "vehicles": 84,
+    "vehicles": 86,
     "capacity": 203,
     "total_demand": 16921,
     "best_known_cost": 139135,
@@ -1333,7 +1333,7 @@
   "X-n384-k52": {
     "class": "X",
     "jobs": 383,
-    "vehicles": 52,
+    "vehicles": 53,
     "capacity": 564,
     "total_demand": 29157,
     "best_known_cost": 65943,
@@ -1378,7 +1378,7 @@
   "X-n429-k61": {
     "class": "X",
     "jobs": 428,
-    "vehicles": 61,
+    "vehicles": 62,
     "capacity": 536,
     "total_demand": 32261,
     "best_known_cost": 65483,
@@ -1414,7 +1414,7 @@
   "X-n469-k138": {
     "class": "X",
     "jobs": 468,
-    "vehicles": 138,
+    "vehicles": 139,
     "capacity": 256,
     "total_demand": 35171,
     "best_known_cost": 221909,
@@ -1512,7 +1512,7 @@
   "X-n599-k92": {
     "class": "X",
     "jobs": 598,
-    "vehicles": 92,
+    "vehicles": 93,
     "capacity": 487,
     "total_demand": 44741,
     "best_known_cost": 108490,
@@ -1592,7 +1592,7 @@
   "X-n733-k159": {
     "class": "X",
     "jobs": 732,
-    "vehicles": 159,
+    "vehicles": 160,
     "capacity": 25,
     "total_demand": 3969,
     "best_known_cost": 136250,
@@ -1637,7 +1637,7 @@
   "X-n819-k171": {
     "class": "X",
     "jobs": 818,
-    "vehicles": 171,
+    "vehicles": 172,
     "capacity": 358,
     "total_demand": 60914,
     "best_known_cost": 158267,
@@ -1673,7 +1673,7 @@
   "X-n895-k37": {
     "class": "X",
     "jobs": 894,
-    "vehicles": 37,
+    "vehicles": 38,
     "capacity": 1816,
     "total_demand": 67057,
     "best_known_cost": 53946,
@@ -1691,7 +1691,7 @@
   "X-n936-k151": {
     "class": "X",
     "jobs": 935,
-    "vehicles": 151,
+    "vehicles": 157,
     "capacity": 138,
     "total_demand": 20743,
     "best_known_cost": 132926,
