@@ -8,6 +8,7 @@ import sys
 START = "Start"
 JOB_ADDITION = "JobAddition"
 RUIN = "Ruin"
+RECREATE = "Recreate"
 ROLLBACK = "Rollback"
 
 
@@ -52,12 +53,12 @@ def is_cost_comparable(a, b):
 
 
 def generate_log_plot(steps, assigned_values, max_assigned, assigned_boundary, fig, ax):
-    specific_ranks = {"start": [], "job_addition": [], "ruin": [], "rollback": []}
+    specific_ranks = {"start": [], "job_addition": [], "recreate": [], "rollback": []}
 
     best_score = steps[0]["score"]
     best_score_rank = 0
 
-    min_cost = min([s["score"]["cost"] for s in steps])
+    min_cost = min([s["score"]["cost"] for s in steps if s["event"] != RUIN])
     max_cost = max([s["score"]["cost"] for s in steps])
 
     use_colormap = len(assigned_values) != 1
@@ -92,8 +93,8 @@ def generate_log_plot(steps, assigned_values, max_assigned, assigned_boundary, f
 
         # First filter high-level LS modification.
         event = s["event"]
-        if event == RUIN:
-            specific_ranks["ruin"].append(i)
+        if event == RECREATE:
+            specific_ranks["recreate"].append(i)
         if event == ROLLBACK:
             specific_ranks["rollback"].append(i)
         if event == START:
@@ -101,14 +102,15 @@ def generate_log_plot(steps, assigned_values, max_assigned, assigned_boundary, f
         if event == JOB_ADDITION:
             specific_ranks["job_addition"].append(i)
 
-        plot_times.append(s["time"])
-        plot_costs.append(current_cost)
-        current_color = (
-            color_map.to_rgba(max_assigned - current_score["assigned"])
-            if use_colormap
-            else "blue"
-        )
-        plot_colors.append(current_color)
+        if event != RUIN:
+            plot_times.append(s["time"])
+            plot_costs.append(current_cost)
+            current_color = (
+                color_map.to_rgba(max_assigned - current_score["assigned"])
+                if use_colormap
+                else "blue"
+            )
+            plot_colors.append(current_color)
 
     # Materialize job addition events.
     for i in specific_ranks["job_addition"]:
@@ -123,10 +125,10 @@ def generate_log_plot(steps, assigned_values, max_assigned, assigned_boundary, f
             linewidth=0.5,
         )
 
-    # Materialize ruin events.
-    for i in specific_ranks["ruin"]:
-        assert i > 0
-        previous_time = steps[i - 1]["time"]
+    # Materialize R&R phase.
+    for i in specific_ranks["recreate"]:
+        assert i > 1
+        previous_time = steps[i - 2]["time"]
         time = steps[i]["time"]
         ax.add_patch(
             patches.Rectangle(
@@ -213,7 +215,12 @@ def log_plot(log_file):
 
     # Decide range for assigned tasks.
     assigned_ranges = [
-        sorted(set([s["score"]["assigned"] for s in ls_data["steps"]]), reverse=True)
+        sorted(
+            set(
+                [s["score"]["assigned"] for s in ls_data["steps"] if s["event"] != RUIN]
+            ),
+            reverse=True,
+        )
         for ls_data in data
     ]
     merged_ranges = []
