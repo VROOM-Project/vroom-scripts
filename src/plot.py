@@ -9,13 +9,7 @@ from utils.color_list import color_list
 TASKS_TYPES = ["job", "pickup", "delivery"]
 
 
-def plot_routes(sol_file_name):
-    plot_file_name = sol_file_name[0 : sol_file_name.rfind(".json")] + ".svg"
-
-    print("Parsing " + sol_file_name)
-    with open(sol_file_name, "r") as sol_file:
-        solution = json.load(sol_file)
-
+def plot_routes(solution, plot_base_name):
     fig, ax1 = plt.subplots(1, 1)
     fig.set_figwidth(15)
     plt.subplots_adjust(left=0.03, right=1, top=1, bottom=0.05, wspace=0.03)
@@ -112,7 +106,7 @@ def plot_routes(sol_file_name):
     size_factor = max((xmax - xmin) / 100, (ymax - ymin) / 100)
     margin_delta = 3 * size_factor
 
-    title = plot_file_name[: plot_file_name.rfind(".")]
+    title = plot_base_name
     title += " ; cost: " + str(solution["summary"]["cost"])
     title += " ; computing time: " + str(computing_time)
     title += "ms"
@@ -122,13 +116,19 @@ def plot_routes(sol_file_name):
     ax1.set_ylim(ymin - margin_delta, ymax + margin_delta)
     ax1.set_aspect("equal")
 
-    print("Plotting file " + plot_file_name)
-    plt.savefig(plot_file_name, bbox_inches="tight")
+    print("Plotting file " + plot_base_name + ".svg")
+    plt.savefig(plot_base_name + ".svg", bbox_inches="tight")
     plt.close()
     # plt.show()
 
 
 if __name__ == "__main__":
     # Argument are the name of the solution files to plot.
-    for f in sys.argv[1:]:
-        plot_routes(f)
+    for sol_file_name in sys.argv[1:]:
+        plot_base_name = sol_file_name[0 : sol_file_name.rfind(".json")]
+
+        print("Parsing " + sol_file_name)
+        with open(sol_file_name, "r") as sol_file:
+            solution = json.load(sol_file)
+
+        plot_routes(solution, plot_base_name)
