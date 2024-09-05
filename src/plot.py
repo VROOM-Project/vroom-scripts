@@ -6,6 +6,8 @@ from utils.color_list import color_list
 
 # Very simple plot for a VROOM solution file.
 
+TASKS_TYPES = ["job", "pickup", "delivery"]
+
 
 def plot_routes(sol_file_name):
     plot_file_name = sol_file_name[0 : sol_file_name.rfind(".json")] + ".svg"
@@ -21,17 +23,33 @@ def plot_routes(sol_file_name):
     if "routes" not in solution:
         return
 
-    xmin = solution["routes"][0]["steps"][0]["location"][0]
+    first_start = solution["routes"][0]["steps"][0]["location"]
+    first_end = solution["routes"][0]["steps"][-1]["location"]
+
+    xmin = min(first_start[0], first_end[0])
     xmax = xmin
-    ymin = solution["routes"][0]["steps"][0]["location"][1]
+    ymin = min(first_start[1], first_end[1])
     ymax = ymin
+
+    vehicles_have_same_start_end = True
+    for route in solution["routes"]:
+        current_start = route["steps"][0]["location"]
+        current_end = route["steps"][-1]["location"]
+
+        if current_start != first_start or current_end != first_end:
+            vehicles_have_same_start_end = False
+            break
 
     for route in solution["routes"]:
         lons = [
-            step["location"][0] for step in route["steps"] if step["type"] != "break"
+            step["location"][0]
+            for step in route["steps"]
+            if not vehicles_have_same_start_end or step["type"] in TASKS_TYPES
         ]
         lats = [
-            step["location"][1] for step in route["steps"] if step["type"] != "break"
+            step["location"][1]
+            for step in route["steps"]
+            if not vehicles_have_same_start_end or step["type"] in TASKS_TYPES
         ]
 
         ax1.plot(lons, lats, color=color_list[route["vehicle"] % len(color_list)])
