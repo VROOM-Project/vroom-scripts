@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
+from plot import plot_routes
+
 import json
+import math
 import matplotlib as mpl
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
@@ -199,14 +202,8 @@ def generate_log_plot(steps, assigned_values, max_assigned, assigned_boundary, f
     return best_score, best_score_rank
 
 
-def log_plot(log_file):
-    log_plot_name = log_file[0 : log_file.rfind(".json")] + ".png"
-
-    print("Parsing " + log_file)
-    with open(log_file, "r") as data_file:
-        data = json.load(data_file)
-
-    nb_plots = len(data)
+def log_plot(log_data, plot_base_name):
+    nb_plots = len(log_data)
     fig, axes = plt.subplots(
         nb_plots, 1, sharex=True, squeeze=False, constrained_layout=True
     )
@@ -221,7 +218,7 @@ def log_plot(log_file):
             ),
             reverse=True,
         )
-        for ls_data in data
+        for ls_data in log_data
     ]
     merged_ranges = []
     for r in assigned_ranges:
@@ -234,7 +231,7 @@ def log_plot(log_file):
     # Handle individual plots and get best scores per search.
     best_scores = []
     best_scores_ranks = []
-    for i, ls_data in enumerate(data):
+    for i, ls_data in enumerate(log_data):
         best_score, best_score_rank = generate_log_plot(
             ls_data["steps"],
             assigned_ranges[i],
@@ -257,7 +254,7 @@ def log_plot(log_file):
             best_score_overall = score
             best_score_rank = i
 
-    for i, ls_data in enumerate(data):
+    for i, ls_data in enumerate(log_data):
         axes[i][0].plot(
             [ls_data["steps"][0]["time"], ls_data["steps"][-1]["time"]],
             [best_score_overall["cost"], best_score_overall["cost"]],
@@ -288,10 +285,35 @@ def log_plot(log_file):
                 markeredgewidth=1.5,
             )
 
-    print("Plotting file " + log_plot_name)
-    plt.savefig(log_plot_name, bbox_inches="tight")
+    print("Plotting file " + plot_base_name + ".svg")
+    plt.savefig(plot_base_name + ".svg", bbox_inches="tight")
     # plt.show()
     plt.close()
+
+
+def plot_intermediate_solutions(log_data, plot_base_name):
+    for ls_data in log_data:
+        h_description = (
+            ls_data["heuristic"].lower()
+            + "_"
+            + ls_data["init"].lower()
+            + "_"
+            + str(round(ls_data["regret"], 1))
+        )
+        max_time_ms = ls_data["steps"][-1]["time"]
+        nb_digits = math.floor(math.log10(max_time_ms) + 1)
+        for step in ls_data["steps"]:
+            if "solution" in step:
+                sol_base_name = (
+                    plot_base_name
+                    + "_"
+                    + h_description
+                    + "_"
+                    + str(round(step["time"])).zfill(nb_digits)
+                    + "_"
+                    + step["event"].lower()
+                )
+                plot_routes(step["solution"], sol_base_name)
 
 
 if __name__ == "__main__":
@@ -300,4 +322,12 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         log_file = sys.argv[1]
 
-    log_plot(log_file)
+    plot_base_name = log_file[0 : log_file.rfind(".json")]
+
+    print("Parsing " + log_file)
+    with open(log_file, "r") as data_file:
+        log_data = json.load(data_file)
+
+    log_plot(log_data, plot_base_name)
+
+    plot_intermediate_solutions(log_data, plot_base_name)
