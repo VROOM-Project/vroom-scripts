@@ -10,6 +10,7 @@ import sys
 
 START = "Start"
 JOB_ADDITION = "JobAddition"
+LOCAL_MINIMA = "LocalMinima"
 RUIN = "Ruin"
 RECREATE = "Recreate"
 ROLLBACK = "Rollback"
@@ -90,7 +91,9 @@ def generate_log_plot(steps, assigned_values, max_assigned, assigned_boundary, f
         current_score = s["score"]
         current_cost = current_score["cost"]
 
-        if is_smaller_score(current_score, best_score):
+        if is_smaller_score(current_score, best_score) or (
+            is_equal_score(current_score, best_score) and s["event"] == LOCAL_MINIMA
+        ):
             best_score = current_score
             best_score_rank = i
 
