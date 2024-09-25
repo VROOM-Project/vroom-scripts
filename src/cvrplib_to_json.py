@@ -6,6 +6,8 @@ from utils.benchmark import get_value, parse_demand, parse_node_coords, get_matr
 
 # Generate a json-formatted problem from a CVRPLIB file.
 
+VEHICLE_MARGIN_FACTOR = 1.07
+
 CVRP_FIELDS = [
     "NAME",
     "TYPE",
@@ -122,7 +124,20 @@ def parse_cvrp(input_file):
         meta["VEHICLES"] = int(meta["VEHICLES"])
         nb_vehicles = meta["VEHICLES"]
     else:
-        nb_vehicles = int(1 + (max(total_delivery, total_pickup) / meta["CAPACITY"]))
+        if "X" in meta["NAME"]:
+            # Number of vehicles is not limited for this class so we
+            # take some margin.
+            nb_vehicles = int(
+                1
+                + (
+                    VEHICLE_MARGIN_FACTOR
+                    * max(total_delivery, total_pickup)
+                    / meta["CAPACITY"]
+                )
+            )
+        else:
+            # Use provided number of vehicle as strict max number.
+            nb_vehicles = int(meta["NAME"][meta["NAME"].find("k") + 1 :])
 
     is_VRPB = (total_pickup != 0) and (total_delivery != 0)
 
