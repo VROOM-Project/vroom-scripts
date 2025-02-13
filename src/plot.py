@@ -25,7 +25,7 @@ def plot_routes(solution, plot_base_name):
     ymin = min(first_start[1], first_end[1])
     ymax = ymin
 
-    vehicles_have_same_start_end = True
+    vehicles_have_same_start_end = (len(solution["routes"]) > 1)
     for route in solution["routes"]:
         current_start = route["steps"][0]["location"]
         current_end = route["steps"][-1]["location"]
@@ -48,10 +48,19 @@ def plot_routes(solution, plot_base_name):
 
         ax1.plot(lons, lats, color=color_list[route["vehicle"] % len(color_list)])
 
-        xmin = min(xmin, min(lons))
-        xmax = max(xmax, max(lons))
-        ymin = min(ymin, min(lats))
-        ymax = max(ymax, max(lats))
+        bbox = [[min(lons), min(lats)], [max(lons), max(lats)]]
+
+        xmin = min(xmin, bbox[0][0])
+        xmax = max(xmax, bbox[1][0])
+        ymin = min(ymin, bbox[0][1])
+        ymax = max(ymax, bbox[1][1])
+
+        # ax1.plot(
+        #     [bbox[0][0], bbox[1][0], bbox[1][0], bbox[0][0], bbox[0][0]],
+        #     [bbox[0][1], bbox[0][1], bbox[1][1], bbox[1][1], bbox[0][1]],
+        #     linestyle='dotted',
+        #     color=color_list[route["vehicle"] % len(color_list)],
+        # )
 
         step = route["steps"][-1]
         if step["type"] == "end":
