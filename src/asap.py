@@ -24,9 +24,9 @@ def get_cl_args(args):
     if args.r:
         all_args.append("-r" + args.r)
     if args.t is not None:
-        all_args.append("-t" + str(args.t))
+        all_args.append("-t " + str(args.t))
     if args.x is not None:
-        all_args.append("-x" + str(args.x))
+        all_args.append("-x " + str(args.x))
 
     return all_args
 
