@@ -18,9 +18,9 @@ debug or help in using `VROOM`.
 - **vrptw_to_json** converts a VRPTW file to json.
 - **pdptw_to_json** converts a PDPTW file to json.
 - **hvrp_to_json** converts a HVRP file to json.
-- **add_osrm_matrix** creates a "standalone" version of a json input
+- **add_osrm_matrices** creates a "standalone" version of a json input
   instance by adding a `matrices` key using OSRM.
-- **add_ors_matrix** creates a "standalone" version of a json input
+- **add_ors_matrices** creates a "standalone" version of a json input
   instance by adding a `matrices` key using Openrouteservice.
 - **asap** reach out to a solution minimizing completion time or a set
   of trade-offs between completion time and cost.
