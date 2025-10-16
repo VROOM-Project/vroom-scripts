@@ -25,7 +25,7 @@ def plot_routes(solution, plot_base_name):
     ymin = min(first_start[1], first_end[1])
     ymax = ymin
 
-    vehicles_have_same_start_end = (len(solution["routes"]) > 1)
+    vehicles_have_same_start_end = len(solution["routes"]) > 1
     for route in solution["routes"]:
         current_start = route["steps"][0]["location"]
         current_end = route["steps"][-1]["location"]
