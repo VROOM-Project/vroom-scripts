@@ -102,7 +102,7 @@ def generate_stats(input_file, sol_file):
                 for i in range(amount_size):
                     if max_load[i] < step["load"][i]:
                         max_load[i] = step["load"][i]
-            current += map(lambda l: str(l), max_load)
+            current += map(lambda x: str(x), max_load)
             max_loads.append(max_load)
 
             max_load_ratio = []
