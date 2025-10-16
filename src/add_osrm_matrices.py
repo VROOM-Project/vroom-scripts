@@ -3,11 +3,12 @@
 import json
 import sys
 from utils.file import load_json
-from utils.matrix import add_matrices
+from utils.matrices import add_matrices
 
-# Parse a json-formatted input instance, add the matrix using OSRM for
-# each required profile, then write a "standalone" problem instance
-# that can be further solved even without an OSRM server handy.
+# Parse a json-formatted input instance, add the matrices using OSRM
+# for each required profile, then write a "standalone" problem
+# instance that can be further solved even without an OSRM server
+# handy.
 
 ROUTING = {
     "engine": "osrm",
