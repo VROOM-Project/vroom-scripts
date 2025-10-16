@@ -3,7 +3,7 @@
 import argparse
 import json
 from utils.asap_helpers import solve_asap
-from utils.matrix import add_matrix
+from utils.matrix import add_matrices
 
 # Parse a json-formatted input instance, then apply iterative solving
 # strategies to come up with a solution minimizing completion time.
@@ -153,7 +153,7 @@ if __name__ == "__main__":
             if "matrices" not in data:
                 # Embed required matrices prior to solving to avoid
                 # duplicate matrix computations.
-                add_matrix(data, get_routing(args))
+                add_matrices(data, get_routing(args))
 
             # Iterative solving approach.
             response = solve_asap(
